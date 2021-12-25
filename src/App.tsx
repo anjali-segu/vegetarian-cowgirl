@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import {theme} from './utils/theme'
 import { ThemeProvider } from '@mui/material/styles'
-import BlogGrid from './molecule/BlogGrid'
+import Home from './organism/Home'
 import Navbar from './organism/Navbar'
 
 
@@ -20,7 +20,7 @@ const App: React.FC = () => {
       <BrowserRouter>
         <Navbar/>
         <Routes>
-          <Route path="/" element={<BlogGrid/>}/>
+          <Route path="/" element={<Home/>}/>
         </Routes>
       </BrowserRouter>
 

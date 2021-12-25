@@ -3,6 +3,8 @@ import Toolbar from '@mui/material/Toolbar';
 import NavbarLink from '../../atom/NavbarLink'
 import SocialLink from '../../atom/SocialLink'
 import LogoLink from '../../atom/LogoLink'
+import { createTheme,ThemeProvider } from '@mui/material/styles';
+import {theme} from '../../utils/theme'
 
 interface Props {
   position?: 'fixed' | 'absolute' | 'sticky' | 'relative' | undefined,
@@ -14,7 +16,7 @@ const Navbar = (props:Props) => {
 
 
   return (
-    <AppBar position={position}>
+    <AppBar position={position} sx={{paddingBottom: theme.spacing(2)}}>
       <Toolbar>
       <LogoLink
           content={
