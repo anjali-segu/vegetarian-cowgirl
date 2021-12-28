@@ -16,7 +16,7 @@ const Navbar = (props:Props) => {
 
 
   return (
-    <AppBar position={position} sx={{paddingBottom: theme.spacing(2)}}>
+    <AppBar position={position} sx={{paddingBottom: theme.spacing(2), backgroundColor:'white'}}>
       <Toolbar>
       <LogoLink
           content={
@@ -90,7 +90,7 @@ const Navbar = (props:Props) => {
 }
 
 Navbar.defaultProps = {
-  position: 'absolute',
+  position: 'sticky',
 }
 
 export default Navbar
