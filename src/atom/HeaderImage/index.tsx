@@ -41,7 +41,7 @@ const {image, title, description, link} = props
         <Grid container>
 
           <Grid item xs={6} sx={{display:'flex',justifyContent:'center'}}>
-            <img style={{maxHeight: theme.spacing(100), marginTop: theme.spacing(2)}}src="cookie.jpg" alt="Paris"/>
+            <img style={{maxHeight: theme.spacing(100), marginTop: theme.spacing(2)}}src={image} alt="Paris"/>
           </Grid>
 
           <Grid item xs={6} sx={{paddingTop:theme.spacing(25), paddingRight:theme.spacing(8)}}>

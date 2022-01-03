@@ -217,7 +217,7 @@ export default function BasicCard() {
             gutterBottom
             variant="body2"
             component="div">
-            Day Adventures
+            Austin Activities
         </Typography>
         <Typography sx={{
             fontFamily: 'Karla',
@@ -226,6 +226,14 @@ export default function BasicCard() {
             variant="body2"
             component="div">
             Restaurants
+        </Typography>
+        <Typography sx={{
+            fontFamily: 'Karla',
+            fontWeight: 500 ,}}
+            gutterBottom
+            variant="body2"
+            component="div">
+            Other
         </Typography>
 
         </Grid>
