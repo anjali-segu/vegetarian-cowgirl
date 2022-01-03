@@ -10,7 +10,7 @@ import {
 } from '@mui/material'
 
 
-const SecondExample = () => {
+const CarouselHome = () => {
 
     return (
         <div style={{minHeight:theme.spacing(100)}}>
@@ -133,4 +133,4 @@ const items: Item[] = [
     }
 ]
 
-export default SecondExample;
+export default CarouselHome;
