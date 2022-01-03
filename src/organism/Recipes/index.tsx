@@ -6,6 +6,7 @@ import DrinksBlogGrid from '../../molecule/DrinksBlogGrid'
 import { createTheme,ThemeProvider } from '@mui/material/styles';
 import {theme} from '../../utils/theme'
 import HeaderImage from '../../atom/HeaderImage'
+import { Grid } from '@mui/material';
 
 interface Props {
 }
@@ -21,11 +22,26 @@ const Recipes = (props:Props) => {
                    description= "Learn how to make delicious vanilla almond sugar cookies. I also walk through basic flooding and icing tips. This i a great gift for the holidays and the cookies come out absolutely scrummy"
                    link="/"
                    />
-      <Header id={"baking"} text={"Baking"}/>
+       <Grid container justifyContent='center'>
+         <Grid item xs={1} sx={{display:'flex',justifyContent:'center'}}>
+          <img style={{maxHeight: theme.spacing(13)}}src="baking_icon.png" alt="Paris"/>
+         </Grid>
+       </Grid>
+      <Header id={"baking"} text={"Baking"} margin={1}/>
       <BakingBlogGrid/>
-      <Header id={"cooking"}text={"Cooking"}/>
+      <Grid container justifyContent='center'>
+        <Grid item xs={1} sx={{display:'flex',justifyContent:'center'}}>
+         <img style={{maxHeight: theme.spacing(13)}}src="cooking_icon.png" alt="Paris"/>
+        </Grid>
+      </Grid>
+      <Header id={"cooking"}text={"Cooking"} margin={1}/>
       <CookingBlogGrid/>
-      <Header id={"drinks"}text={"Drinks"}/>
+      <Grid container justifyContent='center'>
+        <Grid item xs={1} sx={{display:'flex',justifyContent:'center'}}>
+         <img style={{maxHeight: theme.spacing(13)}}src="drinks_icon.png" alt="Paris"/>
+        </Grid>
+      </Grid>
+      <Header id={"drinks"}text={"Drinks"} margin={1}/>
       <DrinksBlogGrid/>
     </ThemeProvider>
 

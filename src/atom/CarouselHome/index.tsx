@@ -49,15 +49,15 @@ function Project({item}: ProjectProps) {
         <Paper
             elevation={0}
             square={true}
-            sx={{backgroundColor:'#f4f2ed', minHeight: theme.spacing(110), marginLeft:theme.spacing(40), marginRight:theme.spacing(40),}}
+            sx={{backgroundColor:'#f4f2ed', minHeight: theme.spacing(120), marginLeft:theme.spacing(40), marginRight:theme.spacing(40),}}
         >
         <Grid container sx={{marginBottom: theme.spacing(10)}}>
 
-        <Grid item xs={7} sx={{}}>
-          <img style={{maxHeight: theme.spacing(110),}}src={item.src} alt="Paris"/>
+        <Grid item xs={8} sx={{}}>
+          <img style={{maxHeight: theme.spacing(120),}}src={item.src} alt="Paris"/>
         </Grid>
 
-        <Grid item xs={5} sx={{marginTop:theme.spacing(33),paddingLeft:theme.spacing(20), paddingRight:theme.spacing(5)}}>
+        <Grid item xs={4} sx={{marginTop:theme.spacing(33),paddingLeft:theme.spacing(20), paddingRight:theme.spacing(5)}}>
 
 
           <Typography

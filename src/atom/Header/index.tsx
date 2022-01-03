@@ -5,6 +5,7 @@ import { Grid } from '@mui/material';
 interface Props {
   text: string,
   id?: string,
+  margin: number,
 }
 
 const theme = createTheme({
@@ -19,13 +20,13 @@ const theme = createTheme({
 
 
 const Header = (props:Props) => {
-  const {text,id} = props
+  const {text,id,margin} = props
   return (
     <ThemeProvider theme = {theme}>
     <Typography id={id} sx={{
         fontFamily: 'Jost',
         fontWeight: 400 ,
-        marginTop: theme.spacing(10),
+        marginTop: theme.spacing(margin),
         paddingBottom: theme.spacing(2),
         textAlign: 'center',
       }}
@@ -57,6 +58,11 @@ const Header = (props:Props) => {
   </ThemeProvider>
   )
 }
+
+Header.defaultProps = {
+  margin: 10,
+}
+
 
 
 export default Header
