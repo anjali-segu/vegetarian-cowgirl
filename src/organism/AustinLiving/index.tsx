@@ -24,7 +24,7 @@ const AustinLiving = (props:Props) => {
                    />
        <Grid container justifyContent='center'>
          <Grid item xs={1} sx={{display:'flex',justifyContent:'center'}}>
-          <img style={{maxHeight: theme.spacing(13)}}src="baking_icon.png" alt="Paris"/>
+          <img style={{maxHeight: theme.spacing(13)}}src="restaurants_icon.png" alt="Paris"/>
          </Grid>
        </Grid>
       <Header id={"restaurants"} text={"Restaurants"} margin={1}/>
@@ -32,7 +32,7 @@ const AustinLiving = (props:Props) => {
 
       <Grid container justifyContent='center'>
         <Grid item xs={1} sx={{display:'flex',justifyContent:'center'}}>
-         <img style={{maxHeight: theme.spacing(13)}}src="cooking_icon.png" alt="Paris"/>
+         <img style={{maxHeight: theme.spacing(13)}}src="activities_icon.png" alt="Paris"/>
         </Grid>
       </Grid>
       <Header id={"austinactivities"}text={"Austin Activities"} margin={1}/>
@@ -40,7 +40,7 @@ const AustinLiving = (props:Props) => {
 
       <Grid container justifyContent='center'>
         <Grid item xs={1} sx={{display:'flex',justifyContent:'center'}}>
-         <img style={{maxHeight: theme.spacing(13)}}src="drinks_icon.png" alt="Paris"/>
+         <img style={{maxHeight: theme.spacing(13)}}src="other_icon.png" alt="Paris"/>
         </Grid>
       </Grid>
       <Header id={"other"}text={"Other"} margin={1}/>

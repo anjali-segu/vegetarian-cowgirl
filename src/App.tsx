@@ -5,6 +5,7 @@ import { ThemeProvider } from '@mui/material/styles'
 import Home from './organism/Home'
 import Recipes from './organism/Recipes'
 import AustinLiving from './organism/AustinLiving'
+import Art from './organism/Art'
 import Navbar from './organism/Navbar'
 import Footer from './molecule/Footer'
 
@@ -26,6 +27,7 @@ const App: React.FC = () => {
           <Route path="/" element={<Home/>}/>
           <Route path="/recipes" element={<Recipes/>}/>
           <Route path="/austin-living" element={<AustinLiving/>}/>
+          <Route path="/art" element={<Art/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>
