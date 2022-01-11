@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import Carousel from 'react-material-ui-carousel';
-import { createTheme,ThemeProvider } from '@mui/material/styles';
-import {theme} from '../../utils/theme'
+import {theme} from '../../utils/theme';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+import Media from 'react-media';
+
+
 import { Grid } from '@mui/material';
 import {
     Paper,
@@ -10,22 +13,34 @@ import {
 } from '@mui/material'
 
 
+
+
+
+
 const CarouselHome = () => {
 
     return (
-        <div style={{minHeight:theme.spacing(100)}}>
-            <br/>
-            <Carousel
-                interval= {15000}
-                className="SecondExample"
-            >
-                {
-                    items.map((item, index) => {
-                        return <Project item={item} key={index} />
-                    })
-                }
-            </Carousel>
-            <br/>
+        <div>
+        <Media query="(min-width: 1389px)" render={() =>
+          (
+            <div style={{minHeight:theme.spacing(100)}}>
+
+                <br/>
+                <Carousel
+                    interval= {15000}
+                    className="SecondExample"
+                >
+                    {
+                        items.map((item, index) => {
+                            return <Project item={item} key={index} />
+                        })
+                    }
+                </Carousel>
+                <br/>
+            </div>
+          )}
+        />
+
         </div>
     )
 }

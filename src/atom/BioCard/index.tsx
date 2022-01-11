@@ -7,7 +7,7 @@ import Typography from '@mui/material/Typography';
 import { createTheme,ThemeProvider } from '@mui/material/styles';
 import {theme} from '../../utils/theme'
 import { Grid } from '@mui/material';
-
+import Media from 'react-media';
 
 interface Props {
 
@@ -26,8 +26,22 @@ const BioCard = (props:Props) => {
 
       <Grid item xs={8} sx={{display:'flex',justifyContent:'center'}}>
       <Card sx={{
-        minWidth: theme.spacing(280),
-        minHeight: theme.spacing(80),
+        [theme.breakpoints.up('xs')]:{
+          minWidth: theme.spacing(80),
+          minHeight: theme.spacing(80),
+        },
+        [theme.breakpoints.up('sm')]:{
+          minWidth: theme.spacing(100),
+          minHeight: theme.spacing(80),
+        },
+        [theme.breakpoints.up('md')]:{
+          minWidth: theme.spacing(150),
+          minHeight: theme.spacing(80),
+        },
+        [theme.breakpoints.up('lg')]:{
+          minWidth: theme.spacing(280),
+          minHeight: theme.spacing(80),
+        },
         boxShadow: 0,
         backgroundColor: '#f4f2ed',
         border: 2,
@@ -36,12 +50,36 @@ const BioCard = (props:Props) => {
         <CardContent>
         <Grid container>
 
-          <Grid item xs={6} sx={{display:'flex',justifyContent:'center'}}>
-            <img style={{maxHeight: theme.spacing(100), marginTop: theme.spacing(2)}}src="BioProfile.jpg" alt="Paris"/>
-          </Grid>
+        <Media query="(min-width: 400px)" render={() =>
+          (
+            <Grid item sm={12} md={12} lg={6} sx={{display:'flex',justifyContent:'center'}}>
+              <img style={{maxHeight: theme.spacing(100), marginTop: theme.spacing(2)}}src="BioProfile.jpg" alt="Paris"/>
+            </Grid>
 
-          <Grid item xs={6} sx={{paddingTop:theme.spacing(25), paddingRight:theme.spacing(8)}}>
+          )}
+        />
+
+
+
+          <Grid item sm={12} md={12} lg={6} sx={{
+            [theme.breakpoints.up('sm')]:{
+              paddingTop:theme.spacing(25),
+              paddingRight:theme.spacing(2),
+              paddingLeft:theme.spacing(2),
+            },
+            [theme.breakpoints.up('lg')]:{
+              paddingTop:theme.spacing(25),
+              paddingRight:theme.spacing(8)
+            },
+
+          }}>
           <Typography sx={{
+            [theme.breakpoints.down('sm')]:{
+              textAlign:'center',
+            },
+            [theme.breakpoints.between('sm','xl')]:{
+              textAlign:'left',
+            },
               fontFamily: 'Jost',
               fontWeight: 500 ,}}
               gutterBottom

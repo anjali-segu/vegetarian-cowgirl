@@ -38,10 +38,16 @@ const MediaCard = (props:Props) => {
   return (
     <ThemeProvider theme = {theme}>
     <Card sx={{
-      maxWidth: 345,
-      minWidth: 315,
+      [theme.breakpoints.up('sm')]:{
+        marginBottom:theme.spacing(4),
+      },
+      [theme.breakpoints.up('xs')]:{
+        marginBottom:theme.spacing(4),
+      },
+      minWidth: 345,
       boxShadow: 0,
-      borderRadius: 0}}>
+      borderRadius: 0,
+    }}>
       <CardMedia
         component="img"
         height="300"
