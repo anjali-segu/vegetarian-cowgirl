@@ -23,239 +23,265 @@ export default function BasicCard() {
 
 
 
-        <Grid item xs={3} sx={{borderRight:1}}>
-        <img style={{maxHeight: theme.spacing(20), paddingLeft:theme.spacing(34)}} src="LogoBlack.png" alt="Cowboy boot with monstera, white outlined in a black circle"/>
+        <Grid item xs={3} sm={3} md={3} sx={{borderRight:1}}>
 
-        <Typography sx={{
-            fontFamily: 'Jost',
-            fontWeight: 500 ,
-            textAlign:'center',
-            marginLeft:theme.spacing(30),
-            marginRight:theme.spacing(30),
-            marginTop: theme.spacing(2),
-          }}
-            gutterBottom
-            variant="body2"
-            component="div">
-          AUSTIN'S TOP VEGETARIAN FOOD & TRAVEL BLOG
-        </Typography>
+          <Grid container justifyContent='center'>
+            <img style={{maxHeight: theme.spacing(20), justifyContent:'center'}} src="LogoBlack.png" alt="Cowboy boot with monstera, white outlined in a black circle"/>
+          </Grid>
 
-        <Grid container justifyContent="center" sx={{ paddingTop:theme.spacing(5)}}>
-          <Grid item xs={1}>
-          <SocialLink
-              content={
-                <img
-                  style={{width:15}}
-                  src={`${process.env.PUBLIC_URL}/instagram.png`}
-                />
-              }
-              url={'https://www.instagram.com/thevegetariancowgirl/'}
-            />
-            </Grid>
+          <Grid container justifyContent='center'>
+            <Typography sx={{
+                fontFamily: 'Jost',
+                fontWeight: 500 ,
+                textAlign:'center',
+                marginLeft:theme.spacing(30),
+                marginRight:theme.spacing(30),
+                marginTop: theme.spacing(2),
+              }}
+                gutterBottom
+                variant="body2"
+                component="div">
+              AUSTIN'S TOP VEGETARIAN FOOD & TRAVEL BLOG
+            </Typography>
+          </Grid>
 
-          <Grid item xs={1}>
+          <Grid container justifyContent="center" sx={{ paddingTop:theme.spacing(5)}}>
+
+            <Grid item xs={6} sm={2} md={1}>
             <SocialLink
                 content={
                   <img
-                    style={{width:14}}
-                    src={`${process.env.PUBLIC_URL}/etsy.png`}
+                    style={{width:15}}
+                    src={`${process.env.PUBLIC_URL}/instagram.png`}
                   />
                 }
-                url={'https://www.etsy.com/shop/PrintsbyMinimalist'}
+                url={'https://www.instagram.com/thevegetariancowgirl/'}
               />
             </Grid>
 
-            <Grid item xs={1}>
+            <Grid item xs={6} sm={2} md={1}>
               <SocialLink
                   content={
                     <img
                       style={{width:14}}
-                      src={`${process.env.PUBLIC_URL}/pinterest.png`}
+                      src={`${process.env.PUBLIC_URL}/etsy.png`}
                     />
                   }
-                  url={'https://www.pinterest.com/PrintsbyMinimalist/'}
+                  url={'https://www.etsy.com/shop/PrintsbyMinimalist'}
                 />
               </Grid>
 
-              <Grid item xs={1}>
+              <Grid item xs={6} sm={2} md={1}>
                 <SocialLink
                     content={
                       <img
-                        style={{width:18}}
-                        src={`${process.env.PUBLIC_URL}/email.png`}
+                        style={{width:14}}
+                        src={`${process.env.PUBLIC_URL}/pinterest.png`}
                       />
                     }
                     url={'https://www.pinterest.com/PrintsbyMinimalist/'}
                   />
+                </Grid>
+
+                <Grid item xs={6} sm={2} md={1}>
+                  <SocialLink
+                      content={
+                        <img
+                          style={{width:18}}
+                          src={`${process.env.PUBLIC_URL}/email.png`}
+                        />
+                      }
+                      url={'https://www.pinterest.com/PrintsbyMinimalist/'}
+                    />
+                </Grid>
+
           </Grid>
 
         </Grid>
 
-        </Grid>
+        <Grid item xs={2} sx={{
+          textAlign:'center',
+          [theme.breakpoints.only('xs')]:{
+            marginLeft:theme.spacing(2),
+          },
+        }}>
+          <Typography sx={{
+              fontFamily: 'Karla',
+              fontWeight: 800 ,}}
+              gutterBottom
+              variant="body1"
+              component="div">
+            TRAVEL
+          </Typography>
+          <Typography sx={{
+              fontFamily: 'Karla',
+              fontWeight: 500 ,}}
+              gutterBottom
+              variant="body2"
+              component="div">
+            Costa Rica
+          </Typography>
+          <Typography sx={{
+              fontFamily: 'Karla',
+              fontWeight: 500 ,}}
+              gutterBottom
+              variant="body2"
+              component="div">
+            Austin
+          </Typography>
+          <Typography sx={{
+              fontFamily: 'Karla',
+              fontWeight: 500 ,}}
+              gutterBottom
+              variant="body2"
+              component="div">
+            Hawaii
+          </Typography>
+          <Typography sx={{
+              fontFamily: 'Karla',
+              fontWeight: 500 ,}}
+              gutterBottom
+              variant="body2"
+              component="div">
+            Indianapolis
+          </Typography>
+          <Typography sx={{
+              fontFamily: 'Karla',
+              fontWeight: 500 ,}}
+              gutterBottom
+              variant="body2"
+              component="div">
+            Rome
+          </Typography>
+          <Typography sx={{
+              fontFamily: 'Karla',
+              fontWeight: 500 ,}}
+              gutterBottom
+              variant="body2"
+              component="div">
+              Paris
+          </Typography>
 
-        <Grid item xs={2} sx={{textAlign:'center'}}>
-        <Typography sx={{
-            fontFamily: 'Karla',
-            fontWeight: 800 ,}}
-            gutterBottom
-            variant="body1"
-            component="div">
-          TRAVEL
-        </Typography>
-        <Typography sx={{
-            fontFamily: 'Karla',
-            fontWeight: 500 ,}}
-            gutterBottom
-            variant="body2"
-            component="div">
-          Costa Rica
-        </Typography>
-        <Typography sx={{
-            fontFamily: 'Karla',
-            fontWeight: 500 ,}}
-            gutterBottom
-            variant="body2"
-            component="div">
-          Austin
-        </Typography>
-        <Typography sx={{
-            fontFamily: 'Karla',
-            fontWeight: 500 ,}}
-            gutterBottom
-            variant="body2"
-            component="div">
-          Hawaii
-        </Typography>
-        <Typography sx={{
-            fontFamily: 'Karla',
-            fontWeight: 500 ,}}
-            gutterBottom
-            variant="body2"
-            component="div">
-          Indianapolis
-        </Typography>
-        <Typography sx={{
-            fontFamily: 'Karla',
-            fontWeight: 500 ,}}
-            gutterBottom
-            variant="body2"
-            component="div">
-          Rome
-        </Typography>
-        <Typography sx={{
-            fontFamily: 'Karla',
-            fontWeight: 500 ,}}
-            gutterBottom
-            variant="body2"
-            component="div">
-            Paris
-        </Typography>
-
-        <Typography sx={{
-            fontFamily: 'Karla',
-            fontWeight: 800 ,
-            paddingTop: theme.spacing(5),
-            }}
-            gutterBottom
-            variant="body2"
-            component="div">
-          <CopyrightIcon fontSize='small' sx={{maxHeight:theme.spacing(3)}}/>  A VEGETARIAN COWGIRL
-        </Typography>
-
-        </Grid>
-
-        <Grid item xs={2} sx={{textAlign:'center'}}>
-        <Typography sx={{
-            fontFamily: 'Karla',
-            fontWeight: 800 ,}}
-            gutterBottom
-            variant="body1"
-            component="div">
-          RECIPES
-        </Typography>
-
-        <Typography sx={{
-            fontFamily: 'Karla',
-            fontWeight: 500 ,}}
-            gutterBottom
-            variant="body2"
-            component="div">
-            Baking
-        </Typography>
-
-        <Typography sx={{
-            fontFamily: 'Karla',
-            fontWeight: 500 ,}}
-            gutterBottom
-            variant="body2"
-            component="div">
-            Cooking
-        </Typography>
-
-        <Typography sx={{
-            fontFamily: 'Karla',
-            fontWeight: 500 ,}}
-            gutterBottom
-            variant="body2"
-            component="div">
-            Drinks
-        </Typography>
-        </Grid>
-
-        <Grid item xs={2} sx={{textAlign:'center'}}>
-        <Typography sx={{
-            fontFamily: 'Karla',
-            fontWeight: 800 ,}}
-            gutterBottom
-            variant="body1"
-            component="div">
-          AUSTIN LIVING
-        </Typography>
-        <Typography sx={{
-            fontFamily: 'Karla',
-            fontWeight: 500 ,}}
-            gutterBottom
-            variant="body2"
-            component="div">
-            Austin Activities
-        </Typography>
-        <Typography sx={{
-            fontFamily: 'Karla',
-            fontWeight: 500 ,}}
-            gutterBottom
-            variant="body2"
-            component="div">
-            Restaurants
-        </Typography>
-        <Typography sx={{
-            fontFamily: 'Karla',
-            fontWeight: 500 ,}}
-            gutterBottom
-            variant="body2"
-            component="div">
-            Other
-        </Typography>
+          <Typography sx={{
+              fontFamily: 'Karla',
+              fontWeight: 800 ,
+              paddingTop: theme.spacing(5),
+              }}
+              gutterBottom
+              variant="body2"
+              component="div">
+            <CopyrightIcon fontSize='small' sx={{maxHeight:theme.spacing(3)}}/>  A VEGETARIAN COWGIRL
+          </Typography>
 
         </Grid>
 
-        <Grid item xs={2} sx={{textAlign:'center'}}>
-        <Typography sx={{
-            fontFamily: 'Karla',
-            fontWeight: 800 ,}}
-            gutterBottom
-            variant="body1"
-            component="div">
-          About
-        </Typography>
+        <Grid item xs={2} sx={{
+          textAlign:'center',
+          [theme.breakpoints.only('xs')]:{
+            marginLeft:theme.spacing(2),
+          },
+        }}>
+          <Typography sx={{
+              fontFamily: 'Karla',
+              fontWeight: 800 ,}}
+              gutterBottom
+              variant="body1"
+              component="div">
+            RECIPES
+          </Typography>
 
-        <Typography sx={{
-            fontFamily: 'Karla',
-            fontWeight: 500 ,}}
-            gutterBottom
-            variant="body2"
-            component="div">
-            My Story
-        </Typography>
+          <Typography sx={{
+              fontFamily: 'Karla',
+              fontWeight: 500 ,}}
+              gutterBottom
+              variant="body2"
+              component="div">
+              Baking
+          </Typography>
+
+          <Typography sx={{
+              fontFamily: 'Karla',
+              fontWeight: 500 ,}}
+              gutterBottom
+              variant="body2"
+              component="div">
+              Cooking
+          </Typography>
+
+          <Typography sx={{
+              fontFamily: 'Karla',
+              fontWeight: 500 ,}}
+              gutterBottom
+              variant="body2"
+              component="div">
+              Drinks
+          </Typography>
+        </Grid>
+
+        <Grid item xs={2} sx={{
+          textAlign:'center',
+          [theme.breakpoints.only('xs')]:{
+            marginLeft:theme.spacing(2),
+          },
+        }}>
+          <Typography sx={{
+              fontFamily: 'Karla',
+              fontWeight: 800 ,}}
+              gutterBottom
+              variant="body1"
+              component="div">
+            AUSTIN LIVING
+          </Typography>
+          <Typography sx={{
+              fontFamily: 'Karla',
+              fontWeight: 500 ,}}
+              gutterBottom
+              variant="body2"
+              component="div">
+              Austin Activities
+          </Typography>
+          <Typography sx={{
+              fontFamily: 'Karla',
+              fontWeight: 500 ,}}
+              gutterBottom
+              variant="body2"
+              component="div">
+              Restaurants
+          </Typography>
+          <Typography sx={{
+              fontFamily: 'Karla',
+              fontWeight: 500 ,}}
+              gutterBottom
+              variant="body2"
+              component="div">
+              Other
+          </Typography>
+
+        </Grid>
+
+        <Grid item xs={2} sx={{
+          textAlign:'center',
+          [theme.breakpoints.only('xs')]:{
+            marginLeft:theme.spacing(1),
+          },
+        }}>
+          <Typography sx={{
+              fontFamily: 'Karla',
+              fontWeight: 800 ,}}
+              gutterBottom
+              variant="body1"
+              component="div">
+            About
+          </Typography>
+
+          <Typography sx={{
+              fontFamily: 'Karla',
+              fontWeight: 500 ,}}
+              gutterBottom
+              variant="body2"
+              component="div">
+              My Story
+          </Typography>
 
         </Grid>
 
