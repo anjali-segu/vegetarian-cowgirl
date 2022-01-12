@@ -36,6 +36,14 @@ const LogoLink = (props:Props) => {
       disableElevation
       // className={classes.link}
       sx={{
+        [theme.breakpoints.between('xs','sm')]:{
+          marginLeft: theme.spacing(),
+          marginRight:theme.spacing(),
+        },
+        [theme.breakpoints.between('sm','lg')]:{
+          marginLeft: theme.spacing(),
+          marginRight:theme.spacing(),
+        },
         color: 'black',
         marginLeft: theme.spacing(2),
         marginRight: theme.spacing(61),

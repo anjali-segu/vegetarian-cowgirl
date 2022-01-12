@@ -21,25 +21,25 @@ const CarouselHome = () => {
 
     return (
         <div>
-        <Media query="(min-width: 1389px)" render={() =>
-          (
-            <div style={{minHeight:theme.spacing(100)}}>
+          <Media query="(min-width: 1389px)" render={() =>
+            (
+              <div style={{minHeight:theme.spacing(100)}}>
 
-                <br/>
-                <Carousel
-                    interval= {15000}
-                    className="SecondExample"
-                >
-                    {
-                        items.map((item, index) => {
-                            return <Project item={item} key={index} />
-                        })
-                    }
-                </Carousel>
-                <br/>
-            </div>
-          )}
-        />
+                  <br/>
+                  <Carousel
+                      interval= {15000}
+                      className="SecondExample"
+                  >
+                      {
+                          items.map((item, index) => {
+                              return <Project item={item} key={index} />
+                          })
+                      }
+                  </Carousel>
+                  <br/>
+              </div>
+            )}
+          />
 
         </div>
     )

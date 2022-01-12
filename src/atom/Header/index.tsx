@@ -24,6 +24,9 @@ const Header = (props:Props) => {
   return (
     <ThemeProvider theme = {theme}>
     <Typography id={id} sx={{
+      [theme.breakpoints.only('xs')]:{
+        fontSize:theme.spacing(3.5),
+      },
         fontFamily: 'Jost',
         fontWeight: 400 ,
         marginTop: theme.spacing(margin),

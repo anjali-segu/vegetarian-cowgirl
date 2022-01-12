@@ -5,6 +5,7 @@ import SocialLink from '../../atom/SocialLink'
 import LogoLink from '../../atom/LogoLink'
 import { createTheme,ThemeProvider } from '@mui/material/styles';
 import {theme} from '../../utils/theme'
+import Media from 'react-media';
 
 interface Props {
   position?: 'fixed' | 'absolute' | 'sticky' | 'relative' | undefined,
@@ -18,15 +19,23 @@ const Navbar = (props:Props) => {
   return (
     <AppBar position={position} sx={{paddingBottom: theme.spacing(2), backgroundColor:'white'}}>
       <Toolbar>
-      <LogoLink
-          content={
-            <img
-              style={{height:32}}
-              src={`${process.env.PUBLIC_URL}/Logo3.png`}
+      <Media query="(min-width: 600px)" render={() =>
+        (
+          <div>
+          <LogoLink
+              content={
+                <img
+                  style={{height:32}}
+                  src={`${process.env.PUBLIC_URL}/Logo3.png`}
+                />
+              }
+              url={'/'}
             />
-          }
-          url={'/'}
-        />
+
+          </div>
+        )}
+      />
+
         <NavbarLink
           content={'home'}
           url={'/'}
@@ -47,33 +56,74 @@ const Navbar = (props:Props) => {
           content={'About'}
           url={'/about'}
         />
-        <SocialLink
-            content={
-              <img
-                style={{width:15, paddingLeft:80}}
-                src={`${process.env.PUBLIC_URL}/instagram.png`}
+
+        <Media query="(max-width: 869px) and (min-width: 600px)" render={() =>
+          (
+            <div>
+            <SocialLink
+                content={
+                  <img
+                    style={{width:15, paddingLeft:1}}
+                    src={`${process.env.PUBLIC_URL}/instagram.png`}
+                  />
+                }
+                url={'https://www.instagram.com/thevegetariancowgirl/'}
               />
-            }
-            url={'https://www.instagram.com/thevegetariancowgirl/'}
-          />
-          <SocialLink
-              content={
-                <img
-                  style={{width:14}}
-                  src={`${process.env.PUBLIC_URL}/etsy.png`}
-                />
-              }
-              url={'https://www.etsy.com/shop/PrintsbyMinimalist'}
-            />
+
+            </div>
+          )}
+        />
+        <Media query="(min-width: 870px)" render={() =>
+          (
+            <div>
+            <SocialLink
+                content={
+                  <img
+                    style={{width:15, paddingLeft:80}}
+                    src={`${process.env.PUBLIC_URL}/instagram.png`}
+                  />
+                }
+                url={'https://www.instagram.com/thevegetariancowgirl/'}
+              />
+
+            </div>
+          )}
+        />
+        <Media query="(min-width: 600px)" render={() =>
+          (
+          <div>
             <SocialLink
                 content={
                   <img
                     style={{width:14}}
-                    src={`${process.env.PUBLIC_URL}/pinterest.png`}
+                    src={`${process.env.PUBLIC_URL}/etsy.png`}
                   />
                 }
-                url={'https://www.pinterest.com/PrintsbyMinimalist/'}
+                url={'https://www.etsy.com/shop/PrintsbyMinimalist'}
               />
+          </div>
+          )}
+          />
+
+          <Media query="(min-width: 600px)" render={() =>
+            (
+            <div>
+              <SocialLink
+                  content={
+                    <img
+                      style={{width:14}}
+                      src={`${process.env.PUBLIC_URL}/pinterest.png`}
+                    />
+                  }
+                  url={'https://www.pinterest.com/PrintsbyMinimalist/'}
+                />
+              </div>
+            )}
+            />
+
+            <Media query="(min-width: 600px)" render={() =>
+              (
+              <div>
               <SocialLink
                   content={
                     <img
@@ -83,6 +133,10 @@ const Navbar = (props:Props) => {
                   }
                   url={'https://www.pinterest.com/PrintsbyMinimalist/'}
                 />
+              </div>
+              )}
+            />
+
       </Toolbar>
 
     </AppBar>

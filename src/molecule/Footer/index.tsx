@@ -31,6 +31,9 @@ export default function BasicCard() {
 
           <Grid container justifyContent='center'>
             <Typography sx={{
+              [theme.breakpoints.only('xs')]:{
+                fontSize:theme.spacing(3),
+              },
                 fontFamily: 'Jost',
                 fontWeight: 500 ,
                 textAlign:'center',

@@ -34,6 +34,19 @@ const NavbarLink = (props:Props) => {
     <Button
       // className={classes.link}
       sx={{
+        [theme.breakpoints.between('xs','sm')]:{
+          fontSize:theme.spacing(1.5),
+          marginLeft: theme.spacing(.15),
+          marginRight: theme.spacing(.15),
+
+        },
+        [theme.breakpoints.between('sm','lg')]:{
+          fontSize:theme.spacing(1.5),
+          marginLeft: theme.spacing(.5),
+          marginRight: theme.spacing(.5),
+
+        },
+        textAlign:'center',
         fontFamily: 'Karla',
         fontWeight: 600,
         color: 'black',
