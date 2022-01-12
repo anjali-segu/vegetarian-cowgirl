@@ -21,13 +21,14 @@ const AustinLivingNav = (props:Props) => {
     <Header text={"Austin Living"}/>
     <Grid container sx={{paddingTop: theme.spacing(15),paddingBottom: theme.spacing(15), textAlign:'center'}}>
 
-      <Grid item xs={3} sx={{display: 'inline',justifyContent:'center', }}>
+      <Grid item sm={3} sx={{display: 'inline',justifyContent:'center', }}>
       </Grid>
 
-      <Grid item xs={2} sx={{display: 'inline',justifyContent:'center', }}>
+      <Grid item xs={4} sm={2} sx={{display: 'inline',justifyContent:'center', }}>
         <Link underline="none" href="#restaurants">
         <Typography
             sx={{
+            textAlign:'center',
             fontFamily: 'Karla',
             fontWeight: 700 ,
             color: 'black'}}
@@ -39,9 +40,10 @@ const AustinLivingNav = (props:Props) => {
         </Link>
       </Grid>
 
-      <Grid item xs={2} sx={{display: 'inline',justifyContent:'center', }}>
+      <Grid item xs={4} sm={2} sx={{display: 'inline',justifyContent:'center', }}>
         <Link underline="none" href="#austinactivities">
         <Typography sx={{
+            textAlign:'center',
             fontFamily: 'Karla',
             fontWeight: 700 ,
             color: 'black'}}
@@ -53,9 +55,10 @@ const AustinLivingNav = (props:Props) => {
         </Link>
       </Grid>
 
-      <Grid item xs={2} sx={{display: 'inline',justifyContent:'center', }}>
+      <Grid item xs={4} sm={2} sx={{display: 'inline',justifyContent:'center', }}>
         <Link underline="none" href="#other">
         <Typography sx={{
+            textAlign:'center',
             fontFamily: 'Karla',
             fontWeight: 700 ,
             color: 'black'}}
@@ -68,7 +71,7 @@ const AustinLivingNav = (props:Props) => {
       </Grid>
 
 
-      <Grid item xs={3} sx={{display: 'inline',justifyContent:'center', }}>
+      <Grid item sm={3} sx={{display: 'inline',justifyContent:'center', }}>
       </Grid>
 
 

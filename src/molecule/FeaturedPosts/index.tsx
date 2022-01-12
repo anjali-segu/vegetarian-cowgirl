@@ -19,13 +19,13 @@ const FeaturedPosts = (props:Props) => {
       (
         <Grid container justifyContent='center'>
           <Grid item xs={1} sx={{display:'flex',justifyContent:'center'}}>
-           <img style={{maxHeight: theme.spacing(14)}}src="Logo3.png" alt="Paris"/>
+           <img style={{maxHeight: theme.spacing(13)}}src="Logo3.png" alt="Paris"/>
           </Grid>
         </Grid>
       )}
     />
     <Header text={"Featured Posts"} margin={5}/>
-    <Grid container sx={{paddingTop: theme.spacing(15), paddingLeft:theme.spacing(30),paddingRight:theme.spacing(30),}}>
+    <Grid container justifyContent='center' sx={{paddingTop: theme.spacing(15),}}>
 
       <Grid item sm={12} md={12} lg={4} sx={{display:'flex',justifyContent:'center'}}>
         <Card image={'images/costa.jpg'} title={'COSTA RICA'} subtitle={'Day Trip to Arenal Volcano'} post={'/'}/>

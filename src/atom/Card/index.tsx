@@ -44,6 +44,7 @@ const MediaCard = (props:Props) => {
       [theme.breakpoints.up('xs')]:{
         marginBottom:theme.spacing(4),
       },
+      maxWidth:345,
       minWidth: 345,
       boxShadow: 0,
       borderRadius: 0,
