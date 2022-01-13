@@ -3,6 +3,7 @@ import {theme} from '../../utils/theme'
 import { Grid } from '@mui/material';
 import Header from '../../atom/Header'
 import Typography from '@mui/material/Typography';
+import Media from 'react-media';
 
 
 interface Props {
@@ -14,15 +15,28 @@ const About = (props:Props) => {
   return (
     <ThemeProvider theme={theme}>
     <Grid container>
+    <Media query="(max-width: 800px)" render={() =>
+      (
       <Grid item xs={12} sx={{display:'flex',justifyContent:'center'}}>
-        <img style={{maxHeight: theme.spacing(150), marginTop: theme.spacing(2)}}src="about.JPG" alt="Paris"/>
+        <img style={{maxHeight: theme.spacing(100), marginTop: theme.spacing(2)}}src="about.JPG" alt="Paris"/>
       </Grid>
+
+      )}
+    />
+    <Media query="(min-width: 799px)" render={() =>
+      (
+        <Grid item xs={12} sx={{display:'flex',justifyContent:'center'}}>
+          <img style={{maxHeight: theme.spacing(150), marginTop: theme.spacing(2)}}src="about.JPG" alt="Paris"/>
+        </Grid>
+      )}
+    />
+
     </Grid>
     <Header text={"Meet Anjali"}/>
     <Grid container sx={{marginTop:theme.spacing(8)}}>
-      <Grid item xs={3} sx={{justifyContent:'center'}}>
+      <Grid item xs={2} md={3} sx={{justifyContent:'center'}}>
       </Grid>
-      <Grid item xs={6} sx={{justifyContent:'center'}}>
+      <Grid item xs={8} md={6} sx={{justifyContent:'center'}}>
         <Typography sx={{
             fontFamily: 'Karla',
             fontWeight: 400 ,}}
@@ -35,14 +49,14 @@ const About = (props:Props) => {
             expert for Visit Austin TX.
         </Typography>
       </Grid>
-      <Grid item xs={3} sx={{justifyContent:'center'}}>
+      <Grid item xs={2} md={3} sx={{justifyContent:'center'}}>
       </Grid>
     </Grid>
 
     <Grid container sx={{marginTop:theme.spacing(8)}}>
-      <Grid item xs={3} sx={{justifyContent:'center'}}>
+      <Grid item xs={2} md={3} sx={{justifyContent:'center'}}>
       </Grid>
-      <Grid item xs={6} sx={{justifyContent:'center'}}>
+      <Grid item xs={8} md={6} sx={{justifyContent:'center'}}>
         <Typography sx={{
             fontFamily: 'Karla',
             fontWeight: 400 ,}}
@@ -59,15 +73,15 @@ const About = (props:Props) => {
              over 20,000 participants.
         </Typography>
       </Grid>
-      <Grid item xs={3} sx={{justifyContent:'center'}}>
+      <Grid item xs={2} md={3} sx={{justifyContent:'center'}}>
       </Grid>
     </Grid>
 
     <Header text={"About the Blog"}/>
     <Grid container sx={{marginTop:theme.spacing(8)}}>
-      <Grid item xs={3} sx={{justifyContent:'center'}}>
+      <Grid item xs={2} md={3} sx={{justifyContent:'center'}}>
       </Grid>
-      <Grid item xs={6} sx={{justifyContent:'center'}}>
+      <Grid item xs={8} md={6} sx={{justifyContent:'center'}}>
         <Typography sx={{
             fontFamily: 'Karla',
             fontWeight: 400 ,}}
@@ -79,14 +93,14 @@ const About = (props:Props) => {
               KXAN, Travel Channel, The Everygirl, and more.
         </Typography>
       </Grid>
-      <Grid item xs={3} sx={{justifyContent:'center'}}>
+      <Grid item xs={2} md={3} sx={{justifyContent:'center'}}>
       </Grid>
     </Grid>
 
     <Grid container sx={{marginTop:theme.spacing(8)}}>
-      <Grid item xs={3} sx={{justifyContent:'center'}}>
+      <Grid item xs={2} md={3} sx={{justifyContent:'center'}}>
       </Grid>
-      <Grid item xs={6} sx={{justifyContent:'center'}}>
+      <Grid item xs={8} md={6} sx={{justifyContent:'center'}}>
         <Typography sx={{
             fontFamily: 'Karla',
             fontWeight: 400 ,}}
@@ -100,7 +114,7 @@ const About = (props:Props) => {
             weekend getaways, and travel.
         </Typography>
       </Grid>
-      <Grid item xs={3} sx={{justifyContent:'center'}}>
+      <Grid item xs={2} md={3} sx={{justifyContent:'center'}}>
       </Grid>
     </Grid>
 

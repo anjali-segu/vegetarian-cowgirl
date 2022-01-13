@@ -19,15 +19,20 @@ const AustinLivingNav = (props:Props) => {
   return (
     <ThemeProvider theme={theme}>
     <Header text={"Austin Living"}/>
-    <Grid container sx={{paddingTop: theme.spacing(15),paddingBottom: theme.spacing(15), textAlign:'center'}}>
+    <Grid container justifyContent='center' sx={{paddingTop: theme.spacing(15),paddingBottom: theme.spacing(15), textAlign:'center'}}>
 
-      <Grid item sm={3} sx={{display: 'inline',justifyContent:'center', }}>
+      <Grid item  md={3} sx={{display: 'inline',justifyContent:'center', }}>
       </Grid>
 
-      <Grid item xs={4} sm={2} sx={{display: 'inline',justifyContent:'center', }}>
+      <Grid item sm={4} md={2} sx={{display: 'inline',justifyContent:'center', }}>
         <Link underline="none" href="#restaurants">
         <Typography
             sx={{
+            [theme.breakpoints.only('xs')]:{
+                fontSize:theme.spacing(5),
+                paddingLeft:theme.spacing(2),
+                paddingRight:theme.spacing(2),
+            },
             textAlign:'center',
             fontFamily: 'Karla',
             fontWeight: 700 ,
@@ -40,9 +45,14 @@ const AustinLivingNav = (props:Props) => {
         </Link>
       </Grid>
 
-      <Grid item xs={4} sm={2} sx={{display: 'inline',justifyContent:'center', }}>
+      <Grid item sm={4} md={2} sx={{display: 'inline',justifyContent:'center', }}>
         <Link underline="none" href="#austinactivities">
         <Typography sx={{
+          [theme.breakpoints.only('xs')]:{
+              fontSize:theme.spacing(5),
+              paddingLeft:theme.spacing(2),
+              paddingRight:theme.spacing(2),
+          },
             textAlign:'center',
             fontFamily: 'Karla',
             fontWeight: 700 ,
@@ -55,9 +65,14 @@ const AustinLivingNav = (props:Props) => {
         </Link>
       </Grid>
 
-      <Grid item xs={4} sm={2} sx={{display: 'inline',justifyContent:'center', }}>
+      <Grid item sm={4} md={2} sx={{display: 'inline',justifyContent:'center', }}>
         <Link underline="none" href="#other">
         <Typography sx={{
+          [theme.breakpoints.only('xs')]:{
+              fontSize:theme.spacing(5),
+              paddingLeft:theme.spacing(2),
+              paddingRight:theme.spacing(2),
+          },
             textAlign:'center',
             fontFamily: 'Karla',
             fontWeight: 700 ,
@@ -71,7 +86,7 @@ const AustinLivingNav = (props:Props) => {
       </Grid>
 
 
-      <Grid item sm={3} sx={{display: 'inline',justifyContent:'center', }}>
+      <Grid item md={3} sx={{display: 'inline',justifyContent:'center', }}>
       </Grid>
 
 

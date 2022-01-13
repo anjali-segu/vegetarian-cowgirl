@@ -19,15 +19,20 @@ const ArtNav = (props:Props) => {
   return (
     <ThemeProvider theme={theme}>
     <Header margin={2} text={"Art"}/>
-    <Grid container sx={{paddingTop: theme.spacing(15),paddingBottom: theme.spacing(5), textAlign:'center'}}>
+    <Grid container justifyContent='center' sx={{paddingTop: theme.spacing(15),paddingBottom: theme.spacing(5), textAlign:'center'}}>
 
-      <Grid item xs={3} sx={{display: 'inline',justifyContent:'center', }}>
+      <Grid item md={3} sx={{display: 'inline',justifyContent:'center', }}>
       </Grid>
 
-      <Grid item xs={2} sx={{display: 'inline',justifyContent:'center', }}>
+      <Grid item sm={4} md={2} sx={{display: 'inline',justifyContent:'center', }}>
         <Link underline="none" href="#gallerydrops">
         <Typography
             sx={{
+              [theme.breakpoints.only('xs')]:{
+                  fontSize:theme.spacing(4.5),
+                  paddingLeft:theme.spacing(2.5),
+                  paddingRight:theme.spacing(2.5),
+              },
             fontFamily: 'Karla',
             fontWeight: 700 ,
             color: 'black'}}
@@ -39,9 +44,14 @@ const ArtNav = (props:Props) => {
         </Link>
       </Grid>
 
-      <Grid item xs={2} sx={{display: 'inline',justifyContent:'center', }}>
+      <Grid item sm={4} md={2} sx={{display: 'inline',justifyContent:'center', }}>
         <Link underline="none" href="#creativeprocess">
         <Typography sx={{
+          [theme.breakpoints.only('xs')]:{
+              fontSize:theme.spacing(4.5),
+              paddingLeft:theme.spacing(2.5),
+              paddingRight:theme.spacing(2.5),
+          },
             fontFamily: 'Karla',
             fontWeight: 700 ,
             color: 'black'}}
@@ -53,9 +63,14 @@ const ArtNav = (props:Props) => {
         </Link>
       </Grid>
 
-      <Grid item xs={2} sx={{display: 'inline',justifyContent:'center', }}>
+      <Grid item sm={4} md={2} sx={{display: 'inline',justifyContent:'center', }}>
         <Link underline="none" href="#other2">
         <Typography sx={{
+          [theme.breakpoints.only('xs')]:{
+              fontSize:theme.spacing(4.5),
+              paddingLeft:theme.spacing(2.5),
+              paddingRight:theme.spacing(2.5),
+          },
             fontFamily: 'Karla',
             fontWeight: 700 ,
             color: 'black'}}
@@ -68,7 +83,7 @@ const ArtNav = (props:Props) => {
       </Grid>
 
 
-      <Grid item xs={3} sx={{display: 'inline',justifyContent:'center', }}>
+      <Grid item md={3} sx={{display: 'inline',justifyContent:'center', }}>
       </Grid>
 
 
