@@ -26,7 +26,7 @@ export default function BasicCard() {
         <Grid item xs={3} sm={3} md={3} sx={{borderRight:1}}>
 
           <Grid container justifyContent='center'>
-            <img style={{maxHeight: theme.spacing(20), justifyContent:'center'}} src="LogoBlack.png" alt="Cowboy boot with monstera, white outlined in a black circle"/>
+            <img style={{maxHeight: theme.spacing(20), justifyContent:'center'}} src="/LogoBlack.png" alt="Cowboy boot with monstera, white outlined in a black circle"/>
           </Grid>
 
           <Grid container justifyContent='center'>

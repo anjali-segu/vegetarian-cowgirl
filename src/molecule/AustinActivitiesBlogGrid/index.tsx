@@ -21,7 +21,7 @@ const AustinActivitiesBlogGrid = (props:Props) => {
       <Card image={'blog_posts/yoga_spots_blog_square.jpg'} title={'AUSTIN ACTIVITIES'} subtitle={'Unique Yoga Spots'} post={'/'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={'blog_posts/cafe_monet_blog_square.jpg'} title={'AUSTIN ACTIVITIES'} subtitle={'Cafe Monet - Austin Art Break'} post={'/'}/>
+      <Card image={'blog_posts/cafe_monet_blog_square.jpg'} title={'AUSTIN ACTIVITIES'} subtitle={'Cafe Monet - Austin Art Break'} post={'/austin-living/cafe-monet'}/>
       </Grid>
     </Grid>
 

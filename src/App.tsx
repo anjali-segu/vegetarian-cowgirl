@@ -9,9 +9,8 @@ import Art from './organism/Art'
 import About from './organism/About'
 import Navbar from './organism/Navbar'
 import Footer from './molecule/Footer'
-
-import RecipeBlogPost from './molecule/RecipeBlogPost'
-
+import EtonMess from './blogposts/EtonMess'
+import StandardBlogPost from './blogposts/StandardBlogPost'
 
 
 import {
@@ -32,22 +31,49 @@ const App: React.FC = () => {
           <Route path="/austin-living" element={<AustinLiving/>}/>
           <Route path="/art" element={<Art/>}/>
           <Route path="/about" element={<About/>}/>
-          <Route path="/recipes/eton-mess-dessert" element={
-            <RecipeBlogPost
-              image='/blog_posts/eton_mess_blog_square.png'
-              icon='/icons/baking_icon.png'
-              title="Eton Mess Summer Dessert"
-              subtitle={`This refreshing dessert is perfect for any summer dinner.
-                Dreamy whipped cream with crunch meringue, layered with fresh strawberries
-                 and raspberries. `}
-              ingredients= {['2 large egg whites',
-                             '120g granulated sugar',
-                             '500g strawberries, hulled and roughly chopped',
-                             '1 cup heavy cream',
-                             '1 teaspoon powder sugar',
-                             '1/2 cup raspberries']}
-              steps= {['STEP 1 Heat oven to 120C/100C fan/gas 1 and line a large baking tray with parchment paper.Whisk the egg whites in a clean bowl using an electric whisk or tabletop mixer until they reach stiff peaks, then add the sugar in 3 lots, re-whisking to stiff peaks every time. Spoon dollops of the mixture onto the baking parchment, cook on the bottom shelf of the oven for 1hr – 1hr15 mins until the meringues are completely hard and come off the paper easily. Leave to cool.',
-                  'step 2']}
+          <Route path="/recipes/eton-mess-dessert" element={<EtonMess/>}/>
+          <Route path="/austin-living/cafe-monet" element={
+            <StandardBlogPost
+              image='/blog_posts/cafe_monet_blog_square.jpg'
+              icon='/icons/activities_icon.png'
+              title="Cafe Monet - Art Adventure"
+              subtitle={`Cafe Monet is a cute paint and pottery shop in downtown Austin. Here's a fun
+                         weekend itinerary to do in Austin with family or friends. `}
+              subtitle2={`This is a classic British treat! Inspired by my obsession with the
+                          Great British Bake Off. The recipe itself is easy to make and can
+                          be prepped in advance and assembled in minutes. It keeps well up to 3 days.
+                          You will need an electric whisk as this recipe does have meringue involved.
+                          `}
+              paras= {[`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                 incididunt ut labore et dolore magna aliqua. Massa sapien faucibus et molestie ac.
+                 Quisque sagittis purus sit amet volutpat consequat mauris. Magna fermentum iaculis eu non
+                  diam phasellus vestibulum lorem sed. Diam phasellus vestibulum lorem sed risus ultricies.
+                   Nunc consequat interdum varius sit amet mattis. Lobortis elementum nibh tellus molestie
+                    nunc non. Iaculis urna id volutpat lacus laoreet non. Id nibh tortor id aliquet lectus.
+                     Sed risus pretium quam vulputate dignissim suspendisse. Imperdiet massa tincidunt nunc
+                      pulvinar sapien et. Mauris in aliquam sem fringilla ut morbi tincidunt. Volutpat blandit
+                       aliquam etiam erat velit scelerisque. Metus aliquam eleifend mi in nulla posuere.`,
+                     `Sapien pellentesque habitant morbi tristique senectus. Ullamcorper dignissim cras tincidunt
+                      lobortis feugiat vivamus at. Adipiscing enim eu turpis egestas pretium. Porta lorem mollis
+                       aliquam ut porttitor leo. Pulvinar sapien et ligula ullamcorper malesuada proin libero.
+                        Tincidunt nunc pulvinar sapien et ligula. Ac felis donec et odio pellentesque diam volutpat.
+                         Proin fermentum leo vel orci. Aliquam sem fringilla ut morbi tincidunt. Euismod in pellentesque
+                          massa placerat duis ultricies lacus sed turpis. Scelerisque viverra mauris in aliquam.
+                          Ante metus dictum at tempor commodo ullamcorper.`,
+                        `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                           incididunt ut labore et dolore magna aliqua. Massa sapien faucibus et molestie ac.
+                           Quisque sagittis purus sit amet volutpat consequat mauris. Magna fermentum iaculis eu non
+                            diam phasellus vestibulum lorem sed. Diam phasellus vestibulum lorem sed risus ultricies.
+                             Nunc consequat interdum varius sit amet mattis. Lobortis elementum nibh tellus molestie
+                              nunc non. Iaculis urna id volutpat lacus laoreet non. Id nibh tortor id aliquet lectus.
+                               Sed risus pretium quam vulputate dignissim suspendisse. Imperdiet massa tincidunt nunc
+                                pulvinar sapien et. Mauris in aliquam sem fringilla ut morbi tincidunt. Volutpat blandit
+                                 aliquam etiam erat velit scelerisque. Metus aliquam eleifend mi in nulla posuere.`]}
+              steps= {[`Head to Cafe Monet`,
+                      `Paint some pots`,
+                      `Head to Manolis, grab some food`,
+                    ]}
+
               />
           }/>
         </Routes>

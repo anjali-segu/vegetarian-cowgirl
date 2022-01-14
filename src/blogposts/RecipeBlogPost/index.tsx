@@ -15,13 +15,18 @@ interface Props {
   icon: string,
   title: string,
   subtitle: string,
+  subtitle2: string,
   ingredients: string[],
   steps: string[],
+  preptime: string,
+  cooktime: string,
+  totaltime: string,
+  serves: number,
 }
 
 
-const FeaturedPosts = (props:Props) => {
-const {image, icon, title, subtitle, ingredients, steps} = props
+const RecipeBlogPost = (props:Props) => {
+const {image, icon, title, subtitle, subtitle2, ingredients, steps, preptime, cooktime, totaltime, serves} = props
   return (
     <ThemeProvider theme={theme}>
     <Typography sx={{
@@ -29,7 +34,10 @@ const {image, icon, title, subtitle, ingredients, steps} = props
         fontWeight: 500 ,
         textAlign: 'center',
         color: 'black',
-        marginTop: theme.spacing(4)}}
+        marginTop: theme.spacing(4),
+        marginLeft: theme.spacing(2),
+        marginRight: theme.spacing(2),
+      }}
         gutterBottom
         variant="h4"
         component="div">
@@ -70,22 +78,55 @@ const {image, icon, title, subtitle, ingredients, steps} = props
       </Button>
   </Grid>
 
-    <Grid container justifyContent='center' sx={{marginTop:theme.spacing(10)}}>
-      <Grid item xs={8} sx={{display:'flex',justifyContent:'center'}}>
-        <img style={{maxHeight: theme.spacing(150)}} src={image} alt="Paris"/>
+  <Media query="(max-width: 599px)" render={() =>
+    (
+      <Grid container justifyContent='center' sx={{marginTop:theme.spacing(10)}}>
+        <Grid item xs={8} sx={{display:'flex',justifyContent:'center'}}>
+          <img style={{maxHeight: theme.spacing(80)}} src={image} alt="Paris"/>
+        </Grid>
       </Grid>
-    </Grid>
+
+    )}
+  />
+  <Media query="(min-width: 600px)" render={() =>
+    (
+      <Grid container justifyContent='center' sx={{marginTop:theme.spacing(10)}}>
+        <Grid item xs={8} sx={{display:'flex',justifyContent:'center'}}>
+          <img style={{maxHeight: theme.spacing(150)}} src={image} alt="Paris"/>
+        </Grid>
+      </Grid>
+
+    )}
+  />
+
+  <Grid container justifyContent='center'>
+    <Grid item xs={8} md={6}>
+  <Typography sx={{
+      fontFamily: 'Karla',
+      fontWeight: 300 ,
+      color: 'black',
+      marginTop: theme.spacing(8)}}
+      gutterBottom
+      variant="body1"
+      component="div">
+    {subtitle2}
+  </Typography>
+  </Grid>
+  </Grid>
+
+
 
 
 
 <Grid container justifyContent='center' sx={{marginTop:theme.spacing(10)}}>
-  <Card sx={{
+  <Card id='recipe'sx={{
     [theme.breakpoints.only('xs')]:{
       minWidth: theme.spacing(10),
     },
+    marginBottom:theme.spacing(5),
     marginLeft:theme.spacing(2),
     marginRight:theme.spacing(2),
-    minWidth:theme.spacing(160),
+    maxWidth:theme.spacing(160),
     border: 2
   }}>
     <CardContent>
@@ -115,7 +156,7 @@ const {image, icon, title, subtitle, ingredients, steps} = props
           gutterBottom
           variant="body1"
           component="div">
-        Serves 4
+        Serves {serves}
       </Typography>
     </Grid>
 
@@ -127,12 +168,17 @@ const {image, icon, title, subtitle, ingredients, steps} = props
         textAlign: 'center',
         color: 'black',
         borderRight:1,
+        paddingLeft: theme.spacing(1),
+        paddingRight: theme.spacing(1),
         }}
         gutterBottom
         variant="body1"
         component="div">
-      Prep Time: 5 minutes
+      Prep Time: {preptime}
     </Typography>
+
+
+
     </Grid>
 
     <Grid item xs={4}>
@@ -142,11 +188,13 @@ const {image, icon, title, subtitle, ingredients, steps} = props
         textAlign: 'center',
         color: 'black',
         borderRight:1,
+        paddingLeft: theme.spacing(1),
+        paddingRight: theme.spacing(1),
         }}
         gutterBottom
         variant="body1"
         component="div">
-      Cook Time: 5 minutes
+      Cook Time: {cooktime}
     </Typography>
     </Grid>
 
@@ -156,11 +204,13 @@ const {image, icon, title, subtitle, ingredients, steps} = props
         fontWeight: 700 ,
         textAlign: 'center',
         color: 'black',
+        paddingLeft: theme.spacing(1),
+        paddingRight: theme.spacing(1),
         }}
         gutterBottom
         variant="body1"
         component="div">
-      Total Time: 5 minutes
+      Total Time: {totaltime}
     </Typography>
     </Grid>
 
@@ -205,6 +255,26 @@ const {image, icon, title, subtitle, ingredients, steps} = props
     <Grid item xs={1}>
     </Grid>
 
+    <Grid item xs={1}>
+    </Grid>
+
+    <Grid item xs={10}>
+    <Typography sx={{
+        fontFamily: 'Jost',
+        fontWeight: 700 ,
+        color: 'black',
+        marginTop: theme.spacing(8)
+        }}
+        gutterBottom
+        variant="body1"
+        component="div">
+      Steps
+    </Typography>
+    </Grid>
+
+    <Grid item xs={1}>
+    </Grid>
+
 
     <Grid item xs={1}>
     </Grid>
@@ -213,15 +283,16 @@ const {image, icon, title, subtitle, ingredients, steps} = props
 
 
 
-    {steps.map(step => (
-      <Typography style={{
-        fontFamily:'Karla',
-        color:'black',
-        fontWeight:500,
-      }}
-      variant="body1"
-      >{step}</Typography>
-    ))}
+    <ol>
+        {steps.map(step => (
+          <li style={{
+            fontFamily:'Karla',
+            color:'black',
+            fontWeight:500,
+            fontSize:theme.spacing(4),
+          }}>{step}</li>
+        ))}
+      </ol>
 
     </Grid>
 
@@ -242,4 +313,4 @@ const {image, icon, title, subtitle, ingredients, steps} = props
   )
 }
 
-export default FeaturedPosts
+export default RecipeBlogPost
