@@ -24,21 +24,21 @@ const Recipes = (props:Props) => {
                    />
        <Grid container justifyContent='center'>
          <Grid item xs={1} sx={{display:'flex',justifyContent:'center'}}>
-          <img style={{maxHeight: theme.spacing(13)}}src="baking_icon.png" alt="Paris"/>
+          <img style={{maxHeight: theme.spacing(13)}}src="icons/baking_icon.png" alt="Paris"/>
          </Grid>
        </Grid>
       <Header id={"baking"} text={"Baking"} margin={1}/>
       <BakingBlogGrid/>
       <Grid container justifyContent='center'>
         <Grid item xs={1} sx={{display:'flex',justifyContent:'center'}}>
-         <img style={{maxHeight: theme.spacing(13)}}src="cooking_icon.png" alt="Paris"/>
+         <img style={{maxHeight: theme.spacing(13)}}src="icons/cooking_icon.png" alt="Paris"/>
         </Grid>
       </Grid>
       <Header id={"cooking"}text={"Cooking"} margin={1}/>
       <CookingBlogGrid/>
       <Grid container justifyContent='center'>
         <Grid item xs={1} sx={{display:'flex',justifyContent:'center'}}>
-         <img style={{maxHeight: theme.spacing(13)}}src="drinks_icon.png" alt="Paris"/>
+         <img style={{maxHeight: theme.spacing(13)}}src="icons/drinks_icon.png" alt="Paris"/>
         </Grid>
       </Grid>
       <Header id={"drinks"}text={"Drinks"} margin={1}/>

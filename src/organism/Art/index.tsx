@@ -21,7 +21,7 @@ const AustinLiving = (props:Props) => {
       <ArtGallery/>
        <Grid container justifyContent='center'>
          <Grid item xs={1} sx={{display:'flex',justifyContent:'center'}}>
-          <img style={{maxHeight: theme.spacing(13)}}src="restaurants_icon.png" alt="Paris"/>
+          <img style={{maxHeight: theme.spacing(13)}}src="icons/restaurants_icon.png" alt="Paris"/>
          </Grid>
        </Grid>
       <Header id={"gallerydrops"} text={"Gallery Drops"} margin={1}/>
@@ -29,7 +29,7 @@ const AustinLiving = (props:Props) => {
 
       <Grid container justifyContent='center'>
         <Grid item xs={1} sx={{display:'flex',justifyContent:'center'}}>
-         <img style={{maxHeight: theme.spacing(13)}}src="activities_icon.png" alt="Paris"/>
+         <img style={{maxHeight: theme.spacing(13)}}src="icons/activities_icon.png" alt="Paris"/>
         </Grid>
       </Grid>
       <Header id={"creativeprocess"}text={"My Creative Process"} margin={1}/>
@@ -37,7 +37,7 @@ const AustinLiving = (props:Props) => {
 
       <Grid container justifyContent='center'>
         <Grid item xs={1} sx={{display:'flex',justifyContent:'center'}}>
-         <img style={{maxHeight: theme.spacing(13)}}src="other_icon.png" alt="Paris"/>
+         <img style={{maxHeight: theme.spacing(13)}}src="icons/other_icon.png" alt="Paris"/>
         </Grid>
       </Grid>
       <Header id={"other2"}text={"Other"} margin={1}/>
