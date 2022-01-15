@@ -12,6 +12,7 @@ import CardContent from '@mui/material/CardContent';
 
 interface Props {
   image: string,
+  image2: string,
   icon: string,
   title: string,
   subtitle: string,
@@ -23,7 +24,7 @@ interface Props {
 
 
 const StandardBlogPost = (props:Props) => {
-const {image, icon, title, subtitle, subtitle2, paras, steps} = props
+const {image, image2, icon, title, subtitle, subtitle2, paras, steps} = props
   return (
     <ThemeProvider theme={theme}>
     <Grid container justifyContent='center'>
@@ -101,6 +102,27 @@ const {image, icon, title, subtitle, subtitle2, paras, steps} = props
         ))}
     </Grid>
   </Grid>
+
+  <Media query="(max-width: 599px)" render={() =>
+    (
+      <Grid container justifyContent='center' sx={{marginTop:theme.spacing(10)}}>
+        <Grid item xs={8} sx={{display:'flex',justifyContent:'center'}}>
+          <img style={{maxHeight: theme.spacing(55)}} src={image2} alt="Paris"/>
+        </Grid>
+      </Grid>
+
+    )}
+  />
+  <Media query="(min-width: 600px)" render={() =>
+    (
+      <Grid container justifyContent='center' sx={{marginTop:theme.spacing(10)}}>
+        <Grid item xs={8} sx={{display:'flex',justifyContent:'center'}}>
+          <img style={{maxHeight: theme.spacing(100)}} src={image2} alt="Paris"/>
+        </Grid>
+      </Grid>
+
+    )}
+  />
 
 
 

@@ -24,7 +24,7 @@ const FeaturedPosts = (props:Props) => {
         </Grid>
       )}
     />
-    <Header text={"Featured Posts"} margin={5}/>
+    <Header text={"Featured Posts"} margin={3}/>
     <Grid container justifyContent='center' sx={{paddingTop: theme.spacing(15),}}>
 
       <Grid item sm={12} md={12} lg={4} sx={{display:'flex',justifyContent:'center'}}>

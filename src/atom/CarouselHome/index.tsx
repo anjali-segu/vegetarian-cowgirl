@@ -40,6 +40,15 @@ const CarouselHome = () => {
               </div>
             )}
           />
+          <Media query="(min-width:599px) and (max-width: 1390px)" render={() =>
+            (
+              <Grid container justifyContent='center'>
+                <Grid item xs={1} sx={{display:'flex',justifyContent:'center'}}>
+                 <img style={{maxHeight: theme.spacing(20)}}src="LogoBlack.png" alt="Paris"/>
+                </Grid>
+              </Grid>
+            )}
+          />
 
         </div>
     )
@@ -64,7 +73,11 @@ function Project({item}: ProjectProps) {
         <Paper
             elevation={0}
             square={true}
-            sx={{backgroundColor:'#f4f2ed', minHeight: theme.spacing(120), marginLeft:theme.spacing(40), marginRight:theme.spacing(40),}}
+            sx={{backgroundColor:'#f4f2ed',
+            minHeight: theme.spacing(120),
+            marginLeft:theme.spacing(40),
+            marginRight:theme.spacing(40),
+            }}
         >
         <Grid container sx={{marginBottom: theme.spacing(10)}}>
 

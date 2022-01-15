@@ -35,6 +35,7 @@ const App: React.FC = () => {
           <Route path="/austin-living/cafe-monet" element={
             <StandardBlogPost
               image='/blog_posts/cafe_monet_blog_square.jpg'
+              image2='/austin_afternoon.jpg'
               icon='/icons/activities_icon.png'
               title="Cafe Monet - Art Adventure"
               subtitle={`Cafe Monet is a cute paint and pottery shop in downtown Austin. Here's a fun
