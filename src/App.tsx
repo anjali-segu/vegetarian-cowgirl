@@ -7,6 +7,7 @@ import Recipes from './organism/Recipes'
 import AustinLiving from './organism/AustinLiving'
 import Art from './organism/Art'
 import About from './organism/About'
+import CostaRica from './organism/CostaRica'
 import Navbar from './organism/Navbar'
 import Footer from './molecule/Footer'
 import EtonMess from './blogposts/EtonMess'
@@ -29,6 +30,7 @@ const App: React.FC = () => {
           <Route path="/" element={<Home/>}/>
           <Route path="/recipes" element={<Recipes/>}/>
           <Route path="/austin-living" element={<AustinLiving/>}/>
+          <Route path="/costa-rica-city-guide" element={<CostaRica/>}/>
           <Route path="/art" element={<Art/>}/>
           <Route path="/about" element={<About/>}/>
           <Route path="/recipes/eton-mess-dessert" element={<EtonMess/>}/>
