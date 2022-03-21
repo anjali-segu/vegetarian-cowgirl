@@ -10,6 +10,7 @@ import About from './organism/About'
 import CostaRica from './organism/CostaRica'
 import Austin from './organism/Austin'
 import Hawaii from './organism/Hawaii'
+import Indianapolis from './organism/Indianapolis'
 import Navbar from './organism/Navbar'
 import Footer from './molecule/Footer'
 import EtonMess from './blogposts/EtonMess'
@@ -35,6 +36,7 @@ const App: React.FC = () => {
           <Route path="/costa-rica-city-guide" element={<CostaRica/>}/>
           <Route path="/austin-city-guide" element={<Austin/>}/>
           <Route path="/hawaii-city-guide" element={<Hawaii/>}/>
+          <Route path="/indianapolis-city-guide" element={<Indianapolis/>}/>
           <Route path="/art" element={<Art/>}/>
           <Route path="/about" element={<About/>}/>
           <Route path="/recipes/eton-mess-dessert" element={<EtonMess/>}/>
@@ -51,31 +53,26 @@ const App: React.FC = () => {
                           be prepped in advance and assembled in minutes. It keeps well up to 3 days.
                           You will need an electric whisk as this recipe does have meringue involved.
                           `}
-              paras= {[`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                 incididunt ut labore et dolore magna aliqua. Massa sapien faucibus et molestie ac.
-                 Quisque sagittis purus sit amet volutpat consequat mauris. Magna fermentum iaculis eu non
-                  diam phasellus vestibulum lorem sed. Diam phasellus vestibulum lorem sed risus ultricies.
-                   Nunc consequat interdum varius sit amet mattis. Lobortis elementum nibh tellus molestie
-                    nunc non. Iaculis urna id volutpat lacus laoreet non. Id nibh tortor id aliquet lectus.
-                     Sed risus pretium quam vulputate dignissim suspendisse. Imperdiet massa tincidunt nunc
-                      pulvinar sapien et. Mauris in aliquam sem fringilla ut morbi tincidunt. Volutpat blandit
-                       aliquam etiam erat velit scelerisque. Metus aliquam eleifend mi in nulla posuere.`,
-                     `Sapien pellentesque habitant morbi tristique senectus. Ullamcorper dignissim cras tincidunt
-                      lobortis feugiat vivamus at. Adipiscing enim eu turpis egestas pretium. Porta lorem mollis
-                       aliquam ut porttitor leo. Pulvinar sapien et ligula ullamcorper malesuada proin libero.
-                        Tincidunt nunc pulvinar sapien et ligula. Ac felis donec et odio pellentesque diam volutpat.
-                         Proin fermentum leo vel orci. Aliquam sem fringilla ut morbi tincidunt. Euismod in pellentesque
-                          massa placerat duis ultricies lacus sed turpis. Scelerisque viverra mauris in aliquam.
-                          Ante metus dictum at tempor commodo ullamcorper.`,
-                        `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                           incididunt ut labore et dolore magna aliqua. Massa sapien faucibus et molestie ac.
-                           Quisque sagittis purus sit amet volutpat consequat mauris. Magna fermentum iaculis eu non
-                            diam phasellus vestibulum lorem sed. Diam phasellus vestibulum lorem sed risus ultricies.
-                             Nunc consequat interdum varius sit amet mattis. Lobortis elementum nibh tellus molestie
-                              nunc non. Iaculis urna id volutpat lacus laoreet non. Id nibh tortor id aliquet lectus.
-                               Sed risus pretium quam vulputate dignissim suspendisse. Imperdiet massa tincidunt nunc
-                                pulvinar sapien et. Mauris in aliquam sem fringilla ut morbi tincidunt. Volutpat blandit
-                                 aliquam etiam erat velit scelerisque. Metus aliquam eleifend mi in nulla posuere.`]}
+              paras= {[`Cafe Monet was a cute new find in Austin’s art culture. I know pottery paints
+                 shops exist in just about every town, but trust me Cafe Monet is worth a visit. Pricing
+                 at Cafe Monet is very affordable. They have a great variety of pieces. Studio Painting is
+                  open from Tuesday to Saturday (11am - 7pm) and Sunday (1pm - 7pm). Reservations are taken
+                   as well as walk-ins.`,
+                   `I went with my brother’s girlfriend for a fun Austin afternoon. We both got a little stuck
+                    on how we were going to paint the pottery so we ended up browsing through Pinterest for a
+                    little inspiration. Cafe Monet is stocked with all sorts of tools to make your creation come
+                     to life! They also have a great selection of glazes. The staff is extremely kind and helpful.
+                      They will give you advice if you would like to make sure your piece comes out great. `,
+                      `Right next door is Central Market! If you haven’t been to Central Market before I would definitely
+                       recommend swinging by. Central Market is the higher end H-E-B and is chalked full of delicious treats.
+                        My absolute favorites include their fresh tortilla section and their delicious bread section. They
+                         also have a great international selection! `,
+                       `To finish off our Austin day we swung by Manolis! I have not had better Italian gelato in the US than here.
+                       They create the smoothest and dreamiest scoops that will hit the spot! I personally did not enjoy many of the
+                       pastries but their sorbet and ice cream is to die for! My personal favorites include the Passion Fruit Ice Cream,
+                        Guava Ice Cream, and Butter Pecan Ice Cream. They also have some great dairy-free and vegan options.
+                        Manolis is a 9-minute drive away from Cafe Monet and is definitely worth a visit! It does not have a ton of
+                         parking options, but there is a neighborhood right next door from the food trucks where you can park in. `]}
               steps= {[`Head to Cafe Monet`,
                       `Paint some pots`,
                       `Head to Manolis, grab some food`,

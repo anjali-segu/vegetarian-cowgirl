@@ -8,35 +8,35 @@ interface Props {
 }
 
 
-const HawaiiMauiBlogGrid = (props:Props) => {
+const IndianapolisBlogGrid = (props:Props) => {
 
   return (
     <ThemeProvider theme={theme}>
 
     <Grid container justifyContent='center' sx={{paddingTop: theme.spacing(15)}}>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={'blog_posts/maui_activities_blog_square.jpg'} title={'MAUI'} subtitle={'Activities in Maui'} post={'/'}/>
+      <Card image={'blog_posts/indianapolis_travel_guid_blog_square.jpg'} title={'INDIANAPOLIS'} subtitle={'Indianapolis Travel Guide'} post={'/'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={'blog_posts/maui_travel_guide_blog_square.jpg'} title={'MAUI'} subtitle={'Maui Travel Guide'} post={'/'}/>
+      <Card image={'blog_posts/indianapolis_art_blog_square.jpg'} title={'INDIANAPOLIS'} subtitle={'Indianapolis Art Museum'} post={'/'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={'blog_posts/maui_vegetarian_blog_square.jpg'} title={'MAUI'} subtitle={'Vegetarian Restaurants in Maui'} post={'/'}/>
+      <Card image={'blog_posts/indianapolis_vegetarian_blog_square.jpg'} title={'INDIANAPOLIS'} subtitle={'Vegetarian Restaurants to Visit'} post={'/'}/>
       </Grid>
     </Grid>
     <Grid container justifyContent='center' sx={{paddingTop: theme.spacing(15)}}>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={'blog_posts/maui_beaches_blog_square.jpg'} title={'MAUI'} subtitle={'Best Beaches in Maui'} post={'/'}/>
+      <Card image={'blog_posts/indianapolis_day_trip_blog_square.jpeg'} title={'INDIANAPOLIS'} subtitle={'Day Trip to Indianapolis'} post={'/'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={'blog_posts/maui_road_to_hana_blog_square.jpg'} title={'MAUI'} subtitle={'Road to Hana'} post={'/'}/>
+      <Card image={'blog_posts/indianapolis_airbnb_blog_square.jpg'} title={'INDIANAPOLIS'} subtitle={'Airbnbs in Indianapolis'} post={'/'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={'blog_posts/maui_haleakala_blog_square.jpg'} title={'MAUI'} subtitle={'Haleakala'} post={'/'}/>
+      <Card image={'blog_posts/indianapolis_sights_blog_square.jpg'} title={'INDIANAPOLIS'} subtitle={'Top Coffee Shops'} post={'/'}/>
       </Grid>
     </Grid>
     </ThemeProvider>
   )
 }
 
-export default HawaiiMauiBlogGrid
+export default IndianapolisBlogGrid
