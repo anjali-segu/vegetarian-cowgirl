@@ -14,6 +14,7 @@ import Indianapolis from './organism/Indianapolis'
 import Navbar from './organism/Navbar'
 import Footer from './molecule/Footer'
 import EtonMess from './blogposts/EtonMess'
+import CinnamonRolls from './blogposts/CinnamonRolls'
 import StandardBlogPost from './blogposts/StandardBlogPost'
 
 
@@ -40,6 +41,7 @@ const App: React.FC = () => {
           <Route path="/art" element={<Art/>}/>
           <Route path="/about" element={<About/>}/>
           <Route path="/recipes/eton-mess-dessert" element={<EtonMess/>}/>
+          <Route path="/recipes/cinnamon-rolls-dessert" element={<CinnamonRolls/>}/>
           <Route path="/austin-living/cafe-monet" element={
             <StandardBlogPost
               image='/blog_posts/cafe_monet_blog_square.jpg'
