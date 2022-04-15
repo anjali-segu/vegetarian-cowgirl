@@ -20,7 +20,7 @@ const AustinLiving = (props:Props) => {
       <HeaderImage image="blog_posts/plant_store_blog_square.jpg"
                    title="My Favorite Austin Plant Stores"
                    description= "I am absolutely obsessed with plants. Check out my guide to Austin plant stores and where I get our landscaping plants as well as our house plants."
-                   link="/"
+                   link="/austin-living/plant-stores"
                    />
        <Grid container justifyContent='center'>
          <Grid item xs={1} sx={{display:'flex',justifyContent:'center'}}>

@@ -16,7 +16,6 @@ interface Props {
   icon: string,
   title: string,
   subtitle: string,
-  subtitle2: string,
   paras: string[],
   steps: string[],
 
@@ -24,7 +23,7 @@ interface Props {
 
 
 const StandardBlogPost = (props:Props) => {
-const {image, image2, icon, title, subtitle, subtitle2, paras, steps} = props
+const {image, image2, icon, title, subtitle, paras, steps} = props
   return (
     <ThemeProvider theme={theme}>
     <Grid container justifyContent='center'>
