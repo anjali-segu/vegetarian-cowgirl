@@ -36,7 +36,7 @@ const FeaturedPosts = (props:Props) => {
       </Grid>
 
       <Grid item sm={12} md={12} lg={4} sx={{display:'flex',justifyContent:'center'}}>
-        <Card image={'blog_posts/cinammon_buns_blog_square.jpg'} title={'BAKING'} subtitle={'Ultimate Cinammon Bun Recipe'} post={'/'}/>
+        <Card image={'blog_posts/cinammon_buns_blog_square.jpg'} title={'BAKING'} subtitle={'Ultimate Cinammon Bun Recipe'} post={'/recipes/cinnamon-rolls-dessert'}/>
       </Grid>
 
     </Grid>

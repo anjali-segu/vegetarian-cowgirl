@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { createTheme,ThemeProvider } from '@mui/material/styles';
 import {theme} from '../../utils/theme'
-import RecipeBlogPost from '../../blogposts/RecipeBlogPost'
+import RecipeBlogPostComplex from '../../blogposts/RecipeBlogPostComplex'
 
 
 
@@ -14,7 +14,7 @@ const CinnamonRolls = (props:Props) => {
 
   return (
     <ThemeProvider theme={theme}>
-    <RecipeBlogPost
+    <RecipeBlogPostComplex
       image={"/blog_posts/cinammon_buns_blog_square.jpg"}
       icon='/icons/baking_icon.png'
       title="Cinnamon Rolls"
@@ -25,7 +25,8 @@ const CinnamonRolls = (props:Props) => {
         flavor balances the cinnamon flavor combined with the creamy sweet frosting.
         These cinnamon buns are not too sweet and warms up beautifully. The recipe
         itself is not too hard but will require a stand mixer and some basic dough knowledge. `}
-      ingredients= {['Dough:',
+      category_1_ingredients="Dough"
+      ingredients_1= {[
                      '1 cup warm milk (115 Degrees F)',
                      '2 1/2 tsp instant dry yeast',
                      '2 eggs',
@@ -38,11 +39,21 @@ const CinnamonRolls = (props:Props) => {
                      '1 cup packed brown sugar',
                      '2 tbsp cinnamon',
                      '1/2 cup heavy cream',
-                     'Frosting:','6 ounces cream cheese',
-                     '1/3 cup salted butter',
-                     '2 cups powdered sugar',
-                     '1/2 tbsp vanilla extract'
                     ]}
+      category_2_ingredients="Filling"
+      ingredients_2= {[
+                     '1/2 cup salted butter',
+                     '1 cup packed brown sugar',
+                     '2 tbsp cinnamon',
+                     '1/2 cup heavy cream',
+                    ]}
+      category_3_ingredients="Frosting"
+      ingredients_3= {[
+                    '1/3 cup salted butter',
+                    '2 cups powdered sugar',
+                    '1/2 tbsp vanilla extract'
+                    ]}
+
       steps= {[`Pour the warm milk in the bowl of a stand mixer and sprinkle the yeast overtop.`,
                `Add the eggs, butter and sugar. Mix until combined.`,
                 `Add in salt and 4 cups (save the other ½ cup and add only if you need it) of flour and mix using the

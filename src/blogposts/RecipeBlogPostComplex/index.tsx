@@ -3,8 +3,6 @@ import { createTheme,ThemeProvider } from '@mui/material/styles';
 import {theme} from '../../utils/theme'
 import { Grid } from '@mui/material';
 import Card from '@mui/material/Card';
-import Header from '../../atom/Header'
-import HeaderImage from '../../atom/HeaderImage'
 import Typography from '@mui/material/Typography';
 import Media from 'react-media';
 import Button from '@mui/material/Button';
@@ -16,7 +14,12 @@ interface Props {
   title: string,
   subtitle: string,
   subtitle2: string,
-  ingredients: string[],
+  category_1_ingredients: string,
+  ingredients_1: string[],
+  category_2_ingredients?: string,
+  ingredients_2?: string[],
+  category_3_ingredients?: string,
+  ingredients_3?: string[],
   steps: string[],
   preptime: string,
   cooktime: string,
@@ -25,13 +28,18 @@ interface Props {
 }
 
 
-const RecipeBlogPost = (props:Props) => {
+const RecipeBlogPostComplex = (props:Props) => {
 const {image,
        icon,
        title,
        subtitle,
        subtitle2,
-       ingredients,
+       category_1_ingredients,
+       ingredients_1,
+       category_2_ingredients,
+       ingredients_2,
+       category_3_ingredients,
+       ingredients_3,
        steps,
        preptime,
        cooktime,
@@ -250,20 +258,118 @@ const {image,
     </Grid>
 
     <Grid item xs={10}>
-    <ul>
-        {ingredients.map(ingredient => (
-          <li style={{
-            fontFamily:'Karla',
-            color:'black',
-            fontWeight:500,
-            fontSize:theme.spacing(4),
-          }}>{ingredient}</li>
-        ))}
-      </ul>
+      <Typography sx={{
+          fontFamily: 'Karla',
+          fontWeight: 700 ,
+          color: 'black',
+          marginTop: theme.spacing(4)
+          }}
+          gutterBottom
+          variant="body1"
+          component="div">
+        {category_1_ingredients}
+      </Typography>
+
+        <ul>
+          {ingredients_1.map(ingredient => (
+            <li style={{
+              fontFamily:'Karla',
+              color:'black',
+              fontWeight:500,
+              fontSize:theme.spacing(4),
+            }}>{ingredient}</li>
+          ))}
+        </ul>
     </Grid>
 
     <Grid item xs={1}>
     </Grid>
+
+
+
+    <Grid item xs={1}>
+    </Grid>
+
+    <Grid item xs={10}>
+    {category_2_ingredients && ingredients_2 ?
+      (
+        <>
+          <Typography sx={{
+              fontFamily: 'Karla',
+              fontWeight: 700 ,
+              color: 'black',
+              }}
+              gutterBottom
+              variant="body1"
+              component="div">
+            {category_2_ingredients}
+          </Typography>
+
+          <ul>
+            {ingredients_2.map(ingredient => (
+              <li style={{
+                fontFamily:'Karla',
+                color:'black',
+                fontWeight:500,
+                fontSize:theme.spacing(4),
+                }}>{ingredient}</li>
+            ))}
+          </ul>
+        </>
+      )
+      :
+      (
+        <>
+        </>
+      )
+    }
+
+  </Grid>
+
+  <Grid item xs={1}>
+  </Grid>
+
+    <Grid item xs={1}>
+    </Grid>
+
+    <Grid item xs={10}>
+    {category_3_ingredients && ingredients_3 ?
+      (
+        <>
+          <Typography sx={{
+              fontFamily: 'Karla',
+              fontWeight: 700 ,
+              color: 'black',
+              }}
+              gutterBottom
+              variant="body1"
+              component="div">
+            {category_3_ingredients}
+          </Typography>
+
+          <ul>
+            {ingredients_3.map(ingredient => (
+              <li style={{
+                fontFamily:'Karla',
+                color:'black',
+                fontWeight:500,
+                fontSize:theme.spacing(4),
+                }}>{ingredient}</li>
+            ))}
+          </ul>
+        </>
+      )
+      :
+      (
+       <>
+       </>
+      )
+    }
+
+  </Grid>
+
+  <Grid item xs={1}>
+  </Grid>
 
     <Grid item xs={1}>
     </Grid>
@@ -323,4 +429,4 @@ const {image,
   )
 }
 
-export default RecipeBlogPost
+export default RecipeBlogPostComplex
