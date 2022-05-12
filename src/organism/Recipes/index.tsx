@@ -20,7 +20,7 @@ const Recipes = (props:Props) => {
       <HeaderImage image="cookie.jpg"
                    title="Sugar Cookie Cutouts w/ Icing Tips"
                    description= "Learn how to make delicious vanilla almond sugar cookies. I also walk through basic flooding and icing tips. This i a great gift for the holidays and the cookies come out absolutely scrummy"
-                   link="/"
+                   link="/recipes/sugar-cookies"
                    />
        <Grid container justifyContent='center'>
          <Grid item xs={1} sx={{display:'flex',justifyContent:'center'}}>

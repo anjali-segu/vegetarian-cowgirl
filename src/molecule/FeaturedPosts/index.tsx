@@ -4,7 +4,6 @@ import {theme} from '../../utils/theme'
 import Card from '../../atom/Card';
 import { Grid } from '@mui/material';
 import Header from '../../atom/Header'
-import HeaderImage from '../../atom/HeaderImage'
 import Media from 'react-media';
 
 interface Props {

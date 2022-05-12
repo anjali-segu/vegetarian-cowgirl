@@ -15,6 +15,9 @@ import Navbar from './organism/Navbar'
 import Footer from './molecule/Footer'
 import EtonMess from './blogposts/EtonMess'
 import CinnamonRolls from './blogposts/CinnamonRolls'
+import ChocolateCakeCookies from './blogposts/ChocolateCakeCookies'
+import PumpkinMascarponePie from './blogposts/PumpkinMascarponePie'
+import SugarCookies from './blogposts/SugarCookies'
 import AustinPlantStores from './blogposts/AustinPlantStores'
 import AustinCafeMonet from './blogposts/AustinCafeMonet'
 
@@ -43,6 +46,9 @@ const App: React.FC = () => {
           <Route path="/about" element={<About/>}/>
           <Route path="/recipes/eton-mess-dessert" element={<EtonMess/>}/>
           <Route path="/recipes/cinnamon-rolls-dessert" element={<CinnamonRolls/>}/>
+          <Route path="/recipes/chocolate-cake-cookies" element={<ChocolateCakeCookies/>}/>
+          <Route path="/recipes/pumpkin-mascarpone-pie" element={<PumpkinMascarponePie/>}/>
+          <Route path="/recipes/sugar-cookies" element={<SugarCookies/>}/>
           <Route path="/austin-living/cafe-monet" element={<AustinCafeMonet/>}/>
           <Route path="/austin-living/plant-stores" element={<AustinPlantStores/>}/>
         </Routes>
