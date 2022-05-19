@@ -27,7 +27,7 @@ const BakingBlogGrid = (props:Props) => {
 
     <Grid container justifyContent='center' sx={{paddingTop: theme.spacing(15)}}>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={'blog_posts/italian_orange_cake_blog_square.jpeg'} title={'BAKING'} subtitle={'Italian Orange Layered Birthday Cake'} post={'/'}/>
+      <Card image={'blog_posts/italian_orange_cake_blog_square.jpeg'} title={'BAKING'} subtitle={'Italian Orange Layered Cake'} post={'/recipes/italian-orange-cake'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
       <Card image={'blog_posts/pumpkin_pie_blog_square.jpeg'} title={'BAKING'} subtitle={'Easy Mascarpone Pumkin Pie'} post={'/recipes/pumpkin-mascarpone-pie'}/>
