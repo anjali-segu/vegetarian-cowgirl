@@ -1,6 +1,7 @@
 {
   "name": "vegetarian-cowgirl",
   "version": "0.1.0",
+  "homepage": "https://thevegetariancowgirl.com",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.7.0",
@@ -24,6 +25,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -65,6 +68,7 @@
     "@storybook/addon-links": "^6.4.9",
     "@storybook/node-logger": "^6.4.9",
     "@storybook/preset-create-react-app": "^3.2.0",
-    "@storybook/react": "^6.4.9"
+    "@storybook/react": "^6.4.9",
+    "gh-pages": "^4.0.0"
   }
 }
