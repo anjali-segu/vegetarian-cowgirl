@@ -94,7 +94,7 @@ export default function BasicCard() {
                           src={`${process.env.PUBLIC_URL}/email.png`}
                         />
                       }
-                      url={'https://www.pinterest.com/PrintsbyMinimalist/'}
+                      url={'mailto:TODO'}
                     />
                 </Grid>
 
