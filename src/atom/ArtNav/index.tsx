@@ -64,7 +64,7 @@ const ArtNav = (props:Props) => {
       </Grid>
 
       <Grid item sm={4} md={2} sx={{display: 'inline',justifyContent:'center', }}>
-        <Link underline="none" href="#other2">
+        <Link underline="none" href="#other">
         <Typography sx={{
           [theme.breakpoints.only('xs')]:{
               fontSize:theme.spacing(4.5),

@@ -40,7 +40,7 @@ const AustinLiving = (props:Props) => {
          <img style={{maxHeight: theme.spacing(13)}}src="icons/other_icon.png" alt="Paris"/>
         </Grid>
       </Grid>
-      <Header id={"other2"}text={"Other"} margin={1}/>
+      <Header id={"other"}text={"Other"} margin={1}/>
       <OtherArtBlogGrid/>
 
     </ThemeProvider>
