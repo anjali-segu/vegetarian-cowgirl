@@ -26,7 +26,7 @@ export default function BasicCard() {
         <Grid item xs={3} sm={3} md={3} sx={{borderRight:1}}>
 
           <Grid container justifyContent='center'>
-            <img style={{maxHeight: theme.spacing(20), justifyContent:'center'}} src="/LogoBlack.png" alt="Cowboy boot with monstera, white outlined in a black circle"/>
+            <img style={{maxHeight: theme.spacing(20), justifyContent:'center'}} src="logos/LogoBlack.png" alt="Cowboy boot with monstera, white outlined in a black circle"/>
           </Grid>
 
           <Grid container justifyContent='center'>
@@ -55,7 +55,7 @@ export default function BasicCard() {
                 content={
                   <img
                     style={{width:15}}
-                    src={`${process.env.PUBLIC_URL}/instagram.png`}
+                    src={`/icons/instagram.png`}
                   />
                 }
                 url={'https://www.instagram.com/thevegetariancowgirl/'}
@@ -67,7 +67,7 @@ export default function BasicCard() {
                   content={
                     <img
                       style={{width:14}}
-                      src={`${process.env.PUBLIC_URL}/etsy.png`}
+                      src={`/icons/etsy.png`}
                     />
                   }
                   url={'https://www.etsy.com/shop/PrintsbyMinimalist'}
@@ -79,7 +79,7 @@ export default function BasicCard() {
                     content={
                       <img
                         style={{width:14}}
-                        src={`${process.env.PUBLIC_URL}/pinterest.png`}
+                        src={`/icons/pinterest.png`}
                       />
                     }
                     url={'https://www.pinterest.com/PrintsbyMinimalist/'}
@@ -91,7 +91,7 @@ export default function BasicCard() {
                       content={
                         <img
                           style={{width:18}}
-                          src={`${process.env.PUBLIC_URL}/email.png`}
+                          src={`icons/email.png`}
                         />
                       }
                       url={'mailto:TODO'}

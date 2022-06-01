@@ -18,7 +18,7 @@ const About = (props:Props) => {
     <Media query="(max-width: 800px)" render={() =>
       (
       <Grid item xs={12} sx={{display:'flex',justifyContent:'center'}}>
-        <img style={{maxHeight: theme.spacing(100), marginTop: theme.spacing(2)}}src="about.JPG" alt="Paris"/>
+        <img style={{maxHeight: theme.spacing(100), marginTop: theme.spacing(2)}}src="images/about.JPG" alt="Paris"/>
       </Grid>
 
       )}
@@ -26,7 +26,7 @@ const About = (props:Props) => {
     <Media query="(min-width: 799px)" render={() =>
       (
         <Grid item xs={12} sx={{display:'flex',justifyContent:'center'}}>
-          <img style={{maxHeight: theme.spacing(150), marginTop: theme.spacing(2)}}src="about.JPG" alt="Paris"/>
+          <img style={{maxHeight: theme.spacing(150), marginTop: theme.spacing(2)}}src="images/about.JPG" alt="Paris"/>
         </Grid>
       )}
     />

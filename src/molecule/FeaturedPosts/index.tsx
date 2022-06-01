@@ -18,7 +18,7 @@ const FeaturedPosts = (props:Props) => {
       (
         <Grid container justifyContent='center'>
           <Grid item xs={1} sx={{display:'flex',justifyContent:'center'}}>
-           <img style={{maxHeight: theme.spacing(13)}}src="Logo3.png" alt="Paris"/>
+           <img style={{maxHeight: theme.spacing(13)}}src="logos/Logo3.png" alt="Paris"/>
           </Grid>
         </Grid>
       )}

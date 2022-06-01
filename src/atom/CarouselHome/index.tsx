@@ -44,7 +44,7 @@ const CarouselHome = () => {
             (
               <Grid container justifyContent='center'>
                 <Grid item xs={1} sx={{display:'flex',justifyContent:'center'}}>
-                 <img style={{maxHeight: theme.spacing(20)}}src="LogoBlack.png" alt="Paris"/>
+                 <img style={{maxHeight: theme.spacing(20)}}src="logos/LogoBlack.png" alt="Paris"/>
                 </Grid>
               </Grid>
             )}
@@ -139,25 +139,25 @@ const items: Item[] = [
         name: "Arenal Volcano",
         description: "A day trip to the Arenal Volcano and Baldi Hot Springs in Costa Rica.",
         href: '/',
-        src: 'arenal_volcano.jpg'
+        src: '/images/arenal_volcano.jpg'
     },
     {
         name: "Vegetarian Thanksgiving",
         description: "10 vegetarian thanksgiving ideas. Pictured is jalepeno cheddar cornbread and stuffed garlic mushrooms. ",
         href: '/',
-        src: 'thanksgiving.jpg',
+        src: '/images/thanksgiving.jpg',
     },
     {
         name: "An Austin Afternoon",
         description: "An exciting austin afternoon idea. Swing by Manoli's Ice Cream and Cafe Monet for a fun Austin afternoon.",
         href: '/',
-        src: 'austin_afternoon.jpg',
+        src: '/images/austin_afternoon.jpg',
     },
     {
         name: "July 4th Photography",
         description: "Learn how to get this epic shot on a DSLR camera.",
         href: '/',
-        src:'July_4th.jpg',
+        src:'/images/July_4th.jpg',
     }
 ]
 

@@ -17,7 +17,7 @@ const Recipes = (props:Props) => {
   return (
     <ThemeProvider theme={theme}>
       <RecipeNav/>
-      <HeaderImage image="cookie.jpg"
+      <HeaderImage image="images/cookie.jpg"
                    title="Sugar Cookie Cutouts w/ Icing Tips"
                    description= "Learn how to make delicious vanilla almond sugar cookies. I also walk through basic flooding and icing tips. This i a great gift for the holidays and the cookies come out absolutely scrummy"
                    link="/recipes/sugar-cookies"

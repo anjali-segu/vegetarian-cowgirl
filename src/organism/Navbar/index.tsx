@@ -26,7 +26,7 @@ const Navbar = (props:Props) => {
               content={
                 <img
                   style={{height:32}}
-                  src={`${process.env.PUBLIC_URL}/Logo3.png`}
+                  src={`/logos/Logo3.png`}
                 />
               }
               url={'/'}
@@ -64,7 +64,7 @@ const Navbar = (props:Props) => {
                 content={
                   <img
                     style={{width:15, paddingLeft:1}}
-                    src={`${process.env.PUBLIC_URL}/instagram.png`}
+                    src={`/icons/instagram.png`}
                   />
                 }
                 url={'https://www.instagram.com/thevegetariancowgirl/'}
@@ -80,7 +80,7 @@ const Navbar = (props:Props) => {
                 content={
                   <img
                     style={{width:15, paddingLeft:80}}
-                    src={`${process.env.PUBLIC_URL}/instagram.png`}
+                    src={`/icons/instagram.png`}
                   />
                 }
                 url={'https://www.instagram.com/thevegetariancowgirl/'}
@@ -96,7 +96,7 @@ const Navbar = (props:Props) => {
                 content={
                   <img
                     style={{width:14}}
-                    src={`${process.env.PUBLIC_URL}/etsy.png`}
+                    src={`/icons/etsy.png`}
                   />
                 }
                 url={'https://www.etsy.com/shop/PrintsbyMinimalist'}
@@ -112,7 +112,7 @@ const Navbar = (props:Props) => {
                   content={
                     <img
                       style={{width:14}}
-                      src={`${process.env.PUBLIC_URL}/pinterest.png`}
+                      src={`/icons/pinterest.png`}
                     />
                   }
                   url={'https://www.pinterest.com/PrintsbyMinimalist/'}
@@ -128,7 +128,7 @@ const Navbar = (props:Props) => {
                   content={
                     <img
                       style={{width:18}}
-                      src={`${process.env.PUBLIC_URL}/email.png`}
+                      src={`/icons/email.png`}
                     />
                   }
                   url={'mailto:TODO'}
