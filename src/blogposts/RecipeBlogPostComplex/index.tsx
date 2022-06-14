@@ -25,6 +25,8 @@ interface Props {
   cooktime: string,
   totaltime: string,
   serves: number,
+  alt?: string,
+  icon_alt?: string,
 }
 
 
@@ -44,7 +46,9 @@ const {image,
        preptime,
        cooktime,
        totaltime,
-       serves} = props
+       serves,
+       alt,
+       icon_alt} = props
   return (
     <ThemeProvider theme={theme}>
     <Typography sx={{
@@ -100,7 +104,7 @@ const {image,
     (
       <Grid container justifyContent='center' sx={{marginTop:theme.spacing(10)}}>
         <Grid item xs={8} sx={{display:'flex',justifyContent:'center'}}>
-          <img style={{maxHeight: theme.spacing(80)}} src={image} alt="Paris"/>
+          <img style={{maxHeight: theme.spacing(80)}} src={image} alt={alt}/>
         </Grid>
       </Grid>
 
@@ -110,7 +114,7 @@ const {image,
     (
       <Grid container justifyContent='center' sx={{marginTop:theme.spacing(10)}}>
         <Grid item xs={8} sx={{display:'flex',justifyContent:'center'}}>
-          <img style={{maxHeight: theme.spacing(150)}} src={image} alt="Paris"/>
+          <img style={{maxHeight: theme.spacing(120)}} src={image} alt={alt}/>
         </Grid>
       </Grid>
 
@@ -150,7 +154,7 @@ const {image,
     <CardContent>
     <Grid container justifyContent='center'>
       <Grid item xs={1} sx={{display:'flex',justifyContent:'center'}}>
-       <img style={{maxHeight: theme.spacing(13)}}src={icon} alt="Paris"/>
+       <img style={{maxHeight: theme.spacing(13)}}src={icon} alt={icon_alt}/>
       </Grid>
     </Grid>
     <Grid item lg={12}>

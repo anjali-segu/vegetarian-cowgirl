@@ -19,6 +19,8 @@ import ChocolateCakeCookies from './blogposts/ChocolateCakeCookies'
 import PumpkinMascarponePie from './blogposts/PumpkinMascarponePie'
 import SugarCookies from './blogposts/SugarCookies'
 import OrangeCake from './blogposts/OrangeCake'
+import EggsEnCocotte from './blogposts/EggsEnCocotte'
+import DeconstructedElote from './blogposts/DeconstructedElote'
 import AustinPlantStores from './blogposts/AustinPlantStores'
 import AustinCafeMonet from './blogposts/AustinCafeMonet'
 
@@ -51,6 +53,8 @@ const App: React.FC = () => {
           <Route path="/recipes/pumpkin-mascarpone-pie" element={<PumpkinMascarponePie/>}/>
           <Route path="/recipes/sugar-cookies" element={<SugarCookies/>}/>
           <Route path="/recipes/italian-orange-cake" element={<OrangeCake/>}/>
+          <Route path="/recipes/eggs-en-cocotte" element={<EggsEnCocotte/>}/>
+          <Route path="/recipes/deconstructed-elote" element={<DeconstructedElote/>}/>
           <Route path="/austin-living/cafe-monet" element={<AustinCafeMonet/>}/>
           <Route path="/austin-living/plant-stores" element={<AustinPlantStores/>}/>
         </Routes>

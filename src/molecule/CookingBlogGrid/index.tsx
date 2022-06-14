@@ -15,10 +15,10 @@ const CookingBlogGrid = (props:Props) => {
 
     <Grid container justifyContent='center' sx={{paddingTop: theme.spacing(15)}}>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={'blog_posts/eggs_en_cocotte_blog_square.jpg'} title={'COOKING'} subtitle={'Eggs en Cocotte w/ Carmelized Onions and Roasted Tomatoes'} post={'/'}/>
+          <Card image={'blog_posts/eggs_en_cocotte_blog_square.jpg'} title={'COOKING'} subtitle={'Eggs en Cocotte w/ Carmelized Onions and Roasted Tomatoes'} post={'/recipes/eggs-en-cocotte/'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={'blog_posts/elote_blog_square.jpg'} title={'COOKING'} subtitle={'Deconstructed Elote'} post={'/'}/>
+      <Card image={'blog_posts/elote_blog_square.jpg'} title={'COOKING'} subtitle={'Deconstructed Elote'} post={'/recipes/deconstructed-elote'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
       <Card image={'blog_posts/jalepeno_poppers_blog_square.jpg'} title={'COOKING'} subtitle={'Puff Pastry Jalepeno Poppers'} post={'/'}/>
