@@ -26,10 +26,10 @@ const CookingBlogGrid = (props:Props) => {
     </Grid>
     <Grid container justifyContent='center' sx={{paddingTop: theme.spacing(15)}}>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={'blog_posts/turkish_eggs_blog_square.jpg'} title={'COOKING'} subtitle={'Turkish Eggs'} post={'/'}/>
+      <Card image={'blog_posts/turkish_eggs_blog_square.jpg'} title={'COOKING'} subtitle={'Turkish Eggs'} post={'/recipes/turkish-eggs'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={'blog_posts/miso_soup_blog_square.jpg'} title={'COOKING'} subtitle={'Mushroom Miso Soup'} post={'/'}/>
+      <Card image={'blog_posts/miso_soup_blog_square.jpg'} title={'COOKING'} subtitle={'Mushroom Miso Soup'} post={'/recipes/mushroom-miso-soup'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
       <Card image={'blog_posts/dumplings_blog_square.jpg'} title={'COOKING'} subtitle={'Veggie Packed Dumplings'} post={'/'}/>
