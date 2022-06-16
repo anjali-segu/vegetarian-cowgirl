@@ -32,7 +32,7 @@ const CookingBlogGrid = (props:Props) => {
       <Card image={'blog_posts/miso_soup_blog_square.jpg'} title={'COOKING'} subtitle={'Mushroom Miso Soup'} post={'/recipes/mushroom-miso-soup'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={'blog_posts/dumplings_blog_square.jpg'} title={'COOKING'} subtitle={'Veggie Packed Dumplings'} post={'/'}/>
+      <Card image={'blog_posts/dumplings_blog_square.jpg'} title={'COOKING'} subtitle={'Veggie Packed Dumplings'} post={'/recipes/veggie-packed-dumplings'}/>
       </Grid>
     </Grid>
     </ThemeProvider>
