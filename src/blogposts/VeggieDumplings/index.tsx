@@ -2,8 +2,9 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { theme } from '../../utils/theme'
 import RecipeBlogPostComplex from '../RecipeBlogPostComplex'
 
+import Dumplings_Blog_Square from '../../assets/images/blog_posts/dumplings_blog_square.jpg';
 
-
+import Cooking_Icon from '../../assets/images/icons/cooking_icon.png';
 
 interface Props {
 }
@@ -15,8 +16,8 @@ const MushroomMisoSoup
         return (
             <ThemeProvider theme={theme}>
                 <RecipeBlogPostComplex
-                    image={"/blog_posts/dumplings_blog_square.jpg"}
-                    icon='/icons/cooking_icon.png'
+                    image={Dumplings_Blog_Square}
+                    icon={Cooking_Icon}
                     title="Veggie Packed Dumplings"
                     subtitle={`Crispy pan-fried Vegan Gyoza are Japanese vegetable dumplings. They are filled with healthy veggies and steamed until tender. `}
                     subtitle2={` `}
