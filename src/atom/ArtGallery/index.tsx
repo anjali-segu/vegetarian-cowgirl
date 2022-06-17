@@ -1,5 +1,5 @@
 import { Grid } from '@mui/material';
-import { createTheme,ThemeProvider } from '@mui/material/styles';
+import { ThemeProvider } from '@mui/material/styles';
 import {theme} from '../../utils/theme'
 import * as React from 'react';
 import ImageList from '@mui/material/ImageList';

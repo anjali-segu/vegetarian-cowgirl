@@ -2,7 +2,7 @@ import Card from '@mui/material/Card';
 import { CardActionArea } from '@mui/material';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
-import { createTheme,ThemeProvider } from '@mui/material/styles';
+import { ThemeProvider } from '@mui/material/styles';
 import {theme} from '../../utils/theme';
 import Media from 'react-media';
 

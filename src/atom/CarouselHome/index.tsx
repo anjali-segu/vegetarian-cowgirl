@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Carousel from 'react-material-ui-carousel';
 import {theme} from '../../utils/theme';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { ThemeProvider } from '@mui/material/styles';
 import Media from 'react-media';
 
 

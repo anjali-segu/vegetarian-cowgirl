@@ -3,7 +3,6 @@ import Toolbar from '@mui/material/Toolbar';
 import NavbarLink from '../../atom/NavbarLink'
 import SocialLink from '../../atom/SocialLink'
 import LogoLink from '../../atom/LogoLink'
-import { createTheme,ThemeProvider } from '@mui/material/styles';
 import {theme} from '../../utils/theme'
 import Media from 'react-media';
 
@@ -34,6 +33,7 @@ const Navbar = (props:Props) => {
                 <img
                   style={{height:32}}
                   src={Logo3}
+                  alt='The Vegetarian Cowgirl'
                 />
               }
               url={'/'}
@@ -72,6 +72,7 @@ const Navbar = (props:Props) => {
                   <img
                     style={{width:15, paddingLeft:1}}
                     src={Instagram}
+                    alt='Instagram'
                   />
                 }
                 url={'https://www.instagram.com/thevegetariancowgirl/'}
@@ -88,6 +89,7 @@ const Navbar = (props:Props) => {
                   <img
                     style={{width:15, paddingLeft:80}}
                     src={Instagram}
+                    alt='Instagram'
                   />
                 }
                 url={'https://www.instagram.com/thevegetariancowgirl/'}
@@ -104,6 +106,7 @@ const Navbar = (props:Props) => {
                   <img
                     style={{width:14}}
                     src={Etsy}
+                    alt='Etsy'
                   />
                 }
                 url={'https://www.etsy.com/shop/PrintsbyMinimalist'}
@@ -120,6 +123,7 @@ const Navbar = (props:Props) => {
                     <img
                       style={{width:14}}
                       src={Pinterest}
+                      alt='Pinterest'
                     />
                   }
                   url={'https://www.pinterest.com/PrintsbyMinimalist/'}
@@ -136,6 +140,7 @@ const Navbar = (props:Props) => {
                     <img
                       style={{width:18}}
                       src={Email}
+                      alt='Email'
                     />
                   }
                   url={'mailto:TODO'}

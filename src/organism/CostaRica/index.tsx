@@ -1,8 +1,7 @@
 import Header from '../../atom/Header'
 import CostaRicaBlogGrid from '../../molecule/CostaRicaBlogGrid'
-import { createTheme,ThemeProvider } from '@mui/material/styles';
+import { ThemeProvider } from '@mui/material/styles';
 import {theme} from '../../utils/theme'
-import HeaderImage from '../../atom/HeaderImage'
 import { Grid } from '@mui/material';
 
 import Travel_Icon from '../../assets/images/icons/travel_icon.png';

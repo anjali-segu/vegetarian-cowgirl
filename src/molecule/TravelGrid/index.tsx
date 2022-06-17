@@ -1,12 +1,7 @@
 import * as React from 'react';
-import { createTheme,ThemeProvider } from '@mui/material/styles';
+import { ThemeProvider } from '@mui/material/styles';
 import {theme} from '../../utils/theme'
 import { Grid } from '@mui/material';
-import Button from '@mui/material/Button';
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import Typography from '@mui/material/Typography';
 import CityCard from '../../atom/CityCard'
 
 import Austin from '../../assets/images/icons/travel/austin.png';

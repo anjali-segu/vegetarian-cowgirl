@@ -1,9 +1,8 @@
-import BlogGrid from '../../molecule/BlogGrid'
 import FeaturedPosts from '../../molecule/FeaturedPosts'
 import Header from '../../atom/Header'
 import TravelGrid from '../../molecule/TravelGrid'
 import BioCard from '../../atom/BioCard'
-import { createTheme,ThemeProvider } from '@mui/material/styles';
+import { ThemeProvider } from '@mui/material/styles';
 import {theme} from '../../utils/theme'
 import CarouselHome from '../../atom/CarouselHome'
 

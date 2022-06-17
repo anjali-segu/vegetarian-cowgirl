@@ -3,7 +3,7 @@ import Header from '../../atom/Header'
 import RestaurantsBlogGrid from '../../molecule/RestaurantsBlogGrid'
 import AustinActivitiesBlogGrid from '../../molecule/AustinActivitiesBlogGrid'
 import DrinksBlogGrid from '../../molecule/DrinksBlogGrid'
-import { createTheme,ThemeProvider } from '@mui/material/styles';
+import { ThemeProvider } from '@mui/material/styles';
 import {theme} from '../../utils/theme'
 import HeaderImage from '../../atom/HeaderImage'
 import { Grid } from '@mui/material';

@@ -4,9 +4,8 @@ import Header from '../../atom/Header'
 import CreativeProcessBlogGrid from '../../molecule/CreativeProcessBlogGrid'
 import ArtGalleryBlogGrid from '../../molecule/ArtGalleryBlogGrid'
 import OtherArtBlogGrid from '../../molecule/OtherArtBlogGrid'
-import { createTheme,ThemeProvider } from '@mui/material/styles';
+import { ThemeProvider } from '@mui/material/styles';
 import {theme} from '../../utils/theme'
-import HeaderImage from '../../atom/HeaderImage'
 import { Grid } from '@mui/material';
 
 import Activities_Icon from '../../assets/images/icons/activities_icon.png';

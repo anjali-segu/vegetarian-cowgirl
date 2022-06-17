@@ -1,15 +1,11 @@
 import * as React from 'react';
-import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { Grid } from '@mui/material';
 import {theme} from '../../utils/theme'
-import { createTheme,ThemeProvider } from '@mui/material/styles';
+import { ThemeProvider } from '@mui/material/styles';
 import SocialLink from '../../atom/SocialLink'
-import Icon from '@mui/material/Icon';
 import CopyrightIcon from '@mui/icons-material/Copyright'
 
 import LogoBlack from '../../assets/images/icons/logos/LogoBlack.png';
@@ -61,6 +57,7 @@ export default function BasicCard() {
                   <img
                     style={{width:15}}
                     src={Instagram}
+                    alt='Instagram'
                   />
                 }
                 url={'https://www.instagram.com/thevegetariancowgirl/'}
@@ -73,6 +70,7 @@ export default function BasicCard() {
                     <img
                       style={{width:14}}
                       src={Etsy}
+                      alt='Etsy'
                     />
                   }
                   url={'https://www.etsy.com/shop/PrintsbyMinimalist'}
@@ -85,6 +83,7 @@ export default function BasicCard() {
                       <img
                         style={{width:14}}
                         src={Pinterest}
+                        alt='Pinterest'
                       />
                     }
                     url={'https://www.pinterest.com/PrintsbyMinimalist/'}
@@ -97,6 +96,7 @@ export default function BasicCard() {
                         <img
                           style={{width:18}}
                           src={Email}
+                          alt='Email'
                         />
                       }
                       url={'mailto:TODO'}
