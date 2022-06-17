@@ -6,6 +6,8 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { createTheme,ThemeProvider } from '@mui/material/styles';
 
+import Arenal_Volcano_Anjali from '../../assets/images/blog_posts/arenal_volcano_anjali.jpg';
+
 interface Props {
   image: string,
   title: string,
@@ -99,7 +101,7 @@ const MediaCard = (props:Props) => {
 }
 
 MediaCard.defaultProps = {
-  image: '../../public/images/cards/costa.jpg',
+  image: Arenal_Volcano_Anjali,
 }
 
 export default MediaCard

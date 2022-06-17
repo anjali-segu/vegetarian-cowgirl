@@ -3,8 +3,9 @@ import { createTheme,ThemeProvider } from '@mui/material/styles';
 import {theme} from '../../utils/theme'
 import RecipeBlogPost from '../../blogposts/RecipeBlogPost'
 
+import Eton_Mess_Blog_Square from '../../assets/images/blog_posts/eton_mess_blog_square.png';
 
-
+import Baking_Icon from '../../assets/images/icons/baking_icon.png';
 
 interface Props {
 }
@@ -15,8 +16,8 @@ const EtonMess = (props:Props) => {
   return (
     <ThemeProvider theme={theme}>
     <RecipeBlogPost
-      image={"/blog_posts/eton_mess_blog_square.png"}
-      icon='/icons/baking_icon.png'
+      image={Eton_Mess_Blog_Square}
+      icon={Baking_Icon}
       title="Eton Mess Summer Dessert"
       subtitle={`This refreshing dessert is perfect for any summer dinner.
         Dreamy whipped cream with crunch meringue, layered with fresh strawberries

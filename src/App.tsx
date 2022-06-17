@@ -21,7 +21,7 @@ import SugarCookies from './blogposts/SugarCookies'
 import OrangeCake from './blogposts/OrangeCake'
 import EggsEnCocotte from './blogposts/EggsEnCocotte'
 import DeconstructedElote from './blogposts/DeconstructedElote'
-import JalepenoPoppers from './blogposts/JalepenoPoppers'
+import JalapenoPoppers from './blogposts/JalapenoPoppers'
 import TurkishEggs from './blogposts/TurkishEggs'
 import MushroomMisoSoup from './blogposts/MushroomMisoSoup'
 import AustinPlantStores from './blogposts/AustinPlantStores'
@@ -58,7 +58,7 @@ const App: React.FC = () => {
           <Route path="/recipes/italian-orange-cake" element={<OrangeCake/>}/>
           <Route path="/recipes/eggs-en-cocotte" element={<EggsEnCocotte/>}/>
           <Route path="/recipes/deconstructed-elote" element={<DeconstructedElote/>}/>
-          <Route path="/recipes/puff-pastry-jalepeno-poppers" element={<JalepenoPoppers/>}/>
+          <Route path="/recipes/puff-pastry-jalepeno-poppers" element={<JalapenoPoppers/>}/>
           <Route path="/recipes/turkish-eggs" element={<TurkishEggs/>}/>
           <Route path="/recipes/mushroom-miso-soup" element={<MushroomMisoSoup/>}/>
           <Route path="/austin-living/cafe-monet" element={<AustinCafeMonet/>}/>

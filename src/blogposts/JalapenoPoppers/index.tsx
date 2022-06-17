@@ -2,21 +2,22 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { theme } from '../../utils/theme'
 import RecipeBlogPostComplex from '../RecipeBlogPostComplex'
 
+import Jalapeno_Poppers_Blog_Square from '../../assets/images/blog_posts/jalapeno_poppers_blog_square.jpg';
 
-
+import Cooking_Icon from '../../assets/images/icons/cooking_icon.png';
 
 interface Props {
 }
 
 
-const JalepenoPoppers
+const JalapenoPoppers
     = (props: Props) => {
 
         return (
             <ThemeProvider theme={theme}>
                 <RecipeBlogPostComplex
-                    image={"/blog_posts/jalepeno_poppers_blog_square.jpg"}
-                    icon='/icons/cooking_icon.png'
+                    image={Jalapeno_Poppers_Blog_Square}
+                    icon={Cooking_Icon}
                     title="Puff Pastry Jalepeno Poppers"
                     subtitle={`This is a delicious treat that is spicy, creamy, and buttery! Perfect for any party.
                           Simple to make, and heats up well. `}
@@ -59,5 +60,5 @@ const JalepenoPoppers
         )
     }
 
-export default JalepenoPoppers
+export default JalapenoPoppers
 

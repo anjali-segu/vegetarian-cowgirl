@@ -12,7 +12,12 @@ import SocialLink from '../../atom/SocialLink'
 import Icon from '@mui/material/Icon';
 import CopyrightIcon from '@mui/icons-material/Copyright'
 
+import LogoBlack from '../../assets/images/icons/logos/LogoBlack.png';
 
+import Email from '../../assets/images/icons/email.png';
+import Etsy from '../../assets/images/icons/etsy.png';
+import Instagram from '../../assets/images/icons/instagram.png';
+import Pinterest from '../../assets/images/icons/pinterest.png';
 
 export default function BasicCard() {
   return (
@@ -26,7 +31,7 @@ export default function BasicCard() {
         <Grid item xs={3} sm={3} md={3} sx={{borderRight:1}}>
 
           <Grid container justifyContent='center'>
-            <img style={{maxHeight: theme.spacing(20), justifyContent:'center'}} src="/logos/LogoBlack.png" alt="Cowboy boot with monstera, white outlined in a black circle"/>
+            <img style={{maxHeight: theme.spacing(20), justifyContent:'center'}} src={LogoBlack} alt="Cowboy boot with monstera, white outlined in a black circle"/>
           </Grid>
 
           <Grid container justifyContent='center'>
@@ -55,7 +60,7 @@ export default function BasicCard() {
                 content={
                   <img
                     style={{width:15}}
-                    src={`/icons/instagram.png`}
+                    src={Instagram}
                   />
                 }
                 url={'https://www.instagram.com/thevegetariancowgirl/'}
@@ -67,7 +72,7 @@ export default function BasicCard() {
                   content={
                     <img
                       style={{width:14}}
-                      src={`/icons/etsy.png`}
+                      src={Etsy}
                     />
                   }
                   url={'https://www.etsy.com/shop/PrintsbyMinimalist'}
@@ -79,7 +84,7 @@ export default function BasicCard() {
                     content={
                       <img
                         style={{width:14}}
-                        src={`/icons/pinterest.png`}
+                        src={Pinterest}
                       />
                     }
                     url={'https://www.pinterest.com/PrintsbyMinimalist/'}
@@ -91,7 +96,7 @@ export default function BasicCard() {
                       content={
                         <img
                           style={{width:18}}
-                          src={`/icons/email.png`}
+                          src={Email}
                         />
                       }
                       url={'mailto:TODO'}

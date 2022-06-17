@@ -3,8 +3,9 @@ import { createTheme,ThemeProvider } from '@mui/material/styles';
 import {theme} from '../../utils/theme'
 import RecipeBlogPostComplex from '../../blogposts/RecipeBlogPostComplex'
 
+import Cinammon_Buns_Blog_Square from '../../assets/images/blog_posts/cinammon_buns_blog_square.jpg';
 
-
+import Baking_Icon from '../../assets/images/icons/baking_icon.png';
 
 interface Props {
 }
@@ -15,8 +16,8 @@ const CinnamonRolls = (props:Props) => {
   return (
     <ThemeProvider theme={theme}>
     <RecipeBlogPostComplex
-      image={"/blog_posts/cinammon_buns_blog_square.jpg"}
-      icon='/icons/baking_icon.png'
+      image={Cinammon_Buns_Blog_Square}
+      icon={Baking_Icon}
       title="Cinnamon Rolls"
       subtitle={`This indulgent dessert is the perfect warm treat! These are the gooeiest cinnamon
         buns covered in a warm cream cheese glaze. `}

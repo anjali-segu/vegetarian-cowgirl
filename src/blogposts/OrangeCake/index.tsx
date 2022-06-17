@@ -2,8 +2,9 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { theme } from '../../utils/theme'
 import RecipeBlogPostComplex from '../../blogposts/RecipeBlogPostComplex'
 
+import Orange_Cake_Blog_Square from '../../assets/images/blog_posts/orange_cake_blog_square.jpg';
 
-
+import Baking_Icon from '../../assets/images/icons/baking_icon.png';
 
 interface Props {
 }
@@ -14,8 +15,8 @@ const OrangeCake = (props: Props) => {
   return (
     <ThemeProvider theme={theme}>
       <RecipeBlogPostComplex
-        image={"/blog_posts/orange_cake_blog_square.jpg"}
-        icon='/icons/baking_icon.png'
+        image={Orange_Cake_Blog_Square}
+        icon={Baking_Icon}
         title="Italian Orange Layered Cake"
         subtitle={`This fluffy orange cake made with fresh orange juice and orange zest
                    gives it that perfect amount of orange flavor. The brightness of

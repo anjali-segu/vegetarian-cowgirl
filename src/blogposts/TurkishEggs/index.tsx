@@ -2,8 +2,9 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { theme } from '../../utils/theme'
 import RecipeBlogPostComplex from '../RecipeBlogPostComplex'
 
+import Turkish_Eggs_Blog_Square from '../../assets/images/blog_posts/turkish_eggs_blog_square.jpg';
 
-
+import Cooking_Icon from '../../assets/images/icons/cooking_icon.png';
 
 interface Props {
 }
@@ -15,8 +16,8 @@ const TurkishEggs
         return (
             <ThemeProvider theme={theme}>
                 <RecipeBlogPostComplex
-                    image={"/blog_posts/turkish_eggs_blog_square.jpg"}
-                    icon='/icons/cooking_icon.png'
+                    image={Turkish_Eggs_Blog_Square}
+                    icon={Cooking_Icon}
                     title="Turkish Eggs"
                     subtitle={`Perfect light meal for anytime of day! The soft cooked eggs compliment greek 
                               yogurt topped in a spicy chili brown butter sauce.`}

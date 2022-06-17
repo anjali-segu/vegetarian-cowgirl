@@ -2,8 +2,9 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { theme } from '../../utils/theme'
 import RecipeBlogPostComplex from '../../blogposts/RecipeBlogPostComplex'
 
+import Eggs_En_Cocotte_Blog_Square from '../../assets/images/blog_posts/eggs_en_cocotte_blog_square.jpg';
 
-
+import Cooking_Icon from '../../assets/images/icons/cooking_icon.png';
 
 interface Props {
 }
@@ -14,8 +15,8 @@ const EggsEnCocotte = (props: Props) => {
     return (
         <ThemeProvider theme={theme}>
             <RecipeBlogPostComplex
-                image={"/blog_posts/eggs_en_cocotte_blog_square.jpg"}
-                icon='/icons/cooking_icon.png'
+                image={Eggs_En_Cocotte_Blog_Square}
+                icon={Cooking_Icon}
                 title="Eggs en Cocotte w/ Carmelized Onions and Roasted Tomatoes"
                 subtitle={`My favorite breakfast go to on the weekends that is both nutritious
                            and satisfying! Simple to make and works great for making in advance.`}

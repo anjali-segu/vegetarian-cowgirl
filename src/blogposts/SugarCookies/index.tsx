@@ -2,8 +2,9 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { theme } from '../../utils/theme'
 import RecipeBlogPostComplex from '../../blogposts/RecipeBlogPostComplex'
 
+import Sugar_Cookie_Blog_Square from '../../assets/images/blog_posts/sugar_cookie_blog_square.jpg';
 
-
+import Baking_Icon from '../../assets/images/icons/baking_icon.png';
 
 interface Props {
 }
@@ -14,8 +15,8 @@ const SugarCookies = (props: Props) => {
   return (
     <ThemeProvider theme={theme}>
       <RecipeBlogPostComplex
-        image={"/blog_posts/sugar_cookie_blog_square.jpg"}
-        icon='/icons/baking_icon.png'
+        image={Sugar_Cookie_Blog_Square}
+        icon={Baking_Icon}
         title="Soft Sugar Cookie Cutouts"
         subtitle={`These crisp edged, soft thick centered cookies makes this recipe
                  a must try! Great for any occasion and works well with cutouts.`}

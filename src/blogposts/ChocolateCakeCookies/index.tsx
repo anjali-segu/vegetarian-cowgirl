@@ -2,8 +2,9 @@ import { createTheme,ThemeProvider } from '@mui/material/styles';
 import {theme} from '../../utils/theme'
 import RecipeBlogPostComplex from '../../blogposts/RecipeBlogPostComplex'
 
+import Chocolate_Cake_Cookies_Blog_Square from '../../assets/images/blog_posts/chocolate_cake_cookies_blog_square.jpg';
 
-
+import Baking_Icon from '../../assets/images/icons/baking_icon.png';
 
 interface Props {
 }
@@ -14,8 +15,8 @@ const ChocolateCakeCookies = (props:Props) => {
   return (
     <ThemeProvider theme={theme}>
     <RecipeBlogPostComplex
-      image={"/blog_posts/chocolate_cake_cookies_blog_square.jpg"}
-      icon='/icons/baking_icon.png'
+      image={Chocolate_Cake_Cookies_Blog_Square}
+      icon={Baking_Icon}
       title="Chocolate Fudgey Cake Cookies"
       subtitle={` This quick cookie is perfect to satisfy your fudgey chocolate
         cravings! Made from cake box mix this comes together in minutes

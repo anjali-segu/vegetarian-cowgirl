@@ -2,8 +2,9 @@ import { createTheme,ThemeProvider } from '@mui/material/styles';
 import {theme} from '../../utils/theme'
 import RecipeBlogPostComplex from '../../blogposts/RecipeBlogPostComplex'
 
+import Pumpkin_Pie_Blog_Square from '../../assets/images/blog_posts/pumpkin_pie_blog_square.jpeg';
 
-
+import Baking_Icon from '../../assets/images/icons/baking_icon.png';
 
 interface Props {
 }
@@ -14,8 +15,8 @@ const PumpkinMascarponePie = (props:Props) => {
   return (
     <ThemeProvider theme={theme}>
     <RecipeBlogPostComplex
-      image={"/blog_posts/pumpkin_pie_blog_square.jpeg"}
-      icon='/icons/baking_icon.png'
+      image={Pumpkin_Pie_Blog_Square}
+      icon={Baking_Icon}
       title="Pumpkin Mascarpone Pie"
       subtitle={`Pumpkin mascarpone pie is a stunning and cozy holiday dessert
          that is easy to make, totally delicious, and pure joy to consume. It's creamy,

@@ -3,8 +3,10 @@ import { createTheme,ThemeProvider } from '@mui/material/styles';
 import {theme} from '../../utils/theme'
 import StandardBlogPost from '../../blogposts/StandardBlogPost'
 
+import Austin_Afternoon from '../../assets/images/blog_posts/austin_afternoon.jpg';
+import Cafe_Monet_Blog_Square from '../../assets/images/blog_posts/cafe_monet_blog_square.jpg';
 
-
+import Activities_Icon from '../../assets/images/icons/activities_icon.png';
 
 interface Props {
 }
@@ -15,9 +17,9 @@ const AustinCafeMonet = (props:Props) => {
   return (
     <ThemeProvider theme={theme}>
     <StandardBlogPost
-      image='/blog_posts/cafe_monet_blog_square.jpg'
-      image2='/austin_afternoon.jpg'
-      icon='/icons/activities_icon.png'
+      image={Cafe_Monet_Blog_Square}
+      image2={Austin_Afternoon}
+      icon={Activities_Icon}
       title="Cafe Monet - Art Adventure"
       subtitle={`Cafe Monet is a cute paint and pottery shop in downtown Austin. Here's a fun
                  weekend itinerary to do in Austin with family or friends. `}

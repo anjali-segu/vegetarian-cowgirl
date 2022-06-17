@@ -2,8 +2,9 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { theme } from '../../utils/theme'
 import RecipeBlogPostComplex from '../RecipeBlogPostComplex'
 
+import Miso_Soup_Blog_Square from '../../assets/images/blog_posts/miso_soup_blog_square.jpg';
 
-
+import Cooking_Icon from '../../assets/images/icons/cooking_icon.png';
 
 interface Props {
 }
@@ -15,8 +16,8 @@ const MushroomMisoSoup
         return (
             <ThemeProvider theme={theme}>
                 <RecipeBlogPostComplex
-                    image={"/blog_posts/miso_soup_blog_square.jpg"}
-                    icon='/icons/cooking_icon.png'
+                    image={Miso_Soup_Blog_Square}
+                    icon={Cooking_Icon}
                     title="Mushroom Miso Soup"
                     subtitle={`A warm comforting soup, made from whatever veggies you have in your fridge. This soup is simple to make and makes a perfect weekday dinner.`}
                     subtitle2={`This is my go to soup to make when I'm not feeling well! The miso base, spices, and vegetables is the perfect combination to kick out a cold. Feel free to sub out any of the veggies for whatever vegetables you have in the fridge. I personally get my miso paste from Sprout's. `}

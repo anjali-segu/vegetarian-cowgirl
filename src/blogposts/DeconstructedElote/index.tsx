@@ -2,8 +2,9 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { theme } from '../../utils/theme'
 import RecipeBlogPostComplex from '../../blogposts/RecipeBlogPostComplex'
 
+import Elote_Blog_Square from '../../assets/images/blog_posts/elote_blog_square.jpg';
 
-
+import Cooking_Icon from '../../assets/images/icons/cooking_icon.png';
 
 interface Props {
 }
@@ -14,8 +15,8 @@ const DeconstructedElote = (props: Props) => {
     return (
         <ThemeProvider theme={theme}>
             <RecipeBlogPostComplex
-                image={"/blog_posts/elote_blog_square.jpg"}
-                icon='/icons/cooking_icon.png'
+                image={Elote_Blog_Square}
+                icon={Cooking_Icon}
                 title="Deconstructed Elote"
                 subtitle={`This simple recipes celebrates corn anytime of the year. It is 
                            in chipotle mayo, lime juice, cilantro, and cojita cheese. `}
