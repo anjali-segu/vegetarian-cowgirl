@@ -1,10 +1,12 @@
 import * as React from 'react';
-import { createTheme,ThemeProvider } from '@mui/material/styles';
+import { ThemeProvider } from '@mui/material/styles';
 import {theme} from '../../utils/theme'
 import StandardBlogPost from '../../blogposts/StandardBlogPost'
 
+import Austin_Plant_Store from '../../assets/images/blog_posts/austin_plant_store.jpg';
+import Plant_Store_Blog_Square from '../../assets/images/blog_posts/plant_store_blog_square.jpg';
 
-
+import Activities_Icon from '../../assets/images/icons/activities_icon.png';
 
 interface Props {
 }
@@ -15,9 +17,9 @@ const AustinPlantStores = (props:Props) => {
   return (
     <ThemeProvider theme={theme}>
     <StandardBlogPost
-      image='/blog_posts/plant_store_blog_square.jpg'
-      image2='/blog_posts/austin_plant_store.jpg'
-      icon='/icons/activities_icon.png'
+      image={Plant_Store_Blog_Square}
+      image2={Austin_Plant_Store}
+      icon={Activities_Icon}
       title="My Favorite Austin Plant Stores"
       subtitle={`The Great Outdoors and Leaf Landscape Supply are my absolute favorite
                  plant stores to visit in Austin. They have a great selection of unique

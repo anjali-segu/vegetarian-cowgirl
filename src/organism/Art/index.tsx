@@ -4,10 +4,13 @@ import Header from '../../atom/Header'
 import CreativeProcessBlogGrid from '../../molecule/CreativeProcessBlogGrid'
 import ArtGalleryBlogGrid from '../../molecule/ArtGalleryBlogGrid'
 import OtherArtBlogGrid from '../../molecule/OtherArtBlogGrid'
-import { createTheme,ThemeProvider } from '@mui/material/styles';
+import { ThemeProvider } from '@mui/material/styles';
 import {theme} from '../../utils/theme'
-import HeaderImage from '../../atom/HeaderImage'
 import { Grid } from '@mui/material';
+
+import Activities_Icon from '../../assets/images/icons/activities_icon.png';
+import Other_Icon from '../../assets/images/icons/other_icon.png';
+import Restaurants_Icon from '../../assets/images/icons/restaurants_icon.png';
 
 interface Props {
 }
@@ -21,7 +24,7 @@ const AustinLiving = (props:Props) => {
       <ArtGallery/>
        <Grid container justifyContent='center'>
          <Grid item xs={1} sx={{display:'flex',justifyContent:'center'}}>
-          <img style={{maxHeight: theme.spacing(13)}}src="icons/restaurants_icon.png" alt="Paris"/>
+          <img style={{maxHeight: theme.spacing(13)}}src={Restaurants_Icon} alt="Paris"/>
          </Grid>
        </Grid>
       <Header id={"gallerydrops"} text={"Gallery Drops"} margin={1}/>
@@ -29,7 +32,7 @@ const AustinLiving = (props:Props) => {
 
       <Grid container justifyContent='center'>
         <Grid item xs={1} sx={{display:'flex',justifyContent:'center'}}>
-         <img style={{maxHeight: theme.spacing(13)}}src="icons/activities_icon.png" alt="Paris"/>
+         <img style={{maxHeight: theme.spacing(13)}}src={Activities_Icon} alt="Paris"/>
         </Grid>
       </Grid>
       <Header id={"creativeprocess"}text={"My Creative Process"} margin={1}/>
@@ -37,7 +40,7 @@ const AustinLiving = (props:Props) => {
 
       <Grid container justifyContent='center'>
         <Grid item xs={1} sx={{display:'flex',justifyContent:'center'}}>
-         <img style={{maxHeight: theme.spacing(13)}}src="icons/other_icon.png" alt="Paris"/>
+         <img style={{maxHeight: theme.spacing(13)}}src={Other_Icon} alt="Paris"/>
         </Grid>
       </Grid>
       <Header id={"other"}text={"Other"} margin={1}/>

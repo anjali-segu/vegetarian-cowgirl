@@ -1,8 +1,15 @@
 import * as React from 'react';
-import { createTheme,ThemeProvider } from '@mui/material/styles';
+import { ThemeProvider } from '@mui/material/styles';
 import {theme} from '../../utils/theme'
 import Card from '../../atom/Card';
 import { Grid } from '@mui/material';
+
+import Costa_Rica_Hotels_Blog_Square from '../../assets/images/blog_posts/costa_rica_hotels_blog_square.png';
+import Mount_Bonnet_Blog_Square from '../../assets/images/blog_posts/mount_bonnet_blog_square.jpg';
+import Murals_Blog_Square from '../../assets/images/blog_posts/murals_blog_square.jpg';
+import Oseyo_Blog_Square from '../../assets/images/blog_posts/oseyo_blog_square.jpg';
+import Yoga_Spots_Blog_Square from '../../assets/images/blog_posts/yoga_spots_blog_square.jpg';
+import Zilker_Botanical_Blog_Square from '../../assets/images/blog_posts/zilker_botanical_blog_square.jpg';
 
 interface Props {
 }
@@ -15,24 +22,24 @@ const AustinBlogGrid = (props:Props) => {
 
     <Grid container justifyContent='center' sx={{paddingTop: theme.spacing(15)}}>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={'blog_posts/mount_bonnet_blog_square.jpg'} title={'AUSTIN'} subtitle={'Austin Travel Guide'} post={'/'}/>
+      <Card image={Mount_Bonnet_Blog_Square} title={'AUSTIN'} subtitle={'Austin Travel Guide'} post={'/'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={'blog_posts/zilker_botanical_blog_square.jpg'} title={'AUSTIN'} subtitle={'Zilker Botanical Garden'} post={'/'}/>
+      <Card image={Zilker_Botanical_Blog_Square} title={'AUSTIN'} subtitle={'Zilker Botanical Garden'} post={'/'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={'blog_posts/oseyo_blog_square.jpg'} title={'AUSTIN'} subtitle={'Vegetarian Restaurants in Austin'} post={'/'}/>
+      <Card image={Oseyo_Blog_Square} title={'AUSTIN'} subtitle={'Vegetarian Restaurants in Austin'} post={'/'}/>
       </Grid>
     </Grid>
     <Grid container justifyContent='center' sx={{paddingTop: theme.spacing(15)}}>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={'blog_posts/yoga_spots_blog_square.jpg'} title={'AUSTIN'} subtitle={'Activities in Austin'} post={'/'}/>
+      <Card image={Yoga_Spots_Blog_Square} title={'AUSTIN'} subtitle={'Activities in Austin'} post={'/'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={'blog_posts/costa_rica_hotels_blog_square.png'} title={'AUSTIN'} subtitle={'Airbnbs in Austin'} post={'/'}/>
+      <Card image={Costa_Rica_Hotels_Blog_Square} title={'AUSTIN'} subtitle={'Airbnbs in Austin'} post={'/'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={'blog_posts/murals_blog_square.jpg'} title={'AUSTIN'} subtitle={'Beautiful Austin Murals to Visit'} post={'/'}/>
+      <Card image={Murals_Blog_Square} title={'AUSTIN'} subtitle={'Beautiful Austin Murals to Visit'} post={'/'}/>
       </Grid>
     </Grid>
     </ThemeProvider>

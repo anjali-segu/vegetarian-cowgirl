@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {theme} from './utils/theme'
+import { theme } from './utils/theme'
 import { ThemeProvider } from '@mui/material/styles'
 import Home from './organism/Home'
 import Recipes from './organism/Recipes'
@@ -13,18 +13,6 @@ import Hawaii from './organism/Hawaii'
 import Indianapolis from './organism/Indianapolis'
 import Navbar from './organism/Navbar'
 import Footer from './molecule/Footer'
-import EtonMess from './blogposts/EtonMess'
-import CinnamonRolls from './blogposts/CinnamonRolls'
-import ChocolateCakeCookies from './blogposts/ChocolateCakeCookies'
-import PumpkinMascarponePie from './blogposts/PumpkinMascarponePie'
-import SugarCookies from './blogposts/SugarCookies'
-import OrangeCake from './blogposts/OrangeCake'
-import EggsEnCocotte from './blogposts/EggsEnCocotte'
-import DeconstructedElote from './blogposts/DeconstructedElote'
-import JalepenoPoppers from './blogposts/JalepenoPoppers'
-import TurkishEggs from './blogposts/TurkishEggs'
-import MushroomMisoSoup from './blogposts/MushroomMisoSoup'
-import VeggieDumplings from './blogposts/VeggieDumplings'
 import AustinPlantStores from './blogposts/AustinPlantStores'
 import AustinCafeMonet from './blogposts/AustinCafeMonet'
 
@@ -35,38 +23,36 @@ import {
   Route,
 } from "react-router-dom";
 
+// recipe type && recipe component
+import Recipe from './utils/recipe';
+import DynamicRecipeBlogPost from './blogposts/DynamicRecipeBlogPost';
+
+import {recipes} from './utils/BlogImports'
+
+const createRecipeBlogPosts = (recipes: Recipe[]) => recipes.map(recipe => <Route key={recipe.path} path={recipe.path} element={<DynamicRecipeBlogPost {...recipe} />} />)
 
 const App: React.FC = () => {
   return (
     <ThemeProvider theme={theme}>
       <BrowserRouter basename={`/${process.env.PUBLIC_URL}`}>
-        <Navbar/>
+        <Navbar />
         <Routes>
-          <Route path="/" element={<Home/>}/>
-          <Route path="/recipes" element={<Recipes/>}/>
-          <Route path="/austin-living" element={<AustinLiving/>}/>
-          <Route path="/costa-rica-city-guide" element={<CostaRica/>}/>
-          <Route path="/austin-city-guide" element={<Austin/>}/>
-          <Route path="/hawaii-city-guide" element={<Hawaii/>}/>
-          <Route path="/indianapolis-city-guide" element={<Indianapolis/>}/>
-          <Route path="/art" element={<Art/>}/>
-          <Route path="/about" element={<About/>}/>
-          <Route path="/recipes/eton-mess-dessert" element={<EtonMess/>}/>
-          <Route path="/recipes/cinnamon-rolls-dessert" element={<CinnamonRolls/>}/>
-          <Route path="/recipes/chocolate-cake-cookies" element={<ChocolateCakeCookies/>}/>
-          <Route path="/recipes/pumpkin-mascarpone-pie" element={<PumpkinMascarponePie/>}/>
-          <Route path="/recipes/sugar-cookies" element={<SugarCookies/>}/>
-          <Route path="/recipes/italian-orange-cake" element={<OrangeCake/>}/>
-          <Route path="/recipes/eggs-en-cocotte" element={<EggsEnCocotte/>}/>
-          <Route path="/recipes/deconstructed-elote" element={<DeconstructedElote/>}/>
-          <Route path="/recipes/puff-pastry-jalepeno-poppers" element={<JalepenoPoppers/>}/>
-          <Route path="/recipes/turkish-eggs" element={<TurkishEggs/>}/>
-          <Route path="/recipes/mushroom-miso-soup" element={<MushroomMisoSoup/>}/>
-          <Route path="/recipes/veggie-packed-dumplings" element={<VeggieDumplings/>}/>
-          <Route path="/austin-living/cafe-monet" element={<AustinCafeMonet/>}/>
-          <Route path="/austin-living/plant-stores" element={<AustinPlantStores/>}/>
+          <Route path="/" element={<Home />} />
+          <Route path="/recipes" element={<Recipes />} />
+          <Route path="/austin-living" element={<AustinLiving />} />
+          <Route path="/costa-rica-city-guide" element={<CostaRica />} />
+          <Route path="/austin-city-guide" element={<Austin />} />
+          <Route path="/hawaii-city-guide" element={<Hawaii />} />
+          <Route path="/indianapolis-city-guide" element={<Indianapolis />} />
+          <Route path="/art" element={<Art />} />
+          <Route path="/about" element={<About />} />
+
+          {createRecipeBlogPosts(recipes)}
+
+          <Route path="/austin-living/cafe-monet" element={<AustinCafeMonet />} />
+          <Route path="/austin-living/plant-stores" element={<AustinPlantStores />} />
         </Routes>
-        <Footer/>
+        <Footer />
       </BrowserRouter>
 
     </ThemeProvider>

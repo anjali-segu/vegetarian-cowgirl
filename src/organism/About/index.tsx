@@ -1,10 +1,11 @@
-import { createTheme,ThemeProvider } from '@mui/material/styles';
+import { ThemeProvider } from '@mui/material/styles';
 import {theme} from '../../utils/theme'
 import { Grid } from '@mui/material';
 import Header from '../../atom/Header'
 import Typography from '@mui/material/Typography';
 import Media from 'react-media';
 
+import About_Image from '../../assets/images/about/rainbow.jpg';
 
 interface Props {
 }
@@ -18,7 +19,7 @@ const About = (props:Props) => {
     <Media query="(max-width: 800px)" render={() =>
       (
       <Grid item xs={12} sx={{display:'flex',justifyContent:'center'}}>
-        <img style={{maxHeight: theme.spacing(100), marginTop: theme.spacing(2)}}src="images/about.JPG" alt="Paris"/>
+        <img style={{maxHeight: theme.spacing(100), marginTop: theme.spacing(2)}}src={About_Image} alt="Paris"/>
       </Grid>
 
       )}
@@ -26,7 +27,7 @@ const About = (props:Props) => {
     <Media query="(min-width: 799px)" render={() =>
       (
         <Grid item xs={12} sx={{display:'flex',justifyContent:'center'}}>
-          <img style={{maxHeight: theme.spacing(150), marginTop: theme.spacing(2)}}src="images/about.JPG" alt="Paris"/>
+          <img style={{maxHeight: theme.spacing(150), marginTop: theme.spacing(2)}}src={About_Image} alt="Paris"/>
         </Grid>
       )}
     />

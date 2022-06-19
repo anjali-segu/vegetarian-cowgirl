@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Carousel from 'react-material-ui-carousel';
 import {theme} from '../../utils/theme';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { ThemeProvider } from '@mui/material/styles';
 import Media from 'react-media';
 
 
@@ -12,7 +12,12 @@ import {
     Typography,
 } from '@mui/material'
 
+import Arenal_Volcano from '../../assets/images/blog_posts/arenal_volcano.jpg';
+import Austin_Afternoon from '../../assets/images/blog_posts/austin_afternoon.jpg';
+import July_4th from '../../assets/images/blog_posts/july_4th.jpg';
+import Thanksgiving from '../../assets/images/blog_posts/thanksgiving.jpg';
 
+import LogoBlack from '../../assets/images/icons/logos/LogoBlack.png';
 
 
 
@@ -44,7 +49,7 @@ const CarouselHome = () => {
             (
               <Grid container justifyContent='center'>
                 <Grid item xs={1} sx={{display:'flex',justifyContent:'center'}}>
-                 <img style={{maxHeight: theme.spacing(20)}}src="logos/LogoBlack.png" alt="Paris"/>
+                 <img style={{maxHeight: theme.spacing(20)}}src={LogoBlack} alt="Paris"/>
                 </Grid>
               </Grid>
             )}
@@ -139,25 +144,25 @@ const items: Item[] = [
         name: "Arenal Volcano",
         description: "A day trip to the Arenal Volcano and Baldi Hot Springs in Costa Rica.",
         href: '/',
-        src: '/images/arenal_volcano.jpg'
+        src: Arenal_Volcano
     },
     {
         name: "Vegetarian Thanksgiving",
         description: "10 vegetarian thanksgiving ideas. Pictured is jalepeno cheddar cornbread and stuffed garlic mushrooms. ",
         href: '/',
-        src: '/images/thanksgiving.jpg',
+        src: Thanksgiving,
     },
     {
         name: "An Austin Afternoon",
         description: "An exciting austin afternoon idea. Swing by Manoli's Ice Cream and Cafe Monet for a fun Austin afternoon.",
         href: '/',
-        src: '/images/austin_afternoon.jpg',
+        src: Austin_Afternoon,
     },
     {
         name: "July 4th Photography",
         description: "Learn how to get this epic shot on a DSLR camera.",
         href: '/',
-        src:'/images/July_4th.jpg',
+        src:July_4th,
     }
 ]
 

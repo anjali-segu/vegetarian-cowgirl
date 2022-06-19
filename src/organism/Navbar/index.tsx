@@ -3,9 +3,15 @@ import Toolbar from '@mui/material/Toolbar';
 import NavbarLink from '../../atom/NavbarLink'
 import SocialLink from '../../atom/SocialLink'
 import LogoLink from '../../atom/LogoLink'
-import { createTheme,ThemeProvider } from '@mui/material/styles';
 import {theme} from '../../utils/theme'
 import Media from 'react-media';
+
+import Logo3 from '../../assets/images/icons/logos/Logo3.png';
+
+import Email from '../../assets/images/icons/email.png';
+import Etsy from '../../assets/images/icons/etsy.png';
+import Instagram from '../../assets/images/icons/instagram.png';
+import Pinterest from '../../assets/images/icons/pinterest.png';
 
 interface Props {
   position?: 'fixed' | 'absolute' | 'sticky' | 'relative' | undefined,
@@ -26,7 +32,8 @@ const Navbar = (props:Props) => {
               content={
                 <img
                   style={{height:32}}
-                  src={`/logos/Logo3.png`}
+                  src={Logo3}
+                  alt='The Vegetarian Cowgirl'
                 />
               }
               url={'/'}
@@ -64,7 +71,8 @@ const Navbar = (props:Props) => {
                 content={
                   <img
                     style={{width:15, paddingLeft:1}}
-                    src={`/icons/instagram.png`}
+                    src={Instagram}
+                    alt='Instagram'
                   />
                 }
                 url={'https://www.instagram.com/thevegetariancowgirl/'}
@@ -80,7 +88,8 @@ const Navbar = (props:Props) => {
                 content={
                   <img
                     style={{width:15, paddingLeft:80}}
-                    src={`/icons/instagram.png`}
+                    src={Instagram}
+                    alt='Instagram'
                   />
                 }
                 url={'https://www.instagram.com/thevegetariancowgirl/'}
@@ -96,7 +105,8 @@ const Navbar = (props:Props) => {
                 content={
                   <img
                     style={{width:14}}
-                    src={`/icons/etsy.png`}
+                    src={Etsy}
+                    alt='Etsy'
                   />
                 }
                 url={'https://www.etsy.com/shop/PrintsbyMinimalist'}
@@ -112,7 +122,8 @@ const Navbar = (props:Props) => {
                   content={
                     <img
                       style={{width:14}}
-                      src={`/icons/pinterest.png`}
+                      src={Pinterest}
+                      alt='Pinterest'
                     />
                   }
                   url={'https://www.pinterest.com/PrintsbyMinimalist/'}
@@ -128,7 +139,8 @@ const Navbar = (props:Props) => {
                   content={
                     <img
                       style={{width:18}}
-                      src={`/icons/email.png`}
+                      src={Email}
+                      alt='Email'
                     />
                   }
                   url={'mailto:TODO'}

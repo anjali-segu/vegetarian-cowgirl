@@ -1,13 +1,10 @@
 import * as React from 'react';
-import { createTheme,ThemeProvider } from '@mui/material/styles';
+import { ThemeProvider } from '@mui/material/styles';
 import {theme} from '../../utils/theme'
 import { Grid } from '@mui/material';
 import Card from '@mui/material/Card';
-import Header from '../../atom/Header'
-import HeaderImage from '../../atom/HeaderImage'
 import Typography from '@mui/material/Typography';
 import Media from 'react-media';
-import Button from '@mui/material/Button';
 import CardContent from '@mui/material/CardContent';
 
 interface Props {

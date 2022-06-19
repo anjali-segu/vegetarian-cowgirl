@@ -1,13 +1,13 @@
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import { createTheme,ThemeProvider } from '@mui/material/styles';
+import { ThemeProvider } from '@mui/material/styles';
 import {theme} from '../../utils/theme'
 import { Grid } from '@mui/material';
 import Media from 'react-media';
+
+import BioProfile from '../../assets/images/about/BioProfile.jpg';
 
 interface Props {
 
@@ -53,7 +53,7 @@ const BioCard = (props:Props) => {
         <Media query="(min-width: 400px)" render={() =>
           (
             <Grid item sm={12} md={12} lg={6} sx={{display:'flex',justifyContent:'center'}}>
-              <img style={{maxHeight: theme.spacing(100), marginTop: theme.spacing(2)}}src="images/BioProfile.jpg" alt="Paris"/>
+              <img style={{maxHeight: theme.spacing(100), marginTop: theme.spacing(2)}}src={BioProfile} alt="Paris"/>
             </Grid>
 
           )}

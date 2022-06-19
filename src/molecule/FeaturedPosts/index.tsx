@@ -1,10 +1,16 @@
 import * as React from 'react';
-import { createTheme,ThemeProvider } from '@mui/material/styles';
+import { ThemeProvider } from '@mui/material/styles';
 import {theme} from '../../utils/theme'
 import Card from '../../atom/Card';
 import { Grid } from '@mui/material';
 import Header from '../../atom/Header'
 import Media from 'react-media';
+
+import Arenal_Volcano_Anjali from '../../assets/images/blog_posts/arenal_volcano_anjali.jpg';
+import Cinammon_Buns_Blog_Square from '../../assets/images/blog_posts/cinammon_buns_blog_square.jpg';
+import Uchiko_Blog_Square from '../../assets/images/blog_posts/uchiko_blog_square.jpg';
+
+import Logo3 from '../../assets/images/icons/logos/Logo3.png';
 
 interface Props {
 }
@@ -18,7 +24,7 @@ const FeaturedPosts = (props:Props) => {
       (
         <Grid container justifyContent='center'>
           <Grid item xs={1} sx={{display:'flex',justifyContent:'center'}}>
-           <img style={{maxHeight: theme.spacing(13)}}src="logos/Logo3.png" alt="Paris"/>
+           <img style={{maxHeight: theme.spacing(13)}}src={Logo3} alt="Paris"/>
           </Grid>
         </Grid>
       )}
@@ -27,15 +33,15 @@ const FeaturedPosts = (props:Props) => {
     <Grid container justifyContent='center' sx={{paddingTop: theme.spacing(15),}}>
 
       <Grid item sm={12} md={12} lg={4} sx={{display:'flex',justifyContent:'center'}}>
-        <Card image={'images/costa.jpg'} title={'COSTA RICA'} subtitle={'Day Trip to Arenal Volcano'} post={'/'}/>
+        <Card image={Arenal_Volcano_Anjali} title={'COSTA RICA'} subtitle={'Day Trip to Arenal Volcano'} post={'/'}/>
       </Grid>
 
       <Grid item sm={12} md={12} lg={4} sx={{display:'flex',justifyContent:'center'}}>
-        <Card image={'blog_posts/uchiko_blog_square.jpg'} title={'RESTAURANTS'} subtitle={'Uchiko - Japanese Vegan Fushion'} post={'/'}/>
+        <Card image={Uchiko_Blog_Square} title={'RESTAURANTS'} subtitle={'Uchiko - Japanese Vegan Fushion'} post={'/'}/>
       </Grid>
 
       <Grid item sm={12} md={12} lg={4} sx={{display:'flex',justifyContent:'center'}}>
-        <Card image={'blog_posts/cinammon_buns_blog_square.jpg'} title={'BAKING'} subtitle={'Ultimate Cinammon Bun Recipe'} post={'/recipes/cinnamon-rolls-dessert'}/>
+        <Card image={Cinammon_Buns_Blog_Square} title={'BAKING'} subtitle={'Ultimate Cinammon Bun Recipe'} post={'/recipes/cinnamon-rolls-dessert'}/>
       </Grid>
 
     </Grid>
