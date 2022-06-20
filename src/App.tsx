@@ -15,6 +15,7 @@ import Navbar from './organism/Navbar'
 import Footer from './molecule/Footer'
 import AustinPlantStores from './blogposts/AustinPlantStores'
 import AustinCafeMonet from './blogposts/AustinCafeMonet'
+import AustinTeaGuide from './blogposts/AustinTeaGuide';
 
 
 import {
@@ -28,6 +29,8 @@ import Recipe from './utils/recipe';
 import DynamicRecipeBlogPost from './blogposts/DynamicRecipeBlogPost';
 
 import {recipes} from './utils/BlogImports'
+import IntroToBreville from './blogposts/IntroToBreville';
+
 
 const createRecipeBlogPosts = (recipes: Recipe[]) => recipes.map(recipe => <Route key={recipe.path} path={recipe.path} element={<DynamicRecipeBlogPost {...recipe} />} />)
 
@@ -49,8 +52,12 @@ const App: React.FC = () => {
 
           {createRecipeBlogPosts(recipes)}
 
+          <Route path="/recipes/intro-to-breville-espresso-machine" element={<IntroToBreville/>}/>
+
           <Route path="/austin-living/cafe-monet" element={<AustinCafeMonet />} />
           <Route path="/austin-living/plant-stores" element={<AustinPlantStores />} />
+          <Route path="/austin-living/austin-tea-guide" element={<AustinTeaGuide />} />
+
         </Routes>
         <Footer />
       </BrowserRouter>

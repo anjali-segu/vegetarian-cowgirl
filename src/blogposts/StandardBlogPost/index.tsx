@@ -74,7 +74,7 @@ const {image, image2, icon, title, subtitle, paras, steps} = props
     (
       <Grid container justifyContent='center' sx={{marginTop:theme.spacing(10)}}>
         <Grid item xs={8} sx={{display:'flex',justifyContent:'center'}}>
-          <img style={{maxHeight: theme.spacing(150)}} src={image} alt="Paris"/>
+          <img style={{maxHeight: theme.spacing(120)}} src={image} alt="Paris"/>
         </Grid>
       </Grid>
 
@@ -85,16 +85,14 @@ const {image, image2, icon, title, subtitle, paras, steps} = props
     <Grid item xs={8} md={6}>
 
         {paras.map(para => (
-          <Typography sx={{
+          <Typography dangerouslySetInnerHTML={{__html: para}} sx={{
               fontFamily: 'Karla',
               fontWeight: 300 ,
               color: 'black',
               marginTop: theme.spacing(8)}}
               gutterBottom
               variant="body1"
-              component="div">
-            {para}
-          </Typography>
+              component="div" />
         ))}
     </Grid>
   </Grid>
@@ -113,7 +111,7 @@ const {image, image2, icon, title, subtitle, paras, steps} = props
     (
       <Grid container justifyContent='center' sx={{marginTop:theme.spacing(10)}}>
         <Grid item xs={8} sx={{display:'flex',justifyContent:'center'}}>
-          <img style={{maxHeight: theme.spacing(100)}} src={image2} alt="Paris"/>
+          <img style={{maxHeight: theme.spacing(80)}} src={image2} alt="Paris"/>
         </Grid>
       </Grid>
 

@@ -7,6 +7,7 @@ import EtonMessJson from '../assets/recipes/eton-mess.json';
 import JalapenoPoppersJson from '../assets/recipes/jalapeno-poppers.json';
 import MushroomMisoSoupJson from '../assets/recipes/mushroom-miso-soup.json';
 import OrangeCakeJson from '../assets/recipes/orange-cake.json';
+import PSLJson from '../assets/recipes/psl.json'
 import PumpkinMascarponePieJson from '../assets/recipes/pumpkin-mascarpone-pie.json';
 import SugarCookiesJson from '../assets/recipes/sugar-cookies.json';
 import TurkishEggsJson from '../assets/recipes/turkish-eggs.json';
@@ -22,6 +23,7 @@ import Eton_Mess_Blog_Square from '../assets/images/blog_posts/eton_mess_blog_sq
 import Jalapeno_Poppers_Blog_Square from '../assets/images/blog_posts/jalapeno_poppers_blog_square.jpg';
 import Miso_Soup_Blog_Square from '../assets/images/blog_posts/miso_soup_blog_square.jpg';
 import Orange_Cake_Blog_Square from '../assets/images/blog_posts/orange_cake_blog_square.jpg';
+import PSL_Blog_Square from '../assets/images/blog_posts/psl_blog_square.jpg';
 import Pumpkin_Pie_Blog_Square from '../assets/images/blog_posts/pumpkin_pie_blog_square.jpeg';
 import Sugar_Cookie_Blog_Square from '../assets/images/blog_posts/sugar_cookie_blog_square.jpg';
 import Turkish_Eggs_Blog_Square from '../assets/images/blog_posts/turkish_eggs_blog_square.jpg';
@@ -29,6 +31,7 @@ import Turkish_Eggs_Blog_Square from '../assets/images/blog_posts/turkish_eggs_b
 // icons
 import Baking_Icon from '../assets/images/icons/baking_icon.png';
 import Cooking_Icon from '../assets/images/icons/cooking_icon.png';
+import Drink_Icon from '../assets/images/icons/drinks_icon.png';
 
 export const recipes = [
   {
@@ -113,5 +116,13 @@ export const recipes = [
     icon: Cooking_Icon,
     icon_alt: "cooking",
     ...VeggieDumplingsJson
+  },
+  {
+    path: '/recipes/pumpkin-spiced-latte',
+    image: PSL_Blog_Square,
+    alt: "Pumpkin spiced latte in a glass mug.",
+    icon: Drink_Icon,
+    icon_alt: "Drink",
+    ...PSLJson
   },
 ]

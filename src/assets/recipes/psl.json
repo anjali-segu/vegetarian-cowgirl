@@ -1,0 +1,24 @@
+{
+  "title": "Pumpkin Spiced Latte w/ Espresso Machine",
+  "subtitle": "How to make the best pumpkin spice latte at home with pumpkin puree, espresso, milk, and fall spices.",
+  "subtitle2": "This drink is perfect for the fall season! It is simple to make and tastes superior to any store bought syrup or drink.",
+  "ingredients": [
+    [
+      "2 tbsp Libby's Pumpkin Pie Mix",
+      "1/8 teaspoon cinnamon",
+      "whipped cream",
+      "1 cup milk",
+      "1 espresso shot"
+    ]
+  ],
+  "steps": [
+    "In a small pot, combine the pumpkin pie mix, cinnamon, and milk.",
+    "Over medium heat, stir. Once it begins to simmer, remove from heat.",
+    "In a mug, add the espresso shot at the bottom. Pour the pumpkin pie milk mixture into the mug.",
+    "Top with whipped cream and enjoy immediately."
+    ],
+  "preptime": "5 minutes",
+  "cooktime": "2 minutes",
+  "totaltime": "7 minutes",
+  "serves": 1
+}

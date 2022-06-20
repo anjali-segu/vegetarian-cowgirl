@@ -20,13 +20,13 @@ const DrinksBlogGrid = (props:Props) => {
     <Grid container justifyContent='center' sx={{paddingTop: theme.spacing(15)}}>
 
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Tea_Jar_Blog_Square} title={'TEA'} subtitle={'Austin Ultimate Tea Guide'} post={'/'}/>
+      <Card image={Tea_Jar_Blog_Square} title={'TEA'} subtitle={'Austin Ultimate Tea Guide'} post={'/austin-living/austin-tea-guide'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Latte_Blog_Square} title={'COFFEE'} subtitle={'Intro to Breville Espresso Machine'} post={'/'}/>
+      <Card image={Latte_Blog_Square} title={'COFFEE'} subtitle={'Intro to Breville Espresso Machine'} post={'/recipes/intro-to-breville-espresso-machine'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Psl_Blog_Square} title={'COFFEE'} subtitle={'Pumpkin Spiced Latte w/ Espresso Machine'} post={'/'}/>
+      <Card image={Psl_Blog_Square} title={'COFFEE'} subtitle={'Pumpkin Spiced Latte w/ Espresso Machine'} post={'/recipes/pumpkin-spiced-latte'}/>
       </Grid>
     </Grid>
 
