@@ -31,7 +31,7 @@ const Forthright = (props: Props) => {
           `What struck me the most was the food. Their menu does rotate but there are some classics that stick around. Most notably, is the coconut chia pudding. This was the first chia pudding I ever had and boy was I spoiled! It still is the best chia pudding that I've had in Austin! It is unbelievable creamy, topped with sweet berries and toasted almonds. I've recreated it at home but their version is definately worth a try. I also love their mushroom toast. In the past they had a tropical french toast that was also delicious. In general all of the food always hits the spot!`,
           `Forthright is definately worth a visit. I would reccomend making a reservation ahead of time as they do get pretty busy on the weekends.`
           ]}
-        steps={[
+        orders={[
           `Chia Pudding`,
           `Breakfast Burger`,
           `Mushroom Toast`,

@@ -17,6 +17,8 @@ import AustinPlantStores from './blogposts/AustinPlantStores'
 import AustinCafeMonet from './blogposts/AustinCafeMonet'
 import AustinTeaGuide from './blogposts/AustinTeaGuide';
 import Forthright from './blogposts/Forthright'
+import Oseyo from './blogposts/Oseyo'
+import Uchiko from './blogposts/Uchiko'
 
 import {
   BrowserRouter,
@@ -58,6 +60,8 @@ const App: React.FC = () => {
           <Route path="/austin-living/plant-stores" element={<AustinPlantStores />} />
           <Route path="/austin-living/austin-tea-guide" element={<AustinTeaGuide />} />
           <Route path='/austin-living/forthright' element={<Forthright/>} />
+          <Route path='/austin-living/oseyo' element={<Oseyo/>} />
+          <Route path='/austin-living/uchiko' element={<Uchiko/>} />
 
 
         </Routes>

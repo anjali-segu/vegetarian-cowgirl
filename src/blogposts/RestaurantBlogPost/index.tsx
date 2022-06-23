@@ -17,13 +17,13 @@ interface Props {
   title: string,
   subtitle: string,
   paras: string[],
-  steps: string[],
+  orders: string[],
 
 }
 
 
 const RestaurantBlogPost = (props: Props) => {
-  const { image, image2, image3, image4, title, subtitle, paras, steps } = props
+  const { image, image2, image3, image4, title, subtitle, paras, orders } = props
   return (
     <ThemeProvider theme={theme}>
       <Grid container justifyContent='center'>
@@ -202,7 +202,7 @@ const RestaurantBlogPost = (props: Props) => {
 
               <Grid item xs={9} sm={8}>
                 <ol>
-                  {steps.map(step => (
+                  {orders.map(step => (
                     <li style={{
                       fontFamily: 'Karla',
                       color: 'black',
