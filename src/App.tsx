@@ -16,7 +16,7 @@ import Footer from './molecule/Footer'
 import AustinPlantStores from './blogposts/AustinPlantStores'
 import AustinCafeMonet from './blogposts/AustinCafeMonet'
 import AustinTeaGuide from './blogposts/AustinTeaGuide';
-
+import Forthright from './blogposts/Forthright'
 
 import {
   BrowserRouter,
@@ -57,6 +57,8 @@ const App: React.FC = () => {
           <Route path="/austin-living/cafe-monet" element={<AustinCafeMonet />} />
           <Route path="/austin-living/plant-stores" element={<AustinPlantStores />} />
           <Route path="/austin-living/austin-tea-guide" element={<AustinTeaGuide />} />
+          <Route path='/austin-living/forthright' element={<Forthright/>} />
+
 
         </Routes>
         <Footer />

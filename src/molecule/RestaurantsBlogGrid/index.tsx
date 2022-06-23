@@ -5,7 +5,7 @@ import Card from '../../atom/Card';
 import { Grid } from '@mui/material';
 
 import Aba_Blog_Square from '../../assets/images/blog_posts/aba_blog_square.jpg';
-import Forthwrite_Blog_Square from '../../assets/images/blog_posts/forthwrite_blog_square.jpg';
+import Forthright_Blog_Square from '../../assets/images/blog_posts/forthright_blog_square.jpg';
 import Il_Brutto_Blog_Square from '../../assets/images/blog_posts/il_brutto_blog_square.jpg';
 import La_Madeleine_Blog_Square from '../../assets/images/blog_posts/la_madeleine_blog_square.jpg';
 import Oseyo_Blog_Square from '../../assets/images/blog_posts/oseyo_blog_square.jpg';
@@ -23,7 +23,7 @@ const RestaurantsBlogGrid = (props:Props) => {
     <Grid container justifyContent='center' sx={{paddingTop: theme.spacing(15)}}>
 
     <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Forthwrite_Blog_Square} title={'RESTAURANTS'} subtitle={'Forthwrite - My Favorite Austin Brunch Spot'} post={'/'}/>
+      <Card image={Forthright_Blog_Square} title={'RESTAURANTS'} subtitle={'Forthright - My Favorite Austin Brunch Spot'} post={'/austin-living/forthright'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
       <Card image={Uchiko_Blog_Square} title={'RESTAURANTS'} subtitle={'Uchiko - Japanese Vegan Fusion'} post={'/'}/>
