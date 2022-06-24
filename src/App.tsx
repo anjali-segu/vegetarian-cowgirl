@@ -19,6 +19,9 @@ import AustinTeaGuide from './blogposts/AustinTeaGuide';
 import Forthright from './blogposts/Forthright'
 import Oseyo from './blogposts/Oseyo'
 import Uchiko from './blogposts/Uchiko'
+import IlBrutto from './blogposts/IlBrutto'
+import Aba from './blogposts/Aba'
+import BakeryLorraine from './blogposts/BakeryLorraine';
 
 import {
   BrowserRouter,
@@ -62,6 +65,9 @@ const App: React.FC = () => {
           <Route path='/austin-living/forthright' element={<Forthright/>} />
           <Route path='/austin-living/oseyo' element={<Oseyo/>} />
           <Route path='/austin-living/uchiko' element={<Uchiko/>} />
+          <Route path='/austin-living/il-brutto' element={<IlBrutto/>} />
+          <Route path='/austin-living/aba' element={<Aba/>} />
+          <Route path='/austin-living/bakery-lorraine' element={<BakeryLorraine/>} />
 
 
         </Routes>
