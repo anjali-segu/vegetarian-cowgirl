@@ -1,4 +1,4 @@
-import {createMuiTheme} from '@mui/material/styles'
+import {createTheme} from '@mui/material/styles'
 
 export const white = 'rgba(255, 255, 255, .97)'
 export const black = 'rgba(0, 0, 0, .97)'
@@ -10,7 +10,7 @@ export const charcoal = 'rgba(13, 13, 13, 1)'
 export const tan = 'rgba(225, 168, 122,1)'
 
 
-export const theme = createMuiTheme({
+export const theme = createTheme({
   // Any overrides will go here ..
   components: {
     MuiButton: {

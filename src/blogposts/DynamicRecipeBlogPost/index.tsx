@@ -17,15 +17,18 @@ import Tooltip from '@mui/material/Tooltip';
 import Snackbar from '@mui/material/Snackbar';
 import Alert from '@mui/material/Alert';
 
+import assert from 'assert';
+
 type Props = Recipe
 
 const generateCategories = (ingredients: string[][], categories?: string[]) => {
+  assert((categories === undefined && ingredients.length === 1) || ingredients.length === categories?.length)
   if (categories) {
-    let retval: React.ReactFragment[] = []
+    let retval: JSX.Element[] = []
     let end = Math.min(categories.length, ingredients.length)
     for (let i = 0; i < end; ++i) {
       retval.push((
-        <>
+        <Box key={categories[i]}>
           <Grid item xs={1}>
           </Grid>
 
@@ -44,44 +47,48 @@ const generateCategories = (ingredients: string[][], categories?: string[]) => {
 
             <ul>
               {ingredients[i].map(ingredient => (
-                <li dangerouslySetInnerHTML={{ __html: ingredient }} style={{
-                  fontFamily: 'Karla',
-                  color: 'black',
-                  fontWeight: 500,
-                  fontSize: theme.spacing(4),
-                }} key={ingredient} />
+                <li key={ingredient}>
+                  <span dangerouslySetInnerHTML={{ __html: ingredient }} style={{
+                    fontFamily: 'Karla',
+                    color: 'black',
+                    fontWeight: 500,
+                    fontSize: theme.spacing(4),
+                  }} />
+                </li>
               ))}
             </ul>
           </Grid>
 
           <Grid item xs={1}>
           </Grid>
-        </>
+        </Box>
       ))
     }
     return retval
   } else {
     return ingredients.map(ingredients => (
-      <>
+      <Box key='ingredients'>
         <Grid item xs={1}>
         </Grid>
 
         <Grid item xs={10}>
           <ul>
             {ingredients.map(ingredient => (
-              <li dangerouslySetInnerHTML={{ __html: ingredient }} style={{
-                fontFamily: 'Karla',
-                color: 'black',
-                fontWeight: 500,
-                fontSize: theme.spacing(4),
-              }} key={ingredient} />
+              <li key={ingredient}>
+                <span dangerouslySetInnerHTML={{ __html: ingredient }} style={{
+                  fontFamily: 'Karla',
+                  color: 'black',
+                  fontWeight: 500,
+                  fontSize: theme.spacing(4),
+                }} />
+              </li>
             ))}
           </ul>
         </Grid>
 
         <Grid item xs={1}>
         </Grid>
-      </>
+      </Box>
     ))
   }
 }
@@ -400,12 +407,14 @@ const DynamicRecipeBlogPost = (props: Props) => {
 
                 <ol>
                   {props.steps.map(step => (
-                    <li dangerouslySetInnerHTML={{ __html: step }} style={{
-                      fontFamily: 'Karla',
-                      color: 'black',
-                      fontWeight: 500,
-                      fontSize: theme.spacing(4),
-                    }} />
+                    <li key={step}>
+                      <span dangerouslySetInnerHTML={{ __html: step }} style={{
+                        fontFamily: 'Karla',
+                        color: 'black',
+                        fontWeight: 500,
+                        fontSize: theme.spacing(4),
+                      }} />
+                    </li>
                   ))}
                 </ol>
 
