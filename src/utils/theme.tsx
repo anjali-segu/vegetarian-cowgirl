@@ -104,11 +104,11 @@ export const theme = createMuiTheme({
   },
   spacing: (factor: number) => `${0.25 * factor}rem`,
   typography: {
-    fontFamily: 'Quicksand, open sans, sans-serif',
+    fontFamily: 'Karla, open sans, sans-serif',
   },
   palette: {
     primary: {
-      main: tan,
+      main: '#f09b85',
     },
   },
 })
