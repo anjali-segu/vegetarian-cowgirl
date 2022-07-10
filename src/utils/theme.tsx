@@ -79,24 +79,24 @@ export const theme = createTheme({
     MuiTypography: {
       styleOverrides: {
         h1: {
-          fontFamily: 'Poly, serif',
+          fontFamily: 'Karla, sans-serif',
         },
         h2: {
-          fontFamily: 'Poly, serif',
+          fontFamily: 'Karla, sans-serif',
         },
         h3: {
-          fontFamily: 'Poly, serif',
+          fontFamily: 'Karla, sans-serif',
         },
         h4: {
-          fontFamily: 'Poly, serif',
+          fontFamily: 'Karla, sans-serif',
           color: lightblack,
         },
         h5: {
-          fontFamily: 'Ubuntu, sans-serif',
+          fontFamily: 'Karla, sans-serif',
           color: lightblack,
         },
         h6: {
-          fontFamily: 'Ubuntu, sans-serif',
+          fontFamily: 'Karla, sans-serif',
           color: lightblack,
         },
       },
