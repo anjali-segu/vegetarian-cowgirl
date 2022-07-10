@@ -22,10 +22,10 @@ const AustinActivitiesBlogGrid = (props:Props) => {
 
     <Grid container justifyContent='center' sx={{paddingTop: theme.spacing(15)}}>
     <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Murals_Blog_Square} title={'AUSTIN ACTIVITIES'} subtitle={'Beautiful Austin Murals to Visit'} post={'/'}/>
+      <Card image={Murals_Blog_Square} title={'AUSTIN ACTIVITIES'} subtitle={'Beautiful Austin Murals to Visit'} post={'/under-construction'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Yoga_Spots_Blog_Square} title={'AUSTIN ACTIVITIES'} subtitle={'Unique Yoga Spots'} post={'/'}/>
+      <Card image={Yoga_Spots_Blog_Square} title={'AUSTIN ACTIVITIES'} subtitle={'Unique Yoga Spots'} post={'/under-construction'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
       <Card image={Cafe_Monet_Blog_Square} title={'AUSTIN ACTIVITIES'} subtitle={'Cafe Monet - Austin Art Break'} post={'/austin-living/cafe-monet'}/>
@@ -34,13 +34,13 @@ const AustinActivitiesBlogGrid = (props:Props) => {
 
     <Grid container justifyContent='center' sx={{paddingTop: theme.spacing(15)}}>
     <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Zilker_Botanical_Blog_Square} title={'AUSTIN ACTIVITIES'} subtitle={'Zilker Botanical Garden'} post={'/'}/>
+      <Card image={Zilker_Botanical_Blog_Square} title={'AUSTIN ACTIVITIES'} subtitle={'Zilker Botanical Garden'} post={'/under-construction'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Mozarts_Blog_Square} title={'AUSTIN ACTIVITIES'} subtitle={'Mozarts - Christmas in Austin'} post={'/'}/>
+      <Card image={Mozarts_Blog_Square} title={'AUSTIN ACTIVITIES'} subtitle={'Mozarts - Christmas in Austin'} post={'/under-construction'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Mount_Bonnet_Blog_Square} title={'AUSTIN ACTIVITIES'} subtitle={'Mount Bonnet - An Honest Review'} post={'/'}/>
+      <Card image={Mount_Bonnet_Blog_Square} title={'AUSTIN ACTIVITIES'} subtitle={'Mount Bonnell - An Honest Review'} post={'/under-construction'}/>
       </Grid>
     </Grid>
     </ThemeProvider>

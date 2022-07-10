@@ -22,24 +22,24 @@ const AustinBlogGrid = (props:Props) => {
 
     <Grid container justifyContent='center' sx={{paddingTop: theme.spacing(15)}}>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Mount_Bonnet_Blog_Square} title={'AUSTIN'} subtitle={'Austin Travel Guide'} post={'/'}/>
+      <Card image={Mount_Bonnet_Blog_Square} title={'AUSTIN'} subtitle={'Austin Travel Guide'} post={'/under-construction'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Zilker_Botanical_Blog_Square} title={'AUSTIN'} subtitle={'Zilker Botanical Garden'} post={'/'}/>
+      <Card image={Zilker_Botanical_Blog_Square} title={'AUSTIN'} subtitle={'Zilker Botanical Garden'} post={'/under-construction'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Oseyo_Blog_Square} title={'AUSTIN'} subtitle={'Vegetarian Restaurants in Austin'} post={'/'}/>
+      <Card image={Oseyo_Blog_Square} title={'AUSTIN'} subtitle={'Vegetarian Restaurants in Austin'} post={'/under-construction'}/>
       </Grid>
     </Grid>
     <Grid container justifyContent='center' sx={{paddingTop: theme.spacing(15)}}>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Yoga_Spots_Blog_Square} title={'AUSTIN'} subtitle={'Activities in Austin'} post={'/'}/>
+      <Card image={Yoga_Spots_Blog_Square} title={'AUSTIN'} subtitle={'Activities in Austin'} post={'/under-construction'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Costa_Rica_Hotels_Blog_Square} title={'AUSTIN'} subtitle={'Airbnbs in Austin'} post={'/'}/>
+      <Card image={Costa_Rica_Hotels_Blog_Square} title={'AUSTIN'} subtitle={'Airbnbs in Austin'} post={'/under-construction'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Murals_Blog_Square} title={'AUSTIN'} subtitle={'Beautiful Austin Murals to Visit'} post={'/'}/>
+      <Card image={Murals_Blog_Square} title={'AUSTIN'} subtitle={'Beautiful Austin Murals to Visit'} post={'/under-construction'}/>
       </Grid>
     </Grid>
     </ThemeProvider>

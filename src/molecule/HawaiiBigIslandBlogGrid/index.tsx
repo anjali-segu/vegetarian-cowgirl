@@ -22,24 +22,24 @@ const HawaiiBigIslandBlogGrid = (props:Props) => {
 
     <Grid container justifyContent='center' sx={{paddingTop: theme.spacing(15)}}>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Big_Island_Travel_Blog_Square} title={'THE BIG ISLAND'} subtitle={'The Big Island Travel Guide'} post={'/'}/>
+      <Card image={Big_Island_Travel_Blog_Square} title={'THE BIG ISLAND'} subtitle={'The Big Island Travel Guide'} post={'/under-construction'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Big_Island_Botanical_Blog_Square} title={'THE BIG ISLAND'} subtitle={'Big Island Botanical Garden'} post={'/'}/>
+      <Card image={Big_Island_Botanical_Blog_Square} title={'THE BIG ISLAND'} subtitle={'Big Island Botanical Garden'} post={'/under-construction'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Big_Island_Farmers_Market_Blog_Square} title={'THE BIG ISLAND'} subtitle={`Best Farmer's Markets`} post={'/'}/>
+      <Card image={Big_Island_Farmers_Market_Blog_Square} title={'THE BIG ISLAND'} subtitle={`Best Farmer's Markets`} post={'/under-construction'}/>
       </Grid>
     </Grid>
     <Grid container justifyContent='center' sx={{paddingTop: theme.spacing(15)}}>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Big_Island_Activities_Blog_Square} title={'THE BIG ISLAND'} subtitle={'Activities on the Big Island'} post={'/'}/>
+      <Card image={Big_Island_Activities_Blog_Square} title={'THE BIG ISLAND'} subtitle={'Activities on the Big Island'} post={'/under-construction'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Big_Island_Stay_Blog_Square} title={'THE BIG ISLAND'} subtitle={'Best Place to Stay'} post={'/'}/>
+      <Card image={Big_Island_Stay_Blog_Square} title={'THE BIG ISLAND'} subtitle={'Best Place to Stay'} post={'/under-construction'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Big_Island_Beaches_Blog_Square} title={'THE BIG ISLAND'} subtitle={'Best Beaches on the Big Island'} post={'/'}/>
+      <Card image={Big_Island_Beaches_Blog_Square} title={'THE BIG ISLAND'} subtitle={'Best Beaches on the Big Island'} post={'/under-construction'}/>
       </Grid>
     </Grid>
     </ThemeProvider>
