@@ -104,7 +104,7 @@ export const theme = createTheme({
   },
   spacing: (factor: number) => `${0.25 * factor}rem`,
   typography: {
-    fontFamily: 'Karla, open sans, sans-serif',
+    fontFamily: 'Karla, Quicksand, open sans, sans-serif',
   },
   palette: {
     primary: {
