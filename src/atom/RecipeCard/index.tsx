@@ -14,6 +14,8 @@ import Tooltip from '@mui/material/Tooltip';
 import Snackbar from '@mui/material/Snackbar';
 import Alert from '@mui/material/Alert';
 import AlertTitle from '@mui/material/AlertTitle';
+import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
+import ToggleButton from '@mui/material/ToggleButton';
 
 type Props = {
     icon: string
@@ -102,6 +104,7 @@ interface ChromiumNavigator extends Navigator {
 const RecipeCard = (props: Props) => {
     const [wakeLock, setWakeLock] = useState<any>(null)
     const [cookMode, setCookMode] = useState(false)
+    const [multiplier, setMultiplier] = useState(1)
 
     const [cookModeSuccessAlertOpen, setCookModeSuccessAlertOpen] = useState(false)
     const [cookModeWarningAlertOpen, setCookModeWarningAlertOpen] = useState(false)
@@ -155,6 +158,15 @@ const RecipeCard = (props: Props) => {
         setCookModeWarningAlertOpen(false);
     };
 
+    const handleMultiplier = (
+        event: React.MouseEvent<HTMLElement>,
+        newMultiplier: number | null,
+      ) => {
+        if (newMultiplier !== null) {
+          setMultiplier(newMultiplier);
+        }
+      };
+
     return (
         <ThemeProvider theme={theme}>
             <Grid container justifyContent='center' sx={{ marginTop: theme.spacing(10) }}>
@@ -196,8 +208,31 @@ const RecipeCard = (props: Props) => {
                                     gutterBottom
                                     variant="body1"
                                     component="div">
-                                    Serves {props.serves}
+                                    Serves {props.serves * multiplier}
                                 </Typography>
+
+                                <ToggleButtonGroup
+                                    value={multiplier}
+                                    exclusive
+                                    onChange={handleMultiplier}
+                                    aria-label="recipe multiplier"
+                                    sx={{p: theme.spacing(2.5)}}
+                                    color='primary'
+                                >
+                                    <ToggleButton value={1/2} aria-label="one half times">
+                                        <Typography sx={{ fontWeight: 900 }}>½×</Typography>
+                                    </ToggleButton>
+                                    <ToggleButton value={1} aria-label="one times">
+                                        <Typography sx={{ fontWeight: 900 }}>1×</Typography>
+                                    </ToggleButton>
+                                    <ToggleButton value={2} aria-label="two times">
+                                        <Typography sx={{ fontWeight: 900 }}>2×</Typography>
+                                    </ToggleButton>
+                                    <ToggleButton value={3} aria-label="three times">
+                                        <Typography sx={{ fontWeight: 900 }}>3×</Typography>
+                                    </ToggleButton>
+                                </ToggleButtonGroup>
+
 
                                 {'wakeLock' in navigator &&
                                     <FormGroup>
