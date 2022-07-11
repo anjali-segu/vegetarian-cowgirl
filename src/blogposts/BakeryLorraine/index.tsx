@@ -20,9 +20,13 @@ const BakeryLorraine = (props: Props) => {
     <ThemeProvider theme={theme}>
       <RestaurantBlogPost
         image={BakeryLorraine_BlogSquare}
+        alt="Hazelnut tart and coffee"
         image2={BakeryLorraine2_BlogSquare}
+        alt2="Coffee and macaroons"
         image3={BakeryLorraine3_BlogSquare}
+        alt3="Hazelnut tart"
         image4={BakeryLorraine4_BlogSquare}
+        alt4="Coffee and macaroons with flowers"
         title="Bakery Lorraine - French Patisserie"
         subtitle={`A cute French bakery in the heart of the Domain, Bakery Lorraine is must visit! Bakery Lorraine has some of the best macaroons and coffee in Austin. `}
         paras={[

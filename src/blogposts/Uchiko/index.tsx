@@ -20,9 +20,13 @@ const Oseyo = (props: Props) => {
     <ThemeProvider theme={theme}>
       <RestaurantBlogPost
         image={Uchiko_BlogSquare}
+        alt="Carmel banana cake with ice cream"
         image2={Uchiko2_BlogSquare}
+        alt2="Pinapple sushi piece"
         image3={Uchiko3_BlogSquare}
+        alt3="Tempura onion rings with sauce"
         image4={Uchiko4_BlogSquare}
+        alt4="Jasmine dessert in a glass vessel"
         title="Uchiko - Japanese Vegetarian Fusion"
         subtitle={`An experimental take on Japanese foundations, Uchiko is a unique spot playing with the artistry of food. The chefs take pride in their approach to Japanese food and make bold creative decisions. `}
         paras={[

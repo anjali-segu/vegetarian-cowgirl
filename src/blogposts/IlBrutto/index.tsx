@@ -20,9 +20,13 @@ const IlBrutto = (props: Props) => {
     <ThemeProvider theme={theme}>
       <RestaurantBlogPost
         image={Il_Brutto_BlogSquare}
+        alt="Goat cheese pistachio pasta"
         image2={Il_Brutto2_BlogSquare}
+        alt2="Colorful olives"
         image3={Il_Brutto3_BlogSquare}
+        alt3="Cacio e Pepe pasta"
         image4={Il_Brutto4_BlogSquare}
+        alt4="Hazelnut gelato"
         title="Il Brutto - Classic Italian Dining"
         subtitle={`A fresh take on italian cuisine, makes Il Brutto a great spot to visit. They have some of the best pasta in Austin!`}
         paras={[

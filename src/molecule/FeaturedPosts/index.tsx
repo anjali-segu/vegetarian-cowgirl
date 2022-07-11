@@ -24,7 +24,7 @@ const FeaturedPosts = (props:Props) => {
       (
         <Grid container justifyContent='center'>
           <Grid item xs={1} sx={{display:'flex',justifyContent:'center'}}>
-           <img style={{maxHeight: theme.spacing(13)}}src={Logo3} alt="Paris"/>
+           <img style={{maxHeight: theme.spacing(13)}}src={Logo3} alt="The Vegetarian Cowgirl logo of a cowboy boot and a monstera plant"/>
           </Grid>
         </Grid>
       )}

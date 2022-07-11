@@ -15,17 +15,20 @@ interface Props {
   subtitle: string,
   paras: string[],
   steps: string[],
+  alt: string,
+  alt2: string,
+  alticon: string,
 
 }
 
 
 const StandardBlogPost = (props:Props) => {
-const {image, image2, icon, title, subtitle, paras, steps} = props
+const {image, image2, icon, title, subtitle, paras, steps, alt, alt2, alticon} = props
   return (
     <ThemeProvider theme={theme}>
     <Grid container justifyContent='center'>
       <Grid item xs={1} sx={{display:'flex',justifyContent:'center'}}>
-       <img style={{maxHeight: theme.spacing(13)}}src={icon} alt="Paris"/>
+       <img style={{maxHeight: theme.spacing(13)}}src={icon} alt={alticon}/>
       </Grid>
     </Grid>
     <Typography sx={{
@@ -64,7 +67,7 @@ const {image, image2, icon, title, subtitle, paras, steps} = props
     (
       <Grid container justifyContent='center' sx={{marginTop:theme.spacing(10)}}>
         <Grid item xs={8} sx={{display:'flex',justifyContent:'center'}}>
-          <img style={{maxHeight: theme.spacing(80)}} src={image} alt="Paris"/>
+          <img style={{maxHeight: theme.spacing(80)}} src={image} alt={alt}/>
         </Grid>
       </Grid>
 
@@ -74,7 +77,7 @@ const {image, image2, icon, title, subtitle, paras, steps} = props
     (
       <Grid container justifyContent='center' sx={{marginTop:theme.spacing(10)}}>
         <Grid item xs={8} sx={{display:'flex',justifyContent:'center'}}>
-          <img style={{maxHeight: theme.spacing(120)}} src={image} alt="Paris"/>
+          <img style={{maxHeight: theme.spacing(120)}} src={image} alt={alt}/>
         </Grid>
       </Grid>
 
@@ -101,7 +104,7 @@ const {image, image2, icon, title, subtitle, paras, steps} = props
     (
       <Grid container justifyContent='center' sx={{marginTop:theme.spacing(10)}}>
         <Grid item xs={8} sx={{display:'flex',justifyContent:'center'}}>
-          <img style={{maxHeight: theme.spacing(55)}} src={image2} alt="Paris"/>
+          <img style={{maxHeight: theme.spacing(55)}} src={image2} alt={alt2}/>
         </Grid>
       </Grid>
 
@@ -111,7 +114,7 @@ const {image, image2, icon, title, subtitle, paras, steps} = props
     (
       <Grid container justifyContent='center' sx={{marginTop:theme.spacing(10)}}>
         <Grid item xs={8} sx={{display:'flex',justifyContent:'center'}}>
-          <img style={{maxHeight: theme.spacing(80)}} src={image2} alt="Paris"/>
+          <img style={{maxHeight: theme.spacing(80)}} src={image2} alt={alt2}/>
         </Grid>
       </Grid>
 

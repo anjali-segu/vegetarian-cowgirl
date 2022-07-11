@@ -18,8 +18,11 @@ const AustinTeaGuide = (props:Props) => {
     <ThemeProvider theme={theme}>
     <StandardBlogPost
       image={Plant_Store_Blog_Square}
+      alt="A sign with the word Frond on it inside a store filled with plants"
       image2={Austin_Plant_Store}
+      alt2="Bougainvillea plant with dark maroon leaves"
       icon={Activities_Icon}
+      alticon="A map and compass icon"
       title="My Favorite Austin Plant Stores"
       subtitle={`The Great Outdoors, Leaf Landscape Supply, and Frond Plant Shop are my absolute favorite plant stores to visit in Austin. They have a great selection of unique indoor and outdoor plants and are extremely affordable. `}
         paras={[`The plant scene in Austin is exciting but can be a bit overwhelming. Austin has everything from boutique nurseries to landscaping garden centers. I have been on the hunt for the best places to find plants. My favorites are The Great Outdoors, Leaf Landscape Supply, and Frond Plant Shop. Between, the three of these you can find most botanicals that won;t break the bank.`,

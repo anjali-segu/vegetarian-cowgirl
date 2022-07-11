@@ -20,9 +20,13 @@ const Aba = (props: Props) => {
     <ThemeProvider theme={theme}>
       <RestaurantBlogPost
         image={Aba_BlogSquare}
+        alt="Falafel in a bowl"
         image2={Aba2_BlogSquare}
+        alt2="Eggplant dish"
         image3={Aba3_BlogSquare}
+        alt3="Feta dish"
         image4={Aba4_BlogSquare}
+        alt4="Coffee mug"
         title="Aba - Aesthetic Mediterranean Cuisine"
         subtitle={`A magical garden aesthetic, best describe Aba. A secret spot located on Congress, Aba gives mediteranean food a new take.  `}
         paras={[
