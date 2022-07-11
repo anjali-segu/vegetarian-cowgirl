@@ -16,18 +16,25 @@ const About = (props:Props) => {
   return (
     <ThemeProvider theme={theme}>
     <Grid container>
-    <Media query="(max-width: 800px)" render={() =>
+    <Media query="(max-width: 400px)" render={() =>
       (
       <Grid item xs={12} sx={{display:'flex',justifyContent:'center'}}>
-        <img style={{maxHeight: theme.spacing(100), marginTop: theme.spacing(2)}}src={About_Image} alt="Paris"/>
+        <img style={{maxHeight:theme.spacing(45), marginTop: theme.spacing(2)}}src={About_Image} alt="Anjali under a rainbow in Hawaii."/>
       </Grid>
 
       )}
     />
-    <Media query="(min-width: 799px)" render={() =>
+    <Media query="(min-width:401px) and (max-width: 800px)" render={() =>
+      (
+      <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center' }}>
+        <img style={{ maxHeight: theme.spacing(70), marginTop: theme.spacing(2) }} src={About_Image} alt="Anjali under a rainbow in Hawaii." />
+      </Grid>
+      )}
+    />
+    <Media query="(min-width: 801px)" render={() =>
       (
         <Grid item xs={12} sx={{display:'flex',justifyContent:'center'}}>
-          <img style={{maxHeight: theme.spacing(150), marginTop: theme.spacing(2)}}src={About_Image} alt="Paris"/>
+          <img style={{maxHeight: theme.spacing(120), marginTop: theme.spacing(2)}}src={About_Image} alt="Anjali under a rainbow in Hawaii."/>
         </Grid>
       )}
     />
