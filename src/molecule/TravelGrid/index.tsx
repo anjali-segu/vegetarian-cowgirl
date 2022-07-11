@@ -41,19 +41,19 @@ const TravelGrid = (props:Props) => {
       </Grid>
 
       <Grid item xs={12} sm={6} md={3} sx={{display: 'inline',justifyContent:'center', }}>
-        <CityCard link={"/rome-city-guide"} image={Rome} city={"ROME"}/>
+        <CityCard link={"/under-construction"} image={Rome} city={"ROME"}/>
       </Grid>
 
       <Grid item xs={12} sm={6} md={3} sx={{display: 'inline',justifyContent:'center', }}>
-        <CityCard link={"/paris-city-guide"} image={Paris} city={"PARIS"}/>
+        <CityCard link={"/under-construction"} image={Paris} city={"PARIS"}/>
       </Grid>
 
       <Grid item xs={12} sm={6} md={3} sx={{display: 'inline',justifyContent:'center', }}>
-        <CityCard link={"/new-york-city-guide"} image={New_York} city={"NEW YORK"}/>
+        <CityCard link={"/under-construction"} image={New_York} city={"NEW YORK"}/>
       </Grid>
 
       <Grid item xs={12} sm={6} md={3} sx={{display: 'inline',justifyContent:'center', }}>
-        <CityCard link={"/london-city-guide"} image={London} city={"LONDON"}/>
+        <CityCard link={"/under-construction"} image={London} city={"LONDON"}/>
       </Grid>
 
 

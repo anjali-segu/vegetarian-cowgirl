@@ -1,4 +1,4 @@
-import {createMuiTheme} from '@mui/material/styles'
+import {createTheme} from '@mui/material/styles'
 
 export const white = 'rgba(255, 255, 255, .97)'
 export const black = 'rgba(0, 0, 0, .97)'
@@ -10,7 +10,7 @@ export const charcoal = 'rgba(13, 13, 13, 1)'
 export const tan = 'rgba(225, 168, 122,1)'
 
 
-export const theme = createMuiTheme({
+export const theme = createTheme({
   // Any overrides will go here ..
   components: {
     MuiButton: {
@@ -79,24 +79,24 @@ export const theme = createMuiTheme({
     MuiTypography: {
       styleOverrides: {
         h1: {
-          fontFamily: 'Poly, serif',
+          fontFamily: 'Karla, sans-serif',
         },
         h2: {
-          fontFamily: 'Poly, serif',
+          fontFamily: 'Karla, sans-serif',
         },
         h3: {
-          fontFamily: 'Poly, serif',
+          fontFamily: 'Karla, sans-serif',
         },
         h4: {
-          fontFamily: 'Poly, serif',
+          fontFamily: 'Karla, sans-serif',
           color: lightblack,
         },
         h5: {
-          fontFamily: 'Ubuntu, sans-serif',
+          fontFamily: 'Karla, sans-serif',
           color: lightblack,
         },
         h6: {
-          fontFamily: 'Ubuntu, sans-serif',
+          fontFamily: 'Karla, sans-serif',
           color: lightblack,
         },
       },
@@ -104,11 +104,11 @@ export const theme = createMuiTheme({
   },
   spacing: (factor: number) => `${0.25 * factor}rem`,
   typography: {
-    fontFamily: 'Quicksand, open sans, sans-serif',
+    fontFamily: 'Karla, Quicksand, open sans, sans-serif',
   },
   palette: {
     primary: {
-      main: tan,
+      main: '#f09b85',
     },
   },
 })
