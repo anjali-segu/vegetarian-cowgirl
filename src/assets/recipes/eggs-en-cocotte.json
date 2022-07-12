@@ -7,14 +7,14 @@
       {"quantity": 4, "unitTag": "egg", "key": "egg"},
       {"quantity": 2, "unitTag": "tsp", "ingredient": "olive oil", "key": "olive-oil"},
       {"quantity": 1, "unitTag": "tsp", "ingredient": "of olive oil", "key": "olive-oil-split", "hidden": true},
-      {"quantity": 1, "unitTag": "tsp", "ingredient": "of olive oil or butter", "key": "olive-oil"},
       {"quantity": 4, "unitTag": "tbsp", "ingredient": "of goat cheese", "key": "goat-cheese"},
       {"quantity": 2, "unitTag": "small white or yellow onion", "ingredient": "sliced length-wise", "key": "onion"},
       {"quantity": 16, "unitTag": "cherry tomato", "ingredient": "sliced lengthwise into halves", "key": "cherry-tomato"},
       {"quantity": 4, "unitTag": "tsp", "ingredient": "of milk", "key": "milk"},
       {"ingredient": "salt", "key": "salt"},
       {"ingredient": "pepper", "key": "pepper"},
-      {"quantity": 4, "unitTag": "ramekin", "key": "ramekin"}
+      {"quantity": 4, "unitTag": "ramekin", "key": "ramekin"},
+      {"ingredient": "extra olive oil or butter for ramekins", "key": "extra-ingredients"}
     ]
   ],
   "steps": [
