@@ -4,10 +4,10 @@
   "subtitle2": "This dessert is a fan favorite by college students! Made from chocolate cake mix the cookies come together super fast. My personal favorite mix-ins are white chocolate chips, Andes Chocolate, and Reese's Pieces. The overall flavor is reminiscent of a fudgey brownies and hits the spot!",
   "ingredients": [
     [
-      "1 box Betty Crocker Triple Chocolate Fudge Cake Mix",
-      "2 eggs",
-      "1/2 cup canola oil",
-      "1 cup chocolate chips or any other candy (ex: Andes)"
+      {"quantity": 1, "unitTag": "box", "ingredient": "Betty Crocker Triple Chocolate Fudge Cake Mix", "key": "cake-mix"},
+      {"quantity": 2, "unitTag": "egg", "key": "egg"},
+      {"quantity": 0.5, "unitTag": "cup", "ingredient": "canola oil", "key": "canola-oil"},
+      {"quantity": 1, "unitTag": "cup", "ingredient": "chocolate chips or any other candy (ex: Andes)", "key": "chocolate-chips"}
     ]
   ],
   "steps": [

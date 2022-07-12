@@ -1,18 +1,18 @@
 {
-  "title": "Puff Pastry Jalapeno Poppers",
+  "title": "Puff Pastry Jalapeño Poppers",
   "subtitle": "This is a delicious treat that is spicy, creamy, and buttery! Perfect for any party. Simple to make, and heats up well.",
   "subtitle2": "Puff pastry Jalapeno Popper have the classic flavors of shredded cheese, spicy jalapenos, and cream cheese all wrapped up in a tender and flaky puff pastry! They are a portable appetizer that is perfect for game days, or any party!",
   "ingredients": [
     [
-      "6-7 jalapeño peppers",
-      "1 package (8 ounces) cream cheese, room temperature",
-      "1 cup (8 ounces) shredded jack cheese",
-      "2 green onions, chopped",
-      "1/2 teaspoon salt",
-      "1/4 teaspoon black pepper",
-      "1/2 teaspoon garlic powder",
-      "1 package puff pastry dough (typically use pepperidge farm)",
-      "1 egg, beaten"
+      {"quantity": 6, "unitTag": "jalapeno pepper", "ingredient": "(approximately)", "key": "jalapeno"},
+      {"quantity": 1, "unitTag": "package", "ingredient": "(8 ounces each) cream cheese, room temperature", "key": "cream-cheese"},
+      {"quantity": 1, "unitTag": "cup", "ingredient": "shredded jack cheese", "key": "jack-cheese"},
+      {"quantity": 2, "unitTag": "green onion", "ingredient": "chopped", "key": "onion"},
+      {"quantity": 0.5, "unitTag": "tsp", "ingredient": "salt", "key": "salt"},
+      {"quantity": 0.25, "unitTag": "tsp", "ingredient": "black pepper", "key": "pepper"},
+      {"quantity": 0.5, "unitTag": "tsp", "ingredient": "garlic powder", "key": "garlic"},
+      {"quantity": 1, "unitTag": "package", "ingredient": "puff pastry dough (typically use pepperidge farm)", "key": "dough"},
+      {"quantity": 1, "unitTag": "egg", "ingredient": "beaten", "key": "egg"}
   ]
   ],
   "steps": [

@@ -4,14 +4,14 @@
   "subtitle2": "This is a week night classic in my house! Turkish eggs is a simple recipe that comes together in a short amount of time. This recipe also scales up well, so it easy to make for the entire family!",
   "ingredients": [
     [
-      "4 eggs",
-      "1 cup greek yogurt",
-      "1 clove of garlic",
-      "1 teaspoon dill",
-      "1 teaspoon lemon juice",
-      "flaky sea salt",
-      "2 tbsp butter",
-      "1 - 2 teaspoons chili powder"
+      {"quantity": 4, "unitTag": "egg", "key": "egg"},
+      {"quantity": 1, "unitTag": "cup", "ingredient": "greek yogurt", "key": "yogurt"},
+      {"quantity": 1, "unitTag": "clove", "ingredient": "of garlic", "key": "garlic"},
+      {"quantity": 1, "unitTag": "tsp", "ingredient": "dill", "key": "dill"},
+      {"quantity": 1, "unitTag": "tsp", "ingredient": "lemon juice", "key": "lemon-juice"},
+      {"ingredient": "flaky sea salt", "key": "sea-salt"},
+      {"quantity": 2, "unitTag": "tbsp", "ingredient": "butter", "key": "butter"},
+      {"quantity": 0, "unitTag": "tsp", "ingredient": "(or double) chili powder", "key": "chili-powder"}
     ]
   ],
   "steps": [
@@ -19,7 +19,7 @@
     "In a bowl mix the greek yogurt, lemon juice, a pinch of salt, and minced garlic.",
     "In a small pan, heat the butter until it is browned. Take off from heat. Add the chili powder and mix. Set aside.",
     "Add the eggs to the boiling water. Cook for 5 minutes. Immediately take out of boiling water and put in ice cold water. Peel the eggs and set aside.",
-    "On two plates, split the yogurt mixture. Make a swirl and for the eggs to sit in. Place the 2 eggs on top of the yogurt. Drizzle the butter chili oil on top of the eggs. Top with dill and flakey sea salt.",
+    "On two plates, split the yogurt mixture. Make a swirl and for the eggs to sit in. Place the !egg on top of the yogurt. Drizzle the butter chili oil on top of the eggs. Top with dill and flakey sea salt.",
     "Eat immediately with toast points or just on it's own."
   ],
   "preptime": "10 minutes",

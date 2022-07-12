@@ -4,11 +4,11 @@
   "subtitle2": "This drink is perfect for the fall season! It is simple to make and tastes superior to any store bought syrup or drink.",
   "ingredients": [
     [
-      "2 tbsp Libby's Pumpkin Pie Mix",
-      "1/8 teaspoon cinnamon",
-      "whipped cream",
-      "1 cup milk",
-      "1 espresso shot"
+      {"quantity": 2, "unitTag": "tbsp", "ingredient": "Libby's Pumpkin Pie Mix", "key": "pie-mix"},
+      {"quantity": 0.125, "unitTag": "tsp", "ingredient": "cinnamon", "key": "cinnamon"},
+      {"ingredient": "whipped cream", "key": "whipped-cream"},
+      {"quantity": 1, "unitTag": "cup", "ingredient": "milk", "key": "milk"},
+      {"quantity": 1, "unitTag": "espresso shot", "key": "espresso"}
     ]
   ],
   "steps": [
@@ -20,5 +20,6 @@
   "preptime": "5 minutes",
   "cooktime": "2 minutes",
   "totaltime": "7 minutes",
-  "serves": 1
+  "serves": 1,
+  "indivisible": true
 }

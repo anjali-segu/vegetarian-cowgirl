@@ -4,15 +4,15 @@
   "subtitle2": "Spend just minutes mixing the mascarpone cheese and pumpkin puree filling together with fall spices, then pour into a prepared pie crust, and bake. The mascarpone makes this pie extra creamy and dreamy while the spices offset it. This pie is not too sweet which makes it incredibly addicting.",
   "ingredients": [
     [
-      "1 (13.5 oz) can pumpkin puree",
-      "1 cup mascarpone cheese",
-      "1/4 cup brown sugar",
-      "1 teaspoon pumpkin pie spice",
-      "1 teaspoon vanilla extract",
-      "1 tablespoon fresh lemon juice",
-      "2 large eggs",
-      "1/4 teaspoon salt",
-      "1 single 9 inch pie crust, homemade or store-bought"
+      {"quantity": 1, "unitTag": "can", "ingredient": "(13.5 oz each) pumpkin puree", "key": "pumpkin-puree"},
+      {"quantity": 1, "unitTag": "cup", "ingredient": "mascarpone cheese", "key": "cheese"},
+      {"quantity": 0.25, "unitTag": "cup", "ingredient": "brown sugar", "key": "sugar"},
+      {"quantity": 1, "unitTag": "tsp", "ingredient": "pumpkin pie spice", "key": "spice"},
+      {"quantity": 1, "unitTag": "tsp", "ingredient": "vanilla extract", "key": "vanilla"},
+      {"quantity": 1, "unitTag": "tbsp", "ingredient": "fresh lemon juice", "key": "lemon"},
+      {"quantity": 2, "unitTag": "large egg", "key": "egg"},
+      {"quantity": 0.25, "unitTag": "tsp", "ingredient": "salt", "key": "salt"},
+      {"quantity": 1, "unitTag": "single 9 inch pie crust", "ingredient": "(homemade or store-bought)", "key": "crust"}
      ]
   ],
   "steps": [
@@ -24,5 +24,6 @@
   "preptime": "10 min",
   "cooktime": "1 hr",
   "totaltime": "1 hr 30 min",
-  "serves": 12
+  "serves": 12,
+  "indivisible": true
 }

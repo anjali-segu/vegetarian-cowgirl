@@ -4,22 +4,22 @@
   "subtitle2": "This is my go to soup to make when I'm not feeling well! The miso base, spices, and vegetables is the perfect combination to kick out a cold. Feel free to sub out any of the veggies for whatever vegetables you have in the fridge. I personally get my miso paste from Sprout's.",
   "ingredients": [
     [
-      "2 tbsp of white miso paste",
-      "3 cups water",
-      "4 cloves of garlic",
-      "1 tsp ginger, minced",
-      "1 small box of mushrooms, sliced",
-      "1 cup frozen spinach or any leafy green",
-      "1 large carrot, diced",
-      "1/2 cup frozen peas",
-      "1/2 cup frozen corn", 
-      "1 tbsp olive oil",
-      "1 lime, juiced",
-      "2 tsp siracha",
-      "3 tsp soy sauce",
-      "2 tsp rice vinegar",
-      "pepper",
-      "salt"
+      {"quantity": 2, "unitTag": "tbsp", "ingredient": "of white miso paste", "key": "miso"},
+      {"quantity": 3, "unitTag": "cup", "ingredient": "water", "key": "water"},
+      {"quantity": 4, "unitTag": "clove", "ingredient": "of garlic", "key": "garlic"},
+      {"quantity": 1, "unitTag": "tsp", "ingredient": "ginger, minced", "key": "ginger"},
+      {"quantity": 1, "unitTag": "small box", "ingredient": "of mushrooms, sliced", "key": "mushrooms"},
+      {"quantity": 1, "unitTag": "cup", "ingredient": "frozen spinach or any leafy green", "key": "spinach"},
+      {"quantity": 1, "unitTag": "large carrot", "ingredient": "(diced)", "key": "carrot"},
+      {"quantity": 0.5, "unitTag": "cup", "ingredient": "frozen peas", "key": "peas"},
+      {"quantity": 0.5, "unitTag": "cup", "ingredient": "frozen corn", "key": "corn"},
+      {"quantity": 1, "unitTag": "tbsp", "ingredient": "olive oil", "key": "olive-oil"},
+      {"quantity": 1, "unitTag": "lime", "ingredient": "(juiced)", "key": "lime"},
+      {"quantity": 2, "unitTag": "tsp", "ingredient": "siracha", "key": "siracha"},
+      {"quantity": 3, "unitTag": "tsp", "ingredient": "soy sauce", "key": "soy"},
+      {"quantity": 2, "unitTag": "tsp", "ingredient": "rice vinegar", "key": "vinegar"},
+      {"ingredient": "salt", "key": "salt"},
+      {"ingredient": "pepper", "key": "pepper"}
     ]
   ],
   "steps": [

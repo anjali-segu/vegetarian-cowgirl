@@ -10,35 +10,35 @@
   ],
   "ingredients": [
     [
-      "2 1/2 cups all purpose flour",
-      "1/2 tsp salt",
-      "2/3 cup hot water",
-      "all-purpose flour for dusting"
+      {"quantity": 2.5, "unitTag": "cup", "ingredient": "all purpose flour", "key": "wrapper-flour"},
+      {"quantity": 0.5, "unitTag": "tsp", "ingredient": "salt", "key": "wrapper-salt"},
+      {"quantity": 0.67, "unitTag": "cup", "ingredient": "hot water", "key": "wrapper-water"},
+      {"ingredient": "all-purpose flour for dusting", "key": "wrapper-flour-dusting"}
     ],
     [
-      "1-2 tbsp sesame oil",
-      "2 cloves garlic minced",
-      "1 tbsp ginger minced",
-      "1 onion diced",
-      "1 carrot shredded",
-      "7 oz mushrooms",
-      "1/2 stick leek",
-      "7 oz cabbage",
-      "2 tbsp soy sauce",
-      "1 tbsp rice vinegar",
-      "salt and pepper to taste",
-      "1 tsp siracha"
+      {"quantity": 1, "unitTag": "tbsp", "ingredient": "(or double) sesame oil", "key": "filling-sesame-oil"},
+      {"quantity": 2, "unitTag": "clove", "ingredient": "garlic minced", "key": "filling-garlic"},
+      {"quantity": 1, "unitTag": "tbsp", "ingredient": "ginger minced", "key": "filling-ginger"},
+      {"quantity": 1, "unitTag": "onion", "ingredient": "diced", "key": "filling-onion"},
+      {"quantity": 1, "unitTag": "carrot", "ingredient": "shredded", "key": "filling-carrot"},
+      {"quantity": 7, "unitTag": "oz", "ingredient": "mushrooms", "key": "filling-mushrooms"},
+      {"quantity": 0.5, "unitTag": "stick", "ingredient": "leek", "key": "filling-leek"},
+      {"quantity": 7, "unitTag": "oz", "ingredient": "cabbage", "key": "filling-cabbage"},
+      {"quantity": 2, "unitTag": "tbsp", "ingredient": "soy sauce", "key": "filling-soy"},
+      {"quantity": 1, "unitTag": "tbsp", "ingredient": "rice vinegar", "key": "filling-vinegar"},
+      {"ingredient": "salt and pepper to taste", "key": "filling-salt-pepper"},
+      {"quantity": 1, "unitTag": "tsp", "ingredient": "siracha", "key": "filling-siracha"}
     ],
     [
-      "3 tbsp soy sauce",
-      "1 tbsp rice vinegar",
-      "1 tbsp agave syrup",
-      "1/4 tsp sesame oil",
-      "1/2 tsp siracha"
+      {"quantity": 3, "unitTag": "tbsp", "ingredient": "soy sauce", "key": "sauce-soy"},
+      {"quantity": 1, "unitTag": "tbsp", "ingredient": "rice vinegar", "key": "sauce-vinegar"},
+      {"quantity": 1, "unitTag": "tbsp", "ingredient": "agave syrup", "key": "sauce-agave"},
+      {"quantity": 0.25, "unitTag": "tsp", "ingredient": "sesame oil", "key": "sauce-sesame-oil"},
+      {"quantity": 0.5, "unitTag": "tsp", "ingredient": "siracha", "key": "sauce-siracha"}
     ],
     [
-      "sesame seeds",
-      "green onions, finely sliced"
+      {"ingredient": "sesame seeds", "key": "garnish-sesame"},
+      {"ingredient": "green onions, finely sliced", "key": "garnish-onion"}
     ]
   ],
   "steps": [
@@ -52,7 +52,7 @@
     "Set aside to cool.",
     "Add 1 heaped teaspoon of filling to the center of the dumpling wrapper. Brush the edges with water and fold the dumpling creating hand fan pattern or as desired. Make sure to seal the seams.",
     "Repeat until the wrappers are used up.",
-    "Heat the oil in pan over medium heat. Add the gyoza and fry for 2-3 min or until the bottoms are slightly browned. Pour in 1/4 cup of water and cover with a lid. Steam for 7-8 minutes or until the water has evaporated.",
+    "Heat the oil in pan over medium heat. Add the gyoza and fry for 2-3 min or until the bottoms are slightly browned. Pour in ¼ cup of water and cover with a lid. Steam for 7-8 minutes or until the water has evaporated.",
     "For the dipping sauce, mix all the ingredients.",
     "Top dumplings with sesame seeds and green onions before serving."
     ],

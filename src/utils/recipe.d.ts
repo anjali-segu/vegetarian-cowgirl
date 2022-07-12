@@ -1,3 +1,5 @@
+import { Ingredient } from "./ingredient";
+
 export default interface Recipe {
     path: string,
     image: string,
@@ -6,7 +8,7 @@ export default interface Recipe {
     subtitle: string,
     subtitle2: string,
     categories?: string[],
-    ingredients: string[][],
+    ingredients: Ingredient[][],
     steps: string[],
     preptime: string,
     cooktime: string,
@@ -14,4 +16,5 @@ export default interface Recipe {
     serves: number,
     alt?: string,
     icon_alt?: string,
+    indivisible?: boolean
 }
