@@ -1,19 +1,23 @@
 import React, { useCallback, useEffect, useState } from 'react'
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import Grid from '@mui/material/Grid';
-import ThemeProvider from '@mui/styles/ThemeProvider'
-import Typography from '@mui/material/Typography';
-
-import { theme } from '../../utils/theme'
-import Box from '@mui/material/Box';
-import Switch from '@mui/material/Switch';
-import FormGroup from '@mui/material/FormGroup';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import Tooltip from '@mui/material/Tooltip';
-import Snackbar from '@mui/material/Snackbar';
 import Alert from '@mui/material/Alert';
 import AlertTitle from '@mui/material/AlertTitle';
+import Box from '@mui/material/Box';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import FormGroup from '@mui/material/FormGroup';
+import Grid from '@mui/material/Grid';
+import Snackbar from '@mui/material/Snackbar';
+import Switch from '@mui/material/Switch';
+import ThemeProvider from '@mui/styles/ThemeProvider'
+import ToggleButton from '@mui/material/ToggleButton';
+import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
+import Tooltip from '@mui/material/Tooltip';
+import Typography from '@mui/material/Typography';
+
+import Ingredient from '../../utils/ingredient';
+import { generateCategories, generateSteps } from '../../utils/RecipeCardHelpers';
+import { theme } from '../../utils/theme'
 
 type Props = {
     icon: string
@@ -23,76 +27,10 @@ type Props = {
     preptime: string
     cooktime: string
     totaltime: string
-    ingredients: string[][]
+    ingredients: Ingredient[][]
     categories?: string[]
     steps: string[]
-}
-
-const generateCategories = (ingredients: string[][], categories?: string[]) => {
-    if (categories) {
-        let retval: JSX.Element[] = []
-        let end = Math.min(categories.length, ingredients.length)
-        for (let i = 0; i < end; ++i) {
-            retval.push((
-                <React.Fragment key={categories[i]}>
-                    <Grid item xs={1}>
-                    </Grid>
-
-                    <Grid item xs={10}>
-                        <Typography sx={{
-                            fontFamily: 'Karla',
-                            fontWeight: 700,
-                            color: 'black',
-                            marginTop: theme.spacing(4)
-                        }}
-                            gutterBottom
-                            variant="body1"
-                            component="div">
-                            {categories[i]}
-                        </Typography>
-
-                        <ul>
-                            {ingredients[i].map(ingredient => (
-                                <li key={ingredient} dangerouslySetInnerHTML={{ __html: ingredient }} style={{
-                                    fontFamily: 'Karla',
-                                    color: 'black',
-                                    fontWeight: 500,
-                                    fontSize: theme.spacing(4),
-                                }} />
-                            ))}
-                        </ul>
-                    </Grid>
-
-                    <Grid item xs={1}>
-                    </Grid>
-                </React.Fragment>
-            ))
-        }
-        return retval
-    } else {
-        return ingredients.map(ingredients => (
-            <React.Fragment key={ingredients.join(',')}>
-                <Grid item xs={1}>
-                </Grid>
-
-                <Grid item xs={10}>
-                    <ul>
-                        {ingredients.map(ingredient => (
-                            <li key={ingredient} dangerouslySetInnerHTML={{ __html: ingredient }} style={{
-                                fontFamily: 'Karla',
-                                color: 'black',
-                                fontWeight: 500,
-                                fontSize: theme.spacing(4),
-                            }} />
-                        ))}
-                    </ul>
-                </Grid>
-
-                <Grid item xs={1}>
-                </Grid>
-            </React.Fragment>
-        ))
-    }
+    indivisible?: boolean
 }
 
 interface ChromiumNavigator extends Navigator {
@@ -102,6 +40,7 @@ interface ChromiumNavigator extends Navigator {
 const RecipeCard = (props: Props) => {
     const [wakeLock, setWakeLock] = useState<any>(null)
     const [cookMode, setCookMode] = useState(false)
+    const [multiplier, setMultiplier] = useState(1)
 
     const [cookModeSuccessAlertOpen, setCookModeSuccessAlertOpen] = useState(false)
     const [cookModeWarningAlertOpen, setCookModeWarningAlertOpen] = useState(false)
@@ -155,6 +94,15 @@ const RecipeCard = (props: Props) => {
         setCookModeWarningAlertOpen(false);
     };
 
+    const handleMultiplier = (
+        event: React.MouseEvent<HTMLElement>,
+        newMultiplier: number | null,
+    ) => {
+        if (newMultiplier !== null) {
+            setMultiplier(newMultiplier);
+        }
+    };
+
     return (
         <ThemeProvider theme={theme}>
             <Grid container justifyContent='center' sx={{ marginTop: theme.spacing(10) }}>
@@ -196,8 +144,31 @@ const RecipeCard = (props: Props) => {
                                     gutterBottom
                                     variant="body1"
                                     component="div">
-                                    Serves {props.serves}
+                                    Serves {props.serves * multiplier}
                                 </Typography>
+
+                                <ToggleButtonGroup
+                                    value={multiplier}
+                                    exclusive
+                                    onChange={handleMultiplier}
+                                    aria-label="recipe multiplier"
+                                    sx={{ p: theme.spacing(2.5) }}
+                                    color='primary'
+                                >
+                                    {!props.indivisible && <ToggleButton value={1 / 2} aria-label="one half times">
+                                        <Typography sx={{ fontWeight: 900 }}>½×</Typography>
+                                    </ToggleButton>}
+                                    <ToggleButton value={1} aria-label="one times">
+                                        <Typography sx={{ fontWeight: 900 }}>1×</Typography>
+                                    </ToggleButton>
+                                    <ToggleButton value={2} aria-label="two times">
+                                        <Typography sx={{ fontWeight: 900 }}>2×</Typography>
+                                    </ToggleButton>
+                                    <ToggleButton value={3} aria-label="three times">
+                                        <Typography sx={{ fontWeight: 900 }}>3×</Typography>
+                                    </ToggleButton>
+                                </ToggleButtonGroup>
+
 
                                 {'wakeLock' in navigator &&
                                     <FormGroup>
@@ -284,53 +255,9 @@ const RecipeCard = (props: Props) => {
                             <Grid item xs={1}>
                             </Grid>
 
-                            {generateCategories(props.ingredients, props.categories)}
+                            {generateCategories(multiplier, props.ingredients, props.categories)}
 
-                            <Grid item xs={1}>
-                            </Grid>
-
-                            <Grid item xs={10}>
-                                <Typography sx={{
-                                    fontFamily: 'Jost',
-                                    fontWeight: 700,
-                                    color: 'black',
-                                    marginTop: theme.spacing(8)
-                                }}
-                                    gutterBottom
-                                    variant="body1"
-                                    component="div">
-                                    Steps
-                                </Typography>
-                            </Grid>
-
-                            <Grid item xs={1}>
-                            </Grid>
-
-
-                            <Grid item xs={1}>
-                            </Grid>
-
-                            <Grid item xs={10}>
-
-
-
-                                <ol>
-                                    {props.steps.map(step => (
-                                        <li key={step} dangerouslySetInnerHTML={{ __html: step }} style={{
-                                            fontFamily: 'Karla',
-                                            color: 'black',
-                                            fontWeight: 500,
-                                            fontSize: theme.spacing(4),
-                                        }} />
-                                    ))}
-                                </ol>
-
-                            </Grid>
-
-                            <Grid item xs={1}>
-                            </Grid>
-
-
+                            {generateSteps(props.steps, multiplier, props.ingredients, props.serves)}
 
                         </Grid>
 

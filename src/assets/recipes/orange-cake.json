@@ -8,23 +8,23 @@
   ],
   "ingredients": [
     [
-      "2 and 1/2 cups flour",
-      "1 and 3/4 cup sugar",
-      "1 and 1/2 teaspoon baking soda",
-      "1 teaspoon baking powder",
-      "3/4 teaspoon salt",
-      "1 cup olive oil",
-      "1 cup fresh orange juice",
-      "3 eggs",
-      "1 cup sour cream",
-      "2 teaspoons orange zest"
+      {"quantity": 2.5, "unitTag": "cup", "ingredient": "flour", "key": "cake-flour"},
+      {"quantity": 1.75, "unitTag": "cup", "ingredient": "sugar", "key": "cake-sugar"},
+      {"quantity": 1.5, "unitTag": "tsp", "ingredient": "baking soda", "key": "cake-baking-soda"},
+      {"quantity": 1, "unitTag": "tsp", "ingredient": "baking powder", "key": "cake-baking-powder"},
+      {"quantity": 0.75, "unitTag": "tsp", "ingredient": "salt", "key": "cake-salt"},
+      {"quantity": 1, "unitTag": "cup", "ingredient": "olive oil", "key": "cake-olive-oil"},
+      {"quantity": 1, "unitTag": "cup", "ingredient": "fresh orange juice", "key": "cake-orange-juice"},
+      {"quantity": 3, "unitTag": "egg", "key": "cake-egg"},
+      {"quantity": 1, "unitTag": "cup", "ingredient": "sour cream", "key": "cake-sour-cream"},
+      {"quantity": 2, "unitTag": "tsp", "ingredient": "orange zest", "key": "cake-orange-zest"}
     ], [
-      "1 and 1/2 cup butter, softened",
-      "12 oz of cream cheese, softened",
-      "6 cups powdered sugar",
-      "2 teaspoon orange zest",
-      "3 tablespoons fresh orange juice",
-      "1 teaspoon vanilla extract"
+      {"quantity": 1.5, "unitTag": "cup", "ingredient": "butter, softened", "key": "frosting-butter"},
+      {"quantity": 12, "unitTag": "oz", "ingredient": "cream cheese, softened", "key": "frosting-cheese"},
+      {"quantity": 6, "unitTag": "cup", "ingredient": "powdered sugar", "key": "frosting-sugar"},
+      {"quantity": 2, "unitTag": "tsp", "ingredient": "orange zest", "key": "frosting-orange-zest"},
+      {"quantity": 3, "unitTag": "tbsp", "ingredient": "fresh orange juice", "key": "frosting-orange-juice"},
+      {"quantity": 1, "unitTag": "tsp", "ingredient": "vanilla extract", "key": "frosting-vanilla"}
     ]
   ],
   "steps": [

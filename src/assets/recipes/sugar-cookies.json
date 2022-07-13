@@ -8,20 +8,20 @@
   ],
   "ingredients": [
     [
-      "2 and 1/4 cups all-purpose flour (spoon & leveled), plus more as needed for rolling and work surface",
-      "1/2 teaspoon baking powder",
-      "1/4 teaspoon salt",
-      "3/4 cup unsalted butter, softened to room temperature",
-      "3/4 cup granulated sugar",
-      "1 large egg",
-      "2 teaspoons pure vanilla extract",
-      "1/4 or 1/2 teaspoon almond extract (optional, but makes the flavor outstanding)"
+      {"quantity": 2.25, "unitTag": "cup", "ingredient": "all-purpose flour (spoon & leveled), plus more as needed for rolling and work surface", "key": "cookies-flour"},
+      {"quantity": 0.5, "unitTag": "tsp", "ingredient": "baking powder", "key": "cookies-baking-powder"},
+      {"quantity": 0.25, "unitTag": "tsp", "ingredient": "salt", "key": "cookies-salt"},
+      {"quantity": 0.75, "unitTag": "cup", "ingredient": "unsalted butter, softened to room temperature", "key": "cookies-butter"},
+      {"quantity": 0.75, "unitTag": "cup", "ingredient": "granulated sugar", "key": "cookies-sugar"},
+      {"quantity": 1, "unitTag": "large egg", "key": "cookies-egg"},
+      {"quantity": 2, "unitTag": "tsp", "ingredient": "pure vanilla extract", "key": "cookies-vanilla"},
+      {"quantity": 0.25, "unitTag": "tsp", "ingredient": "(or double) almond extract (optional, but makes the flavor outstanding)", "key": "cookies-almond"}
     ], [
-      "3 cups confectioners’ sugar",
-      "1/2 teaspoon pure vanilla extract",
-      "2 teaspoons light corn syrup",
-      "4.5–5 Tablespoonsroom temperature water",
-      "pinch of salt"
+      {"quantity": 3, "unitTag": "cup", "ingredient": "confectioners’ sugar", "key": "icing-sugar"},
+      {"quantity": 0.5, "unitTag": "tsp", "ingredient": "pure vanilla extract", "key": "icing-vanilla"},
+      {"quantity": 2, "unitTag": "tsp", "ingredient": "light corn syrup", "key": "icing-corn-syrup"},
+      {"quantity": 4.5, "unitTag": "tbsp", "ingredient": "(or more) room temperature water", "key": "icing-water"},
+      {"ingredient": "pinch of salt", "key": "icing-salt"}
     ]
   ],
   "steps": [
@@ -33,7 +33,7 @@
     "Lightly dust one of the rolled-out doughs with flour. Place a piece of parchment on top. (This prevents sticking.) Place the 2nd rolled-out dough on top. Cover with plastic wrap or aluminum foil, then refrigerate for at least 1-2 hours and up to 2 days.",
     "Once chilled, preheat oven to 350 F. Line 2-3 large baking sheets with parchment paper or silicone baking mats. Carefully remove the top dough piece from the refrigerator. If it’s sticking to the bottom, run your hand under it to help remove it. Using a cookie cutter, cut the dough into shapes. Re-roll the remaining dough and continue cutting until all is used. Repeat with 2nd piece of dough. (Note: It doesn’t seem like a lot of dough, but you get a lot of cookies from the dough scraps you re-roll.)",
     "Arrange cookies on baking sheets 3 inches apart. Bake for 11-12 minutes or until lightly browned around the edges. If your oven has hot spots, rotate the baking sheet halfway through bake time. Allow cookies to cool on the baking sheet for 5 minutes then transfer to a wire rack to cool completely before decorating.",
-    "For the frosting, Using a fork, stir the confectioners’ sugar, vanilla, corn syrup, and 4.5 Tablespoons (67ml) of water together in a medium bowl. It will be very thick and almost impossible to stir. Switch to a whisk and whisk in 1/2 Tablespoon (8ml) of water. If you lift the whisk and let the icing drizzle back into the bowl, the ribbon of icing will hold shape for a few seconds before melting back into the icing. That is when you know it’s the right consistency and is ready to use. If it’s too thick (sometimes it is), whisk in another 1/2 Tablespoon (8ml) of water or a little more until you reach the consistency.",
+    "For the frosting, Using a fork, stir the confectioners’ sugar, vanilla, corn syrup, and !icing-water together in a medium bowl. It will be very thick and almost impossible to stir. Switch to a whisk and whisk in 1/2 Tablespoon (8ml) of water. If you lift the whisk and let the icing drizzle back into the bowl, the ribbon of icing will hold shape for a few seconds before melting back into the icing. That is when you know it’s the right consistency and is ready to use. If it’s too thick (sometimes it is), whisk in another 1/2 Tablespoon (8ml) of water or a little more until you reach the consistency.",
     "If desired, stir in gel food coloring. You can pour some icing into different bowls if using multiple colors. When tinting icing, only use 1-2 drops at first, stir it in, then add more as needed to reach your desired color. Remember, color darkens as icing dries.",
     "Decorate the cooled cookies with royal icing or easy glaze icing. Feel free to tint either icing with gel food coloring. See post above for recommended decorating tools. No need to cover the decorated cookies as you wait for the icing to set. If it’s helpful, decorate the cookies directly on a baking sheet so you can stick the entire baking sheet in the refrigerator to help speed up the icing setting.",
     "Enjoy cookies right away or wait until the icing sets to serve them. Once the icing has set, these cookies are great for gifting or for sending. Plain or decorated cookies stay soft for about 5 days when covered tightly at room temperature. For longer storage, cover and refrigerate for up to 10 days."
