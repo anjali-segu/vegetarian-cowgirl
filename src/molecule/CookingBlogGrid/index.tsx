@@ -46,7 +46,7 @@ const CookingBlogGrid = (props:Props) => {
 
       <Grid container justifyContent='center' sx={{ paddingTop: theme.spacing(15) }}>
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
-          <Card image={Moms_Jamun_Blog_Square} title={'COOKING'} subtitle={`Mom's Jamun`} post={'/recipes/moms-jamun'} />
+          <Card image={Moms_Jamun_Blog_Square} title={'COOKING'} subtitle={`Mom's Jamun Dessert`} post={'/recipes/moms-jamun'} />
         </Grid>
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
         </Grid>
