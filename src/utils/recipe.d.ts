@@ -2,7 +2,10 @@ import { Ingredient } from "./ingredient";
 
 export default interface Recipe {
     path: string,
-    image: string,
+    images: {
+        src: string,
+        alt?: string
+    }[]
     icon: string,
     title: string,
     subtitle: string,
@@ -14,7 +17,6 @@ export default interface Recipe {
     cooktime: string,
     totaltime: string,
     serves: number,
-    alt?: string,
     icon_alt?: string,
     indivisible?: boolean
 }
