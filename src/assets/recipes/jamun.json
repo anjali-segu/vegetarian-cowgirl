@@ -34,5 +34,6 @@
   "preptime": "20 minutes",
   "cooktime": "15 minutes",
   "totaltime": "2 hrs 35 min",
-  "serves": 10
+  "serves": 10,
+  "indivisible": true
 }
