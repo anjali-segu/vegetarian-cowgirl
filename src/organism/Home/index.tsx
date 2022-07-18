@@ -16,7 +16,7 @@ const Home = (props:Props) => {
     <ThemeProvider theme={theme}>
       <CarouselHome/>
       <FeaturedPosts/>
-      <Header text={"Travel Guides"}/>
+      <Header id={"travel"} text={"Travel Guides"}/>
       <TravelGrid/>
       <BioCard/>
     </ThemeProvider>

@@ -17,7 +17,7 @@ const CostaRica = (props:Props) => {
 
        <Grid container justifyContent='center' sx={{marginTop:theme.spacing(2)}}>
          <Grid item xs={1} sx={{display:'flex',justifyContent:'center'}}>
-          <img style={{maxHeight: theme.spacing(13)}}src={Travel_Icon} alt="Paris"/>
+          <img style={{maxHeight: theme.spacing(13)}}src={Travel_Icon} alt="A flight icon"/>
          </Grid>
        </Grid>
       <Header  text={"Costa Rica"} margin={1}/>

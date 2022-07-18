@@ -20,9 +20,13 @@ const Oseyo = (props: Props) => {
     <ThemeProvider theme={theme}>
       <RestaurantBlogPost
         image={Oseyo_BlogSquare}
+        alt="Ddukbokki in red hot sauce"
         image2={Oseyo2_BlogSquare}
+        alt2="Crispy dumplings on a black plate"
         image3={Oseyo3_BlogSquare}
+        alt3="Bibimbap in a hot stone bowl"
         image4={Oseyo4_BlogSquare}
+        alt4="Two colorful sparkling drinks"
         title="Oseyo - Vegetarian Korean Bibimbap"
         subtitle={`A modern twist on Korean food, makes Oseyo worth a visit! Their vegetarian bibimbap is to die for! `}
         paras={[

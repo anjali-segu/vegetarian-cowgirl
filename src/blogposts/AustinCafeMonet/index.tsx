@@ -18,8 +18,11 @@ const AustinCafeMonet = (props: Props) => {
     <ThemeProvider theme={theme}>
       <StandardBlogPost
         image={Cafe_Monet_Blog_Square}
+        alt="A blue vase and yellow vase painted in glaze"
         image2={Austin_Afternoon}
+        alt2="2 icecreams in a cup in front of a food truck"
         icon={Activities_Icon}
+        alticon="Map and exploration icon"
         title="Cafe Monet - Art Adventure"
         subtitle={`Cafe Monet is a cute paint and pottery shop in downtown Austin. Here's a fun weekend itinerary to do in Austin with family or friends. `}
         paras={[`Cafe Monet was a cute new find in Austin's art culture. I know pottery paints shops exist in just about every town, but trust me Cafe Monet is worth a visit. Pricing at Cafe Monet is very affordable. They have a great variety of pieces. Studio Painting is open from Tuesday to Saturday (11am - 7pm) and Sunday (1pm - 7pm). Reservations are taken as well as walk-ins.`,

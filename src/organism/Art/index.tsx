@@ -16,7 +16,7 @@ interface Props {
 }
 
 
-const AustinLiving = (props:Props) => {
+const Art = (props:Props) => {
 
   return (
     <ThemeProvider theme={theme}>
@@ -24,7 +24,7 @@ const AustinLiving = (props:Props) => {
       <ArtGallery/>
        <Grid container justifyContent='center'>
          <Grid item xs={1} sx={{display:'flex',justifyContent:'center'}}>
-          <img style={{maxHeight: theme.spacing(13)}}src={Restaurants_Icon} alt="Paris"/>
+          <img style={{maxHeight: theme.spacing(13)}}src={Restaurants_Icon} alt="Paintbrush icon"/>
          </Grid>
        </Grid>
       <Header id={"gallerydrops"} text={"Gallery Drops"} margin={1}/>
@@ -32,7 +32,7 @@ const AustinLiving = (props:Props) => {
 
       <Grid container justifyContent='center'>
         <Grid item xs={1} sx={{display:'flex',justifyContent:'center'}}>
-         <img style={{maxHeight: theme.spacing(13)}}src={Activities_Icon} alt="Paris"/>
+         <img style={{maxHeight: theme.spacing(13)}}src={Activities_Icon} alt="Gears icon"/>
         </Grid>
       </Grid>
       <Header id={"creativeprocess"}text={"My Creative Process"} margin={1}/>
@@ -40,7 +40,7 @@ const AustinLiving = (props:Props) => {
 
       <Grid container justifyContent='center'>
         <Grid item xs={1} sx={{display:'flex',justifyContent:'center'}}>
-         <img style={{maxHeight: theme.spacing(13)}}src={Other_Icon} alt="Paris"/>
+         <img style={{maxHeight: theme.spacing(13)}}src={Other_Icon} alt="Other icon"/>
         </Grid>
       </Grid>
       <Header id={"other"}text={"Other"} margin={1}/>
@@ -51,4 +51,4 @@ const AustinLiving = (props:Props) => {
   )
 }
 
-export default AustinLiving
+export default Art

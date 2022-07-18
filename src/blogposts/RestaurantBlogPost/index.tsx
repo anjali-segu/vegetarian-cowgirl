@@ -18,12 +18,16 @@ interface Props {
   subtitle: string,
   paras: string[],
   orders: string[],
+  alt: string,
+  alt2: string,
+  alt3: string, 
+  alt4: string,
 
 }
 
 
 const RestaurantBlogPost = (props: Props) => {
-  const { image, image2, image3, image4, title, subtitle, paras, orders } = props
+  const { image, image2, image3, image4, title, subtitle, paras, orders, alt, alt2, alt3, alt4 } = props
   return (
     <ThemeProvider theme={theme}>
       <Grid container justifyContent='center'>
@@ -68,15 +72,15 @@ const RestaurantBlogPost = (props: Props) => {
       (
         <Grid container justifyContent='center' sx={{ marginTop: theme.spacing(10) }}>
           <Grid item xs={8} sx={{ display: 'flex', justifyContent: 'center' }}>
-            <img style={{ maxHeight: theme.spacing(80), marginBottom: theme.spacing(5) }} src={image} alt="Paris" />
+            <img style={{ maxHeight: theme.spacing(80), marginBottom: theme.spacing(5) }} src={image} alt={alt} />
           </Grid>
 
           <Grid item xs={8} sx={{ display: 'flex', justifyContent: 'center' }}>
-            <img style={{ maxHeight: theme.spacing(80), marginBottom: theme.spacing(5) }} src={image2} alt="Paris" />
+            <img style={{ maxHeight: theme.spacing(80), marginBottom: theme.spacing(5) }} src={image2} alt={alt2} />
           </Grid>
 
           <Grid item xs={8} sx={{ display: 'flex', justifyContent: 'center' }}>
-            <img style={{ maxHeight: theme.spacing(80), marginBottom: theme.spacing(5) }} src={image3} alt="Paris" />
+            <img style={{ maxHeight: theme.spacing(80), marginBottom: theme.spacing(5) }} src={image3} alt={alt3} />
           </Grid>
         </Grid>
 
@@ -87,15 +91,15 @@ const RestaurantBlogPost = (props: Props) => {
         <Grid container justifyContent='center' sx={{ marginTop: theme.spacing(10), marginBottom: theme.spacing(5) }}>
 
           <Grid item xs={3} sx={{ display: 'flex', justifyContent: 'center' }}>
-            <img style={{ maxHeight: theme.spacing(85) }} src={image} alt="Paris" />
+            <img style={{ maxHeight: theme.spacing(85) }} src={image} alt={alt} />
           </Grid>
 
           <Grid item xs={3} sx={{ display: 'flex', justifyContent: 'center' }}>
-            <img style={{ maxHeight: theme.spacing(85) }} src={image2} alt="Paris" />
+            <img style={{ maxHeight: theme.spacing(85) }} src={image2} alt={alt2} />
           </Grid>
 
           <Grid item xs={3} sx={{ display: 'flex', justifyContent: 'center' }}>
-            <img style={{ maxHeight: theme.spacing(85) }} src={image3} alt="Paris" />
+            <img style={{ maxHeight: theme.spacing(85) }} src={image3} alt={alt3} />
           </Grid>
         </Grid>
 
@@ -123,7 +127,7 @@ const RestaurantBlogPost = (props: Props) => {
       (
         <Grid container justifyContent='center' sx={{ marginTop: theme.spacing(10) }}>
           <Grid item xs={8} sx={{ display: 'flex', justifyContent: 'center' }}>
-            <img style={{ maxHeight: theme.spacing(55) }} src={image2} alt="Paris" />
+            <img style={{ maxHeight: theme.spacing(55) }} src={image2} alt={alt2} />
           </Grid>
         </Grid>
 
@@ -133,7 +137,7 @@ const RestaurantBlogPost = (props: Props) => {
       (
         <Grid container justifyContent='center' sx={{ marginTop: theme.spacing(10) }}>
           <Grid item xs={8} sx={{ display: 'flex', justifyContent: 'center' }}>
-            <img style={{ maxHeight: theme.spacing(80) }} src={image4} alt="Paris" />
+            <img style={{ maxHeight: theme.spacing(80) }} src={image4} alt={alt4} />
           </Grid>
         </Grid>
 

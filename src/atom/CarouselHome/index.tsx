@@ -49,7 +49,7 @@ const CarouselHome = () => {
             (
               <Grid container justifyContent='center'>
                 <Grid item xs={1} sx={{display:'flex',justifyContent:'center'}}>
-                 <img style={{maxHeight: theme.spacing(20)}}src={LogoBlack} alt="Paris"/>
+                 <img style={{maxHeight: theme.spacing(20)}}src={LogoBlack} alt="White outlined cowboy boot with monstera plant."/>
                 </Grid>
               </Grid>
             )}
@@ -65,6 +65,7 @@ type Item = {
     description: string,
     href: string,
     src: string,
+    alt: string,
 }
 
 interface ProjectProps
@@ -87,7 +88,7 @@ function Project({item}: ProjectProps) {
         <Grid container sx={{marginBottom: theme.spacing(10)}}>
 
         <Grid item xs={8} sx={{}}>
-          <img style={{maxHeight: theme.spacing(120),}}src={item.src} alt="Paris"/>
+          <img style={{maxHeight: theme.spacing(120),}}src={item.src} alt={item.alt}/>
         </Grid>
 
         <Grid item xs={4} sx={{marginTop:theme.spacing(33),paddingLeft:theme.spacing(20), paddingRight:theme.spacing(5)}}>
@@ -144,25 +145,29 @@ const items: Item[] = [
         name: "Arenal Volcano",
         description: "A day trip to the Arenal Volcano and Baldi Hot Springs in Costa Rica.",
         href: '/under-construction',
-        src: Arenal_Volcano
+        src: Arenal_Volcano,
+        alt:"Anjali standing in front of the Arenal volcano."
     },
     {
         name: "Vegetarian Thanksgiving",
         description: "10 vegetarian thanksgiving ideas. Pictured is jalepeno cheddar cornbread and stuffed garlic mushrooms. ",
         href: '/under-construction',
         src: Thanksgiving,
+        alt: "Stuffed mushrooms and cornbread on a wooden serving board."
     },
     {
         name: "An Austin Afternoon",
         description: "An exciting austin afternoon idea. Swing by Manoli's Ice Cream and Cafe Monet for a fun Austin afternoon.",
         href: '/under-construction',
         src: Austin_Afternoon,
+        alt: "Holding two cups of ice cream in front a food truck."
     },
     {
         name: "July 4th Photography",
         description: "Learn how to get this epic shot on a DSLR camera.",
         href: '/under-construction',
         src:July_4th,
+        alt: "Spelling the word Love with sparklers."
     }
 ]
 

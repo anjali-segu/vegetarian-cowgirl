@@ -13,13 +13,14 @@ interface Props {
   title: string,
   description:string,
   link: string,
+  alt: string,
 
 }
 
 
 
 const HeaderImage = (props:Props) => {
-const {image, title, description, link} = props
+const {image, title, description, link, alt} = props
   return (
     <ThemeProvider theme = {theme}>
     <Grid container justifyContent='center' sx={{marginBottom: theme.spacing(10)}}>
@@ -54,14 +55,14 @@ const {image, title, description, link} = props
         <Media query="(min-width: 600px)" render={() =>
           (
             <Grid item sm={12} md={6} lg={6} sx={{display:'flex',justifyContent:'center'}}>
-              <img style={{maxHeight: theme.spacing(100), marginTop: theme.spacing(2)}}src={image} alt="Paris"/>
+              <img style={{maxHeight: theme.spacing(100), marginTop: theme.spacing(2)}}src={image} alt={alt}/>
             </Grid>
           )}
         />
         <Media query="(max-width: 599px)" render={() =>
           (
             <Grid item sm={12} md={6} lg={6} sx={{display:'flex',justifyContent:'center'}}>
-              <img style={{maxHeight: theme.spacing(70), marginTop: theme.spacing(2)}}src={image} alt="Paris"/>
+              <img style={{maxHeight: theme.spacing(70), marginTop: theme.spacing(2)}}src={image} alt={alt}/>
             </Grid>
 
           )}

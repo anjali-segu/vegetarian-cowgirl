@@ -18,8 +18,11 @@ const IntroToBreville = (props:Props) => {
     <ThemeProvider theme={theme}>
     <StandardBlogPost
       image={Latte_Blog_Square}
+      alt="A latte with a foam white heart"
       image2={Latte_Blog_Square_2}
+      alt2="A latte with a flower made from foam"
       icon={Drinks_Icon}
+      alticon="A coffee mug and martini glass."
       title="Intro to Breville Espresso Machine"
       subtitle={`Cafe Monet is a cute paint and pottery shop in downtown Austin. Here's a fun weekend itinerary to do in Austin with family or friends. `}
      paras={

@@ -2,6 +2,7 @@ import * as React from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
+import Link from '@mui/material/Link';
 import { Grid } from '@mui/material';
 import {theme} from '../../utils/theme'
 import { ThemeProvider } from '@mui/material/styles';
@@ -113,6 +114,7 @@ export default function BasicCard() {
             marginLeft:theme.spacing(2),
           },
         }}>
+          <Link href="/#travel" underline="none" color="black">
           <Typography sx={{
               fontFamily: 'Karla',
               fontWeight: 800 ,}}
@@ -121,14 +123,19 @@ export default function BasicCard() {
               component="div">
             TRAVEL
           </Typography>
-          <Typography sx={{
-              fontFamily: 'Karla',
-              fontWeight: 500 ,}}
-              gutterBottom
-              variant="body2"
-              component="div">
-            Costa Rica
-          </Typography>
+          </Link>
+           <Link href="/costa-rica-city-guide" underline="none" color="black">
+            <Typography sx={{
+                fontFamily: 'Karla',
+                fontWeight: 500 ,}}
+                gutterBottom
+                variant="body2"
+                component="div"
+                >
+              Costa Rica
+            </Typography>
+          </Link>
+          <Link href="/austin-city-guide" underline="none" color="black">
           <Typography sx={{
               fontFamily: 'Karla',
               fontWeight: 500 ,}}
@@ -137,6 +144,8 @@ export default function BasicCard() {
               component="div">
             Austin
           </Typography>
+          </Link>
+          <Link href="/hawaii-city-guide" underline="none" color="black">
           <Typography sx={{
               fontFamily: 'Karla',
               fontWeight: 500 ,}}
@@ -145,6 +154,8 @@ export default function BasicCard() {
               component="div">
             Hawaii
           </Typography>
+          </Link>
+          <Link href="/indianapolis-city-guide" underline="none" color="black">
           <Typography sx={{
               fontFamily: 'Karla',
               fontWeight: 500 ,}}
@@ -153,6 +164,8 @@ export default function BasicCard() {
               component="div">
             Indianapolis
           </Typography>
+          </Link>
+          <Link href="/under-construction" underline="none" color="black">
           <Typography sx={{
               fontFamily: 'Karla',
               fontWeight: 500 ,}}
@@ -161,6 +174,8 @@ export default function BasicCard() {
               component="div">
             Rome
           </Typography>
+          </Link>
+          <Link href="/under-construction" underline="none" color="black">
           <Typography sx={{
               fontFamily: 'Karla',
               fontWeight: 500 ,}}
@@ -169,7 +184,7 @@ export default function BasicCard() {
               component="div">
               Paris
           </Typography>
-
+          </Link>
           <Typography sx={{
               fontFamily: 'Karla',
               fontWeight: 800 ,
@@ -189,6 +204,7 @@ export default function BasicCard() {
             marginLeft:theme.spacing(2),
           },
         }}>
+          <Link href="/recipes" underline="none" color="black">
           <Typography sx={{
               fontFamily: 'Karla',
               fontWeight: 800 ,}}
@@ -197,7 +213,9 @@ export default function BasicCard() {
               component="div">
             RECIPES
           </Typography>
+          </Link>
 
+          <Link href="/recipes#baking" underline="none" color="black">
           <Typography sx={{
               fontFamily: 'Karla',
               fontWeight: 500 ,}}
@@ -206,7 +224,8 @@ export default function BasicCard() {
               component="div">
               Baking
           </Typography>
-
+          </Link>
+          <Link href="/recipes#cooking" underline="none" color="black">
           <Typography sx={{
               fontFamily: 'Karla',
               fontWeight: 500 ,}}
@@ -215,7 +234,9 @@ export default function BasicCard() {
               component="div">
               Cooking
           </Typography>
+          </Link>
 
+          <Link href="/recipes#drinks" underline="none" color="black">
           <Typography sx={{
               fontFamily: 'Karla',
               fontWeight: 500 ,}}
@@ -224,7 +245,9 @@ export default function BasicCard() {
               component="div">
               Drinks
           </Typography>
+          </Link>
         </Grid>
+       
 
         <Grid item xs={2} sx={{
           textAlign:'center',
@@ -232,6 +255,7 @@ export default function BasicCard() {
             marginLeft:theme.spacing(2),
           },
         }}>
+          <Link href="/austin-living" underline="none" color="black">
           <Typography sx={{
               fontFamily: 'Karla',
               fontWeight: 800 ,}}
@@ -240,6 +264,8 @@ export default function BasicCard() {
               component="div">
             AUSTIN LIVING
           </Typography>
+          </Link>
+          <Link href="/austin-living#austinactivites" underline="none" color="black">
           <Typography sx={{
               fontFamily: 'Karla',
               fontWeight: 500 ,}}
@@ -248,6 +274,8 @@ export default function BasicCard() {
               component="div">
               Austin Activities
           </Typography>
+          </Link>
+          <Link href="/austin-living#restaurants" underline="none" color="black">
           <Typography sx={{
               fontFamily: 'Karla',
               fontWeight: 500 ,}}
@@ -256,6 +284,8 @@ export default function BasicCard() {
               component="div">
               Restaurants
           </Typography>
+          </Link>
+          <Link href="/austin-living#other" underline="none" color="black">
           <Typography sx={{
               fontFamily: 'Karla',
               fontWeight: 500 ,}}
@@ -264,6 +294,7 @@ export default function BasicCard() {
               component="div">
               Other
           </Typography>
+          </Link>
 
         </Grid>
 
@@ -273,6 +304,7 @@ export default function BasicCard() {
             marginLeft:theme.spacing(1),
           },
         }}>
+          <Link href="/about" underline="none" color="black">
           <Typography sx={{
               fontFamily: 'Karla',
               fontWeight: 800 ,}}
@@ -281,7 +313,9 @@ export default function BasicCard() {
               component="div">
             About
           </Typography>
+          </Link>
 
+          <Link href="/about" underline="none" color="black">
           <Typography sx={{
               fontFamily: 'Karla',
               fontWeight: 500 ,}}
@@ -290,6 +324,7 @@ export default function BasicCard() {
               component="div">
               My Story
           </Typography>
+          </Link>
 
         </Grid>
 

@@ -19,8 +19,11 @@ const AustinPlantStores = (props: Props) => {
     <ThemeProvider theme={theme}>
       <StandardBlogPost
         image={Tea_Jar_Blog_Square}
+        alt="Jars filled with different teas and labeled"
         image2={Brentwood_Social}
+        alt2="A pink ornate tea cup"
         icon={Drinks_Icon}
+        alticon="A coffee mug and martini glass."
         title="Austin Tea Guide"
         subtitle={`The Steeping Room is my absolute favorite Austin tea spot. Find everything from delicious flakey scones to some of the best teas I've ever had right in Austin.  `}
         paras={[` Austin has some amazing tea stores that are worth checking out! My first honorable mention goes to The Steeping Room. This has been a store that I have visited since I move to Austin about 8 years ago and I still go there for all my tea needs.`,

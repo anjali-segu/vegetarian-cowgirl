@@ -20,9 +20,13 @@ const Forthright = (props: Props) => {
     <ThemeProvider theme={theme}>
       <RestaurantBlogPost
         image={Forthright_BlogSquare}
+        alt="Chia seed pudding with granola"
         image2={Forthright2_BlogSquare}
+        alt2="Breakfast burger with poached egg."
         image3={Forthright3_BlogSquare}
+        alt3="Mushroom toast and hashbrowns"
         image4={Forthright4_BlogSquare}
+        alt4="2 ice coffees"
         title="Forthright - My Favorite Austin Brunch Spot"
         subtitle={`Tucked away in the Seaholm district, Forthright is a brunch spot worth visiting! Their breakfast staples always hit the spot with their innovative twist yet classic flavors.`}
         paras={[
