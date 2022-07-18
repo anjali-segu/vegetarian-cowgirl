@@ -63,24 +63,23 @@ const DynamicRecipeBlogPost = (props: Props) => (
       </Button>
     </Grid>
 
-    <Media query="(max-width: 599px)" render={() =>
+    <Media query="(max-width: 1439px)" render={() =>
     (
       <Grid container justifyContent='center' sx={{ marginTop: theme.spacing(10) }}>
-        <Grid item xs={8} sx={{ display: 'flex', justifyContent: 'center' }}>
-          <img style={{ maxHeight: theme.spacing(80) }} src={props.image} alt={props.alt} />
-        </Grid>
+        {props.images.map(({src, alt}) => <Grid key={src} item xs={8} sx={{ display: 'flex', justifyContent: 'center' }}>
+          <img style={{ maxHeight: theme.spacing(80), marginBottom: theme.spacing(5) }} src={src} alt={alt} />
+        </Grid>)}
       </Grid>
 
     )}
     />
-    <Media query="(min-width: 600px)" render={() =>
+    <Media query="(min-width: 1440px)" render={() =>
     (
-      <Grid container justifyContent='center' sx={{ marginTop: theme.spacing(10) }}>
-        <Grid item xs={8} sx={{ display: 'flex', justifyContent: 'center' }}>
-          <img style={{ maxHeight: theme.spacing(120) }} src={props.image} alt={props.alt} />
+        <Grid container justifyContent='center' sx={{ marginTop: theme.spacing(10) }}>
+          {props.images.map(({src, alt}) => <Grid key={src} item xs={3} sx={{ display: 'flex', justifyContent: 'center' }}>
+            <img style={{ maxHeight: theme.spacing(85) }} src={src} alt={alt} />
+          </Grid>)}
         </Grid>
-      </Grid>
-
     )}
     />
 
