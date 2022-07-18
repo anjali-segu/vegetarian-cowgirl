@@ -10,6 +10,7 @@ import Elote_Blog_Square from '../../assets/images/blog_posts/elote_blog_square.
 import Jalapeno_Poppers_Blog_Square from '../../assets/images/blog_posts/jalapeno_poppers_blog_square.jpg';
 import Miso_Soup_Blog_Square from '../../assets/images/blog_posts/miso_soup_blog_square.jpg';
 import Turkish_Eggs_Blog_Square from '../../assets/images/blog_posts/turkish_eggs_blog_square.jpg';
+import Moms_Jamun_Blog_Square from '../../assets/images/blog_posts/jamun_served_blog_square.jpg';
 
 interface Props {
 }
@@ -42,6 +43,16 @@ const CookingBlogGrid = (props:Props) => {
       <Card image={Dumplings_Blog_Square} title={'COOKING'} subtitle={'Veggie Packed Dumplings'} post={'/recipes/veggie-packed-dumplings'}/>
       </Grid>
     </Grid>
+
+      <Grid container justifyContent='center' sx={{ paddingTop: theme.spacing(15) }}>
+        <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+          <Card image={Moms_Jamun_Blog_Square} title={'COOKING'} subtitle={`Mom's Jamun`} post={'/recipes/moms-jamun'} />
+        </Grid>
+        <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+        </Grid>
+        <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+        </Grid>
+      </Grid>
     </ThemeProvider>
   )
 }
