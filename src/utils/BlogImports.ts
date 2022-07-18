@@ -12,6 +12,7 @@ import PumpkinMascarponePieJson from '../assets/recipes/pumpkin-mascarpone-pie.j
 import SugarCookiesJson from '../assets/recipes/sugar-cookies.json';
 import TurkishEggsJson from '../assets/recipes/turkish-eggs.json';
 import VeggieDumplingsJson  from '../assets/recipes/veggie-dumplings.json';
+import MomsJamun from '../assets/recipes/jamun.json'
 
 // blog post images (squares)
 import Chocolate_Cake_Cookies_Blog_Square from '../assets/images/blog_posts/chocolate_cake_cookies_blog_square.jpg';
@@ -124,5 +125,13 @@ export const recipes = [
     icon: Drink_Icon,
     icon_alt: "Drink",
     ...PSLJson
+  },
+  {
+    path: '/recipes/moms-jamun',
+    image: Cinammon_Buns_Blog_Square,
+    alt: "Mom's jamuns in a glass bowl.",
+    icon: Cooking_Icon,
+    icon_alt: "Cooking",
+    ...MomsJamun
   },
 ]

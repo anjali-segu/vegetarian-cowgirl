@@ -1,0 +1,38 @@
+{
+  "title": "Mom's Jamun",
+  "subtitle": "",
+  "subtitle2": "",
+  "categories": [
+    "Syrup",
+    "Jamun"
+  ],
+  "ingredients": [
+    [
+      {"quantity": 2, "unitTag": "cup", "ingredient": "granulated sugar", "key": "syrup-sugar"},
+      {"quantity": 2, "unitTag": "cup", "ingredient": "water", "key": "syrup-water"}
+    ],
+    [
+      {"quantity": 1, "unitTag": "cup", "ingredient": "nonfat milk powder", "key": "jamun-milk-powder"},
+      {"quantity": 0.25, "unitTag": "cup", "ingredient": "all purpose flour", "key": "jamun-flour"},
+      {"quantity": 0.125, "unitTag": "tsp", "ingredient": "baking soda", "key": "jamun-baking-soda"},
+      {"quantity": 0.5, "unitTag": "cup", "ingredient": "heavy whipping cream", "key": "jamun-heavy-cream"},
+      {"quantity": 1.25, "unitTag": "cup", "ingredient": "ghee to fry", "key": "jamun-oil"},
+      {"quantity": 1, "unitTag": "tsp", "ingredient": "of milk", "key": "jamun-milk", "hidden": true},
+      {"quantity": 20, "ingredient": "equal parts", "key": "jamun-quantity", "hidden": true}
+    ]
+  ],
+  "steps": [
+    "In a pan add water and sugar. Bring it to boil and stir until the sugar has dissolved. Turn off the heat and set aside.",
+    "In a bowl, mix milk powder, all purpose flour, and baking soda. Add cream and mix well. The goal is the consistency of soft dough. If it is too try, add !jamun-milk as needed. <b>Do not add more cream.</b> The dough should be very soft and stick to your fingers. As the dough sits the milk powder will absorb the extra cream. Cover and set aside for about 10 minutes.",
+    "Divide the dough into !jamun-quantity and roll them into round balls. Make sure that there are no cracks.",
+    "Heat the ghee in a 6 inch frying pan on medium heat. <i>Note: To test if the ghee is the right temperature, place a small piece of dough into the ghee. It should sizzle and take about 30 seconds to rise the dough. If the dough rises faster, the ghee is too hot. If it sits without rising, the ghee is not hot enough.</i>",
+    "Place !serves jamuns in the frying pan at high heat. Fry the jamuns on high heat for 30 sec. The jamuns should turn light golden brown. On medium heat, continue to fry the jamuns for an addition 1 min 45 sec until deep dark brown. While frying, keeping rolling the jamuns in the ghee to evenly brown. <i>Note: They will approximately double in size, so give them enough space to expand.</i>", 
+    "Once the jamuns fry, drain the ghee and place directly into the warmed sugar syrup. <b>Make sure not to move or adjust the jamuns after placing them in the syrup. This can cause them to deflate.</b> <i>Note: If the jamuns are deflating, the syrup temperature may be too hot.</i>",
+    "Repeat until all jamun are fried and placed into the syrup.",
+    "The jamuns should sit in the syrup for at least 2 hours before serving."
+    ],
+  "preptime": "20 minutes",
+  "cooktime": "15 minutes",
+  "totaltime": "2 hrs 35 min",
+  "serves": 10
+}
