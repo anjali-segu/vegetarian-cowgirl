@@ -48,13 +48,12 @@ const App: React.FC = () => {
         <div id='content-wrap'>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/under-construction" element={<UnderConstruction />} />
             <Route path="/recipes" element={<Recipes />} />
             <Route path="/austin-living" element={<AustinLiving />} />
-            <Route path="/costa-rica-city-guide" element={<CostaRica />} />
-            <Route path="/austin-city-guide" element={<Austin />} />
-            <Route path="/hawaii-city-guide" element={<Hawaii />} />
-            <Route path="/indianapolis-city-guide" element={<Indianapolis />} />
+            <Route path="/costa-rica" element={<CostaRica />} />
+            <Route path="/austin" element={<Austin />} />
+            <Route path="/hawaii" element={<Hawaii />} />
+            <Route path="/indianapolis" element={<Indianapolis />} />
             <Route path="/art" element={<Art />} />
             <Route path="/about" element={<About />} />
 
@@ -72,7 +71,7 @@ const App: React.FC = () => {
             <Route path='/austin-living/aba' element={<Aba />} />
             <Route path='/austin-living/bakery-lorraine' element={<BakeryLorraine />} />
 
-
+            <Route path='*' element={<UnderConstruction />} />
           </Routes>
         </div>
         <Footer />
