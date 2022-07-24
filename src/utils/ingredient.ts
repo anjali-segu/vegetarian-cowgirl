@@ -1,11 +1,19 @@
 import { units, unitToString } from "./unit"
 
+type IngredientOverride = string
+
 interface Ingredient {
     key: string
     quantity?: number
     unitTag?: string
     ingredient?: string
     hidden?: boolean
+    override?: {
+        half?: IngredientOverride
+        whole?: IngredientOverride
+        double?: IngredientOverride
+        triple?: IngredientOverride
+    }
 }
 
 const unicodeFractions = {
@@ -49,6 +57,15 @@ const numberPrettifier = (number: number) => {
 }
 
 export const ingredientToString = (ingredient: Ingredient, multiplier: number = 1) => {
+    if (multiplier === 0.5 && ingredient.override?.half) {
+        return ingredient.override.half
+    } else if (multiplier === 1 && ingredient.override?.whole) {
+        return ingredient.override.whole
+    } else if (multiplier === 2 && ingredient.override?.double) {
+        return ingredient.override.double
+    } else if (multiplier === 3 && ingredient.override?.triple) {
+        return ingredient.override.triple
+    }
     if (ingredient.quantity && ingredient.unitTag) {
         const trueQuantity = ingredient.quantity * multiplier
         if (ingredient.ingredient) { return `${numberPrettifier(trueQuantity)} ${unitToString(trueQuantity, units[ingredient.unitTag])} ${ingredient.ingredient}` }

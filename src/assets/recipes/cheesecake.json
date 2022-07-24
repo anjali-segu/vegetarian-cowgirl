@@ -1,0 +1,123 @@
+{
+  "title": "Light and Fluffy Cheesecake with Pecan Crust",
+  "subtitle": "",
+  "subtitle2": "",
+  "categories": [
+    "Crust",
+    "Filling"
+  ],
+  "ingredients": [
+    [
+      {
+        "quantity": 16,
+        "unitTag": "graham cracker",
+        "ingredient": "or more for a thicker crust",
+        "key": "crust-graham-cracker"
+      },
+      {
+        "quantity": 1,
+        "unitTag": "cup",
+        "ingredient": "pecans (toasted)",
+        "key": "crust-pecans"
+      },
+      {
+        "quantity": 0.25,
+        "unitTag": "cup",
+        "ingredient": "granulated sugar",
+        "key": "crust-sugar"
+      },
+      {
+        "quantity": 5,
+        "unitTag": "tbsp",
+        "ingredient": "unsalted butter (melted)",
+        "key": "crust-butter"
+      }
+    ],
+    [
+      {
+        "quantity": 36,
+        "unitTag": "oz",
+        "ingredient": "cream cheese (room temperature)",
+        "key": "filling-cream-cheese"
+      },
+      {
+        "quantity": 1.75,
+        "unitTag": "cup",
+        "ingredient": "sugar",
+        "key": "filling-sugar",
+        "override": {
+          "half": "¾ cup + 2 tbsp sugar"
+        }
+      },
+      {
+        "quantity": 0.5,
+        "unitTag": "tsp",
+        "ingredient": "salt",
+        "key": "filling-salt"
+      },
+      {
+        "quantity": 0.75,
+        "unitTag": "cup",
+        "ingredient": "sour cream",
+        "key": "filling-sour-cream",
+        "override": {
+          "half": "¼ cup + 2 tbsp sour cream"
+        }
+      },
+      {
+        "quantity": 2,
+        "unitTag": "tsp",
+        "ingredient": "vanilla extract",
+        "key": "filling-vanilla"
+      },
+      {
+        "quantity": 3,
+        "unitTag": "tbsp",
+        "ingredient": "all purpose flour (sifted)",
+        "key": "filling-flour"
+      },
+      {
+        "quantity": 5,
+        "unitTag": "egg",
+        "ingredient": "(large, room temperature)",
+        "key": "filling-eggs"
+      },
+      {
+        "quantity": 2,
+        "unitTag": "egg yolk",
+        "key": "filling-yolks"
+      }
+    ]
+  ],
+  "steps": [
+    "Prehead your oven to 350&#8451;F.",
+    "Add the graham crackers, sugar, and toasted pecans to a food processor.",
+    "Blitz until fine, then add melted butter to the food processor and combine until a clumpy mixture forms.",
+    "Remove from food processor and mix with a spoon to ensure the butter is evenly distributed.",
+    "Add to a 10\" springform pan (<i>Note: You can use a regular cake pan but make sure to butter the pan. The only difference is it will be a little tricker to cut, but will taste the same.</i>).",
+    "Using a glass cup, pack the graham cracker mixture onto the sides and bottom of the pan.",
+    "Ensure the crust is tightly packed. <i>This will prevent crumbs from floating into the cheesecake.</i>",
+    "Bake the crust for 8 minutes, until the sides begin to brown.",
+    "For the <b>Filling</b>, add cream cheese to the stand mixer.",
+    "Beat until throughly whipped. There should be no clumps. It should look very creamy and smooth. This can take anywhere from five to seven minutes. Every two minutes, scrape the sides.",
+    "Add the sugar to the stand mixer and beat until completely combined and no sugar crystals remain.",
+    "Add the salt to the stand mixer and beat again.",
+    "Add the sour cream to the stand mixer. Beat until completely homogeneous. Continue scraping down the sides every so often.",
+    "Add vanilla extract to the stand mixer and mix.",
+    "Slowly sift the all purpose flour into the stand mixer while the stand mixer is running on a low speed. This will ensure the flour is evenly distributed throughout the mixture, preventing cracking.",
+    "Beat until silky smooth.",
+    "Add one egg at a time (including yolks), completely mixing it in before adding the next.",
+    "Beat until smooth.",
+    "Scrape the bowl one more time and beat for an additional two minutes.",
+    "Pour the filling into the baked crust.",
+    "Bake at 350&#8451;F for 10 minutes.",
+    "Drop the temperature down to 300&#8451;F and bake for an additional 40 minutes.",
+    "Turn off the oven and <b>leave the cheesecake with the door closed for 1 hour</b>. This will prevent cracking.",
+    "Remove the cheesecake from the oven and let it come to room temperature. Then place it in the refrigerator for at least 6 hours, preferably overnight.",
+    "The cheesecake pairs well with fresh strawberries and whipped cream."
+  ],
+  "preptime": "10 minutes",
+  "cooktime": "10 minutes",
+  "totaltime": "20 minutes",
+  "serves": 2
+}
