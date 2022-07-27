@@ -5,6 +5,11 @@ interface Unit {
 }
 
 export const units: { [tag: string]: Unit } = {
+    'bay leaf': {
+        fractional: 'a bay leaf',
+        singular: 'bay leaf',
+        plural: 'bay leaves'
+    },
     box: {
         fractional: 'a box',
         singular: 'box',
