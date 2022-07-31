@@ -40,6 +40,11 @@ export const units: { [tag: string]: Unit } = {
         singular: 'egg',
         plural: 'eggs'
     },
+    'egg yolk': {
+        fractional: 'an egg yolk',
+        singular: 'egg yolk',
+        plural: 'egg yolks'
+    },
     'espresso shot': {
         fractional: 'an espresso shot',
         singular: 'espresso shot',
@@ -47,6 +52,11 @@ export const units: { [tag: string]: Unit } = {
     },
     gram: {
         singular: 'g'
+    },
+    'graham cracker': {
+        fractional: 'a graham cracker',
+        singular: 'graham cracker',
+        plural: 'graham crackers',
     },
     'green onion': {
         fractional: 'a green onion',

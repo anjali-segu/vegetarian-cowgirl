@@ -13,6 +13,7 @@ import SugarCookiesJson from '../assets/recipes/sugar-cookies.json';
 import TurkishEggsJson from '../assets/recipes/turkish-eggs.json';
 import VeggieDumplingsJson from '../assets/recipes/veggie-dumplings.json';
 import MomsJamun from '../assets/recipes/jamun.json'
+import Cheesecake from '../assets/recipes/cheesecake.json'
 
 // blog post images (squares)
 import Chocolate_Cake_Cookies_Blog_Square from '../assets/images/blog_posts/chocolate_cake_cookies_blog_square.jpg';
@@ -200,5 +201,25 @@ export const recipes = [
     icon: Cooking_Icon,
     icon_alt: "Cooking",
     ...MomsJamun
+  },
+  {
+    path: '/recipes/cheesecake',
+    images: [
+      {
+        src: Jamun_Raw_Blog_Square,
+        alt: "Jamun before frying.",
+      },
+      {
+        src: Jamun_Served_Blog_Square,
+        alt: "Mom's jamuns in a glass bowl.",
+      },
+      {
+        src: Jamun_Fry_Blog_Square,
+        alt: "Jamun during frying.",
+      },
+    ],
+    icon: Baking_Icon,
+    icon_alt: "Baking",
+    ...Cheesecake
   },
 ]
