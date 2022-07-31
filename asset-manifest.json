@@ -1,17 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.5db471c9.css",
-    "main.js": "/static/js/main.c28a1566.js",
+    "main.js": "/static/js/main.fb1b6008.js",
     "static/js/787.b6f84853.chunk.js": "/static/js/787.b6f84853.chunk.js",
     "static/media/oseyo4_blog_square.jpg": "/static/media/oseyo4_blog_square.8b58701c27ae953af69c.jpg",
     "static/media/oseyo2_blog_square.jpg": "/static/media/oseyo2_blog_square.597d06c31eb02684cb69.jpg",
     "static/media/frond_plant_blog_square.jpg": "/static/media/frond_plant_blog_square.823a172b06444f304255.jpg",
+    "static/media/cheesecake3_blog_square.jpg": "/static/media/cheesecake3_blog_square.419581f074e8047ab625.jpg",
     "static/media/cinammon_buns_blog_square.jpg": "/static/media/cinammon_buns_blog_square.55afe8bac19e751671c6.jpg",
     "static/media/uchiko4_blog_square.jpg": "/static/media/uchiko4_blog_square.358bfe3a4587f146e9f3.jpg",
     "static/media/forthright4_blog_square.jpg": "/static/media/forthright4_blog_square.7129644f754caa543bb8.jpg",
     "static/media/uchiko3_blog_square.jpg": "/static/media/uchiko3_blog_square.fe1e921d5fc66ff10c04.jpg",
     "static/media/aba2_blog_square.jpg": "/static/media/aba2_blog_square.dba7be854b1f54660793.jpg",
     "static/media/forthright3_blog_square.jpg": "/static/media/forthright3_blog_square.f6afb638f947309d99d3.jpg",
+    "static/media/cheesecake2_blog_square.jpg": "/static/media/cheesecake2_blog_square.d96d4555de845f118730.jpg",
     "static/media/aba4_blog_square.jpg": "/static/media/aba4_blog_square.c4dc9312cd036b7c10f1.jpg",
     "static/media/uchiko_blog_square.jpg": "/static/media/uchiko_blog_square.c0c15328be1f4697bda7.jpg",
     "static/media/il_brutto3_blog_square.jpg": "/static/media/il_brutto3_blog_square.d23e6882ddbf98c524a0.jpg",
@@ -19,8 +21,10 @@
     "static/media/il_brutto2_blog_square.jpg": "/static/media/il_brutto2_blog_square.e0f6900fc18863ba745e.jpg",
     "static/media/oseyo3_blog_square.jpg": "/static/media/oseyo3_blog_square.64da5a90bde144bd3739.jpg",
     "static/media/bakery_lorraine2_blog_square.jpg": "/static/media/bakery_lorraine2_blog_square.d592ed2ad6da48db9bfd.jpg",
+    "static/media/pasta_sauce_blog_square.jpg": "/static/media/pasta_sauce_blog_square.6f0a970e91fdae48f9f1.jpg",
     "static/media/zilker_botanical_blog_square.jpg": "/static/media/zilker_botanical_blog_square.ffc89805de955e6368f9.jpg",
     "static/media/il_brutto4_blog_square.jpg": "/static/media/il_brutto4_blog_square.1b7840d3586ba12f0fe0.jpg",
+    "static/media/chocolate_fudge_top_down_blog_square.jpg": "/static/media/chocolate_fudge_top_down_blog_square.65acc1c0f468c8496991.jpg",
     "static/media/forthright2_blog_square.jpg": "/static/media/forthright2_blog_square.3342a312fa79cadad63b.jpg",
     "static/media/indianapolis_day_trip_blog_square.jpeg": "/static/media/indianapolis_day_trip_blog_square.a8b34a3ab46f85e440a3.jpeg",
     "static/media/aba3_blog_square.jpg": "/static/media/aba3_blog_square.93039589ad4229e020f8.jpg",
@@ -28,11 +32,14 @@
     "static/media/bakery_lorraine3_blog_square.jpg": "/static/media/bakery_lorraine3_blog_square.018065806c4f330a0fcb.jpg",
     "static/media/maui_road_to_hana_blog_square.jpg": "/static/media/maui_road_to_hana_blog_square.b278707bd7f90cd81a50.jpg",
     "static/media/maui_travel_guide_blog_square.jpg": "/static/media/maui_travel_guide_blog_square.b25723e9972abd0aa4a5.jpg",
+    "static/media/pasta_sauce_pot_blog_square.jpg": "/static/media/pasta_sauce_pot_blog_square.28ff86eee5b15e16d2bb.jpg",
     "static/media/Cactus.png": "/static/media/Cactus.1fed1d4cca515e62c398.png",
     "static/media/maui_beaches_blog_square.jpg": "/static/media/maui_beaches_blog_square.d148c81db1feb716469f.jpg",
     "static/media/maui_activities_blog_square.jpg": "/static/media/maui_activities_blog_square.23c29829df5bdd760bc2.jpg",
     "static/media/construction_icon.png": "/static/media/construction_icon.3127cf7f14cceb25597d.png",
     "static/media/indianapolis_sights_blog_square.jpg": "/static/media/indianapolis_sights_blog_square.8913f9e7df456f42d4d1.jpg",
+    "static/media/pasta_sauce_plate_blog_square.jpg": "/static/media/pasta_sauce_plate_blog_square.bf4ab10bbd39248b2ca7.jpg",
+    "static/media/chocolate_fudge_blog_square.jpg": "/static/media/chocolate_fudge_blog_square.9e04f6e18006ec7d0f72.jpg",
     "static/media/plant_store_blog_square.jpg": "/static/media/plant_store_blog_square.33fbee7ea531602e63f1.jpg",
     "static/media/jamun_served_blog_square.jpg": "/static/media/jamun_served_blog_square.060e558ab2efc1104ae0.jpg",
     "static/media/brentwood_social.jpg": "/static/media/brentwood_social.ccdf36b1774d2a031539.jpg",
@@ -41,6 +48,7 @@
     "static/media/sugar_cookie2_blog_square.jpg": "/static/media/sugar_cookie2_blog_square.1fc0f43b79e567f8350f.jpg",
     "static/media/costa_rica.png": "/static/media/costa_rica.8cd104905078db2a8ade.png",
     "static/media/murals_blog_square.jpg": "/static/media/murals_blog_square.94c800b200d2b5df8e2c.jpg",
+    "static/media/cheesecake_blog_square.jpg": "/static/media/cheesecake_blog_square.da7667538e28ca260f12.jpg",
     "static/media/forthright_blog_square.jpg": "/static/media/forthright_blog_square.fe6a1c4ece19dc3a3313.jpg",
     "static/media/austin.png": "/static/media/austin.caaf576310bab5c9a6ce.png",
     "static/media/indianapolis_airbnb_blog_square.jpg": "/static/media/indianapolis_airbnb_blog_square.ba8eb0bb3680fb6bc741.jpg",
@@ -146,11 +154,11 @@
     "static/media/etsy.png": "/static/media/etsy.d75ef78cbf24d7072ecd.png",
     "index.html": "/index.html",
     "main.5db471c9.css.map": "/static/css/main.5db471c9.css.map",
-    "main.c28a1566.js.map": "/static/js/main.c28a1566.js.map",
+    "main.fb1b6008.js.map": "/static/js/main.fb1b6008.js.map",
     "787.b6f84853.chunk.js.map": "/static/js/787.b6f84853.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5db471c9.css",
-    "static/js/main.c28a1566.js"
+    "static/js/main.fb1b6008.js"
   ]
 }
