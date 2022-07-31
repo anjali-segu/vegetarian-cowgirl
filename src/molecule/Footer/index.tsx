@@ -124,7 +124,7 @@ export default function BasicCard() {
             TRAVEL
           </Typography>
           </Link>
-           <Link href="/costa-rica-city-guide" underline="none" color="black">
+           <Link href="/costa-rica" underline="none" color="black">
             <Typography sx={{
                 fontFamily: 'Karla',
                 fontWeight: 500 ,}}
@@ -135,7 +135,7 @@ export default function BasicCard() {
               Costa Rica
             </Typography>
           </Link>
-          <Link href="/austin-city-guide" underline="none" color="black">
+          <Link href="/austin" underline="none" color="black">
           <Typography sx={{
               fontFamily: 'Karla',
               fontWeight: 500 ,}}
@@ -145,7 +145,7 @@ export default function BasicCard() {
             Austin
           </Typography>
           </Link>
-          <Link href="/hawaii-city-guide" underline="none" color="black">
+          <Link href="/hawaii" underline="none" color="black">
           <Typography sx={{
               fontFamily: 'Karla',
               fontWeight: 500 ,}}
@@ -155,7 +155,7 @@ export default function BasicCard() {
             Hawaii
           </Typography>
           </Link>
-          <Link href="/indianapolis-city-guide" underline="none" color="black">
+          <Link href="/indianapolis" underline="none" color="black">
           <Typography sx={{
               fontFamily: 'Karla',
               fontWeight: 500 ,}}
@@ -165,7 +165,7 @@ export default function BasicCard() {
             Indianapolis
           </Typography>
           </Link>
-          <Link href="/under-construction" underline="none" color="black">
+          <Link href="/rome" underline="none" color="black">
           <Typography sx={{
               fontFamily: 'Karla',
               fontWeight: 500 ,}}
@@ -175,7 +175,7 @@ export default function BasicCard() {
             Rome
           </Typography>
           </Link>
-          <Link href="/under-construction" underline="none" color="black">
+          <Link href="/paris" underline="none" color="black">
           <Typography sx={{
               fontFamily: 'Karla',
               fontWeight: 500 ,}}
