@@ -9,6 +9,7 @@ import Cookie_Blog_Square from '../../assets/images/blog_posts/cookie_blog_squar
 import Eton_Mess_Blog_Square from '../../assets/images/blog_posts/eton_mess_blog_square.png';
 import Italian_Orange_Cake_Blog_Square from '../../assets/images/blog_posts/italian_orange_cake_blog_square.jpeg';
 import Pumpkin_Pie_Blog_Square from '../../assets/images/blog_posts/pumpkin_pie_blog_square.jpeg';
+import Cheesecake_Blog_Square from '../../assets/images/blog_posts/cheesecake_blog_square.jpg';
 
 interface Props {
 }
@@ -43,6 +44,21 @@ const BakingBlogGrid = (props:Props) => {
       <Card image={Cookie_Blog_Square} title={'BAKING'} subtitle={'Simple Sugar Cookie Cutouts'} post={'/recipes/sugar-cookies'}/>
       </Grid>
     </Grid>
+
+
+    <Grid container justifyContent='center' sx={{ paddingTop: theme.spacing(15) }}>
+      <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+        <Card image={Cheesecake_Blog_Square} title={'BAKING'} subtitle={'Light and Fluffy Cheesecake'} post={'/recipes/cheesecake'} />
+      </Grid>
+
+      <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+      </Grid>
+
+      <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+      </Grid>
+    </Grid>
+
+
     </ThemeProvider>
   )
 }

@@ -32,6 +32,11 @@ import Turkish_Eggs_Blog_Square from '../assets/images/blog_posts/turkish_eggs_b
 import Jamun_Fry_Blog_Square from '../assets/images/blog_posts/jamun_fry_blog_square.jpg';
 import Jamun_Raw_Blog_Square from '../assets/images/blog_posts/jamun_raw_blog_square.jpg';
 import Jamun_Served_Blog_Square from '../assets/images/blog_posts/jamun_served_blog_square.jpg';
+import Cheesecake_Blog_Square from '../assets/images/blog_posts/cheesecake_blog_square.jpg';
+import Cheesecake_Crust_Blog_Square from '../assets/images/blog_posts/cheesecake2_blog_square.jpg';
+import Cheesecake_Crust2_Blog_Square from '../assets/images/blog_posts/cheesecake3_blog_square.jpg'
+
+
 
 // icons
 import Baking_Icon from '../assets/images/icons/baking_icon.png';
@@ -206,16 +211,16 @@ export const recipes = [
     path: '/recipes/cheesecake',
     images: [
       {
-        src: Jamun_Raw_Blog_Square,
-        alt: "Jamun before frying.",
+        src: Cheesecake_Blog_Square,
+        alt: "Slice of cheesecake on a plate.",
       },
       {
-        src: Jamun_Served_Blog_Square,
-        alt: "Mom's jamuns in a glass bowl.",
+        src: Cheesecake_Crust_Blog_Square,
+        alt: "Crust in food processer.",
       },
       {
-        src: Jamun_Fry_Blog_Square,
-        alt: "Jamun during frying.",
+        src: Cheesecake_Crust2_Blog_Square,
+        alt: "Pecan Graham cracker crust pressed into baking tin.",
       },
     ],
     icon: Baking_Icon,
