@@ -25,35 +25,35 @@ const TravelGrid = (props:Props) => {
     <Grid container sx={{paddingTop: theme.spacing(15),paddingBottom: theme.spacing(15), paddingLeft:theme.spacing(30),paddingRight:theme.spacing(30),}}>
 
       <Grid item xs={12} sm={6} md={3} sx={{display: 'inline',justifyContent:'center', }}>
-        <CityCard link={"/costa-rica-city-guide"} image={Costa_Rica} city={"COSTA RICA"}/>
+        <CityCard link={"/costa-rica"} image={Costa_Rica} city={"COSTA RICA"}/>
       </Grid>
 
       <Grid item xs={12} sm={6} md={3} sx={{display: 'inline',justifyContent:'center', }}>
-        <CityCard link={"/austin-city-guide"} image={Austin} city={"AUSTIN"}/>
+        <CityCard link={"/austin"} image={Austin} city={"AUSTIN"}/>
       </Grid>
 
       <Grid item xs={12} sm={6} md={3} sx={{display: 'inline',justifyContent:'center', }}>
-        <CityCard link={"/hawaii-city-guide"} image={Hawaii} city={"HAWAII"}/>
+        <CityCard link={"/hawaii"} image={Hawaii} city={"HAWAII"}/>
       </Grid>
 
       <Grid item xs={12} sm={6} md={3} sx={{display: 'inline',justifyContent:'center', }}>
-        <CityCard link={"/indianapolis-city-guide"} image={Indianapolis} city={"INDIANAPOLIS"}/>
+        <CityCard link={"/indianapolis"} image={Indianapolis} city={"INDIANAPOLIS"}/>
       </Grid>
 
       <Grid item xs={12} sm={6} md={3} sx={{display: 'inline',justifyContent:'center', }}>
-        <CityCard link={"/under-construction"} image={Rome} city={"ROME"}/>
+        <CityCard link={"/rome"} image={Rome} city={"ROME"}/>
       </Grid>
 
       <Grid item xs={12} sm={6} md={3} sx={{display: 'inline',justifyContent:'center', }}>
-        <CityCard link={"/under-construction"} image={Paris} city={"PARIS"}/>
+        <CityCard link={"/paris"} image={Paris} city={"PARIS"}/>
       </Grid>
 
       <Grid item xs={12} sm={6} md={3} sx={{display: 'inline',justifyContent:'center', }}>
-        <CityCard link={"/under-construction"} image={New_York} city={"NEW YORK"}/>
+        <CityCard link={"/new-york"} image={New_York} city={"NEW YORK"}/>
       </Grid>
 
       <Grid item xs={12} sm={6} md={3} sx={{display: 'inline',justifyContent:'center', }}>
-        <CityCard link={"/under-construction"} image={London} city={"LONDON"}/>
+        <CityCard link={"/london"} image={London} city={"LONDON"}/>
       </Grid>
 
 

@@ -1,0 +1,20 @@
+{
+  "title": "Grandma Barbieri's Chocolate Fudge",
+  "subtitle": "",
+  "subtitle2": "",
+  "ingredients": [[
+    {"quantity": 12, "unitTag": "oz", "ingredient": "semisweet chocolate chips (Ghirardelli or Nestle)", "key": "chocolate-chips"},
+    {"quantity": 1, "unitTag": "can", "ingredient": "sweetened condensed milk (not evaporated milk)", "key": "condensed-milk"},
+    {"quantity": 2, "unitTag": "tsp", "ingredient": "vanilla", "key": "vanilla"}
+  ]],
+  "steps": [
+    "In a microwave oven, cook chocolate and milk in a large microwave bowl on high (2-3 minutes). Or until chocolate is almost melted. Stir halfway between the melting of the chocolate.",
+    "Stir until the chocolate is completely melted. Stir in vanilla (and optionally marshmallows or nuts).",
+    "Spread into foil-line, 8-inch square pan.",
+    "Refrigerate 2 hours or until firm. Cut into squares."
+  ],
+  "preptime": "5 min",
+  "cooktime": "10 min",
+  "totaltime": "2 hr 15 min",
+  "serves": 48
+}

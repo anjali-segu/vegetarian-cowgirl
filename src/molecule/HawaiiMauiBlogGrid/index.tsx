@@ -22,24 +22,24 @@ const HawaiiMauiBlogGrid = (props:Props) => {
 
     <Grid container justifyContent='center' sx={{paddingTop: theme.spacing(15)}}>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Maui_Activities_Blog_Square} title={'MAUI'} subtitle={'Activities in Maui'} post={'/under-construction'}/>
+      <Card image={Maui_Activities_Blog_Square} title={'MAUI'} subtitle={'Activities in Maui'} post={'/hawaii/maui/activities'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Maui_Travel_Guide_Blog_Square} title={'MAUI'} subtitle={'Maui Travel Guide'} post={'/under-construction'}/>
+      <Card image={Maui_Travel_Guide_Blog_Square} title={'MAUI'} subtitle={'Maui Travel Guide'} post={'/hawaii/maui/travel-guide'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Maui_Vegetarian_Blog_Square} title={'MAUI'} subtitle={'Vegetarian Restaurants in Maui'} post={'/under-construction'}/>
+      <Card image={Maui_Vegetarian_Blog_Square} title={'MAUI'} subtitle={'Vegetarian Restaurants in Maui'} post={'/hawaii/maui/vegetarian'}/>
       </Grid>
     </Grid>
     <Grid container justifyContent='center' sx={{paddingTop: theme.spacing(15)}}>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Maui_Beaches_Blog_Square} title={'MAUI'} subtitle={'Best Beaches in Maui'} post={'/under-construction'}/>
+      <Card image={Maui_Beaches_Blog_Square} title={'MAUI'} subtitle={'Best Beaches in Maui'} post={'/hawaii/maui/beaches'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Maui_Road_To_Hana_Blog_Square} title={'MAUI'} subtitle={'Road to Hana'} post={'/under-construction'}/>
+      <Card image={Maui_Road_To_Hana_Blog_Square} title={'MAUI'} subtitle={'Road to Hana'} post={'/hawaii/maui/road-to-hana'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Maui_Haleakala_Blog_Square} title={'MAUI'} subtitle={'Haleakala'} post={'/under-construction'}/>
+      <Card image={Maui_Haleakala_Blog_Square} title={'MAUI'} subtitle={'Haleakala'} post={'/hawaii/maui/haleakala'}/>
       </Grid>
     </Grid>
     </ThemeProvider>

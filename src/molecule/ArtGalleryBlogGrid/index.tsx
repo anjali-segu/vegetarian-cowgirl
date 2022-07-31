@@ -23,25 +23,25 @@ const ArtGalleryBlogGrid = (props:Props) => {
     <Grid container justifyContent='center' sx={{paddingTop: theme.spacing(15)}}>
 
     <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Minimalist_Blog_Square} title={'GALLERY'} subtitle={'Movement - Set of 4'} post={'/under-construction'}/>
+      <Card image={Minimalist_Blog_Square} title={'GALLERY'} subtitle={'Movement - Set of 4'} post={'/art/gallery/movement'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Plant_Gallery_Blog_Square} title={'GALLERY'} subtitle={'Ode to Plants - Set of 7'} post={'/under-construction'}/>
+      <Card image={Plant_Gallery_Blog_Square} title={'GALLERY'} subtitle={'Ode to Plants - Set of 7'} post={'/art/gallery/ode-to-plants'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Blue_Gallery_Blog_Square} title={'GALLERY'} subtitle={'Blue Beauty - Set of 7'} post={'/under-construction'}/>
+      <Card image={Blue_Gallery_Blog_Square} title={'GALLERY'} subtitle={'Blue Beauty - Set of 7'} post={'/art/gallery/blue-beauty'}/>
       </Grid>
     </Grid>
 
     <Grid container justifyContent='center' sx={{paddingTop: theme.spacing(15)}}>
     <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Music_Blog_Square} title={'GALLERY'} subtitle={'Jam Out - Set of 4'} post={'/under-construction'}/>
+      <Card image={Music_Blog_Square} title={'GALLERY'} subtitle={'Jam Out - Set of 4'} post={'/art/gallery/jam-out'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Mental_Health_Blog_Square} title={'GALLERY'} subtitle={'Break - Set of 4'} post={'/under-construction'}/>
+      <Card image={Mental_Health_Blog_Square} title={'GALLERY'} subtitle={'Break - Set of 4'} post={'/art/gallery/break'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Beige_Blog_Square} title={'GALLERY'} subtitle={'Naked Beauty - Set of 7'} post={'/under-construction'}/>
+      <Card image={Beige_Blog_Square} title={'GALLERY'} subtitle={'Naked Beauty - Set of 7'} post={'/art/gallery/naked-beauty'}/>
       </Grid>
     </Grid>
     </ThemeProvider>
