@@ -10,6 +10,7 @@ import Eton_Mess_Blog_Square from '../../assets/images/blog_posts/eton_mess_blog
 import Italian_Orange_Cake_Blog_Square from '../../assets/images/blog_posts/italian_orange_cake_blog_square.jpeg';
 import Pumpkin_Pie_Blog_Square from '../../assets/images/blog_posts/pumpkin_pie_blog_square.jpeg';
 import Cheesecake_Blog_Square from '../../assets/images/blog_posts/cheesecake_blog_square.jpg';
+import Grandma_Fudge_Top_Blog_Square from '../../assets/images/blog_posts/chocolate_fudge_top_down_blog_square.jpg';
 
 interface Props {
 }
@@ -46,19 +47,19 @@ const BakingBlogGrid = (props:Props) => {
     </Grid>
 
 
+
     <Grid container justifyContent='center' sx={{ paddingTop: theme.spacing(15) }}>
       <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
         <Card image={Cheesecake_Blog_Square} title={'BAKING'} subtitle={'Light and Fluffy Cheesecake'} post={'/recipes/cheesecake'} />
       </Grid>
 
       <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+        <Card image={Grandma_Fudge_Top_Blog_Square} title={'BAKING'} subtitle={'Grandma Barbieri\'s Fudge'} post={'/recipes/grandmas-fudge'}/>
       </Grid>
 
       <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
       </Grid>
     </Grid>
-
-
     </ThemeProvider>
   )
 }

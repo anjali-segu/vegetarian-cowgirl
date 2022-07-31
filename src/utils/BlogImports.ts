@@ -14,6 +14,8 @@ import TurkishEggsJson from '../assets/recipes/turkish-eggs.json';
 import VeggieDumplingsJson from '../assets/recipes/veggie-dumplings.json';
 import MomsJamun from '../assets/recipes/jamun.json'
 import Cheesecake from '../assets/recipes/cheesecake.json'
+import GrandmasFudge from '../assets/recipes/chocolate-fudge.json'
+
 
 // blog post images (squares)
 import Chocolate_Cake_Cookies_Blog_Square from '../assets/images/blog_posts/chocolate_cake_cookies_blog_square.jpg';
@@ -32,10 +34,11 @@ import Turkish_Eggs_Blog_Square from '../assets/images/blog_posts/turkish_eggs_b
 import Jamun_Fry_Blog_Square from '../assets/images/blog_posts/jamun_fry_blog_square.jpg';
 import Jamun_Raw_Blog_Square from '../assets/images/blog_posts/jamun_raw_blog_square.jpg';
 import Jamun_Served_Blog_Square from '../assets/images/blog_posts/jamun_served_blog_square.jpg';
+import Grandma_Fudge_Blog_Square from '../assets/images/blog_posts/chocolate_fudge_blog_square.jpg';
+import Grandma_Fudge_Top_Blog_Square from '../assets/images/blog_posts/chocolate_fudge_top_down_blog_square.jpg';
 import Cheesecake_Blog_Square from '../assets/images/blog_posts/cheesecake_blog_square.jpg';
 import Cheesecake_Crust_Blog_Square from '../assets/images/blog_posts/cheesecake2_blog_square.jpg';
 import Cheesecake_Crust2_Blog_Square from '../assets/images/blog_posts/cheesecake3_blog_square.jpg'
-
 
 
 // icons
@@ -208,7 +211,7 @@ export const recipes = [
     ...MomsJamun
   },
   {
-    path: '/recipes/cheesecake',
+   path: '/recipes/cheesecake',
     images: [
       {
         src: Cheesecake_Blog_Square,
@@ -222,9 +225,26 @@ export const recipes = [
         src: Cheesecake_Crust2_Blog_Square,
         alt: "Pecan Graham cracker crust pressed into baking tin.",
       },
-    ],
+     ], 
     icon: Baking_Icon,
     icon_alt: "Baking",
     ...Cheesecake
+   },
+  
+  {
+    path: '/recipes/grandmas-fudge',
+    images: [
+      {
+        src: Grandma_Fudge_Blog_Square,
+        alt: "Grandma's Fudge on an oblong plate."
+      },
+      {
+        src: Grandma_Fudge_Top_Blog_Square,
+        alt: "Top down view of Grandma's Fudge."
+      },
+    ],
+    icon: Baking_Icon,
+    icon_alt: "Baking",
+    ...GrandmasFudge
   },
 ]
