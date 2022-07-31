@@ -11,6 +11,7 @@ import Jalapeno_Poppers_Blog_Square from '../../assets/images/blog_posts/jalapen
 import Miso_Soup_Blog_Square from '../../assets/images/blog_posts/miso_soup_blog_square.jpg';
 import Turkish_Eggs_Blog_Square from '../../assets/images/blog_posts/turkish_eggs_blog_square.jpg';
 import Moms_Jamun_Blog_Square from '../../assets/images/blog_posts/jamun_served_blog_square.jpg';
+import Grandmas_Pasta_Blog_Square from '../../assets/images/blog_posts/pasta_sauce_blog_square.jpg';
 
 interface Props {
 }
@@ -49,6 +50,7 @@ const CookingBlogGrid = (props:Props) => {
           <Card image={Moms_Jamun_Blog_Square} title={'COOKING'} subtitle={`Mom's Jamun Dessert`} post={'/recipes/moms-jamun'} />
         </Grid>
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+          <Card image={Grandmas_Pasta_Blog_Square} title={'COOKING'} subtitle={`Grandma Barbieri's Pasta Sauce`} post={'/recipes/grandmas-pasta-sauce'} />
         </Grid>
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
         </Grid>

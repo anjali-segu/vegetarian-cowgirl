@@ -13,6 +13,7 @@ import SugarCookiesJson from '../assets/recipes/sugar-cookies.json';
 import TurkishEggsJson from '../assets/recipes/turkish-eggs.json';
 import VeggieDumplingsJson from '../assets/recipes/veggie-dumplings.json';
 import MomsJamun from '../assets/recipes/jamun.json'
+import GrandmasPastaSauce from '../assets/recipes/spaghetti-sauce.json'
 import Cheesecake from '../assets/recipes/cheesecake.json'
 import GrandmasFudge from '../assets/recipes/chocolate-fudge.json'
 
@@ -34,6 +35,9 @@ import Turkish_Eggs_Blog_Square from '../assets/images/blog_posts/turkish_eggs_b
 import Jamun_Fry_Blog_Square from '../assets/images/blog_posts/jamun_fry_blog_square.jpg';
 import Jamun_Raw_Blog_Square from '../assets/images/blog_posts/jamun_raw_blog_square.jpg';
 import Jamun_Served_Blog_Square from '../assets/images/blog_posts/jamun_served_blog_square.jpg';
+import Pasta_Sauce_Blog_Square from '../assets/images/blog_posts/pasta_sauce_blog_square.jpg';
+import Pasta_Sauce_Pot_Blog_Square from '../assets/images/blog_posts/pasta_sauce_pot_blog_square.jpg';
+import Pasta_Sauce_Plate_Blog_Square from '../assets/images/blog_posts/pasta_sauce_plate_blog_square.jpg';
 import Grandma_Fudge_Blog_Square from '../assets/images/blog_posts/chocolate_fudge_blog_square.jpg';
 import Grandma_Fudge_Top_Blog_Square from '../assets/images/blog_posts/chocolate_fudge_top_down_blog_square.jpg';
 import Cheesecake_Blog_Square from '../assets/images/blog_posts/cheesecake_blog_square.jpg';
@@ -209,6 +213,26 @@ export const recipes = [
     icon: Cooking_Icon,
     icon_alt: "Cooking",
     ...MomsJamun
+  },
+  {
+    path: '/recipes/grandmas-pasta-sauce',
+    images: [
+      {
+        src: Pasta_Sauce_Pot_Blog_Square,
+        alt: "Grandma Barbieri's pasta cooking.",
+      },
+      {
+        src: Pasta_Sauce_Blog_Square,
+        alt: "Grandma Barbieri's pasta sauce.",
+      },
+      {
+        src: Pasta_Sauce_Plate_Blog_Square,
+        alt: "Grandma Barbieri's pasta on plate.",
+      },
+    ],
+    icon: Cooking_Icon,
+    icon_alt: "Cooking",
+    ...GrandmasPastaSauce
   },
   {
    path: '/recipes/cheesecake',
