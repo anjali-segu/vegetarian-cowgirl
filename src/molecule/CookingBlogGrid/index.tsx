@@ -53,6 +53,7 @@ const CookingBlogGrid = (props:Props) => {
           <Card image={Grandmas_Pasta_Blog_Square} title={'COOKING'} subtitle={`Grandma Barbieri's Pasta Sauce`} post={'/recipes/grandmas-pasta-sauce'} />
         </Grid>
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+          
         </Grid>
       </Grid>
     </ThemeProvider>
