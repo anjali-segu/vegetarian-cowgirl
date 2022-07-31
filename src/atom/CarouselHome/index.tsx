@@ -144,28 +144,28 @@ const items: Item[] = [
     {
         name: "Arenal Volcano",
         description: "A day trip to the Arenal Volcano and Baldi Hot Springs in Costa Rica.",
-        href: '/under-construction',
+        href: '/costa-rica/arenal-volcano',
         src: Arenal_Volcano,
         alt:"Anjali standing in front of the Arenal volcano."
     },
     {
         name: "Vegetarian Thanksgiving",
         description: "10 vegetarian thanksgiving ideas. Pictured is jalepeno cheddar cornbread and stuffed garlic mushrooms. ",
-        href: '/under-construction',
+        href: '/recipes/vegetarian-thanksgiving',
         src: Thanksgiving,
         alt: "Stuffed mushrooms and cornbread on a wooden serving board."
     },
     {
         name: "An Austin Afternoon",
         description: "An exciting austin afternoon idea. Swing by Manoli's Ice Cream and Cafe Monet for a fun Austin afternoon.",
-        href: '/under-construction',
+        href: '/austin/afternoon',
         src: Austin_Afternoon,
         alt: "Holding two cups of ice cream in front a food truck."
     },
     {
         name: "July 4th Photography",
         description: "Learn how to get this epic shot on a DSLR camera.",
-        href: '/under-construction',
+        href: '/art/photography',
         src:July_4th,
         alt: "Spelling the word Love with sparklers."
     }

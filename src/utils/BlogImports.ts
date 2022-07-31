@@ -13,7 +13,9 @@ import SugarCookiesJson from '../assets/recipes/sugar-cookies.json';
 import TurkishEggsJson from '../assets/recipes/turkish-eggs.json';
 import VeggieDumplingsJson from '../assets/recipes/veggie-dumplings.json';
 import MomsJamun from '../assets/recipes/jamun.json'
+import Cheesecake from '../assets/recipes/cheesecake.json'
 import GrandmasFudge from '../assets/recipes/chocolate-fudge.json'
+
 
 // blog post images (squares)
 import Chocolate_Cake_Cookies_Blog_Square from '../assets/images/blog_posts/chocolate_cake_cookies_blog_square.jpg';
@@ -34,6 +36,10 @@ import Jamun_Raw_Blog_Square from '../assets/images/blog_posts/jamun_raw_blog_sq
 import Jamun_Served_Blog_Square from '../assets/images/blog_posts/jamun_served_blog_square.jpg';
 import Grandma_Fudge_Blog_Square from '../assets/images/blog_posts/chocolate_fudge_blog_square.jpg';
 import Grandma_Fudge_Top_Blog_Square from '../assets/images/blog_posts/chocolate_fudge_top_down_blog_square.jpg';
+import Cheesecake_Blog_Square from '../assets/images/blog_posts/cheesecake_blog_square.jpg';
+import Cheesecake_Crust_Blog_Square from '../assets/images/blog_posts/cheesecake2_blog_square.jpg';
+import Cheesecake_Crust2_Blog_Square from '../assets/images/blog_posts/cheesecake3_blog_square.jpg'
+
 
 // icons
 import Baking_Icon from '../assets/images/icons/baking_icon.png';
@@ -204,6 +210,27 @@ export const recipes = [
     icon_alt: "Cooking",
     ...MomsJamun
   },
+  {
+   path: '/recipes/cheesecake',
+    images: [
+      {
+        src: Cheesecake_Blog_Square,
+        alt: "Slice of cheesecake on a plate.",
+      },
+      {
+        src: Cheesecake_Crust_Blog_Square,
+        alt: "Crust in food processer.",
+      },
+      {
+        src: Cheesecake_Crust2_Blog_Square,
+        alt: "Pecan Graham cracker crust pressed into baking tin.",
+      },
+     ], 
+    icon: Baking_Icon,
+    icon_alt: "Baking",
+    ...Cheesecake
+   },
+  
   {
     path: '/recipes/grandmas-fudge',
     images: [
