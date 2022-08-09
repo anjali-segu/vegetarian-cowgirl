@@ -4,6 +4,8 @@ import { Grid } from '@mui/material';
 import Header from '../../atom/Header'
 import Typography from '@mui/material/Typography';
 import Media from 'react-media';
+import Link from '@mui/material/Link';
+
 
 import About_Image from '../../assets/images/about/rainbow.jpg';
 
@@ -51,10 +53,7 @@ const About = (props:Props) => {
             gutterBottom
             variant="h6"
             component="div">
-            Jane Ko (commonly known as Koko) is the Austin food blogger behind A Taste of Koko®,
-            Austin’s top food and travel blog, and has been blogging since 2010. A Taste of Koko
-            features the hottest restaurants and weekend getaways and is the official restaurant
-            expert for Visit Austin TX.
+            Anjali Segu is an Austin Lifestyle blogger behind The Vegetarian Cowgirl, Austin's top vegetarian food and travel blog. The Vegetarian Cowgirl features the top vegetarian and vegan restaurants in Austin as well as fun weekend activities. 
         </Typography>
       </Grid>
       <Grid item xs={2} md={3} sx={{justifyContent:'center'}}>
@@ -71,14 +70,7 @@ const About = (props:Props) => {
             gutterBottom
             variant="h6"
             component="div">
-            A Taste of Koko has been voted best local blogger in Austin by the Austin Chronicle two
-            years in a row (2018 and 2019). Koko published her first book, Koko’s Guide To Austin,
-             a pocket-sized guidebook on Austin Texas that is sold in 40+ locations in Austin and
-            has reached #1 best seller in Texas books on Amazon.com! Jane has been a speaker at
-            South by Southwest (SXSW), Texas Conference for Women, BlogHer, BlogHer Food, The
-            Hustle 2X, University of Texas Austin, Google, and Whole Foods Global on entrepreneurship
-             and social media. She also hosted the largest food crawl in Austin during SXSW 2014 with
-             over 20,000 participants.
+            Anjali is a senior at Texas A&M who loves traveling, baking, and cooking in her free time. She is passionate about her plant-based lifestyle and wants to share her finds both in Austin and around the globe through her travels. What started as a personal tool to share with her family and friends has become much more for all to explore.  
         </Typography>
       </Grid>
       <Grid item xs={2} md={3} sx={{justifyContent:'center'}}>
@@ -96,35 +88,13 @@ const About = (props:Props) => {
             gutterBottom
             variant="h6"
             component="div">
-            Launched in 2010, A Taste of Koko has been featured in O Magazine, InStyle Magazine,
-             OWN TV Network, Austin American-Statesman, Austin Monthly, Austin Woman Magazine,
-              KXAN, Travel Channel, The Everygirl, and more.
+            Launched in 2021, the Vegetarian Cowgirl is a new up-and-coming lifestyle blog in Austin, TX. The blog features Anjali's favorite vegetarian recipes and her must-try bakes. Anjali has traveled across the globe and loves to share her top food and activity finds in cities. Check out the travel itineraries that she has created. The goal of the blog is to celebrate plant-based eating internationally.
         </Typography>
       </Grid>
       <Grid item xs={2} md={3} sx={{justifyContent:'center'}}>
       </Grid>
     </Grid>
 
-    <Grid container sx={{marginTop:theme.spacing(8)}}>
-      <Grid item xs={2} md={3} sx={{justifyContent:'center'}}>
-      </Grid>
-      <Grid item xs={8} md={6} sx={{justifyContent:'center'}}>
-        <Typography sx={{
-            fontFamily: 'Karla',
-            fontWeight: 400 ,}}
-            gutterBottom
-            variant="h6"
-            component="div">
-            A Taste of Koko has partnered with IKEA, Target, Uber, KitchenAid, AT&T, Carnival
-             Cruise Line, Booking.com, PayPal, Lenovo, and more. See the full list of brand
-             partnerships on the contact page. Collaborations include restaurant coverage,
-             easy recipes, DIY projects for the home and how-tos, easy home entertaining,
-            weekend getaways, and travel.
-        </Typography>
-      </Grid>
-      <Grid item xs={2} md={3} sx={{justifyContent:'center'}}>
-      </Grid>
-    </Grid>
 
     <Grid container justifyContent="center" sx={{marginTop:theme.spacing(15)}}>
     <Typography sx={{
@@ -139,15 +109,17 @@ const About = (props:Props) => {
     </Grid>
 
     <Grid container justifyContent="center"  sx={{ marginBottom:theme.spacing(15)}}>
-    <Typography sx={{
-        fontFamily: 'Jost',
-        fontWeight: 500 ,
-        color: '#f09b85'}}
-        gutterBottom
-        variant="h4"
-        component="div">
-        @thevegetariancowgirl
-    </Typography>
+        <Link underline="none" target="_blank" href="https://www.instagram.com/thevegetariancowgirl/" >
+        <Typography sx={{
+            fontFamily: 'Jost',
+            fontWeight: 500 ,
+            color: '#f09b85'}}
+            gutterBottom
+            variant="h4"
+            component="div">
+            @thevegetariancowgirl
+        </Typography>
+      </Link>
     </Grid>
 
 
