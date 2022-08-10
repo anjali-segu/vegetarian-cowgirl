@@ -135,7 +135,7 @@ const ArtBlogPost = (props:Props) => {
           gutterBottom
           variant="h4"
           component="div">
-          Purchase this Piece on Etsy
+          Purchase on Etsy
         </Typography>
       </Grid>
 
