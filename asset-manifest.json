@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5db471c9.css",
-    "main.js": "/static/js/main.d42543df.js",
+    "main.js": "/static/js/main.e1dd7b1d.js",
     "static/js/787.b6f84853.chunk.js": "/static/js/787.b6f84853.chunk.js",
     "static/media/oseyo4_blog_square.jpg": "/static/media/oseyo4_blog_square.8b58701c27ae953af69c.jpg",
     "static/media/oseyo2_blog_square.jpg": "/static/media/oseyo2_blog_square.597d06c31eb02684cb69.jpg",
@@ -58,6 +58,7 @@
     "static/media/il_brutto_blog_square.jpg": "/static/media/il_brutto_blog_square.b98a56586a4bdfc68a82.jpg",
     "static/media/Female_Silhouette.png": "/static/media/Female_Silhouette.6903f7eca0039c7af81d.png",
     "static/media/uchiko2_blog_square.jpg": "/static/media/uchiko2_blog_square.ad6c24d072699d28016d.jpg",
+    "static/media/movement_blog_square.jpg": "/static/media/movement_blog_square.1d129bb19f01607bfd27.jpg",
     "static/media/arenal_volcano.jpg": "/static/media/arenal_volcano.9a431741fe16fbba0aa1.jpg",
     "static/media/big_island_botanical_blog_square.jpg": "/static/media/big_island_botanical_blog_square.f031b9489f7b1eb3a73f.jpg",
     "static/media/cafe_monet_blog_square.jpg": "/static/media/cafe_monet_blog_square.fdcdba27bd401125c3bb.jpg",
@@ -119,6 +120,7 @@
     "static/media/activities_icon.png": "/static/media/activities_icon.7a813b2b51d42f74d5ec.png",
     "static/media/pumpkin_pie_blog_square.jpeg": "/static/media/pumpkin_pie_blog_square.15d97dc520dca65f45b9.jpeg",
     "static/media/LogoBlack.png": "/static/media/LogoBlack.6d5abcc87d53a4d9c6f8.png",
+    "static/media/gears_icon.png": "/static/media/gears_icon.5f6eec30b96b219cd8c2.png",
     "static/media/big_island_travel_blog_square.jpg": "/static/media/big_island_travel_blog_square.a7ca792b02c478b59bf6.jpg",
     "static/media/travel_icon.png": "/static/media/travel_icon.d592fa87d4415aceffd0.png",
     "static/media/cheesecake_blog_square.jpg": "/static/media/cheesecake_blog_square.017a6497321da9d6b91c.jpg",
@@ -131,6 +133,7 @@
     "static/media/brushes_blog_square.jpg": "/static/media/brushes_blog_square.b20e948167a24d498e72.jpg",
     "static/media/baking_icon.png": "/static/media/baking_icon.5d63cb9f1407f3c4b2ad.png",
     "static/media/leaves.png": "/static/media/leaves.8e08e931444de6ff7ddc.png",
+    "static/media/art_icon.png": "/static/media/art_icon.dfcd85148310be2c49f9.png",
     "static/media/paris.jpeg": "/static/media/paris.052bfc9f3962095ac46a.jpeg",
     "static/media/rome.jpeg": "/static/media/rome.3f40bb8824460814f4f1.jpeg",
     "static/media/drinks_icon.png": "/static/media/drinks_icon.1f31fb0977b5111740b9.png",
@@ -154,11 +157,11 @@
     "static/media/etsy.png": "/static/media/etsy.d75ef78cbf24d7072ecd.png",
     "index.html": "/index.html",
     "main.5db471c9.css.map": "/static/css/main.5db471c9.css.map",
-    "main.d42543df.js.map": "/static/js/main.d42543df.js.map",
+    "main.e1dd7b1d.js.map": "/static/js/main.e1dd7b1d.js.map",
     "787.b6f84853.chunk.js.map": "/static/js/787.b6f84853.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5db471c9.css",
-    "static/js/main.d42543df.js"
+    "static/js/main.e1dd7b1d.js"
   ]
 }
