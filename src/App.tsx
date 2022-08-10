@@ -22,6 +22,7 @@ import Uchiko from './blogposts/Uchiko'
 import IlBrutto from './blogposts/IlBrutto'
 import Aba from './blogposts/Aba'
 import BakeryLorraine from './blogposts/BakeryLorraine';
+import ArtMovement from './blogposts/ArtMovement'
 
 import {
   BrowserRouter,
@@ -70,6 +71,9 @@ const App: React.FC = () => {
             <Route path='/austin-living/il-brutto' element={<IlBrutto />} />
             <Route path='/austin-living/aba' element={<Aba />} />
             <Route path='/austin-living/bakery-lorraine' element={<BakeryLorraine />} />
+
+
+            <Route path='/art/gallery/movement' element={<ArtMovement />} />
 
             <Route path='*' element={<UnderConstruction />} />
           </Routes>

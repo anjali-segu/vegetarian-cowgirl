@@ -8,9 +8,10 @@ import { ThemeProvider } from '@mui/material/styles';
 import {theme} from '../../utils/theme'
 import { Grid } from '@mui/material';
 
-import Activities_Icon from '../../assets/images/icons/activities_icon.png';
+
 import Other_Icon from '../../assets/images/icons/other_icon.png';
-import Restaurants_Icon from '../../assets/images/icons/restaurants_icon.png';
+import Art_Icon from '../../assets/images/icons/art_icon.png';
+import Gears_Icon from '../../assets/images/icons/gears_icon.png'
 
 interface Props {
 }
@@ -24,7 +25,7 @@ const Art = (props:Props) => {
       <ArtGallery/>
        <Grid container justifyContent='center'>
          <Grid item xs={1} sx={{display:'flex',justifyContent:'center'}}>
-          <img style={{maxHeight: theme.spacing(13)}}src={Restaurants_Icon} alt="Paintbrush icon"/>
+          <img style={{ maxHeight: theme.spacing(13) }} src={Art_Icon} alt="Paint brush with palette, black and white."/>
          </Grid>
        </Grid>
       <Header id={"gallerydrops"} text={"Gallery Drops"} margin={1}/>
@@ -32,7 +33,7 @@ const Art = (props:Props) => {
 
       <Grid container justifyContent='center'>
         <Grid item xs={1} sx={{display:'flex',justifyContent:'center'}}>
-         <img style={{maxHeight: theme.spacing(13)}}src={Activities_Icon} alt="Gears icon"/>
+         <img style={{maxHeight: theme.spacing(13)}}src={Gears_Icon} alt="White gears on black circular background."/>
         </Grid>
       </Grid>
       <Header id={"creativeprocess"}text={"My Creative Process"} margin={1}/>
