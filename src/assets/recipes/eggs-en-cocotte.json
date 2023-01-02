@@ -1,38 +1,73 @@
 {
-  "title": "Eggs en Cocotte w/ Carmelized Onions and Roasted Tomatoes",
-  "subtitle": "My favorite breakfast go to on the weekends that is both nutritious and satisfying! Simple to make and works great for making in advance.",
-  "subtitle2": "Eggs en Cocotte is a soft centered egg cooked in ramekins that can have any toppings you enjoy. My personal favorite is roasted tomatoes and carmelized onions with some goat cheese. They are easy to prepare in advance making it a great breakfast on the weekends or perfect for when I have friends and family over.",
-  "ingredients": [
-    [
-      {"quantity": 4, "unitTag": "egg", "key": "egg"},
-      {"quantity": 2, "unitTag": "tsp", "ingredient": "olive oil", "key": "olive-oil"},
-      {"quantity": 1, "unitTag": "tsp", "ingredient": "of olive oil", "key": "olive-oil-split", "hidden": true},
-      {"quantity": 4, "unitTag": "tbsp", "ingredient": "of goat cheese", "key": "goat-cheese"},
-      {"quantity": 2, "unitTag": "small white or yellow onion", "ingredient": "sliced length-wise", "key": "onion"},
-      {"quantity": 16, "unitTag": "cherry tomato", "ingredient": "sliced lengthwise into halves", "key": "cherry-tomato"},
-      {"quantity": 4, "unitTag": "tsp", "ingredient": "of milk", "key": "milk"},
-      {"ingredient": "salt", "key": "salt"},
-      {"ingredient": "pepper", "key": "pepper"},
-      {"quantity": 4, "unitTag": "ramekin", "key": "ramekin"},
-      {"ingredient": "extra olive oil or butter for ramekins", "key": "extra-ingredients"}
-    ]
-  ],
-  "steps": [
-    "Pre-heat the oven to 400°F. Line the baking dish with the dish towel (optional). The dishtowel will keep the ramekins from sliding when you carry the baking dish.",
-    "Place sliced cherry tomatoes on a baking sheet and coat with !olive-oil-split. Bake for 20 - 25 minutes or until they have started to wrinkle and begin to brown.",
-    "Set the oven to 375°F.",
-    "In a cast iron pan, add the onions and !olive-oil-split. Cook on medium heat. Stir occasionally, until the onion are golden brown and have completely softened.",
-    "Rub the insides of the ramekins with butter or olive oil. Distribute the roasted tomatoes and carmelized onions evenly between all !ramekin.",
-    "Create a small well in the bottom of each ramekin. This will be where the yolk will nest.",
-    "Crack one egg into each ramekin.",
-    "Sprinkle each egg with a pinch of salt and pepper. If you'd like a richer baked egg and some extra insurance against the yolk drying out in the oven, add a spoonful of milk to each ramekin on top of the yolk.",
-    "Crumble 1 tbsp of goat cheese onto the top of the cracked egg.",
-    "Arrange all the ramekins on the towel in the baking dish. Pour hot water into the baking dish to come halfway up the sides of the ramekins. Very hot tap water is fine, or you can heat water on the stove until it's just starting to steam.",
-    "Transfer the baking dish with the ramekins of eggs to the middle rack of the oven. Bake until the whites are set: 12-15 minutes for runny yolks, 15-18 minutes for soft-cooked yolks, or 20 minutes for hard-cooked yolks. Remove the ramekins with oven mitts.",
-    "Eat immediately with toast for dipping."
-  ],
-  "preptime": "20 minutes",
-  "cooktime": "40 minutes",
-  "totaltime": "1 hr",
-  "serves": 4
+    "title": "Eggs en Cocotte w/ Carmelized Onions and Roasted Tomatoes",
+    "subtitle": "My favorite breakfast go to on the weekends that is both nutritious and satisfying! Simple to make and works great for making in advance.",
+    "subtitle2": "Eggs en Cocotte is a soft centered egg cooked in ramekins that can have any toppings you enjoy. My personal favorite is roasted tomatoes and carmelized onions with some goat cheese. They are easy to prepare in advance making it a great breakfast on the weekends or perfect for when I have friends and family over.",
+    "ingredients": {
+        "egg": {
+            "quantity": 4,
+            "unitTag": "egg"
+        },
+        "olive-oil": {
+            "quantity": 2,
+            "unitTag": "tsp",
+            "ingredient": "olive oil"
+        },
+        "olive-oil-split": {
+            "quantity": 1,
+            "unitTag": "tsp",
+            "ingredient": "of olive oil",
+            "hidden": true
+        },
+        "goat-cheese": {
+            "quantity": 4,
+            "unitTag": "tbsp",
+            "ingredient": "of goat cheese"
+        },
+        "onion": {
+            "quantity": 2,
+            "unitTag": "small white or yellow onion",
+            "ingredient": "sliced length-wise"
+        },
+        "cherry-tomato": {
+            "quantity": 16,
+            "unitTag": "cherry tomato",
+            "ingredient": "sliced lengthwise into halves"
+        },
+        "milk": {
+            "quantity": 4,
+            "unitTag": "tsp",
+            "ingredient": "of milk"
+        },
+        "salt": {
+            "ingredient": "salt"
+        },
+        "pepper": {
+            "ingredient": "pepper"
+        },
+        "ramekin": {
+            "quantity": 4,
+            "unitTag": "ramekin"
+        },
+        "extra-ingredients": {
+            "ingredient": "extra olive oil or butter for ramekins"
+        }
+    },
+    "steps": [
+        "Pre-heat the oven to 400°F. Line the baking dish with the dish towel (optional). The dishtowel will keep the ramekins from sliding when you carry the baking dish.",
+        "Place sliced cherry tomatoes on a baking sheet and coat with !olive-oil-split. Bake for 20 - 25 minutes or until they have started to wrinkle and begin to brown.",
+        "Set the oven to 375°F.",
+        "In a cast iron pan, add the onions and !olive-oil-split. Cook on medium heat. Stir occasionally, until the onion are golden brown and have completely softened.",
+        "Rub the insides of the ramekins with butter or olive oil. Distribute the roasted tomatoes and carmelized onions evenly between all !ramekin.",
+        "Create a small well in the bottom of each ramekin. This will be where the yolk will nest.",
+        "Crack one egg into each ramekin.",
+        "Sprinkle each egg with a pinch of salt and pepper. If you'd like a richer baked egg and some extra insurance against the yolk drying out in the oven, add a spoonful of milk to each ramekin on top of the yolk.",
+        "Crumble 1 tbsp of goat cheese onto the top of the cracked egg.",
+        "Arrange all the ramekins on the towel in the baking dish. Pour hot water into the baking dish to come halfway up the sides of the ramekins. Very hot tap water is fine, or you can heat water on the stove until it's just starting to steam.",
+        "Transfer the baking dish with the ramekins of eggs to the middle rack of the oven. Bake until the whites are set: 12-15 minutes for runny yolks, 15-18 minutes for soft-cooked yolks, or 20 minutes for hard-cooked yolks. Remove the ramekins with oven mitts.",
+        "Eat immediately with toast for dipping."
+    ],
+    "preptime": "20 minutes",
+    "cooktime": "40 minutes",
+    "totaltime": "1 hr",
+    "serves": 4
 }

@@ -1,0 +1,81 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "./src/assets/schemas/ingredient.schema.json",
+    "title": "Ingredient",
+    "description": "An ingredient in a recipe on The Vegetarian Cowgirl blog",
+    "type": "object",
+    "properties": {
+        "quantity": {
+            "description": "Recipe Title",
+            "type": "number",
+            "minimum": 0
+        },
+        "unitTag": {
+            "description": "Key representing the unit in src/utils/unit.ts",
+            "type": "string"
+        },
+        "ingredient": {
+            "description": "Description of the ingredient",
+            "type": "string"
+        },
+        "hidden": {
+            "type": "boolean",
+            "description": "Determines whether the ingredient is hidden from the ingredients list. Used for autofills only."
+        },
+        "override": {
+            "description": "Overrides to use when certain multipliers are selected",
+            "type": "object",
+            "properties": {
+                "half": {
+                    "type": "string"
+                },
+                "whole": {
+                    "type": "string"
+                },
+                "double": {
+                    "type": "string"
+                },
+                "triple": {
+                    "type": "string"
+                }
+            },
+            "anyOf": [
+                {
+                    "required": [
+                        "half"
+                    ]
+                },
+                {
+                    "required": [
+                        "whole"
+                    ]
+                },
+                {
+                    "required": [
+                        "double"
+                    ]
+                },
+                {
+                    "required": [
+                        "triple"
+                    ]
+                }
+            ],
+            "additionalProperties": false
+        }
+    },
+    "anyOf": [
+        {
+            "required": [
+                "quantity",
+                "unitTag"
+            ]
+        },
+        {
+            "required": [
+                "ingredient"
+            ]
+        }
+    ],
+    "additionalProperties": false
+}

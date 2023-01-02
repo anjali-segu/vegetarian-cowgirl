@@ -1,25 +1,39 @@
 {
-  "title": "Pumpkin Spiced Latte w/ Espresso Machine",
-  "subtitle": "How to make the best pumpkin spice latte at home with pumpkin puree, espresso, milk, and fall spices.",
-  "subtitle2": "This drink is perfect for the fall season! It is simple to make and tastes superior to any store bought syrup or drink.",
-  "ingredients": [
-    [
-      {"quantity": 2, "unitTag": "tbsp", "ingredient": "Libby's Pumpkin Pie Mix", "key": "pie-mix"},
-      {"quantity": 0.125, "unitTag": "tsp", "ingredient": "cinnamon", "key": "cinnamon"},
-      {"ingredient": "whipped cream", "key": "whipped-cream"},
-      {"quantity": 1, "unitTag": "cup", "ingredient": "milk", "key": "milk"},
-      {"quantity": 1, "unitTag": "espresso shot", "key": "espresso"}
-    ]
-  ],
-  "steps": [
-    "In a small pot, combine the pumpkin pie mix, cinnamon, and milk.",
-    "Over medium heat, stir. Once it begins to simmer, remove from heat.",
-    "In a mug, add the espresso shot at the bottom. Pour the pumpkin pie milk mixture into the mug.",
-    "Top with whipped cream and enjoy immediately."
+    "title": "Pumpkin Spiced Latte w/ Espresso Machine",
+    "subtitle": "How to make the best pumpkin spice latte at home with pumpkin puree, espresso, milk, and fall spices.",
+    "subtitle2": "This drink is perfect for the fall season! It is simple to make and tastes superior to any store bought syrup or drink.",
+    "ingredients": {
+        "pie-mix": {
+            "quantity": 2,
+            "unitTag": "tbsp",
+            "ingredient": "Libby's Pumpkin Pie Mix"
+        },
+        "cinnamon": {
+            "quantity": 0.125,
+            "unitTag": "tsp",
+            "ingredient": "cinnamon"
+        },
+        "whipped-cream": {
+            "ingredient": "whipped cream"
+        },
+        "milk": {
+            "quantity": 1,
+            "unitTag": "cup",
+            "ingredient": "milk"
+        },
+        "espresso": {
+            "quantity": 1,
+            "unitTag": "espresso shot"
+        }
+    },
+    "steps": [
+        "In a small pot, combine the pumpkin pie mix, cinnamon, and milk.",
+        "Over medium heat, stir. Once it begins to simmer, remove from heat.",
+        "In a mug, add the espresso shot at the bottom. Pour the pumpkin pie milk mixture into the mug.",
+        "Top with whipped cream and enjoy immediately."
     ],
-  "preptime": "5 minutes",
-  "cooktime": "2 minutes",
-  "totaltime": "7 minutes",
-  "serves": 1,
-  "indivisible": true
+    "preptime": "5 minutes",
+    "cooktime": "2 minutes",
+    "totaltime": "7 minutes",
+    "serves": 1
 }

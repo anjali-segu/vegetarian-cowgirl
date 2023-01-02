@@ -1,0 +1,116 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "./src/assets/schemas/recipe.schema.json",
+  "title": "Recipe",
+  "description": "A recipe on The Vegetarian Cowgirl blog",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "title": {
+      "description": "Recipe Title",
+      "type": "string"
+    },
+    "subtitle": {
+      "description": "Description above the photo",
+      "type": "string"
+    },
+    "subtitle2": {
+      "description": "Description below the photo",
+      "type": "string"
+    },
+    "categories": {
+      "description": "Recipe categories for steps",
+      "type": "object",
+      "patternProperties": {
+        "^.+$": {
+          "description": "Recipe Category",
+          "type": "object",
+          "properties": {
+            "ingredients": {
+              "description": "Recipe ingredients per category",
+              "type": "object",
+              "patternProperties": {
+                "^.+$": {
+                  "$ref": "ingredient.schema.json"
+                }
+              },
+              "minProperties": 1
+            }
+          },
+          "required": [
+            "ingredients"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "minProperties": 1
+    },
+    "ingredients": {
+      "description": "Recipe ingredients",
+      "type": "object",
+      "patternProperties": {
+        "^.+$": {
+          "$ref": "ingredient.schema.json"
+        }
+      },
+      "minProperties": 1
+    },
+    "steps": {
+      "description": "Recipe steps",
+      "type": "array",
+      "items": {
+        "description": "Step",
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "preptime": {
+      "description": "How long it takes to prep ingredients",
+      "type": "string"
+    },
+    "cooktime": {
+      "description": "How long it takes to cook ingredients",
+      "type": "string"
+    },
+    "totaltime": {
+      "description": "Sum of preptime, cooktime, and any additional time for cooling, etc.",
+      "type": "string"
+    },
+    "serves": {
+      "type": "integer",
+      "minimum": 0,
+      "exclusiveMinimum": true
+    }
+  },
+  "oneOf": [
+    {
+      "required": [
+        "title",
+        "subtitle",
+        "subtitle2",
+        "categories",
+        "steps",
+        "preptime",
+        "cooktime",
+        "totaltime",
+        "serves"
+      ]
+    },
+    {
+      "required": [
+        "title",
+        "subtitle",
+        "subtitle2",
+        "ingredients",
+        "steps",
+        "preptime",
+        "cooktime",
+        "totaltime",
+        "serves"
+      ]
+    }
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,23 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "./src/assets/schemas/unit.schema.json",
+    "title": "Unit",
+    "description": "An unit for an ingredient on The Vegetarian Cowgirl blog",
+    "type": "object",
+    "properties": {
+        "singular": {
+            "description": "Unit name in singular",
+            "type": "string"
+        },
+        "fractional": {
+            "description": "Unit name in fractional",
+            "type": "string"
+        },
+        "plural": {
+            "description": "Unit name in plural",
+            "type": "string"
+        }
+    },
+    "required": ["singular"],
+    "additionalProperties": false
+}

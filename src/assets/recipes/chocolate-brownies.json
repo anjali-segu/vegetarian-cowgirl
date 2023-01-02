@@ -1,0 +1,19 @@
+{
+  "$schema": "../schemas/recipe.schema.json",
+  "title": "Fudgiest Brownies",
+  "subtitle": "",
+  "subtitle2": "",
+  "ingredients": {
+    "cake-mix": {"quantity": 1, "unitTag": "box", "ingredient": "Betty Crocker Triple Chocolate Fudge Cake Mix"},
+    "egg": {"quantity": 2, "unitTag": "egg"},
+    "canola-oil": {"quantity": 0.5, "unitTag": "cup", "ingredient": "canola oil"},
+    "chocolate-chips": {"quantity": 1, "unitTag": "cup", "ingredient": "chocolate chips or any other candy (ex: Andes)"}
+  },
+  "steps": [
+    "Preheat the oven to 350 degrees F."
+  ],
+  "preptime": "15 min",
+  "cooktime": "23 min",
+  "totaltime": "40 min",
+  "serves": 16
+}

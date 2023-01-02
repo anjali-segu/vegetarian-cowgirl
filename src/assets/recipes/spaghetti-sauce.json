@@ -1,34 +1,74 @@
 {
-  "title": "Grandma Barbieri's Spaghetti Sauce",
-  "subtitle": "Vegetarian tomato sauce with onions, garlic, basil, and bay leaves. A favorite of my boyfriend.",
-  "subtitle2": "Grandma Barbieri leaves the bay leaves in the sauce until it is served (and sometimes even then!), but you should not eat them. I recommend that you remove the bay leaves before serving, and you can even do this before refrigeration.",
-  "ingredients": [
-    [
-      {"quantity": 1, "unitTag": "tbsp", "ingredient": "olive oil", "key": "olive-oil"},
-      {"quantity": 0.5, "unitTag": "cup", "ingredient": "onion (diced)", "key": "onion"},
-      {"quantity": 2, "unitTag": "clove", "ingredient": "of garlic (more as needed)", "key": "garlic"},
-      {"quantity": 1, "unitTag": "tbsp", "ingredient": "butter", "key": "butter"},
-      {"quantity": 28, "unitTag": "oz", "ingredient": "Cento or Progresso Tomato Puree", "key": "tomato-puree"},
-      {"quantity": 1, "unitTag": "tsp", "ingredient": "basil, dried", "key": "basil"},
-      {"quantity": 0.5, "unitTag": "tsp", "ingredient": "sugar (more as needed)", "key": "sugar"},
-      {"quantity": 0.5, "unitTag": "tsp", "ingredient": "salt (to taste)", "key": "salt"},
-      {"quantity": 0.25, "unitTag": "tsp", "ingredient": "pepper (to taste)", "key": "pepper", "override": { "half": "dash of" }},
-      {"quantity": 2, "unitTag": "bay leaf", "key": "bay-leaves"}
-    ]
-  ],
-  "steps": [
-    "Dice the onion. Then place into a pan.",
-    "Peel !garlic. Then either slice very fine or use a garlic press.",
-    "Sauté the garlic and onions in olive oil and butter on the stove with medium heat.",
-    "While the garlic and onions are cooking, add the other ingredients to the can of tomato puree. <i>Substitute the sugar for finely chopped carrots for a more traditionally Italian take on the recipe.</i>",
-    "Once the onions and garlic have cooked (approximately 3-5 minutes), add the contents of the can of sauce into the pot.",
-    "Place the lid on the pot and bring to a light boil (medium heat).",
-    "Reduce heat to low and simmer for anywhere from an hour to an hour and a half. Stir the sauce every 20 minutes and check its taste.",
-    "When it's done, turn off the heat. Leave the pot on the burner while it cools. <i>This is to allow the sauce to cook without burning.</i>",
-    "You can now refrigerate the sauce and enjoy for a week."
-  ],
-  "preptime": "15 min",
-  "cooktime": "1 hr",
-  "totaltime": "1 hr 20 min",
-  "serves": 4
+    "title": "Grandma Barbieri's Spaghetti Sauce",
+    "subtitle": "Vegetarian tomato sauce with onions, garlic, basil, and bay leaves. A favorite of my boyfriend.",
+    "subtitle2": "Grandma Barbieri leaves the bay leaves in the sauce until it is served (and sometimes even then!), but you should not eat them. I recommend that you remove the bay leaves before serving, and you can even do this before refrigeration.",
+    "ingredients": {
+        "olive-oil": {
+            "quantity": 1,
+            "unitTag": "tbsp",
+            "ingredient": "olive oil"
+        },
+        "onion": {
+            "quantity": 0.5,
+            "unitTag": "cup",
+            "ingredient": "onion (diced)"
+        },
+        "garlic": {
+            "quantity": 2,
+            "unitTag": "clove",
+            "ingredient": "of garlic (more as needed)"
+        },
+        "butter": {
+            "quantity": 1,
+            "unitTag": "tbsp",
+            "ingredient": "butter"
+        },
+        "tomato-puree": {
+            "quantity": 28,
+            "unitTag": "oz",
+            "ingredient": "Cento or Progresso Tomato Puree"
+        },
+        "basil": {
+            "quantity": 1,
+            "unitTag": "tsp",
+            "ingredient": "basil, dried"
+        },
+        "sugar": {
+            "quantity": 0.5,
+            "unitTag": "tsp",
+            "ingredient": "sugar (more as needed)"
+        },
+        "salt": {
+            "quantity": 0.5,
+            "unitTag": "tsp",
+            "ingredient": "salt (to taste)"
+        },
+        "pepper": {
+            "quantity": 0.25,
+            "unitTag": "tsp",
+            "ingredient": "pepper (to taste)",
+            "override": {
+                "half": "dash of"
+            }
+        },
+        "bay-leaves": {
+            "quantity": 2,
+            "unitTag": "bay leaf"
+        }
+    },
+    "steps": [
+        "Dice the onion. Then place into a pan.",
+        "Peel !garlic. Then either slice very fine or use a garlic press.",
+        "Sauté the garlic and onions in olive oil and butter on the stove with medium heat.",
+        "While the garlic and onions are cooking, add the other ingredients to the can of tomato puree. <i>Substitute the sugar for finely chopped carrots for a more traditionally Italian take on the recipe.</i>",
+        "Once the onions and garlic have cooked (approximately 3-5 minutes), add the contents of the can of sauce into the pot.",
+        "Place the lid on the pot and bring to a light boil (medium heat).",
+        "Reduce heat to low and simmer for anywhere from an hour to an hour and a half. Stir the sauce every 20 minutes and check its taste.",
+        "When it's done, turn off the heat. Leave the pot on the burner while it cools. <i>This is to allow the sauce to cook without burning.</i>",
+        "You can now refrigerate the sauce and enjoy for a week."
+    ],
+    "preptime": "15 min",
+    "cooktime": "1 hr",
+    "totaltime": "1 hr 20 min",
+    "serves": 4
 }

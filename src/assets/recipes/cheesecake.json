@@ -2,93 +2,81 @@
   "title": "Light and Fluffy Cheesecake with Pecan Crust",
   "subtitle": "",
   "subtitle2": "",
-  "categories": [
-    "Crust",
-    "Filling"
-  ],
-  "ingredients": [
-    [
-      {
-        "quantity": 16,
-        "unitTag": "graham cracker",
-        "ingredient": "or more for a thicker crust",
-        "key": "crust-graham-cracker"
-      },
-      {
-        "quantity": 1,
-        "unitTag": "cup",
-        "ingredient": "pecans (toasted)",
-        "key": "crust-pecans"
-      },
-      {
-        "quantity": 0.25,
-        "unitTag": "cup",
-        "ingredient": "granulated sugar",
-        "key": "crust-sugar"
-      },
-      {
-        "quantity": 5,
-        "unitTag": "tbsp",
-        "ingredient": "unsalted butter (melted)",
-        "key": "crust-butter"
-      }
-    ],
-    [
-      {
-        "quantity": 36,
-        "unitTag": "oz",
-        "ingredient": "cream cheese (room temperature)",
-        "key": "filling-cream-cheese"
-      },
-      {
-        "quantity": 1.75,
-        "unitTag": "cup",
-        "ingredient": "sugar",
-        "key": "filling-sugar",
-        "override": {
-          "half": "¾ cup + 2 tbsp sugar"
+  "categories": {
+    "Crust": {
+      "ingredients": {
+        "crust-graham-cracker": {
+          "quantity": 16,
+          "unitTag": "graham cracker",
+          "ingredient": "or more for a thicker crust"
+        },
+        "crust-pecans": {
+          "quantity": 1,
+          "unitTag": "cup",
+          "ingredient": "pecans (toasted)"
+        },
+        "crust-sugar": {
+          "quantity": 0.25,
+          "unitTag": "cup",
+          "ingredient": "granulated sugar"
+        },
+        "crust-butter": {
+          "quantity": 5,
+          "unitTag": "tbsp",
+          "ingredient": "unsalted butter (melted)"
         }
-      },
-      {
-        "quantity": 0.5,
-        "unitTag": "tsp",
-        "ingredient": "salt",
-        "key": "filling-salt"
-      },
-      {
-        "quantity": 0.75,
-        "unitTag": "cup",
-        "ingredient": "sour cream",
-        "key": "filling-sour-cream",
-        "override": {
-          "half": "¼ cup + 2 tbsp sour cream"
-        }
-      },
-      {
-        "quantity": 2,
-        "unitTag": "tsp",
-        "ingredient": "vanilla extract",
-        "key": "filling-vanilla"
-      },
-      {
-        "quantity": 3,
-        "unitTag": "tbsp",
-        "ingredient": "all purpose flour (sifted)",
-        "key": "filling-flour"
-      },
-      {
-        "quantity": 5,
-        "unitTag": "egg",
-        "ingredient": "(large, room temperature)",
-        "key": "filling-eggs"
-      },
-      {
-        "quantity": 2,
-        "unitTag": "egg yolk",
-        "key": "filling-yolks"
       }
-    ]
-  ],
+    },
+    "Filling": {
+      "ingredients": {
+        "filling-cream-cheese": {
+          "quantity": 36,
+          "unitTag": "oz",
+          "ingredient": "cream cheese (room temperature)"
+        },
+        "filling-sugar": {
+          "quantity": 1.75,
+          "unitTag": "cup",
+          "ingredient": "sugar",
+          "override": {
+            "half": "¾ cup + 2 tbsp sugar"
+          }
+        },
+        "filling-salt": {
+          "quantity": 0.5,
+          "unitTag": "tsp",
+          "ingredient": "salt"
+        },
+        "filling-sour-cream": {
+          "quantity": 0.75,
+          "unitTag": "cup",
+          "ingredient": "sour cream",
+          "override": {
+            "half": "¼ cup + 2 tbsp sour cream"
+          }
+        },
+        "filling-vanilla": {
+          "quantity": 2,
+          "unitTag": "tsp",
+          "ingredient": "vanilla extract"
+        },
+        "filling-flour": {
+          "quantity": 3,
+          "unitTag": "tbsp",
+          "ingredient": "all purpose flour (sifted)"
+        },
+        "filling-eggs": {
+          "quantity": 5,
+          "unitTag": "egg",
+          "ingredient": "(large, room temperature)"
+        },
+        "filling-yolks": {
+          "quantity": 2,
+          "unitTag": "egg yolk"
+        }
+      }
+    }
+  },
   "steps": [
     "Prehead your oven to 350°F.",
     "Add the graham crackers, sugar, and toasted pecans to a food processor. Blitz until fine, then add melted butter to the food processor and combine until a clumpy mixture forms.",
