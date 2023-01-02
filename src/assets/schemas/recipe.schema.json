@@ -37,22 +37,12 @@
                 }
               },
               "minProperties": 1
-            },
-            "steps": {
-              "description": "Steps per category",
-              "type": "array",
-              "items": {
-                "description": "Step",
-                "type": "string"
-              },
-              "minItems": 1,
-              "uniqueItems": true
             }
           },
           "required": [
-            "ingredients",
-            "steps"
-          ]
+            "ingredients"
+          ],
+          "additionalProperties": false
         }
       },
       "minProperties": 1
@@ -91,7 +81,7 @@
     "serves": {
       "type": "integer",
       "minimum": 0,
-      "excludeMinimum": true
+      "exclusiveMinimum": true
     }
   },
   "oneOf": [
@@ -101,6 +91,7 @@
         "subtitle",
         "subtitle2",
         "categories",
+        "steps",
         "preptime",
         "cooktime",
         "totaltime",

@@ -16,7 +16,7 @@ import Tooltip from '@mui/material/Tooltip';
 import Typography from '@mui/material/Typography';
 
 import Ingredient from '../../utils/ingredient';
-import { generateCategories, generateSteps } from '../../utils/RecipeCardHelpers';
+import { generateCategories, generateStepsFromCategories, generateStepsFromIngredients } from '../../utils/RecipeCardHelpers';
 import { theme } from '../../utils/theme'
 
 type Props = {
@@ -27,8 +27,8 @@ type Props = {
     preptime: string
     cooktime: string
     totaltime: string
-    ingredients: Ingredient[][]
-    categories?: string[]
+    ingredients?: { [key: string]: Ingredient }
+    categories?: { [key: string]: { ingredients: { [key: string]: Ingredient } } }
     steps: string[]
     indivisible?: boolean
 }
@@ -257,7 +257,9 @@ const RecipeCard = (props: Props) => {
 
                             {generateCategories(multiplier, props.ingredients, props.categories)}
 
-                            {generateSteps(props.steps, multiplier, props.ingredients, props.serves)}
+                            {props.categories && generateStepsFromCategories(props.steps, multiplier, props.categories, props.serves)}
+
+                            {props.ingredients && generateStepsFromIngredients(props.steps, multiplier, props.ingredients, props.serves)}
 
                         </Grid>
 

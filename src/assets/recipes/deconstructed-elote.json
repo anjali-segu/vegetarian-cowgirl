@@ -1,28 +1,61 @@
 {
-  "title": "Deconstructed Elote",
-  "subtitle": "This simple recipes celebrates corn anytime of the year. It is in chipotle mayo, lime juice, cilantro, and cojita cheese.",
-  "subtitle2": "The first time I had elote was in Texas! Deconstructed elote makes corn easy! I take a few shortcuts that makes this recipe quick and perfect as an appetizer.",
-  "ingredients": [
-    [
-      {"quantity": 2, "unitTag": "cup", "ingredient": "frozen corn", "key": "corn"},
-      {"quantity": 1, "unitTag": "tbsp", "ingredient": "butter", "key": "butter"},
-      {"quantity": 0.25, "unitTag": "cup", "ingredient": "mayo", "key": "mayo"},
-      {"quantity": 2, "unitTag": "tbsp", "ingredient": "chipotle pepper, jarred or canned", "key": "chipotle-pepper"},
-      {"quantity": 1, "unitTag": "tsp", "ingredient": "fresh lime juice", "key": "lime"},
-      {"quantity": 0.5, "unitTag": "tsp", "ingredient": "chili powder", "key": "chili"},
-      {"quantity": 0.5, "unitTag": "tsp", "ingredient": "chipotle powder", "key": "chipotle-powder"},
-      {"quantity": 0.5, "unitTag": "lime", "ingredient": "to squeeze on top", "key": "lime"},
-      {"quantity": 2, "unitTag": "tsp", "ingredient": "chopped cilantro", "key": "cilantro"},
-      {"quantity": 2, "unitTag": "tbsp", "ingredient": "cojita cheese, crumbled", "key": "cojita"}
-    ]
-  ],
-  "steps": [
-    "Heat up a pan to medium heat and melt butter. Add the frozen corn and cook until brown spots begin to appear and the corn is fully cooked through.",
-    "In a bowl, mix the mayo, chipotle pepper (jarred), lime juice, chili powder, and chipotle powder. Taste and adjust with additional seasoning based on your spice tolerance.",
-    "Divide the corn into !serves separate bowls. Drizzle with the chiptole sauce. Evenly distribute the cojita cheese and cilantro on top. Squeeze fresh lime juice to taste."
-  ],
-  "preptime": "10 minutes",
-  "cooktime": "5 minutes",
-  "totaltime": "15 minutes",
-  "serves": 4
+    "title": "Deconstructed Elote",
+    "subtitle": "This simple recipes celebrates corn anytime of the year. It is in chipotle mayo, lime juice, cilantro, and cojita cheese.",
+    "subtitle2": "The first time I had elote was in Texas! Deconstructed elote makes corn easy! I take a few shortcuts that makes this recipe quick and perfect as an appetizer.",
+    "ingredients": {
+        "corn": {
+            "quantity": 2,
+            "unitTag": "cup",
+            "ingredient": "frozen corn"
+        },
+        "butter": {
+            "quantity": 1,
+            "unitTag": "tbsp",
+            "ingredient": "butter"
+        },
+        "mayo": {
+            "quantity": 0.25,
+            "unitTag": "cup",
+            "ingredient": "mayo"
+        },
+        "chipotle-pepper": {
+            "quantity": 2,
+            "unitTag": "tbsp",
+            "ingredient": "chipotle pepper, jarred or canned"
+        },
+        "lime": {
+            "quantity": 0.5,
+            "unitTag": "lime",
+            "ingredient": "to squeeze on top"
+        },
+        "chili": {
+            "quantity": 0.5,
+            "unitTag": "tsp",
+            "ingredient": "chili powder"
+        },
+        "chipotle-powder": {
+            "quantity": 0.5,
+            "unitTag": "tsp",
+            "ingredient": "chipotle powder"
+        },
+        "cilantro": {
+            "quantity": 2,
+            "unitTag": "tsp",
+            "ingredient": "chopped cilantro"
+        },
+        "cojita": {
+            "quantity": 2,
+            "unitTag": "tbsp",
+            "ingredient": "cojita cheese, crumbled"
+        }
+    },
+    "steps": [
+        "Heat up a pan to medium heat and melt butter. Add the frozen corn and cook until brown spots begin to appear and the corn is fully cooked through.",
+        "In a bowl, mix the mayo, chipotle pepper (jarred), lime juice, chili powder, and chipotle powder. Taste and adjust with additional seasoning based on your spice tolerance.",
+        "Divide the corn into !serves separate bowls. Drizzle with the chiptole sauce. Evenly distribute the cojita cheese and cilantro on top. Squeeze fresh lime juice to taste."
+    ],
+    "preptime": "10 minutes",
+    "cooktime": "5 minutes",
+    "totaltime": "15 minutes",
+    "serves": 4
 }

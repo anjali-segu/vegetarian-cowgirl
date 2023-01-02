@@ -3,7 +3,6 @@ import { units, unitToString } from "./unit"
 type IngredientOverride = string
 
 interface Ingredient {
-    key: string
     quantity?: number
     unitTag?: string
     ingredient?: string
@@ -56,7 +55,7 @@ const numberPrettifier = (number: number) => {
     return `${closest}`
 }
 
-export const ingredientToString = (ingredient: Ingredient, multiplier: number = 1) => {
+export const ingredientToString = (key: string, ingredient: Ingredient, multiplier: number = 1) => {
     if (multiplier === 0.5 && ingredient.override?.half) {
         return ingredient.override.half
     } else if (multiplier === 1 && ingredient.override?.whole) {
@@ -73,7 +72,7 @@ export const ingredientToString = (ingredient: Ingredient, multiplier: number = 
     } else if (ingredient.ingredient) {
         return `${ingredient.ingredient}`
     } else {
-        return `${ingredient.key}`
+        return `${key}`
     }
 }
 

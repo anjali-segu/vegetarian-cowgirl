@@ -4,13 +4,12 @@ import Typography from "@mui/material/Typography"
 import Ingredient, { ingredientToString } from "./ingredient"
 import { theme } from "./theme"
 
-export const generateCategories = (multiplier: number, ingredients: Ingredient[][], categories?: string[]) => {
-    if (categories) {
+export const generateCategories = (multiplier: number, ingredients?: { [key: string]: Ingredient }, categories?: { [key: string]: { ingredients: { [key: string]: Ingredient } } }) => {
+    if (categories !== undefined) {
         let retval: JSX.Element[] = []
-        let end = Math.min(categories.length, ingredients.length)
-        for (let i = 0; i < end; ++i) {
+        for (let [categoryName, categoryObject] of Object.entries(categories)) {
             retval.push((
-                <React.Fragment key={categories[i]}>
+                <React.Fragment key={categoryName}>
                     <Grid item xs={1}>
                     </Grid>
 
@@ -24,12 +23,12 @@ export const generateCategories = (multiplier: number, ingredients: Ingredient[]
                             gutterBottom
                             variant="body1"
                             component="div">
-                            {categories[i]}
+                            {categoryName}
                         </Typography>
 
                         <ul>
-                            {ingredients[i].filter(ingredient => !ingredient.hidden).map(ingredient => (
-                                <li key={ingredient.key} dangerouslySetInnerHTML={{ __html: ingredientToString(ingredient, multiplier) }} style={{
+                            {Object.entries(categoryObject.ingredients).filter(([, ingredient]) => !ingredient.hidden).map(([ingredientKey, ingredient]) => (
+                                <li key={ingredientKey} dangerouslySetInnerHTML={{ __html: ingredientToString(ingredientKey, ingredient, multiplier) }} style={{
                                     fontFamily: 'Karla',
                                     color: 'black',
                                     fontWeight: 500,
@@ -45,16 +44,16 @@ export const generateCategories = (multiplier: number, ingredients: Ingredient[]
             ))
         }
         return retval
-    } else {
-        return ingredients.map(ingredients => (
-            <React.Fragment key={ingredients.join(',')}>
+    } else if (ingredients !== undefined) {
+        return (
+            <>
                 <Grid item xs={1}>
                 </Grid>
 
                 <Grid item xs={10}>
                     <ul>
-                        {ingredients.filter(ingredient => !ingredient.hidden).map(ingredient => (
-                            <li key={ingredient.key} dangerouslySetInnerHTML={{ __html: ingredientToString(ingredient, multiplier) }} style={{
+                        {Object.entries(ingredients).filter(([, ingredient]) => !ingredient.hidden).map(([ingredientKey, ingredient]) => (
+                            <li key={ingredientKey} dangerouslySetInnerHTML={{ __html: ingredientToString(ingredientKey, ingredient, multiplier) }} style={{
                                 fontFamily: 'Karla',
                                 color: 'black',
                                 fontWeight: 500,
@@ -66,21 +65,31 @@ export const generateCategories = (multiplier: number, ingredients: Ingredient[]
 
                 <Grid item xs={1}>
                 </Grid>
-            </React.Fragment>
-        ))
+            </>
+        )
     }
 }
 
-const dynamicStep = (step: string, multiplier: number, flattenedIngredients: Ingredient[], serves: number) => {
+const dynamicStep = (step: string, multiplier: number, flattenedIngredients: { [key: string]: Ingredient }, serves: number) => {
     step = step.replaceAll(`!serves`, `${serves * multiplier}`)
-    flattenedIngredients.forEach((ingredient) => {
-        step = step.replaceAll(`!${ingredient.key}`, () => ingredientToString(ingredient, multiplier))
+    Object.entries(flattenedIngredients).forEach(([ingredientKey, ingredient]) => {
+        step = step.replaceAll(`!${ingredientKey}`, () => ingredientToString(ingredientKey, ingredient, multiplier))
     })
     return step
 }
 
-export const generateSteps = (steps: string[], multiplier: number, ingredients: Ingredient[][], serves: number) => {
-    const flattenedIngredients = ingredients.flat().sort((a, b) => b.key.localeCompare(a.key))
+export const generateStepsFromCategories = (steps: string[], multiplier: number, categories: { [key: string]: { ingredients: { [key: string]: Ingredient } } }, serves: number) => {
+    const flattenedIngredients: { [key: string]: Ingredient } = {};
+    for (let [, { ingredients }] of Object.entries(categories)) {
+        for (let [key, ingredient] of Object.entries(ingredients)) {
+            flattenedIngredients[key] = ingredient;
+        }
+    }
+    return generateStepsFromIngredients(steps, multiplier, flattenedIngredients, serves);
+}
+
+export const generateStepsFromIngredients = (steps: string[], multiplier: number, ingredients: { [key: string]: Ingredient }, serves: number) => {
+    const flattenedIngredients = Object.entries(ingredients).sort(([a,], [b,]) => b.localeCompare(a)).reduce((acc, [key, val]) => { acc[key] = val; return acc; }, {} as { [key: string]: Ingredient });
     return (
         <>
             <Grid item xs={1}>

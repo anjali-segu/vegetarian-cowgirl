@@ -1,37 +1,95 @@
 {
-  "title": "Mushroom Miso Soup",
-  "subtitle": "A warm comforting soup, made from whatever veggies you have in your fridge. This soup is simple to make and makes a perfect weekday dinner.",
-  "subtitle2": "This is my go to soup to make when I'm not feeling well! The miso base, spices, and vegetables is the perfect combination to kick out a cold. Feel free to sub out any of the veggies for whatever vegetables you have in the fridge. I personally get my miso paste from Sprout's.",
-  "ingredients": [
-    [
-      {"quantity": 2, "unitTag": "tbsp", "ingredient": "of white miso paste", "key": "miso"},
-      {"quantity": 3, "unitTag": "cup", "ingredient": "water", "key": "water"},
-      {"quantity": 4, "unitTag": "clove", "ingredient": "of garlic", "key": "garlic"},
-      {"quantity": 1, "unitTag": "tsp", "ingredient": "ginger, minced", "key": "ginger"},
-      {"quantity": 1, "unitTag": "small box", "ingredient": "of mushrooms, sliced", "key": "mushrooms"},
-      {"quantity": 1, "unitTag": "cup", "ingredient": "frozen spinach or any leafy green", "key": "spinach"},
-      {"quantity": 1, "unitTag": "large carrot", "ingredient": "(diced)", "key": "carrot"},
-      {"quantity": 0.5, "unitTag": "cup", "ingredient": "frozen peas", "key": "peas"},
-      {"quantity": 0.5, "unitTag": "cup", "ingredient": "frozen corn", "key": "corn"},
-      {"quantity": 1, "unitTag": "tbsp", "ingredient": "olive oil", "key": "olive-oil"},
-      {"quantity": 1, "unitTag": "lime", "ingredient": "(juiced)", "key": "lime"},
-      {"quantity": 2, "unitTag": "tsp", "ingredient": "siracha", "key": "siracha"},
-      {"quantity": 3, "unitTag": "tsp", "ingredient": "soy sauce", "key": "soy"},
-      {"quantity": 2, "unitTag": "tsp", "ingredient": "rice vinegar", "key": "vinegar"},
-      {"ingredient": "salt", "key": "salt"},
-      {"ingredient": "pepper", "key": "pepper"}
-    ]
-  ],
-  "steps": [
-    "In a large pot on medium heat, add oil.", 
-    "Saute garlic, ginger, mushrooms, spinach, mushrooms, carrots, peas, and corn until cooked. The garlic should be fragrant and vegetables should completely cook down.",
-    "While on medium to high heat, add soy sauce, siracha, rice vinegar, and pepper.",
-    "Stir for 30 seconds and take off of heat. Add miso paste.",
-    "Add water to the pot. Turn the heat back on to medium. Stir the miso paste until fully combined.",
-    "Cook until the broth boils. Squeeze in the lime juice. Salt to taste."
+    "title": "Mushroom Miso Soup",
+    "subtitle": "A warm comforting soup, made from whatever veggies you have in your fridge. This soup is simple to make and makes a perfect weekday dinner.",
+    "subtitle2": "This is my go to soup to make when I'm not feeling well! The miso base, spices, and vegetables is the perfect combination to kick out a cold. Feel free to sub out any of the veggies for whatever vegetables you have in the fridge. I personally get my miso paste from Sprout's.",
+    "ingredients": {
+        "miso": {
+            "quantity": 2,
+            "unitTag": "tbsp",
+            "ingredient": "of white miso paste"
+        },
+        "water": {
+            "quantity": 3,
+            "unitTag": "cup",
+            "ingredient": "water"
+        },
+        "garlic": {
+            "quantity": 4,
+            "unitTag": "clove",
+            "ingredient": "of garlic"
+        },
+        "ginger": {
+            "quantity": 1,
+            "unitTag": "tsp",
+            "ingredient": "ginger, minced"
+        },
+        "mushrooms": {
+            "quantity": 1,
+            "unitTag": "small box",
+            "ingredient": "of mushrooms, sliced"
+        },
+        "spinach": {
+            "quantity": 1,
+            "unitTag": "cup",
+            "ingredient": "frozen spinach or any leafy green"
+        },
+        "carrot": {
+            "quantity": 1,
+            "unitTag": "large carrot",
+            "ingredient": "(diced)"
+        },
+        "peas": {
+            "quantity": 0.5,
+            "unitTag": "cup",
+            "ingredient": "frozen peas"
+        },
+        "corn": {
+            "quantity": 0.5,
+            "unitTag": "cup",
+            "ingredient": "frozen corn"
+        },
+        "olive-oil": {
+            "quantity": 1,
+            "unitTag": "tbsp",
+            "ingredient": "olive oil"
+        },
+        "lime": {
+            "quantity": 1,
+            "unitTag": "lime",
+            "ingredient": "(juiced)"
+        },
+        "siracha": {
+            "quantity": 2,
+            "unitTag": "tsp",
+            "ingredient": "siracha"
+        },
+        "soy": {
+            "quantity": 3,
+            "unitTag": "tsp",
+            "ingredient": "soy sauce"
+        },
+        "vinegar": {
+            "quantity": 2,
+            "unitTag": "tsp",
+            "ingredient": "rice vinegar"
+        },
+        "salt": {
+            "ingredient": "salt"
+        },
+        "pepper": {
+            "ingredient": "pepper"
+        }
+    },
+    "steps": [
+        "In a large pot on medium heat, add oil.",
+        "Saute garlic, ginger, mushrooms, spinach, mushrooms, carrots, peas, and corn until cooked. The garlic should be fragrant and vegetables should completely cook down.",
+        "While on medium to high heat, add soy sauce, siracha, rice vinegar, and pepper.",
+        "Stir for 30 seconds and take off of heat. Add miso paste.",
+        "Add water to the pot. Turn the heat back on to medium. Stir the miso paste until fully combined.",
+        "Cook until the broth boils. Squeeze in the lime juice. Salt to taste."
     ],
-  "preptime": "10 minutes",
-  "cooktime": "10 minutes",
-  "totaltime": "20 minutes",
-  "serves": 2
+    "preptime": "10 minutes",
+    "cooktime": "10 minutes",
+    "totaltime": "20 minutes",
+    "serves": 2
 }

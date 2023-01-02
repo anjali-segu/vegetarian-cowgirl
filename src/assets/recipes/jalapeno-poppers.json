@@ -1,32 +1,66 @@
 {
-  "title": "Puff Pastry Jalapeño Poppers",
-  "subtitle": "This is a delicious treat that is spicy, creamy, and buttery! Perfect for any party. Simple to make, and heats up well.",
-  "subtitle2": "Puff pastry Jalapeno Popper have the classic flavors of shredded cheese, spicy jalapenos, and cream cheese all wrapped up in a tender and flaky puff pastry! They are a portable appetizer that is perfect for game days, or any party!",
-  "ingredients": [
-    [
-      {"quantity": 6, "unitTag": "jalapeno pepper", "ingredient": "(approximately)", "key": "jalapeno"},
-      {"quantity": 1, "unitTag": "package", "ingredient": "(8 ounces each) cream cheese, room temperature", "key": "cream-cheese"},
-      {"quantity": 1, "unitTag": "cup", "ingredient": "shredded jack cheese", "key": "jack-cheese"},
-      {"quantity": 2, "unitTag": "green onion", "ingredient": "chopped", "key": "onion"},
-      {"quantity": 0.5, "unitTag": "tsp", "ingredient": "salt", "key": "salt"},
-      {"quantity": 0.25, "unitTag": "tsp", "ingredient": "black pepper", "key": "pepper"},
-      {"quantity": 0.5, "unitTag": "tsp", "ingredient": "garlic powder", "key": "garlic"},
-      {"quantity": 1, "unitTag": "package", "ingredient": "puff pastry dough (typically use pepperidge farm)", "key": "dough"},
-      {"quantity": 1, "unitTag": "egg", "ingredient": "beaten", "key": "egg"}
-  ]
-  ],
-  "steps": [
-    "Preheat the oven to 400F.",
-    "In a bowl, mix together cream cheese, shredded cheese, chopped green onion and salt with a spatula until evenly blended.",
-    "Put on kitchen safe gloves. Cut the jalapeños into halves and remove seeds and ribs from each using a spoon.",
-    "Roll out the puff pastry sheet dough.",
-    "Using a pizza cutter, cut 3/4 inch wide vertical strips of dough.",
-    "Fill each jalapeño half with cheese mixture and wrap each stuffed jalapeño with dough strips, and place on baking sheet with parchment paper.",
-    "Brush the dough with the beaten egg to ensure golden brown exterior.",
-    "Bake until the dough is golden brown, about 20-25 minutes."
-  ],
-  "preptime": "15 minutes",
-  "cooktime": "25 minutes",
-  "totaltime": "40 minutes",
-  "serves": 7
+    "title": "Puff Pastry Jalapeño Poppers",
+    "subtitle": "This is a delicious treat that is spicy, creamy, and buttery! Perfect for any party. Simple to make, and heats up well.",
+    "subtitle2": "Puff pastry Jalapeno Popper have the classic flavors of shredded cheese, spicy jalapenos, and cream cheese all wrapped up in a tender and flaky puff pastry! They are a portable appetizer that is perfect for game days, or any party!",
+    "ingredients": {
+        "jalapeno": {
+            "quantity": 6,
+            "unitTag": "jalapeno pepper",
+            "ingredient": "(approximately)"
+        },
+        "cream-cheese": {
+            "quantity": 1,
+            "unitTag": "package",
+            "ingredient": "(8 ounces each) cream cheese, room temperature"
+        },
+        "jack-cheese": {
+            "quantity": 1,
+            "unitTag": "cup",
+            "ingredient": "shredded jack cheese"
+        },
+        "onion": {
+            "quantity": 2,
+            "unitTag": "green onion",
+            "ingredient": "chopped"
+        },
+        "salt": {
+            "quantity": 0.5,
+            "unitTag": "tsp",
+            "ingredient": "salt"
+        },
+        "pepper": {
+            "quantity": 0.25,
+            "unitTag": "tsp",
+            "ingredient": "black pepper"
+        },
+        "garlic": {
+            "quantity": 0.5,
+            "unitTag": "tsp",
+            "ingredient": "garlic powder"
+        },
+        "dough": {
+            "quantity": 1,
+            "unitTag": "package",
+            "ingredient": "puff pastry dough (typically use pepperidge farm)"
+        },
+        "egg": {
+            "quantity": 1,
+            "unitTag": "egg",
+            "ingredient": "beaten"
+        }
+    },
+    "steps": [
+        "Preheat the oven to 400F.",
+        "In a bowl, mix together cream cheese, shredded cheese, chopped green onion and salt with a spatula until evenly blended.",
+        "Put on kitchen safe gloves. Cut the jalapeños into halves and remove seeds and ribs from each using a spoon.",
+        "Roll out the puff pastry sheet dough.",
+        "Using a pizza cutter, cut 3/4 inch wide vertical strips of dough.",
+        "Fill each jalapeño half with cheese mixture and wrap each stuffed jalapeño with dough strips, and place on baking sheet with parchment paper.",
+        "Brush the dough with the beaten egg to ensure golden brown exterior.",
+        "Bake until the dough is golden brown, about 20-25 minutes."
+    ],
+    "preptime": "15 minutes",
+    "cooktime": "25 minutes",
+    "totaltime": "40 minutes",
+    "serves": 7
 }

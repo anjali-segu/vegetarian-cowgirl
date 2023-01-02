@@ -1,29 +1,61 @@
 {
-  "title": "Pumpkin Mascarpone Pie",
-  "subtitle": "Pumpkin mascarpone pie is a stunning and cozy holiday dessert that is easy to make, totally delicious, and pure joy to consume. It's creamy, rich, and indulgent.",
-  "subtitle2": "Spend just minutes mixing the mascarpone cheese and pumpkin puree filling together with fall spices, then pour into a prepared pie crust, and bake. The mascarpone makes this pie extra creamy and dreamy while the spices offset it. This pie is not too sweet which makes it incredibly addicting.",
-  "ingredients": [
-    [
-      {"quantity": 1, "unitTag": "can", "ingredient": "(13.5 oz each) pumpkin puree", "key": "pumpkin-puree"},
-      {"quantity": 1, "unitTag": "cup", "ingredient": "mascarpone cheese", "key": "cheese"},
-      {"quantity": 0.25, "unitTag": "cup", "ingredient": "brown sugar", "key": "sugar"},
-      {"quantity": 1, "unitTag": "tsp", "ingredient": "pumpkin pie spice", "key": "spice"},
-      {"quantity": 1, "unitTag": "tsp", "ingredient": "vanilla extract", "key": "vanilla"},
-      {"quantity": 1, "unitTag": "tbsp", "ingredient": "fresh lemon juice", "key": "lemon"},
-      {"quantity": 2, "unitTag": "large egg", "key": "egg"},
-      {"quantity": 0.25, "unitTag": "tsp", "ingredient": "salt", "key": "salt"},
-      {"quantity": 1, "unitTag": "single 9 inch pie crust", "ingredient": "(homemade or store-bought)", "key": "crust"}
-     ]
-  ],
-  "steps": [
-    "Preheat the oven to 350 degrees F.",
-    "In a large mixing bowl, add pumpkin puree, mascarpone cheese, brown sugar, pumpkin pie spice, vanilla extract, lemon juice, eggs, and salt. Mix well with an electric hand mixer or whisk until smooth and evenly combined, about 1-2 minutes.",
-    "Fit the uncooked pie crust on a 9-inch pie dish and slowly add in the pumpkin filling. Smooth out the top using the an icing spatula or the back of a spoon.",
-    "Bake the pie for 1 hour until set. Let cool completely and serve with whipped cream."
-  ],
-  "preptime": "10 min",
-  "cooktime": "1 hr",
-  "totaltime": "1 hr 30 min",
-  "serves": 12,
-  "indivisible": true
+    "title": "Pumpkin Mascarpone Pie",
+    "subtitle": "Pumpkin mascarpone pie is a stunning and cozy holiday dessert that is easy to make, totally delicious, and pure joy to consume. It's creamy, rich, and indulgent.",
+    "subtitle2": "Spend just minutes mixing the mascarpone cheese and pumpkin puree filling together with fall spices, then pour into a prepared pie crust, and bake. The mascarpone makes this pie extra creamy and dreamy while the spices offset it. This pie is not too sweet which makes it incredibly addicting.",
+    "ingredients": {
+        "pumpkin-puree": {
+            "quantity": 1,
+            "unitTag": "can",
+            "ingredient": "(13.5 oz each) pumpkin puree"
+        },
+        "cheese": {
+            "quantity": 1,
+            "unitTag": "cup",
+            "ingredient": "mascarpone cheese"
+        },
+        "sugar": {
+            "quantity": 0.25,
+            "unitTag": "cup",
+            "ingredient": "brown sugar"
+        },
+        "spice": {
+            "quantity": 1,
+            "unitTag": "tsp",
+            "ingredient": "pumpkin pie spice"
+        },
+        "vanilla": {
+            "quantity": 1,
+            "unitTag": "tsp",
+            "ingredient": "vanilla extract"
+        },
+        "lemon": {
+            "quantity": 1,
+            "unitTag": "tbsp",
+            "ingredient": "fresh lemon juice"
+        },
+        "egg": {
+            "quantity": 2,
+            "unitTag": "large egg"
+        },
+        "salt": {
+            "quantity": 0.25,
+            "unitTag": "tsp",
+            "ingredient": "salt"
+        },
+        "crust": {
+            "quantity": 1,
+            "unitTag": "single 9 inch pie crust",
+            "ingredient": "(homemade or store-bought)"
+        }
+    },
+    "steps": [
+        "Preheat the oven to 350 degrees F.",
+        "In a large mixing bowl, add pumpkin puree, mascarpone cheese, brown sugar, pumpkin pie spice, vanilla extract, lemon juice, eggs, and salt. Mix well with an electric hand mixer or whisk until smooth and evenly combined, about 1-2 minutes.",
+        "Fit the uncooked pie crust on a 9-inch pie dish and slowly add in the pumpkin filling. Smooth out the top using the an icing spatula or the back of a spoon.",
+        "Bake the pie for 1 hour until set. Let cool completely and serve with whipped cream."
+    ],
+    "preptime": "10 min",
+    "cooktime": "1 hr",
+    "totaltime": "1 hr 30 min",
+    "serves": 12
 }
