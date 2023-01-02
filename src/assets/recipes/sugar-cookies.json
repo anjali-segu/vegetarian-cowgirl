@@ -1,4 +1,5 @@
 {
+    "$schema": "../schemas/recipe.schema.json",
     "title": "Soft Sugar Cookie Cutouts",
     "subtitle": "These crisp edged, soft thick centered cookies makes this recipe a must try! Great for any occasion and works well with cutouts.",
     "subtitle2": "These are my favorite sugar cookies with icing! They are almondy, buttery, sweet, and have beautifully soft centers. I normally am not a huge fan of sugar cookies but these have converted me! They are extremely fun to decorate and keep well! Works great for gifts or just for a delcious dessert.",

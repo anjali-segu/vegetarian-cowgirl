@@ -1,4 +1,5 @@
 {
+    "$schema": "../schemas/recipe.schema.json",
     "title": "Veggie Packed Dumplings",
     "subtitle": "Crispy pan-fried Vegan Gyoza are Japanese vegetable dumplings. They are filled with healthy veggies and steamed until tender.",
     "subtitle2": "",

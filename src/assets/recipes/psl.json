@@ -1,4 +1,5 @@
 {
+    "$schema": "../schemas/recipe.schema.json",
     "title": "Pumpkin Spiced Latte w/ Espresso Machine",
     "subtitle": "How to make the best pumpkin spice latte at home with pumpkin puree, espresso, milk, and fall spices.",
     "subtitle2": "This drink is perfect for the fall season! It is simple to make and tastes superior to any store bought syrup or drink.",

@@ -8,7 +8,8 @@
         "quantity": {
             "description": "Recipe Title",
             "type": "number",
-            "minimum": 0
+            "minimum": 0,
+            "exclusiveMinimum": true
         },
         "unitTag": {
             "description": "Key representing the unit in src/utils/unit.ts",

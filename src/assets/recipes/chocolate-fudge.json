@@ -1,4 +1,5 @@
 {
+    "$schema": "../schemas/recipe.schema.json",
     "title": "Grandma Barbieri's Chocolate Fudge",
     "subtitle": "",
     "subtitle2": "",

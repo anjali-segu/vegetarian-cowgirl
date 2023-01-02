@@ -1,4 +1,5 @@
 {
+  "$schema": "../schemas/recipe.schema.json",
   "title": "Light and Fluffy Cheesecake with Pecan Crust",
   "subtitle": "",
   "subtitle2": "",

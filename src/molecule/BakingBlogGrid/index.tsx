@@ -11,6 +11,7 @@ import Italian_Orange_Cake_Blog_Square from '../../assets/images/blog_posts/ital
 import Pumpkin_Pie_Blog_Square from '../../assets/images/blog_posts/pumpkin_pie_blog_square.jpeg';
 import Cheesecake_Blog_Square from '../../assets/images/blog_posts/cheesecake_blog_square.jpg';
 import Grandma_Fudge_Top_Blog_Square from '../../assets/images/blog_posts/chocolate_fudge_top_down_blog_square.jpg';
+import Brownie_Blog_Square from '../../assets/images/blog_posts/brownie_blog_square.jpg';
 
 interface Props {
 }
@@ -58,6 +59,7 @@ const BakingBlogGrid = (props:Props) => {
       </Grid>
 
       <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+          <Card image={Brownie_Blog_Square} title={'BAKING'} subtitle={'Fudgiest Brownies'} post={'/recipes/fudgey-brownies'} />
       </Grid>
     </Grid>
     </ThemeProvider>

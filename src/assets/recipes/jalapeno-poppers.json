@@ -1,4 +1,5 @@
 {
+    "$schema": "../schemas/recipe.schema.json",
     "title": "Puff Pastry Jalapeño Poppers",
     "subtitle": "This is a delicious treat that is spicy, creamy, and buttery! Perfect for any party. Simple to make, and heats up well.",
     "subtitle2": "Puff pastry Jalapeno Popper have the classic flavors of shredded cheese, spicy jalapenos, and cream cheese all wrapped up in a tender and flaky puff pastry! They are a portable appetizer that is perfect for game days, or any party!",

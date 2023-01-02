@@ -1,19 +1,76 @@
 {
-  "$schema": "../schemas/recipe.schema.json",
-  "title": "Fudgiest Brownies",
-  "subtitle": "",
-  "subtitle2": "",
-  "ingredients": {
-    "cake-mix": {"quantity": 1, "unitTag": "box", "ingredient": "Betty Crocker Triple Chocolate Fudge Cake Mix"},
-    "egg": {"quantity": 2, "unitTag": "egg"},
-    "canola-oil": {"quantity": 0.5, "unitTag": "cup", "ingredient": "canola oil"},
-    "chocolate-chips": {"quantity": 1, "unitTag": "cup", "ingredient": "chocolate chips or any other candy (ex: Andes)"}
-  },
-  "steps": [
-    "Preheat the oven to 350 degrees F."
-  ],
-  "preptime": "15 min",
-  "cooktime": "23 min",
-  "totaltime": "40 min",
-  "serves": 16
+    "$schema": "../schemas/recipe.schema.json",
+    "title": "Fudgiest Brownies",
+    "subtitle": "Craving a deeply fudgey and chocolate treat? This is the recipe for you! These brownies are my absolute favorite to make for any party, gift, or just a treat for the family. The center is perfectly moist, and the top is crispy and crackly. ",
+    "subtitle2": "After experimenting with a million different recipes I figured out the trick to making moist delectible brownies: a small amount of oil, and high quality dutch processed cocoa powder. ",
+    "ingredients": {
+        "unsalted-butter":{
+            "quantity": 0.5,
+            "unitTag": "cup",
+            "ingredient": "melted unsalted butter (hot)"
+        },
+        "cooking-oil":{
+            "quantity": 1,
+            "unitTag": "tbsp",
+            "ingredient": "olive oil"
+        },
+        "sugar":{
+            "quantity": 1.125,
+            "unitTag": "cup",
+            "ingredient": "granulated sugar",
+            "override": {"half": "½ cup + 1 tbsp granulated sugar"}
+        },
+        "egg":{
+            "quantity": 2,
+            "unitTag": "egg",
+            "ingredient": "(large)"
+        },
+        "vanilla-extract":{
+            "quantity": 2,
+            "unitTag": "tsp",
+            "ingredient": "vanilla extract"
+        },
+        "flour":{
+            "quantity": 0.5,
+            "unitTag": "cup",
+            "ingredient": "all purpose flour"
+        },
+        "cocoa":{
+            "quantity": 0.5,
+            "unitTag": "cup",
+            "ingredient": "dutch processed cocoa (my favorite is Rodelle baking cocoa)"
+        },
+        "salt":{
+            "quantity": 0.25,
+            "unitTag": "tsp",
+            "ingredient": "salt"
+        },
+        "chocolate-chips":{
+            "quantity": 0.33,
+            "unitTag": "cup",
+            "ingredient": "semisweet chocolate chips"
+        },
+        "maldon-salt":{
+            "quantity": 0.25,
+            "unitTag": "tsp",
+            "ingredient": "maldon flakey salt"
+        }
+        
+    },
+    "steps": [
+        "Preheat the oven to 350 degrees F.",
+        "Line an 8-inch square baking pan and grease with cooking oil spray.",
+        "Combine the hot melted butter, oil, and sugar together in a medium-size bowl. Beat for 1 minute.",
+        "Add the !egg and vanilla, beat for another minute. The mixture will be much more pale in color.",
+        "Sift in flour, cocoa powder, and salt. Gently fold the dry ingredients into the wet ingredients until just combined. Do not over mix as this will make the brownies tougher in texture.",
+        "Fold in the chocolate chips.",
+        "Add in any additional mix-ins at this point. Some of my personal favorite is white chocolate chips or walnuts.",
+        "Pour batter into pan and smoothen out. Top with maldon salt",
+        "Bake for 20-25 minute. The toothpick should come out dirty for fudgey brownies.",
+        "All the brownies to cool to room temperature before slicing into pieces."
+    ],
+    "preptime": "15 min",
+    "cooktime": "25 min",
+    "totaltime": "50 min",
+    "serves": 16
 }

@@ -1,4 +1,5 @@
 {
+    "$schema": "../schemas/recipe.schema.json",
     "title": "Deconstructed Elote",
     "subtitle": "This simple recipes celebrates corn anytime of the year. It is in chipotle mayo, lime juice, cilantro, and cojita cheese.",
     "subtitle2": "The first time I had elote was in Texas! Deconstructed elote makes corn easy! I take a few shortcuts that makes this recipe quick and perfect as an appetizer.",

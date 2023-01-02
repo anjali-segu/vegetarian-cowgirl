@@ -1,4 +1,5 @@
 {
+    "$schema": "../schemas/recipe.schema.json",
     "title": "Eton Mess Summer Dessert",
     "subtitle": "This refreshing dessert is perfect for any summer dinner. Dreamy whipped cream with crunch meringue, layered with fresh strawberries and raspberries.",
     "subtitle2": "This is a classic British treat! Inspired by my obsession with the Great British Bake Off. The recipe itself is easy to make and can be prepped in advance and assembled in minutes. It keeps well up to 3 days. You will need an electric whisk as this recipe does have meringue involved.",

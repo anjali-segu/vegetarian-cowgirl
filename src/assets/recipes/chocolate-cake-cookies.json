@@ -1,4 +1,5 @@
 {
+  "$schema": "../schemas/recipe.schema.json",
     "title": "Chocolate Fudgey Cake Cookies",
     "subtitle": "This quick cookie is perfect to satisfy your fudgey chocolate cravings! Made from cake box mix this comes together in minutes is easily customizable with your choice of mix-ins.",
     "subtitle2": "This dessert is a fan favorite by college students! Made from chocolate cake mix the cookies come together super fast. My personal favorite mix-ins are white chocolate chips, Andes Chocolate, and Reese's Pieces. The overall flavor is reminiscent of a fudgey brownies and hits the spot!",

@@ -1,4 +1,5 @@
 {
+    "$schema": "../schemas/recipe.schema.json",
     "title": "Grandma Barbieri's Spaghetti Sauce",
     "subtitle": "Vegetarian tomato sauce with onions, garlic, basil, and bay leaves. A favorite of my boyfriend.",
     "subtitle2": "Grandma Barbieri leaves the bay leaves in the sauce until it is served (and sometimes even then!), but you should not eat them. I recommend that you remove the bay leaves before serving, and you can even do this before refrigeration.",

@@ -1,4 +1,5 @@
 {
+    "$schema": "../schemas/recipe.schema.json",
     "title": "Italian Orange Layered Cake",
     "subtitle": "This fluffy orange cake made with fresh orange juice and orange zest gives it that perfect amount of orange flavor. The brightness of the orange makes this a great summer treat. Covered in sweet cream butter, cream cheese, powdered sugar, and orange zest frosting.",
     "subtitle2": "This is my go to cake recipe! It produces an even cake with a bright orange flavor. The cake has olive oil making it extra moist. The cream cheese frosting cuts through the sweetness of the cake. The cake itself is easy to make and comes together quickly.",

@@ -1,4 +1,5 @@
 {
+    "$schema": "../schemas/recipe.schema.json",
     "title": "Mushroom Miso Soup",
     "subtitle": "A warm comforting soup, made from whatever veggies you have in your fridge. This soup is simple to make and makes a perfect weekday dinner.",
     "subtitle2": "This is my go to soup to make when I'm not feeling well! The miso base, spices, and vegetables is the perfect combination to kick out a cold. Feel free to sub out any of the veggies for whatever vegetables you have in the fridge. I personally get my miso paste from Sprout's.",

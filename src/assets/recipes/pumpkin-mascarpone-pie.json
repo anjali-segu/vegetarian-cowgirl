@@ -1,4 +1,5 @@
 {
+    "$schema": "../schemas/recipe.schema.json",
     "title": "Pumpkin Mascarpone Pie",
     "subtitle": "Pumpkin mascarpone pie is a stunning and cozy holiday dessert that is easy to make, totally delicious, and pure joy to consume. It's creamy, rich, and indulgent.",
     "subtitle2": "Spend just minutes mixing the mascarpone cheese and pumpkin puree filling together with fall spices, then pour into a prepared pie crust, and bake. The mascarpone makes this pie extra creamy and dreamy while the spices offset it. This pie is not too sweet which makes it incredibly addicting.",

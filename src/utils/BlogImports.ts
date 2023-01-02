@@ -16,6 +16,7 @@ import MomsJamun from '../assets/recipes/jamun.json'
 import GrandmasPastaSauce from '../assets/recipes/spaghetti-sauce.json'
 import Cheesecake from '../assets/recipes/cheesecake.json'
 import GrandmasFudge from '../assets/recipes/chocolate-fudge.json'
+import Brownie from '../assets/recipes/chocolate-brownies.json'
 
 
 // blog post images (squares)
@@ -43,6 +44,11 @@ import Grandma_Fudge_Top_Blog_Square from '../assets/images/blog_posts/chocolate
 import Cheesecake_Blog_Square from '../assets/images/blog_posts/cheesecake_blog_square.jpg';
 import Cheesecake_Crust_Blog_Square from '../assets/images/blog_posts/cheesecake2_blog_square.jpg';
 import Cheesecake_Crust2_Blog_Square from '../assets/images/blog_posts/cheesecake3_blog_square.jpg'
+import Brownie_Blog_Square from '../assets/images/blog_posts/brownie_blog_square.jpg';
+import Brownie_Cut_Blog_Square from '../assets/images/blog_posts/brownie_cut_blog_square.jpg';
+import Brownie_Uncut_Blog_Square from '../assets/images/blog_posts/brownie_uncut_blog_square.jpg';
+
+
 
 
 // icons
@@ -51,6 +57,25 @@ import Cooking_Icon from '../assets/images/icons/cooking_icon.png';
 import Drink_Icon from '../assets/images/icons/drinks_icon.png';
 
 export const recipes = [
+  {
+    path: '/recipes/fudgey-brownies',
+    images: [
+      {
+        src: Brownie_Cut_Blog_Square,
+        alt: "Brownies cut into pieces in tray",
+      },
+      {
+        src: Brownie_Blog_Square,
+        alt: "Fudgey brownie on black marble"
+      },
+      {
+        src: Brownie_Uncut_Blog_Square,
+        alt: "Brownies uncut in tray",
+      },
+    ],
+    icon: Baking_Icon,
+    ...Brownie
+  },
   {
     path: '/recipes/eton-mess-dessert',
     images: [
