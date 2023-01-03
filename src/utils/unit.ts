@@ -93,6 +93,16 @@ export const units: { [tag: string]: Unit } = {
         singular: 'lime',
         plural: 'limes'
     },
+    avocado: {
+        fractional: 'an avocado',
+        singular: 'avocado',
+        plural: 'avocados'
+    },
+    bread: {
+        fractional: 'a slice of bread',
+        singular: 'slice of bread',
+        plural: 'slices of bread'
+    },
     onion: {
         fractional: 'an onion',
         singular: 'onion',

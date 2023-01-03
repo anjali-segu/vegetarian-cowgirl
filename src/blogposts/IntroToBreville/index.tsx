@@ -24,7 +24,7 @@ const IntroToBreville = (props:Props) => {
       icon={Drinks_Icon}
       alticon="A coffee mug and martini glass."
       title="Intro to Breville Espresso Machine"
-      subtitle={`Cafe Monet is a cute paint and pottery shop in downtown Austin. Here's a fun weekend itinerary to do in Austin with family or friends. `}
+      subtitle={`Learn how to pull espresso shots in the Breville Espresso Machine.`}
      paras={
        [
         `I am a coffee fanatic, possibly a coffee addict. This adoration for coffee led me down a dark hole of espresso machine exploration. Why is it a dark hole? So many options and possibilities can make it a bit overwhelming! `,

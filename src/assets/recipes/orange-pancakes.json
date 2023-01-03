@@ -1,0 +1,101 @@
+{
+    "$schema": "../schemas/recipe.schema.json",
+    "title": "Chocolate Orange Pancakes",
+    "subtitle": "Orange pancakes topped with a chocolate drizzle makes the perfect breakfast any holiday season.",
+    "subtitle2": "These are the fluffiest and lightest pancakes you will ever have! These pancakes are flavored with orange juice and zest and drizzled with a chocolate ganache. A festive twist on a classic breakfast. I make these every Christmas morning!",
+    "categories": {
+        "Orange Pancakes":{
+            "ingredients": {
+                "flour":{
+                    "quantity": 2,
+                    "unitTag": "cup",
+                    "ingredient": "all-purpose flour"
+                },
+                "sugar":{
+                    "quantity": 0.25,
+                    "unitTag": "cup",
+                    "ingredient": "sugar"
+                },
+                "baking-powder":{
+                    "quantity": 4,
+                    "unitTag": "tsp",
+                    "ingredient": "baking powder"
+                },
+                "baking-soda":{
+                    "quantity": 0.25,
+                    "unitTag": "tsp",
+                    "ingredient": "baking soda"
+                },
+                "salt":{
+                    "quantity": 0.5,
+                    "unitTag": "tsp",
+                    "ingredient": "salt"
+                },
+                "milk":{
+                    "quantity": 1,
+                    "unitTag": "cup",
+                    "ingredient": "milk"
+                },
+                "orange-juice":{
+                    "quantity": 0.75,
+                    "unitTag": "cup",
+                    "ingredient": "fresh orange juice",
+                    "override": {
+                        "half": "6 tbsp of fresh orange juice"
+                    }
+                },
+                "orange-zest":{
+                    "quantity": 3,
+                    "unitTag": "tbsp",
+                    "ingredient": "orange zest"
+                },
+                "butter": {
+                    "quantity": 0.25,
+                    "unitTag": "cup",
+                    "ingredient": "butter (melted and cooled)"
+                },
+                "vanilla":{
+                    "quantity": 2,
+                    "unitTag": "tsp",
+                    "ingredient": "vanilla extract"
+                },
+                "egg":{
+                    "quantity": 1,
+                    "unitTag": "egg",
+                    "ingredient": " (large)"
+                }
+            }
+        },
+        "Chocolate Drizzle": {
+            "ingredients": {
+                "milk": {
+                    "quantity": 0.33,
+                    "unitTag": "cup",
+                    "ingredient": "whole milk"
+                },
+                "chocolate": {
+                    "quantity": 0.75,
+                    "unitTag": "cup",
+                    "ingredient": "semisweet chocolate chips"
+                }
+                
+            }
+        }
+    },
+    "steps": [
+        "Combine the flour, suage, baking powder, baking soda, and salt in a large bowl.",
+        "Make a well in the center and add milk, orange juice, orange zest, cooled melted butter, vanilla, and egg.",
+        "<b>Whisk the wet ingredients in the center together before folding them into the dry ingredients.</b> Mix together until smooth (some clumps are totally okay). <i>If the batter is too thick and doesn't pour off the ladle, fold in a couple tablespoons of extra milk into the batter.</i>",
+        "Set aside and allow to trest while a pan is heating up on low-medium heat. ",
+        "Heat a nonstick pan and add a little butter to greas the pan. Pour ¼ cup of batter onto the pan.",
+        "When the underside is golden and bubbles begin to burst on the surface, flip with a spatula and cook until golden.",
+        "Repeat until all batter is used up.",
+        "For the ganache, place chocolate chips and milk into a microwave safe container.",
+        "<b>Microwave in 30 second bursts</b> until all the chocolate is melted. Whisk together until a smooth consistency is reached. Let the drizzle cool down a bit before drizzling on pancakes. If the drizzle is too thick add an additional tbsp of milk until desired consistency is reached."
+        
+    ],
+    "preptime": "10 min",
+    "cooktime": "20 min",
+    "totaltime": "30 min",
+    "serves": 4
+}

@@ -18,6 +18,8 @@ import Cheesecake from '../assets/recipes/cheesecake.json'
 import GrandmasFudge from '../assets/recipes/chocolate-fudge.json'
 import Brownie from '../assets/recipes/chocolate-brownies.json'
 import Gingerbread from '../assets/recipes/gingerbread.json'
+import EggsBenny from '../assets/recipes/eggs-benny.json'
+import OrangePancake from '../assets/recipes/orange-pancakes.json'
 
 
 // blog post images (squares)
@@ -51,6 +53,10 @@ import Brownie_Uncut_Blog_Square from '../assets/images/blog_posts/brownie_uncut
 import Gingerbread_Blog_Square from '../assets/images/blog_posts/gingerbread_blog_square.jpg';
 import Gingerbread_Cutout_Blog_Square from '../assets/images/blog_posts/gingerbread_cutout_blog_square.jpg';
 import Gingerbread_Plain_Blog_Square from '../assets/images/blog_posts/gingerbread_plain_blog_square.jpg';
+import Eggs_Benny_Blog_Square from '../assets/images/blog_posts/eggs_benny_blog_square.jpg';
+import Eggs_Benny_Overhead_Blog_Square from '../assets/images/blog_posts/eggs_benny_overhead_blog_square.jpg';
+import Orange_Pancake_Drizzle_Blog_Square from '../assets/images/blog_posts/orange_pancake_drizzle_blog_square.jpg';
+import Orange_Pancake_Blog_Square from '../assets/images/blog_posts/orange_pancake_blog_square.jpg';
 
 
 
@@ -62,6 +68,36 @@ import Cooking_Icon from '../assets/images/icons/cooking_icon.png';
 import Drink_Icon from '../assets/images/icons/drinks_icon.png';
 
 export const recipes = [
+  {
+    path: '/recipes/chocolate-orange-pancakes',
+    images: [
+      {
+        src: Orange_Pancake_Drizzle_Blog_Square,
+        alt: "Orange pancake with chocolate drizzle on plate",
+      },
+      {
+        src: Orange_Pancake_Blog_Square,
+        alt: "Orange pancake with chocolate drizzle on plate"
+      }
+    ],
+    icon: Cooking_Icon,
+    ...OrangePancake
+  },
+  {
+    path: '/recipes/avocado-eggs-benedict',
+    images: [
+      {
+        src: Eggs_Benny_Overhead_Blog_Square,
+        alt: "Eggs benedict on a plate",
+      },
+      {
+        src: Eggs_Benny_Blog_Square,
+        alt: "Eggs benedict on a plate"
+      }
+    ],
+    icon: Cooking_Icon,
+    ...EggsBenny
+  },
   {
     path: '/recipes/soft-gingerbread',
     images: [

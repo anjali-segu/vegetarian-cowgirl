@@ -1,0 +1,112 @@
+{
+    "$schema": "../schemas/recipe.schema.json",
+    "title": "Avocado Hollandaise Eggs Benedict",
+    "subtitle": "",
+    "subtitle2": "",
+    "categories": {
+        "Avocado Hollandaise":{
+            "ingredients": {
+                "lemon-juice":{
+                    "quantity": 6,
+                    "unitTag": "tsp",
+                    "ingredient": "fresh lemon juice"
+                },
+                "avocado":{
+                    "quantity": 1.5,
+                    "unitTag": "avocado",
+                    "ingredient": "(very ripe, medium Haas, pitted, peeled)"
+                },
+                "water":{
+                    "quantity": 1.5,
+                    "unitTag": "cup",
+                    "ingredient": "hot water"
+                },
+                "salt":{
+                    "quantity": 0.75,
+                    "unitTag": "tsp",
+                    "ingredient": "salt"
+                },
+                "black-pepper":{
+                    "quantity": 0.75,
+                    "unitTag": "tsp",
+                    "ingredient": "ground black pepper"
+                },
+                "oil":{
+                    "quantity": 6,
+                    "unitTag": "tbsp",
+                    "ingredient": "vegetable oil"
+                },
+                "garlic-powder":{
+                    "quantity": 1,
+                    "unitTag": "tsp",
+                    "ingredient": "garlic powder"
+                },
+                "chili-powder":{
+                    "quantity": 0.5,
+                    "unitTag": "tsp",
+                    "ingredient": "chili powder"
+                }
+            }
+        },
+        "Eggs & Toast & Veggies": {
+            "ingredients": {
+                "bread": {
+                    "quantity": 4,
+                    "unitTag": "bread",
+                    "ingredient": " (toasted)"
+                },
+                "egg":{
+                    "quantity": 8,
+                    "unitTag": "egg",
+                    "ingredient": ""
+                },
+                "spinach":{
+                    "quantity": 2,
+                    "unitTag": "cup",
+                    "ingredient": "fresh spinach"
+                },
+                "tomatoes":{
+                    "quantity": 20,
+                    "unitTag": "cherry tomato",
+                    "ingredient": ""
+                },
+                "oil": {
+                    "quantity": 2,
+                    "unitTag": "tsp",
+                    "ingredient": "olive oil"
+                },
+                "oil-tomato": {
+                    "quantity": 1,
+                    "unitTag": "tsp",
+                    "ingredient": "of olive oil",
+                    "hidden": true
+                },
+                "oil-spinach": {
+                    "quantity": 1,
+                    "unitTag": "tsp",
+                    "ingredient": "of olive oil",
+                    "hidden": true
+                }
+            }
+        }
+    },
+    "steps": [
+        "Preheat the oven to 400°F",
+        "<b>For the Hollandaise</b>, add lemon juice, avocado, water, salt, pepper, chili powder, and garlic powder to a high powered blender (Vitamix).",
+        "Start the machine and increase to highest speed. <b>Blend for 30 seconds.</b>",
+        "Reduce the speed. Remove the lid plug and <b>slowly drizzle oil</b> through the lid plug opening.",
+        "Close the lid plug, and increase to highest speed. Blend for 15 seconds or until descired consistency is reached. Taste and adjust seasonings as needed",
+        "<b>For the veggies</b>, cut the cherry tomatoes into halves and toss with !oil-tomato. Place on baking tray with parchment paper. <b>Bake for 15-20 minutes or until tomatoes are crispy and bursting</b>. ",
+        "Saute the spinach with the remaining !oil-spinach in a pan. Cook until spinach is completely wilted and most of the water has evaporated. ",
+        "For the eggs, in a large pan (at least 4 inch walls) fill it ¾ full of water. Place on heat and bring to a simmer",
+        "<b>To create perfect poached eggs</b>, crack the egg into a strainer. Let some of the thinner egg whites drain off. Place the egg that is in the strainer into a small bowl. Repeat for each egg.",
+        "Slowly lower each egg into the water, keep them at least 1 inch apart. In my 14 inch pan I can normally fit 5 eggs.",
+        "Cook for 2 minutes. Use a spider strainer and remove each egg. Repeat until all eggs are poached.",
+        "For plating, divide the spinach and tomatoes evenly among the pieces of toast. Top each with 2 eggs. Drizzle on the avocado hollandaise. Top with seasoning of choice (chili flakes or everything bagel seasoning). This dish pairs well with hash browns (I did sweet potato hash browns)."
+        
+    ],
+    "preptime": "15 min",
+    "cooktime": "15 min",
+    "totaltime": "30 min",
+    "serves": 4
+}
