@@ -1,0 +1,115 @@
+{
+    "$schema": "../schemas/recipe.schema.json",
+    "title": "Soft Gingerbread and Royal Icing",
+    "subtitle": "This is my favorite gingerbread cookies recipe every holiday season. Soft in the center and perfectly spices. These prep well ahead of time and make perfect treats.",
+    "subtitle2": "Gingerbread cookies were something I never truly loved until I made these. I remember as a kid the cookies I always got were hard and crispy. They were heavy on the cinnamon and nothing else. These cookies have a the perfect ginger kick and melt in the mouth. They have soft centers and keep good shape. This past Christmas I decorate these cookies with my entire family and everyone had a blast getting creating and munching on these scrumptious cookies.",
+    "categories": {
+        "Cookie":{
+            "ingredients": {
+                "butter":{
+                    "quantity": 10,
+                    "unitTag": "tbsp",
+                    "ingredient": "unsalted butter (softened to room temp)"
+                },
+                "brown-sugar":{
+                    "quantity": 0.75,
+                    "unitTag": "cup",
+                    "ingredient": "dark brown sugar",
+                    "override": {
+                    }
+                },
+                "molasses":{
+                    "quantity": 0.67,
+                    "unitTag": "cup",
+                    "ingredient": "unsulphured molasses"
+                },
+                "egg":{
+                    "quantity": 1,
+                    "unitTag": "egg",
+                    "ingredient": "(large)"
+                },
+                "vanilla":{
+                    "quantity": 1,
+                    "unitTag": "tsp",
+                    "ingredient": "vanilla extract"
+                },
+                "flour":{
+                    "quantity": 3.5,
+                    "unitTag": "cup",
+                    "ingredient": "all-purpose flour"
+                },
+                "baking-soda":{
+                    "quantity": 1,
+                    "unitTag": "tsp",
+                    "ingredient": "baking soda"
+                },
+                "salt":{
+                   "quantity": 0.5, 
+                   "unitTag": "tsp",
+                   "ingredient": "salt" 
+                },
+                "ginger":{
+                    "quantity": 1,
+                    "unitTag": "tbsp",
+                    "ingredient": "ground ginger"
+                },
+                "cinnamon":{
+                    "quantity": 1,
+                    "unitTag": "tbsp",
+                    "ingredient": "ground cinnamon"
+                },
+                "all-spice":{
+                    "quantity": 0.5,
+                    "unitTag": "tsp",
+                    "ingredient": "ground allspice"
+                },
+                "cloves":{
+                    "quantity": 0.5,
+                    "unitTag": "tsp",
+                    "ingredient": "ground cloves"
+                }
+            }
+        },
+        "Icing":{
+            "ingredients": {
+                "sugar":{
+                    "quantity": 2,
+                    "unitTag": "cup",
+                    "ingredient": "powder sugar (sifted)"
+                },
+                "meringue-powder":{
+                    "quantity": 1.5,
+                    "unitTag": "tbsp",
+                    "ingredient": "meringue powder (wilton)"
+                },
+                "water":{
+                    "quantity": 4,
+                    "unitTag": "tbsp",
+                    "ingredient": "water (room temp)"
+                }
+            }
+        }
+    },
+    "steps": [
+        "In a large bowl using a hand-held mixer or stand mixer (paddle attachment), <b>beat butter for 1 minute</b> until it is completely smooth and creamy.",
+        "Add the brown sugar and molasses and beat on medium speed until combined and creamy. Scrape down the sides of bowl as needed.",
+        "<b>Beat in the egg and vanilla</b> on high speed for <b>2 minutes</b>. If the butter separate that is fine.",
+        "In a separate bowl, whisk flour, baking soda, salt, ginger, cinnamon, allspice, and cloves together until combined. Slowly mix the dry ingredients into the wet ingredients until just combined. The dough will be very thick and sticky.",
+        "Divide the dough in half and plastic wrap. Wrap eacch half tightly and create a disc shape. <b>Chill for at least 3 hours and up to 3 days. I like to do overnight</b>.",
+        "<b>Preheat oven to 350°F</b>. Line 2-3 baking sheets with parchment or silicone baking mats.",
+        "Remove 1 disc of chilled cookie dough from the refrigerator. Generously flour a surface, and rolling pin. Roll out disk until <b>¼ inch thick</b>. Cut into shapes. Place each cookie 1 inch apart. Re-roll the scraps until all the dough is used.",
+        "Bake cookies for 9-10 minutes (4 inch cookie cutter) or 11 minutes (larger than 4 inch cookie cutter) or 8 minutes (smaller than 4 inch cookie cutter). Rotate the pan once during baking about halfway through bake time.",
+        "All cookies to cool for 5 minutes on the cookie sheet. Transfer to cooling rack using a spatula.",
+        "<b>Once complete cooled, the cookies can be decorated.</b>",
+        "<b>For the icing</b>, mix powder sugar, meringue powder, and water into a large bowl using a hand mixer or stand mixer (whisk attachment).",
+        "Beat icing for <b>2 minutes</b>. When lifting the whisk, the icing should <b>dizzle down and smooth out within 5-10 seconds</b>. If it is too thick, beat in 1 more tablespoon of water at a time.",
+        "To create icing for <b>flooding cookies</b>, simply scoop out some icing and add a little water at a time and beat. The icing should drizzle down and smooth out within 1 second.",
+        "Add any gel food coloring and beat into the icing until the desired color is achieved.",
+        "The icing should dry out in 2-3 hours.",
+        "Store cookies in an air-tight container once icing has dried."
+    ],
+    "preptime": "4 hrs",
+    "cooktime": "10 min",
+    "totaltime": "6 hrs",
+    "serves": 24
+}

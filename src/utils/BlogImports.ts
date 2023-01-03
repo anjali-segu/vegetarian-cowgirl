@@ -17,6 +17,7 @@ import GrandmasPastaSauce from '../assets/recipes/spaghetti-sauce.json'
 import Cheesecake from '../assets/recipes/cheesecake.json'
 import GrandmasFudge from '../assets/recipes/chocolate-fudge.json'
 import Brownie from '../assets/recipes/chocolate-brownies.json'
+import Gingerbread from '../assets/recipes/gingerbread.json'
 
 
 // blog post images (squares)
@@ -47,6 +48,10 @@ import Cheesecake_Crust2_Blog_Square from '../assets/images/blog_posts/cheesecak
 import Brownie_Blog_Square from '../assets/images/blog_posts/brownie_blog_square.jpg';
 import Brownie_Cut_Blog_Square from '../assets/images/blog_posts/brownie_cut_blog_square.jpg';
 import Brownie_Uncut_Blog_Square from '../assets/images/blog_posts/brownie_uncut_blog_square.jpg';
+import Gingerbread_Blog_Square from '../assets/images/blog_posts/gingerbread_blog_square.jpg';
+import Gingerbread_Cutout_Blog_Square from '../assets/images/blog_posts/gingerbread_cutout_blog_square.jpg';
+import Gingerbread_Plain_Blog_Square from '../assets/images/blog_posts/gingerbread_plain_blog_square.jpg';
+
 
 
 
@@ -57,6 +62,25 @@ import Cooking_Icon from '../assets/images/icons/cooking_icon.png';
 import Drink_Icon from '../assets/images/icons/drinks_icon.png';
 
 export const recipes = [
+  {
+    path: '/recipes/soft-gingerbread',
+    images: [
+      {
+        src: Gingerbread_Plain_Blog_Square,
+        alt: "Gingerbread baked on tray",
+      },
+      {
+        src: Gingerbread_Blog_Square,
+        alt: "Decorated gingerbread men"
+      },
+      {
+        src: Gingerbread_Cutout_Blog_Square,
+        alt: "Gingerbread men being cut out from dough",
+      },
+    ],
+    icon: Baking_Icon,
+    ...Gingerbread
+  },
   {
     path: '/recipes/fudgey-brownies',
     images: [
