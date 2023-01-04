@@ -16,7 +16,7 @@ import Tooltip from '@mui/material/Tooltip';
 import Typography from '@mui/material/Typography';
 
 import Ingredient from '../../utils/ingredient';
-import { generateCategories, generateStepsFromCategories, generateStepsFromIngredients } from '../../utils/RecipeCardHelpers';
+import { generateCategories, generateSteps } from '../../utils/RecipeCardHelpers';
 import { theme } from '../../utils/theme'
 
 type Props = {
@@ -40,6 +40,7 @@ interface ChromiumNavigator extends Navigator {
 const RecipeCard = (props: Props) => {
     const [wakeLock, setWakeLock] = useState<any>(null)
     const [cookMode, setCookMode] = useState(false)
+    const [highlightEquipment, setHighlightEquipment] = useState(false)
     const [multiplier, setMultiplier] = useState(1)
 
     const [cookModeSuccessAlertOpen, setCookModeSuccessAlertOpen] = useState(false)
@@ -83,6 +84,20 @@ const RecipeCard = (props: Props) => {
             setCookMode(!cookMode)
         },
         [cookMode, releaseWakeLock, requestWakeLock, setCookMode],
+    )
+
+    const toggleHighlightEquipment = useCallback(
+        () => {
+            var equipments = document.querySelectorAll(".equipment");
+            for (let equipment of equipments) {
+                if (equipment instanceof HTMLElement)
+                {
+                    equipment.dataset["highlighted"] = `${!highlightEquipment}`
+                }
+            }
+            setHighlightEquipment(!highlightEquipment);
+        },
+        [highlightEquipment, setHighlightEquipment],
     )
 
     const handleClose = (_event?: React.SyntheticEvent | Event, reason?: string) => {
@@ -170,13 +185,18 @@ const RecipeCard = (props: Props) => {
                                 </ToggleButtonGroup>
 
 
-                                {'wakeLock' in navigator &&
-                                    <FormGroup>
+                                <FormGroup>
+                                    {'wakeLock' in navigator &&
                                         <Tooltip title="Prevent your screen from going dark" placement='right'>
                                             <FormControlLabel control={<Switch checked={cookMode} onClick={toggleCookMode} />}
                                                 label="Cook Mode" />
                                         </Tooltip>
-                                    </FormGroup>}
+                                    }
+                                    <Tooltip title="Highlight equipment needed for recipe" placement='right'>
+                                        <FormControlLabel control={<Switch checked={highlightEquipment} onClick={toggleHighlightEquipment} />}
+                                            label="Show Equipment" />
+                                    </Tooltip>
+                                </FormGroup>
                             </Box>
                         </Grid>
 
@@ -257,9 +277,7 @@ const RecipeCard = (props: Props) => {
 
                             {generateCategories(multiplier, props.ingredients, props.categories)}
 
-                            {props.categories && generateStepsFromCategories(props.steps, multiplier, props.categories, props.serves)}
-
-                            {props.ingredients && generateStepsFromIngredients(props.steps, multiplier, props.ingredients, props.serves)}
+                            {generateSteps(props.steps, multiplier, props.categories, props.ingredients, props.serves)}
 
                         </Grid>
 
