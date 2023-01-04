@@ -23,7 +23,7 @@ code {
 }
 
 .equipment[data-highlighted="true"] {
-  text-shadow: 5px;
-  color: midnightblue;
-  font-size: larger;
+  color: #f09b84;
+  font-weight: 800;
+  background-color: #f5f5f5;
 }
