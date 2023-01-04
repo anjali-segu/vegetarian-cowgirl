@@ -71,14 +71,29 @@ export const generateCategories = (multiplier: number, ingredients?: { [key: str
 }
 
 const dynamicStep = (step: string, multiplier: number, flattenedIngredients: { [key: string]: Ingredient }, serves: number) => {
+    const regex = /\^(.+)\$/g;
     step = step.replaceAll(`!serves`, `${serves * multiplier}`)
     Object.entries(flattenedIngredients).forEach(([ingredientKey, ingredient]) => {
         step = step.replaceAll(`!${ingredientKey}`, () => ingredientToString(ingredientKey, ingredient, multiplier))
+        const matches = [...step.matchAll(regex)];
+            for (let match of matches) {
+                step = step.replaceAll(match[0], `<span class="equipment" data-highlighted="false">${match[1]}</span>`)
+            }
     })
     return step
 }
 
-export const generateStepsFromCategories = (steps: string[], multiplier: number, categories: { [key: string]: { ingredients: { [key: string]: Ingredient } } }, serves: number) => {
+export const generateSteps = (steps: string[], multiplier: number, categories: { [key: string]: { ingredients: { [key: string]: Ingredient } } } | undefined, ingredients: { [key: string]: Ingredient } | undefined, serves: number) => {
+    if (categories !== undefined) {
+        return generateStepsFromCategories(steps, multiplier, categories, serves);
+    } else if (ingredients !== undefined) {
+        return generateStepsFromIngredients(steps, multiplier, ingredients, serves);
+    } else {
+        return (<></>)
+    }
+}
+
+const generateStepsFromCategories = (steps: string[], multiplier: number, categories: { [key: string]: { ingredients: { [key: string]: Ingredient } } }, serves: number) => {
     const flattenedIngredients: { [key: string]: Ingredient } = {};
     for (let [, { ingredients }] of Object.entries(categories)) {
         for (let [key, ingredient] of Object.entries(ingredients)) {
@@ -88,7 +103,7 @@ export const generateStepsFromCategories = (steps: string[], multiplier: number,
     return generateStepsFromIngredients(steps, multiplier, flattenedIngredients, serves);
 }
 
-export const generateStepsFromIngredients = (steps: string[], multiplier: number, ingredients: { [key: string]: Ingredient }, serves: number) => {
+const generateStepsFromIngredients = (steps: string[], multiplier: number, ingredients: { [key: string]: Ingredient }, serves: number) => {
     const flattenedIngredients = Object.entries(ingredients).sort(([a,], [b,]) => b.localeCompare(a)).reduce((acc, [key, val]) => { acc[key] = val; return acc; }, {} as { [key: string]: Ingredient });
     return (
         <>

@@ -21,3 +21,9 @@ code {
 #content-wrap {
   flex-grow: 1;
 }
+
+.equipment[data-highlighted="true"] {
+  text-shadow: 5px;
+  color: midnightblue;
+  font-size: larger;
+}
