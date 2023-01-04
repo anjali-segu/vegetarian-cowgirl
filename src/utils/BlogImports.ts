@@ -23,6 +23,7 @@ import OrangePancake from '../assets/recipes/orange-pancakes.json'
 import Macaroon from '../assets/recipes/macaroon.json'
 import Cornbread from '../assets/recipes/cornbread.json'
 import PeachCobbler from '../assets/recipes/peach-cobbler.json'
+import ClassicPumpkinPie from '../assets/recipes/pumpkin-pie.json'
 
 
 // blog post images (squares)
@@ -70,6 +71,10 @@ import Cornbread_Blog_Square from '../assets/images/blog_posts/cornbread_blog_sq
 import Peach_Cobbler_Blog_Square from '../assets/images/blog_posts/peach_cobbler_blog_square.png';
 import Peach_Cobbler_Bowl_Blog_Square from '../assets/images/blog_posts/peach_cobbler_bowl_blog_square.png';
 import Peach_Cobbler_Uncook_Blog_Square from '../assets/images/blog_posts/peach_cobbler_uncook_blog_square.jpg';
+import Classic_Pumpkin_Pie_Blog_Square from '../assets/images/blog_posts/classic_pumpkin_pie_blog_square.jpg';
+import Classic_Pumpkin_Pie_Crust_Blog_Square from '../assets/images/blog_posts/classic_pumpkin_pie_crust_blog_square.jpg';
+import Classic_Pumpkin_Pie_Dough_Blog_Square from '../assets/images/blog_posts/classic_pumpkin_pie_dough_blog_square.jpg';
+
 
 
 
@@ -81,6 +86,25 @@ import Cooking_Icon from '../assets/images/icons/cooking_icon.png';
 import Drink_Icon from '../assets/images/icons/drinks_icon.png';
 
 export const recipes = [
+  {
+    path: '/recipes/classic-pumpkin-pie',
+    images: [
+      {
+        src: Classic_Pumpkin_Pie_Crust_Blog_Square,
+        alt: "Pumpkin pie crust after baked"
+      },
+      {
+        src: Classic_Pumpkin_Pie_Blog_Square,
+        alt: "Pumpkin pie in dish",
+      },
+      {
+        src: Classic_Pumpkin_Pie_Dough_Blog_Square,
+        alt: "Pumpkin pie crust before bakes"
+      }
+    ],
+    icon: Baking_Icon,
+    ...ClassicPumpkinPie
+  },
   {
     path: '/recipes/peach-cobbler',
     images: [

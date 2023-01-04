@@ -15,6 +15,7 @@ import Brownie_Blog_Square from '../../assets/images/blog_posts/brownie_blog_squ
 import Gingerbread_Blog_Square from '../../assets/images/blog_posts/gingerbread_blog_square.jpg';
 import Macaroon_Blog_Square from '../../assets/images/blog_posts/macaroon_blog_square.jpg';
 import Peach_Cobbler_Blog_Square from '../../assets/images/blog_posts/peach_cobbler_blog_square.png';
+import Classic_Pumpkin_Pie_Blog_Square from '../../assets/images/blog_posts/classic_pumpkin_pie_blog_square.jpg';
 
 interface Props {
 }
@@ -75,6 +76,18 @@ const BakingBlogGrid = (props:Props) => {
 
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
           <Card image={Peach_Cobbler_Blog_Square} title={'BAKING'} subtitle={'Texas Peach Cobbler'} post={'/recipes/peach-cobbler'} />
+        </Grid>
+      </Grid>
+
+      <Grid container justifyContent='center' sx={{ paddingTop: theme.spacing(15) }}>
+        <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+        </Grid>
+
+        <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+          <Card image={Classic_Pumpkin_Pie_Blog_Square} title={'BAKING'} subtitle={'Classic Pumpkin Pie'} post={'/recipes/classic-pumpkin-pie'} />
+        </Grid>
+
+        <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
         </Grid>
       </Grid>
     </ThemeProvider>

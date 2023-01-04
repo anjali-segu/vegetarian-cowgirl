@@ -1,0 +1,154 @@
+{
+    "$schema": "../schemas/recipe.schema.json",
+    "title": "Classic Pumpkin Pie",
+    "subtitle": "This pumpkin pie has a perfectly spice creamy filling, a flakey crust that is also tender. Topped with maple whipped cream, this pie is a guarenteed success at Thanksgiving.",
+    "subtitle2": "A few things that set this pie apart is the condensed milk and measuring out the spices. Sweetened condensed milk adds a decadent richness to the custard, while measuring the spices instead of using a premixed “pumpkin spice” blend, lets you hit just the right ratio to really highlight the flavors of the canned pumpkin purée.",
+    "categories": {
+        "Crust":{
+            "ingredients": {
+                "sugar":{
+                    "quantity": 1,
+                    "unitTag": "tbsp",
+                    "ingredient": "sugar"
+                },
+                "salt": {
+                    "quantity": 1,
+                    "unitTag": "tsp",
+                    "ingredient": "salt"
+                },
+                "flour": {
+                    "quantity": 2,
+                    "unitTag": "cup",
+                    "ingredient": "all-purpose flour"
+                },
+                "butter": {
+                    "quantity": 5,
+                    "unitTag": "tbsp",
+                    "ingredient": "chilled unsalted butter (cut into pieces)"
+                },
+                "vegetable-shortening": {
+                    "quantity": 3,
+                    "unitTag": "tbsp",
+                    "ingredient": "chilled vegetable shortening "
+                },
+                "vinegar": {
+                    "quantity": 1,
+                    "unitTag": "tbsp",
+                    "ingredient": "apple cider vinegar"
+                },
+                "water":{
+                    "quantity": 5.5,
+                    "unitTag": "tbsp",
+                    "ingredient": "ice water"
+                },
+                "egg": {
+                    "quantity": 1,
+                    "unitTag": "egg",
+                    "ingredient": "(beaten)"
+                }
+            }
+        },
+        "Filling": {
+            "ingredients": {
+                "sugar": {
+                    "quantity": 0.33,
+                    "unitTag": "cup",
+                    "ingredient": "white sugar",
+                    "override": {
+                        "half": "2 tbsp + 2 tsp white sugar"
+                    }
+                },
+                "cinnamon": {
+                    "quantity": 1,
+                    "unitTag": "tsp",
+                    "ingredient": "ground cinnamon"
+                },
+                "salt": {
+                    "quantity": 0.5,
+                    "unitTag": "tsp",
+                    "ingredient": "salt"
+                },
+                "ginger": {
+                    "quantity": 0.5,
+                    "unitTag": "tsp",
+                    "ingredient": "ground ginger"
+                },
+                "clove": {
+                    "quantity": 0.25,
+                    "unitTag": "tsp",
+                    "ingredient": "ground cloves"
+                },
+                "nutmeg": {
+                    "quantity": 0.25,
+                    "unitTag": "tsp",
+                    "ingredient": "ground nutmeg"
+                },
+                "egg": {
+                    "quantity": 2,
+                    "unitTag": "egg",
+                    "ingredient": "(large, room temp, beaten)"
+                },
+                "egg-yolk":{
+                    "quantity": 1,
+                    "unitTag": "egg yolk",
+                    "ingredient": "(large, room temp, beaten)"
+                },
+                "pumpkin": {
+                    "quantity": 2,
+                    "unitTag": "cup",
+                    "ingredient": "unsweetened pumpkin puree"
+                },
+                "condensed-milk": {
+                    "quantity": 0.67,
+                    "unitTag": "cup",
+                    "ingredient": "condensed milk"
+                },
+                "heavy-cream": {
+                    "quantity": 0.33,
+                    "unitTag": "cup",
+                    "ingredient": "heavy cream",
+                    "override": {
+                        "half": "2 tbsp + 2 tsp white sugar"
+                    }
+                },
+                "maple": {
+                    "quantity": 2,
+                    "unitTag": "tbsp",
+                    "ingredient": "maple syrup"
+                },
+                "vanilla": {
+                    "quantity": 2,
+                    "unitTag": "tsp",
+                    "ingredient": "vanilla extract"
+                }
+            }
+        },
+        "Maple Whipped Cream":{
+            "ingredients": {
+                "maple":{
+                    "quantity": 2,
+                    "unitTag": "tbsp",
+                    "ingredient": "maple syrup"
+                },
+                "heavy-cream":{
+                    "quantity": 0.5,
+                    "unitTag": "cup",
+                    "ingredient": "heavy cream"
+                }
+            }
+        }
+    },
+    "steps": [
+        "Pulse sugar, salt, and flour in a food processor until combined. Add butter and vegetable shortening and <b>pulse until mixture resembles a course meal with a few pieces of butter and shortening visible.</b> This takes about <b>15, 1-second pulses</b>. With the motor running drizzle in vinegar and water and pulse until the dough is still crumbly but just holds together when squeezed. <i>(Add an additional 1 tsp of water at a time if necessary, but be careful not to overwork dough.)</i>",
+        "Turn out dough onto a work surface. Kneed 1-2 times, pressing to incorporate any shaggy pieces of dough. Flatten into a disk and wrap with plastic wrap. <b>Chill for at least 1 hr</b>.",
+        "<b>Preheat oven to 425°F</b>. Roll out dough on a lightly floured surface to a <b>14-inch round</b>. Transfer to a 9-inch pie dish. Pick up the edges and allow the dough to slump into the dish, letting the excess dough hang over the dish. Trim the dough and leave about a 1-inch overhang. Fold the overhang under, and pinch and crimp. <b>Chill for 30 min in the fridge</b>.",
+        "Line dough with parchment paper or foil, leaving some overhang. Fill the pie weights or dried beans. Bake until crust is dry around the edges and just beginning to brown, <b>25 min</b>. Remove the parchment and weights and <b>reduce the oven temperature to 350°F</b>. Brush inside with egg wash and bake until crust is set and beginning to lightly brown in the center, <b>10 min</b>. Transfer to a wire rack and let cool.",
+        "<b>For the filling</b>, preheat oven to 325°F. Whisk sugar, cinnamon, salt, ginger, cloves, and nutmeg in a large bowl until no clumps remain. Add eggs, pumpkin, condensed milk, cream, maple syrup, and vanilla. Whisk until smooth. Pour into cooled crust. Bake pie until the edges are set and slightly puffed but the center is dipped down and <b>wobbles like Jell-O, 60-75 min</b>. Transfer to wire rack and let cool for at least 3 hours before slicing",
+        "<b>For the maple whipped cream</b>, beat the heavy cream and maple syrup until fluffy texture is reached.",
+        "Serve pie with whipped cream."
+    ],
+    "preptime": "1 hr 30 min",
+    "cooktime": "1 hr 35 min",
+    "totaltime": "6 hr",
+    "serves": 8
+}
