@@ -20,10 +20,14 @@ import Brownie from '../assets/recipes/chocolate-brownies.json'
 import Gingerbread from '../assets/recipes/gingerbread.json'
 import EggsBenny from '../assets/recipes/eggs-benny.json'
 import OrangePancake from '../assets/recipes/orange-pancakes.json'
+import Macaroon from '../assets/recipes/macaroon.json'
+import Cornbread from '../assets/recipes/cornbread.json'
+import PeachCobbler from '../assets/recipes/peach-cobbler.json'
 
 
 // blog post images (squares)
 import Chocolate_Cake_Cookies_Blog_Square from '../assets/images/blog_posts/chocolate_cake_cookies_blog_square.jpg';
+import Chocolate_Cake_Cookies_Overhead_Blog_Square from '../assets/images/blog_posts/chocolate_cake_cookies_overhead_blog_square.jpg';
 import Cinammon_Buns_Blog_Square from '../assets/images/blog_posts/cinammon_buns_blog_square.jpg';
 import Dumplings_Blog_Square from '../assets/images/blog_posts/dumplings_blog_square.jpg';
 import Eggs_En_Cocotte_Blog_Square from '../assets/images/blog_posts/eggs_en_cocotte_blog_square.jpg';
@@ -57,6 +61,15 @@ import Eggs_Benny_Blog_Square from '../assets/images/blog_posts/eggs_benny_blog_
 import Eggs_Benny_Overhead_Blog_Square from '../assets/images/blog_posts/eggs_benny_overhead_blog_square.jpg';
 import Orange_Pancake_Drizzle_Blog_Square from '../assets/images/blog_posts/orange_pancake_drizzle_blog_square.jpg';
 import Orange_Pancake_Blog_Square from '../assets/images/blog_posts/orange_pancake_blog_square.jpg';
+import Macaroon_Blog_Square from '../assets/images/blog_posts/macaroon_blog_square.jpg';
+import Macaroon_Cook_Blog_Square from '../assets/images/blog_posts/macaroon_cook_blog_square.jpg';
+import Macaroon_Uncook_Blog_Square from '../assets/images/blog_posts/macaroon_uncook_blog_square.jpg';
+import Cornbread_Uncook_Blog_Square from '../assets/images/blog_posts/cornbread_uncook_blog_square.jpg';
+import Cornbread_Slice_Blog_Square from '../assets/images/blog_posts/cornbread_slice_blog_square.jpg';
+import Cornbread_Blog_Square from '../assets/images/blog_posts/cornbread_blog_square.jpg';
+import Peach_Cobbler_Blog_Square from '../assets/images/blog_posts/peach_cobbler_blog_square.png';
+import Peach_Cobbler_Bowl_Blog_Square from '../assets/images/blog_posts/peach_cobbler_bowl_blog_square.png';
+import Peach_Cobbler_Uncook_Blog_Square from '../assets/images/blog_posts/peach_cobbler_uncook_blog_square.jpg';
 
 
 
@@ -68,6 +81,63 @@ import Cooking_Icon from '../assets/images/icons/cooking_icon.png';
 import Drink_Icon from '../assets/images/icons/drinks_icon.png';
 
 export const recipes = [
+  {
+    path: '/recipes/peach-cobbler',
+    images: [
+      {
+        src: Peach_Cobbler_Uncook_Blog_Square,
+        alt: "Peach cobbler uncooked in baking dish",
+      },
+      {
+        src: Peach_Cobbler_Blog_Square,
+        alt: "Peach cobbler close up"
+      },
+      {
+        src: Peach_Cobbler_Bowl_Blog_Square,
+        alt: "Peach cobbler in bowl with whipped cream"
+      }
+    ],
+    icon: Baking_Icon,
+    ...PeachCobbler
+  },
+  {
+    path: '/recipes/jalapeno-cornbread',
+    images: [
+      {
+        src: Cornbread_Slice_Blog_Square,
+        alt: "Slices of cornbread on black marble",
+      },
+      {
+        src: Cornbread_Blog_Square,
+        alt: "Cornbread baked in a pan"
+      },
+      {
+        src: Cornbread_Uncook_Blog_Square,
+        alt: "Cornbread in pan topped with cheddar and jalapeno before cooked"
+      }
+    ],
+    icon: Baking_Icon,
+    ...Cornbread
+  },
+  {
+    path: '/recipes/raspberry-rose-macaron',
+    images: [
+      {
+        src: Macaroon_Uncook_Blog_Square,
+        alt: "Macaroon batter piped on baking tray",
+      },
+      {
+        src: Macaroon_Blog_Square,
+        alt: "Macaroons filled on black marble"
+      },
+      {
+        src: Macaroon_Cook_Blog_Square,
+        alt: "Macaroons cooked on baking tray"
+      }
+    ],
+    icon: Baking_Icon,
+    ...Macaroon
+  },
   {
     path: '/recipes/chocolate-orange-pancakes',
     images: [
@@ -159,6 +229,9 @@ export const recipes = [
   {
     path: '/recipes/chocolate-cake-cookies',
     images: [
+      {
+        src: Chocolate_Cake_Cookies_Overhead_Blog_Square,
+      },
       {
         src: Chocolate_Cake_Cookies_Blog_Square,
       },

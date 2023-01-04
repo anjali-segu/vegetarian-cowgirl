@@ -14,6 +14,7 @@ import Moms_Jamun_Blog_Square from '../../assets/images/blog_posts/jamun_served_
 import Grandmas_Pasta_Blog_Square from '../../assets/images/blog_posts/pasta_sauce_blog_square.jpg';
 import Eggs_Benny_Blog_Square from '../../assets/images/blog_posts/eggs_benny_blog_square.jpg';
 import Orange_Pancake_Blog_Square from '../../assets/images/blog_posts/orange_pancake_drizzle_blog_square.jpg';
+import Cornbread_Blog_Square from '../../assets/images/blog_posts/cornbread_blog_square.jpg';
 
 interface Props {
 }
@@ -25,7 +26,7 @@ const CookingBlogGrid = (props: Props) => {
     <ThemeProvider theme={theme}>
       <Grid container justifyContent='center' sx={{ paddingTop: theme.spacing(15) }}>
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
-          <Card image={Eggs_En_Cocotte_Blog_Square} title={'COOKING'} subtitle={'Eggs en Cocotte w/ Carmelized Onions and Roasted Tomatoes'} post={'/recipes/eggs-en-cocotte/'} />
+          <Card image={Cornbread_Blog_Square} title={'COOKING'} subtitle={'Jalapeno Cheddar Cornbread'} post={'/recipes/jalapeno-cornbread'} />
         </Grid>
 
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
@@ -43,9 +44,8 @@ const CookingBlogGrid = (props: Props) => {
           <Card image={Elote_Blog_Square} title={'COOKING'} subtitle={'Deconstructed Elote'} post={'/recipes/deconstructed-elote'} />
         </Grid>
 
-
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
-          <Card image={Grandmas_Pasta_Blog_Square} title={'COOKING'} subtitle={`Grandma Barbieri's Pasta Sauce`} post={'/recipes/grandmas-pasta-sauce'} />
+          <Card image={Moms_Jamun_Blog_Square} title={'COOKING'} subtitle={`Mom's Jamun Dessert`} post={'/recipes/moms-jamun'} />
         </Grid>
 
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
@@ -60,17 +60,17 @@ const CookingBlogGrid = (props: Props) => {
         </Grid>
 
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
-          <Card image={Moms_Jamun_Blog_Square} title={'COOKING'} subtitle={`Mom's Jamun Dessert`} post={'/recipes/moms-jamun'} />
+          <Card image={Grandmas_Pasta_Blog_Square} title={'COOKING'} subtitle={`Grandma Barbieri's Pasta Sauce`} post={'/recipes/grandmas-pasta-sauce'} />
         </Grid>
 
-
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
-          <Card image={Dumplings_Blog_Square} title={'COOKING'} subtitle={'Veggie Packed Dumplings'} post={'/recipes/veggie-packed-dumplings'} />
+          <Card image={Eggs_En_Cocotte_Blog_Square} title={'COOKING'} subtitle={'Eggs en Cocotte w/ Carmelized Onions and Roasted Tomatoes'} post={'/recipes/eggs-en-cocotte/'} />
         </Grid>
       </Grid>
 
       <Grid container justifyContent='center' sx={{ paddingTop: theme.spacing(15) }}>
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+          <Card image={Dumplings_Blog_Square} title={'COOKING'} subtitle={'Veggie Packed Dumplings'} post={'/recipes/veggie-packed-dumplings'} />
         </Grid>
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
           <Card image={Miso_Soup_Blog_Square} title={'COOKING'} subtitle={'Mushroom Miso Soup'} post={'/recipes/mushroom-miso-soup'} />

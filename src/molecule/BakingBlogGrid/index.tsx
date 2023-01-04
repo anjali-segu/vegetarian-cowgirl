@@ -3,7 +3,7 @@ import {theme} from '../../utils/theme'
 import Card from '../../atom/Card';
 import { Grid } from '@mui/material';
 
-import Cake_Cookies_Blog_Square from '../../assets/images/blog_posts/cake_cookies_blog_square.jpg';
+import Cake_Cookies_Blog_Square from '../../assets/images/blog_posts/chocolate_cake_cookies_blog_square.jpg';
 import Cinammon_Buns_Blog_Square from '../../assets/images/blog_posts/cinammon_buns_blog_square.jpg';
 import Cookie_Blog_Square from '../../assets/images/blog_posts/cookie_blog_square.jpg';
 import Eton_Mess_Blog_Square from '../../assets/images/blog_posts/eton_mess_blog_square.png';
@@ -13,6 +13,8 @@ import Cheesecake_Blog_Square from '../../assets/images/blog_posts/cheesecake_bl
 import Grandma_Fudge_Top_Blog_Square from '../../assets/images/blog_posts/chocolate_fudge_top_down_blog_square.jpg';
 import Brownie_Blog_Square from '../../assets/images/blog_posts/brownie_blog_square.jpg';
 import Gingerbread_Blog_Square from '../../assets/images/blog_posts/gingerbread_blog_square.jpg';
+import Macaroon_Blog_Square from '../../assets/images/blog_posts/macaroon_blog_square.jpg';
+import Peach_Cobbler_Blog_Square from '../../assets/images/blog_posts/peach_cobbler_blog_square.png';
 
 interface Props {
 }
@@ -64,6 +66,7 @@ const BakingBlogGrid = (props:Props) => {
 
       <Grid container justifyContent='center' sx={{ paddingTop: theme.spacing(15) }}>
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+          <Card image={Macaroon_Blog_Square} title={'BAKING'} subtitle={'Raspberry Rose, Orange Blossom Buttercream Macaron'} post={'/recipes/raspberry-rose-macaron'} />
         </Grid>
 
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
@@ -71,6 +74,7 @@ const BakingBlogGrid = (props:Props) => {
         </Grid>
 
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+          <Card image={Peach_Cobbler_Blog_Square} title={'BAKING'} subtitle={'Texas Peach Cobbler'} post={'/recipes/peach-cobbler'} />
         </Grid>
       </Grid>
     </ThemeProvider>

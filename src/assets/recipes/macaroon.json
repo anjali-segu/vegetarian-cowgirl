@@ -1,0 +1,152 @@
+{
+    "$schema": "../schemas/recipe.schema.json",
+    "title": "Raspberry-Rose Jam, Orange Blossom Buttercream Macaron",
+    "subtitle": "These macarons have a light orange blossom buttercream with a sharp raspberry rose jam center.",
+    "subtitle2": "These macarons always turn out perfectly baked. They are flavored to perfect with the rosewater and orange blossom without being overpowering. While this recipe can be a little tricky, trust me it's worth it!",
+    "categories": {
+        "Macarons":{
+            "ingredients": {
+                "almond-flour":{
+                    "quantity": 140,
+                    "unitTag": "gram",
+                    "ingredient": "almond flour"
+                },
+                "powder-sugar": {
+                    "quantity": 140,
+                    "unitTag": "gram",
+                    "ingredient": "powder sugar"
+                },
+                "egg-white": {
+                    "quantity": 100,
+                    "unitTag": "gram",
+                    "ingredient": "egg white"
+                },
+                "egg-white-almond": {
+                    "quantity": 50,
+                    "unitTag": "gram",
+                    "ingredient": "of egg white",
+                    "hidden": true
+                },
+                "egg-white-fluffy": {
+                    "quantity": 50,
+                    "unitTag": "gram",
+                    "ingredient": "of egg white",
+                    "hidden": true
+                },
+                "sugar": {
+                    "quantity": 100,
+                    "unitTag": "gram",
+                    "ingredient": "white sugar"
+                },
+                "water": {
+                    "quantity": 40,
+                    "unitTag": "gram",
+                    "ingredient": "water"
+                },
+                "cookie": {
+                    "quantity": 60,
+                    "unitTag": "cookie",
+                    "hidden": true
+                }
+            }
+        },
+        "Orange Blossom Buttercream": {
+            "ingredients": {
+                "butter": {
+                    "quantity": 0.5,
+                    "unitTag": "cup",
+                    "ingredient": "unsalted butter (room temp)"
+                },
+                "sugar": {
+                    "quantity": 2.5,
+                    "unitTag": "cup",
+                    "ingredient": "powder sugar"
+                },
+                "orange-blossom": {
+                    "quantity": 2.5,
+                    "unitTag": "tsp",
+                    "ingredient": "orange blossom water"
+                },
+                "vanilla": {
+                    "quantity": 1,
+                    "unitTag": "tsp",
+                    "ingredient": "vanilla extract"
+                },
+                "heavy-cream": {
+                    "quantity": 2,
+                    "unitTag": "tbsp",
+                    "ingredient": "heavy cream"
+                },
+                "salt": {
+                    "quantity": 1,
+                    "unitTag": "pinch",
+                    "ingredient": "of salt",
+                    "override": {
+                        "half": "1 pinch of salt"
+                    }
+                }
+            }
+        },
+        "Raspberry Rose Jam": {
+            "ingredients": {
+                "raspberry": {
+                    "quantity": 0.33,
+                    "unitTag": "cup",
+                    "ingredient": "raspberry (frozen)"
+                },
+                "sugar": {
+                    "quantity": 0.25,
+                    "unitTag": "cup",
+                    "ingredient": "granulated sugar"
+                },
+                "water": {
+                    "quantity": 1,
+                    "unitTag": "tbsp",
+                    "ingredient": "water"
+                },
+                "rose-water": {
+                    "quantity": 1,
+                    "unitTag": "tsp",
+                    "ingredient": "rose water"
+                },
+                "salt": {
+                    "quantity": 1,
+                    "unitTag": "pinch",
+                    "ingredient": "of salt",
+                    "override": {
+                        "half": "1 pinch of salt"
+                    }
+                }
+            }
+        }
+    },
+    "steps": [
+        "Line 2 cookie sheets with parchment paper",
+        "Combine the almond flour and powder sugar. Sift the mixture into a large bowl to remove any lumps",
+        "Add !egg-white-almond and mix into the almond-sugar mixture to form a paste",
+        "Add a few drops of pink food gel coloring. <i> This is optional.</i>",
+        "In a stand mixer, beat the remaining !egg-white-fluffy <b>until soft peaks form.</b>",
+        "Combine the white sugar and water in a small saucepan. Bring to boil over low heat, and heat until it reaches 115°C using a candy thermometer. <b><i>You must use a candy thermometer</i></b>. ",
+        "Remove from heat, and slowly drizzle into the stand mixer with the beaten egg while beating on low speed.",
+        "Mix on high for about 3 min or until the bowl is cool and <b>stiff peaks form</b>. You should be able to turn the bowl upside down without the meringue falling out.",
+        "<b>Fold the meringue into the almond-sugar paste mixture</b>. Use your spatula to press onto the sides of the bowl to remove any lumps.",
+        "Mix until you have a smooth batter that runs off of the spatula slowly in a thick ribbon",
+        "Put mixture in piping bag. Pipe small 1 ½ inch circles onto the line baking tray. I normally get <b>!cookie.</b>",
+        "Pipe thre circle by holding the piping bag upright with the tip just above the sheet, and pipe without pulling your hand up or moving it in circles.",
+        "Tap the baking sheets a few times on the counter to remove any air bubbles",
+        "Let the cookies sit out for 30 minutes to dry",
+        "<b>Preheat the oven to 300°F</b>",
+        "<b>Bake cookies for 18 min</b>. Remove from the oven and let them completely cool on cooling racks before removing from the parchment paper. <i>They will stick when warm.</i>",
+        "<b>To make the buttercream</b>, beat the butter until the butter has lightened and becomes creamy. Add the powder sugar and beat for 5 minutes. Add the orange blossom water, vanilla bean paste, heavy cream and salt and beat for 30 sec.",
+        "Fill a piping bag with the buttercream and set aside.",
+        "<b>To make the raspberry rose jam</b>, place raspberries, granulated sugar, water, and pinch of salt in a saucepan. Place the saucepan over medium heat. Using a spoon mash up the raspberries. Let the mixture come to a boil and thicken. We want the jam to be quite thick so it doesn't spread. Remove from heat and add the rose water.",
+        "<b>To assemble</b>, first pair up all of the macaron halves. Next use a little buttercream and spread on both the top and bottom macaron using a butter knife. Pipe little dots of buttercream around the perimeter of the bottom macaron, leaving a hole in the center. Spoon a little jam into the center. Place the top cookie.",
+        "<b>Refridgerate in an air-tight container for at least 1-2 days before serving.</b> <i>This allows the cookies to absorb a little bit of the flavors. Trust me it is worth it!</i>"
+
+        
+    ],
+    "preptime": "40 min",
+    "cooktime": "20 min",
+    "totaltime": "1 hr 30 min",
+    "serves": 4
+}

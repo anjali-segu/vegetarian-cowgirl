@@ -5,6 +5,11 @@ interface Unit {
 }
 
 export const units: { [tag: string]: Unit } = {
+    avocado: {
+        fractional: 'an avocado',
+        singular: 'avocado',
+        plural: 'avocados'
+    },
     'bay leaf': {
         fractional: 'a bay leaf',
         singular: 'bay leaf',
@@ -14,6 +19,11 @@ export const units: { [tag: string]: Unit } = {
         fractional: 'a box',
         singular: 'box',
         plural: 'boxes'
+    },
+    bread: {
+        fractional: 'a slice of bread',
+        singular: 'slice of bread',
+        plural: 'slices of bread'
     },
     can: {
         fractional: 'a can',
@@ -25,6 +35,11 @@ export const units: { [tag: string]: Unit } = {
         singular: 'carrot',
         plural: 'carrots'
     },
+    cookie:{
+        fractional: 'a cookie',
+        singular: 'cookie',
+        plural: 'cookies'
+    },  
     cup: {
         fractional: 'cup',
         singular: 'cup',
@@ -93,16 +108,6 @@ export const units: { [tag: string]: Unit } = {
         singular: 'lime',
         plural: 'limes'
     },
-    avocado: {
-        fractional: 'an avocado',
-        singular: 'avocado',
-        plural: 'avocados'
-    },
-    bread: {
-        fractional: 'a slice of bread',
-        singular: 'slice of bread',
-        plural: 'slices of bread'
-    },
     onion: {
         fractional: 'an onion',
         singular: 'onion',
@@ -115,6 +120,14 @@ export const units: { [tag: string]: Unit } = {
         fractional: 'a package',
         singular: 'package',
         plural: 'packages'
+    },
+    peach: {
+        fractional: 'a peach',
+        singular: 'peach',
+        plural: 'peaches'
+    },
+    pinch: {
+        singular: 'pinch',
     },
     ramekin: {
         fractional: 'a ramekin',

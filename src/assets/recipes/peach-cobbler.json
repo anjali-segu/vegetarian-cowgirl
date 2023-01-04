@@ -1,0 +1,85 @@
+{
+    "$schema": "../schemas/recipe.schema.json",
+    "title": "Texas Peach Cobbler",
+    "subtitle": "This peach cobbler recipe is only extremely easy to make from scratch. This recipe was inspired from Fredricksburg, TX peaches, but will work with any ripe peach!",
+    "subtitle2": "Peach season is pretty much the best time of the year. I enjoy going to “pick your own” farms or buying a large box from a local vendor. In season peaches make this treat absolutely delicious!",
+    "categories": {
+        "Peach Mixture":{
+            "ingredients": {
+                "peaches": {
+                    "quantity": 5,
+                    "unitTag": "peach",
+                    "ingredient": "(peeled, cored, and sliced)"
+                },
+                "sugar": {
+                    "quantity": 0.75,
+                    "unitTag": "cup",
+                    "ingredient": "granulated sugar",
+                    "override": {
+                        "half": "6 tbsp granulated sugar"
+                    }
+                },
+                "salt": {
+                    "quantity": 0.25,
+                    "unitTag": "tsp",
+                    "ingredient": "salt"
+                }
+            }
+        },
+        "Batter": {
+            "ingredients": {
+                "butter":{
+                    "quantity": 6,
+                    "unitTag": "tbsp",
+                    "ingredient": "butter"
+                },
+                "flour":{
+                    "quantity": 1,
+                    "unitTag": "cup",
+                    "ingredient": "all-purpose flour"
+                },
+                "sugar":{
+                    "quantity": 1,
+                    "unitTag": "cup",
+                    "ingredient": "granulated sugar"
+                },
+                "baking-powder":{
+                    "quantity": 2,
+                    "unitTag": "tsp",
+                    "ingredient": "baking powder"
+                },
+                "salt":{
+                    "quantity": 0.75,
+                    "unitTag": "tsp",
+                    "ingredient": "salt"
+                },
+                "milk":{
+                    "quantity": 0.75,
+                    "unitTag": "cup",
+                    "ingredient": "milk",
+                    "override": {
+                        "half": "6 tbsp milk"
+                    }
+                },
+                "vanilla":{
+                    "quantity": 1,
+                    "unitTag": "tsp",
+                    "ingredient": "vanilla extract"
+                }
+            }
+        }
+    },
+    
+    "steps": [
+        "<b>To prepare the peaches</b>, boil a pot of water. Gently lower 2-3 peaches at a time into a pot of boiling water. Leave them in the water for 30 seconds. Remove and place peaches in ice-water bath. The peach skin can then be peeled off easily. Remove the core and <b>slice into 1 inch thick slices.</b>",
+        "Add the sliced peaches, sugar, and salt to a saucepan. Stire to combine. Cook on medium heat for a few minutes, <b>until the sugar is dissolved and helps bring out juices from the peaches</b>. Remove from heat and set aside.",
+        "<b>Preheat oven to 350°F</b>. Slice butter into tbsp-size pieces. Add to a 9x13 inch baking dish. Place the pan in the oven while it preheats. All the butter to melt, and <b>remove the pan from the oven once melted.</b>",
+        "In a large bowl, mix together the flour, sugar, baking powder, salt, and vanilla. Stir in the milk, until just combines. Pour the mixture into the pan, over the melted butter and smooth it into an even layer.",
+        "Spoon the peaches and juice, over the batter.",
+        "<b>Bake for 38-40 minutes.</b> Serve warm, with whipped cream, if desired."
+    ],
+    "preptime": "15 min",
+    "cooktime": "40 min",
+    "totaltime": "55 min",
+    "serves": 9
+}

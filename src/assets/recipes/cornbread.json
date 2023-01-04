@@ -1,0 +1,88 @@
+{
+    "$schema": "../schemas/recipe.schema.json",
+    "title": "Jalapeno Cheddar Cornbread",
+    "subtitle": "This cornbread is buttery, fluffy, and has a nice kick of heat! This is a family favorite every Thanksgiving.",
+    "subtitle2": "The cornbread has jalepenos, green onions, and cheddar inside giving it lots of flavor. The soft crumb makes it melt in the mouth. This cornbread always disappears in a day or 2 whenever I make it. ",
+    "ingredients": {
+        "flour":{
+            "quantity": 3,
+            "unitTag": "cup",
+            "ingredient": "all-purpose flour"
+        },
+        "cornmeal":{
+            "quantity": 1,
+            "unitTag": "cup",
+            "ingredient": "yellow cornmeal"
+        },
+        "sugar":{
+            "quantity": 0.25,
+            "unitTag": "cup",
+            "ingredient": "sugar"
+        },
+        "baking-powder":{
+            "quantity": 2,
+            "unitTag": "tbsp",
+            "ingredient": "baking powder"
+        },
+        "salt":{
+            "quantity": 1.33,
+            "unitTag": "tsp",
+            "ingredient": "salt"
+        },
+        "milk":{
+            "quantity": 2,
+            "unitTag": "cup",
+            "ingredient": "milk"
+        },
+        "egg":{
+            "quantity": 3,
+            "unitTag": "egg",
+            "ingredient": "(large, lightly-beaten)"
+        },
+        "butter":{
+            "quantity": 0.5,
+            "unitTag": "stick",
+            "ingredient": "unsalted butter"
+        },
+        "cheese":{
+            "quantity": 16,
+            "unitTag": "oz",
+            "ingredient": "extra-sharp cheddar (grated)"
+        },
+        "cheese-inside": {
+            "quantity": 8,
+            "unitTag": "oz",
+            "ingredient": "extra-sharp cheddar (grated)",
+            "hidden": true
+        },
+        "cheese-garnish": {
+            "quantity": 8,
+            "unitTag": "oz",
+            "ingredient": "extra-sharp cheddar (grated)",
+            "hidden": true
+        },
+        "scallions":{
+            "quantity": 0.67,
+            "unitTag": "cup",
+            "ingredient": "scallions (chopped)"
+        },
+        "jalapeno":{
+            "quantity": 3,
+            "unitTag": "tbsp",
+            "ingredient": "jalapeno (seeded and minced) + 1 whole sliced for garnish"
+        }
+    },
+    "steps": [
+        "Combine the flour, cornmeal, sugar, baking powder, and salt in a large bowl. In a separate bowl, combine the milk, eggs, and butter.",
+        "With a wooden spoon, stir the wet ingredients into the dry until most of the lumps are dissolved. Don't overmix!",
+        "Mix in !cheese-inside, scallions, and jalapenos, and allow the mixture to <b>sit at room temp for 20 minutes</b>.",
+        "Preheat the oven to 350°F. Grease a 9 x 13 x 2 inch baking pan",
+        "Pour the batter into the prepared pan, and smooth the top. Sprinkle !cheese-garnish on the top and the sliced jalepeno. <b>Bake for 30 - 35 minutes, or until the toothpick comes out clean</b>.",
+        "Cool and cut into large squares. Serve warm or at room temp."
+
+    ],
+    "preptime": "30 min",
+    "cooktime": "35 min",
+    "totaltime": "1 hr 5 min",
+    "serves": 12
+}
