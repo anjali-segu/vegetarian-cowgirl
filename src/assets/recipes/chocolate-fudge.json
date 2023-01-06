@@ -21,9 +21,9 @@
         }
     },
     "steps": [
-        "In a microwave oven, cook chocolate and milk in a large microwave bowl on high (2-3 minutes). Or until chocolate is almost melted. Stir halfway between the melting of the chocolate.",
+        "In a microwave, cook chocolate and milk in a ^large microwave-safe bowl$ on high (2-3 minutes). Or until chocolate is almost melted. Stir halfway between the melting of the chocolate.",
         "Stir until the chocolate is completely melted. Stir in vanilla (and optionally marshmallows or nuts).",
-        "Spread into foil-line, 8-inch square pan.",
+        "Spread into ^foil-lined, 8-inch square pan$.",
         "Refrigerate 2 hours or until firm. Cut into squares."
     ],
     "preptime": "5 min",
