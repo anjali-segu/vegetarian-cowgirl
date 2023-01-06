@@ -71,7 +71,7 @@ export const generateCategories = (multiplier: number, ingredients?: { [key: str
 }
 
 const dynamicStep = (step: string, multiplier: number, flattenedIngredients: { [key: string]: Ingredient }, serves: number) => {
-    const regex = /\^(.+)\$/g;
+    const regex = /\^(.+?)\$/g;
     step = step.replaceAll(`!serves`, `${serves * multiplier}`)
     Object.entries(flattenedIngredients).forEach(([ingredientKey, ingredient]) => {
         step = step.replaceAll(`!${ingredientKey}`, () => ingredientToString(ingredientKey, ingredient, multiplier))
