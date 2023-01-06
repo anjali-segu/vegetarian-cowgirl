@@ -79,7 +79,7 @@
     }
   },
   "steps": [
-    "Preheat your ^oven$ to 350°F.",
+    "Preheat ^oven$ to 350°F.",
     "Add the graham crackers, sugar, and toasted pecans to a ^food processor$. Blitz until fine, then add melted butter to the food processor and combine until a clumpy mixture forms.",
     "Remove from food processor and mix with a spoon to ensure the butter is evenly distributed.",
     "Add to a 10\" ^springform pan$ (<i>Note: You can use a regular cake pan but make sure to butter the pan. The only difference is it will be a little trickier to cut, but will taste the same.</i>).",
