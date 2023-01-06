@@ -39,6 +39,7 @@ import IntroToBreville from './blogposts/IntroToBreville';
 import UnderConstruction from './organism/UnderConstruction';
 
 
+
 const createRecipeBlogPosts = (recipes: Recipe[]) => recipes.map(recipe => <Route key={recipe.path} path={recipe.path} element={<DynamicRecipeBlogPost {...recipe} />} />)
 
 const App: React.FC = () => {
