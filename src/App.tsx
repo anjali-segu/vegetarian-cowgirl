@@ -25,7 +25,6 @@ import BakeryLorraine from './blogposts/BakeryLorraine';
 import ArtMovement from './blogposts/ArtMovement'
 
 import {
-  BrowserRouter,
   Routes,
   Route,
   Link as RRDOMLink,
@@ -38,9 +37,8 @@ import DynamicRecipeBlogPost from './blogposts/DynamicRecipeBlogPost';
 import { recipes } from './utils/BlogImports'
 import IntroToBreville from './blogposts/IntroToBreville';
 import UnderConstruction from './organism/UnderConstruction';
-import { Box, Input, Link as MUILink, List, ListItem, ListItemButton, ListItemText } from '@mui/material';
+import { Box, Input, List, ListItem, ListItemButton, ListItemText } from '@mui/material';
 
-import { useNavigate } from "react-router-dom";
 import { searchRecipes } from './utils/search';
 
 
@@ -48,7 +46,6 @@ import { searchRecipes } from './utils/search';
 const createRecipeBlogPosts = (recipes: Recipe[]) => recipes.map(recipe => <Route key={recipe.path} path={recipe.path} element={<DynamicRecipeBlogPost {...recipe} />} />)
 
 const App: React.FC = () => {
-  const navigate = useNavigate();
 
   const inputRef = React.useRef<HTMLInputElement>(null);
 
