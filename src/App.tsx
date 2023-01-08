@@ -38,7 +38,7 @@ import DynamicRecipeBlogPost from './blogposts/DynamicRecipeBlogPost';
 import { recipes } from './utils/BlogImports'
 import IntroToBreville from './blogposts/IntroToBreville';
 import UnderConstruction from './organism/UnderConstruction';
-import { Box, Input, Link as MUILink, List, ListItem, ListItemText } from '@mui/material';
+import { Box, Input, Link as MUILink, List, ListItem, ListItemButton, ListItemText } from '@mui/material';
 
 import { useNavigate } from "react-router-dom";
 import { searchRecipes } from './utils/search';
@@ -76,7 +76,16 @@ const App: React.FC = () => {
           {list.length > 0 &&
             <Box width='50%' display='flex' justifyContent='left'>
               <List>
-                {list.map(e => <ListItem key={e.path}><RRDOMLink to={e.path}><ListItemText primary={e.title} /></RRDOMLink> <ListItemText secondary={e.score} /></ListItem>)}
+                {list.map(e => <ListItem key={e.path}>
+                  <ListItemButton onClick={() => {
+                    if (inputRef.current?.value !== undefined) {
+                      inputRef.current.value = ''
+                      setList([])
+                    }
+                  }}>
+                    <RRDOMLink to={e.path}><ListItemText primary={e.title} secondary={e.score} /></RRDOMLink>
+                  </ListItemButton>
+                </ListItem>)}
               </List>
             </Box>}
 
