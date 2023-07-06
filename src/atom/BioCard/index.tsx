@@ -50,7 +50,7 @@ const BioCard = (props:Props) => {
         <CardContent>
         <Grid container>
 
-        <Media query="(min-width: 400px)" render={() =>
+        <Media query="(min-width: 450px)" render={() =>
           (
             <Grid item sm={12} md={12} lg={6} sx={{display:'flex',justifyContent:'center'}}>
               <img style={{maxHeight: theme.spacing(100), marginTop: theme.spacing(2)}}src={BioProfile} alt="Anjali by the Trevi Fountain."/>
@@ -58,6 +58,7 @@ const BioCard = (props:Props) => {
 
           )}
         />
+        
 
 
 

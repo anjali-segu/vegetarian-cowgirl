@@ -1,8 +1,8 @@
 {
     "$schema": "../schemas/recipe.schema.json",
-    "title": "Cinnamon Rolls",
-    "subtitle": "This indulgent dessert is the perfect warm treat! These are the gooeiest cinnamon buns covered in a warm cream cheese glaze.",
-    "subtitle2": "This is a classic dessert in my house! The cinnamon flavor comes through beautifully without being too strong. The sweet yeasty brioche flavor balances the cinnamon flavor combined with the creamy sweet frosting. These cinnamon buns are not too sweet and warms up beautifully. The recipe itself is not too hard but will require a stand mixer and some basic dough knowledge.",
+    "title": "Cardamom Buns",
+    "subtitle": "This unique twist on a classic dessert is the perfect warm treat! The cardamom flavor works perfectly with the warm vanilla cream cheese glaze.",
+    "subtitle2": "This is a new dessert in my house! My mom absolutely loves cardamom as it is a flavor she grew up with in India. Using my cinnamon rolls recipe I substituted the cinnamon for this Indian spice to come up with something new. This was an absolute hit in my family. The sweet yeasty brioche flavor balances the cardamom flavor combined with the creamy sweet frosting. TThe recipe itself is not too hard but will require a stand mixer and some basic dough knowledge.",
     "categories": {
         "Dough": {
             "ingredients": {
@@ -59,10 +59,10 @@
                     "unitTag": "cup",
                     "ingredient": "packed brown sugar"
                 },
-                "filling-cinnamon": {
+                "filling-cardamom": {
                     "quantity": 2,
                     "unitTag": "tbsp",
-                    "ingredient": "cinnamon"
+                    "ingredient": "ground cardamom"
                 },
                 "filling-cream": {
                     "quantity": 0.5,
@@ -89,8 +89,8 @@
                     "ingredient": "powdered sugar"
                 },
                 "frosting-vanilla": {
-                    "quantity": 0.5,
-                    "unitTag": "tbsp",
+                    "quantity": 2,
+                    "unitTag": "tsp",
                     "ingredient": "vanilla extract"
                 }
             }
@@ -105,22 +105,22 @@
         "Spray a large bowl with cooking spray.",
         "Use a ^rubber spatula$ to remove the dough from the mixer bowl and place it in the greased large bowl.",
         "Cover the bowl with a ^towel or plastic wrap$.",
-        "Set the bowl in a warm place and <b>allow the dough to rise until double</b>. I like to turn on the oven to the lowest setting for 1-2 minutes. Then turn off the oven and place the dough to rise in there. It normally takes about 30 minutes for the dough to rise. Do not allow the dough to rise too much or your cinnamon rolls will be airy.",
-        "While the dough is rising, prepare the cinnamon filling. In a medium bowl, combine the soft butter, brown sugar and cinnamon, mixing until well combined. Set aside.",
+        "Set the bowl in a warm place and <b>allow the dough to rise until double</b>. I like to turn on the oven to the lowest setting for 1-2 minutes. Then turn off the oven and place the dough to rise in there. It normally takes about 30 minutes for the dough to rise. Do not allow the dough to rise too much or your cardamom buns will be airy.",
+        "While the dough is rising, prepare the cardamom filling. In a medium bowl, combine the soft butter, brown sugar and cardamom, mixing until well combined. Set aside.",
         "Sprinkle a ^silicone mat$ generously with flour. Turn out the dough onto the pastry mat and sprinkle the top of the dough with additional flour.",
         "Flour a ^rolling pin$ and roll the dough to about a <b>24\"  x 15\" rectangle</b>. (the size of the rectangle can vary it does not have to be exact!",
-        "Use a rubber spatula to smooth the cinnamon filling over the whole dough rectangle.",
+        "Use a rubber spatula to smooth the cardamom filling over the whole dough rectangle.",
         "Starting on the long end, roll the dough up tightly jelly roll style.",
         "Cut into !serves slices and place in a greased ^9 x 13 baking pan$.",
-        "Cover the pan and allow the rolls to rise for 20 minutes or until nearly double.",
+        "Cover the pan and allow the buns to rise for 20 minutes or until nearly double.",
         "<b>Preheat the oven to 375°F</b>.",
         "Warm the heavy cream until the chill is off. Don't make it hot, you just don't want it cold. It should be warm to the touch.",
-        "Once the rolls have risen, pour the heavy cream over the top of the rolls, allowing it to soak down in and around the rolls.",
-        "Bake at 375°F for 20-22 minutes, until the rolls are lightly golden brown and the center rolls are cooked through. <i>Note…the time will vary based on how big the rolls are, what type of pan, how close the rolls are packed, etc</i>. They could take up to 25-27 minutes. Check the rolls at 20 minutes. If they are getting too browned, cover loosely with foil for the remaining baking time.",
-        "While the rolls are cooling, prepare the cream cheese frosting.",
+        "Once the buns have risen, pour the heavy cream over the top of the buns, allowing it to soak down in and around the buns.",
+        "Bake at 375°F for 20-22 minutes, until the rols are lightly golden brown and the center buns are cooked through. <i>Note…the time will vary based on how big the buns are, what type of pan, how close the buns are packed, etc</i>. They could take up to 25-27 minutes. Check the buns at 20 minutes. If they are getting too browned, cover loosely with foil for the remaining baking time.",
+        "While the buns are cooling, prepare the cream cheese frosting.",
         "In a large bowl, combine the softened cream cheese and butter using a hand mixer or stand mixer. Blend well.",
         "Add in vanilla extract and the powdered sugar. Beat until combined.",
-        "Spread the frosting over the cooled rolls.",
+        "Spread the frosting over the cooled buns.",
         "Store in an airtight container."
     ],
     "preptime": "40 min",

@@ -5,6 +5,7 @@ import { Grid } from '@mui/material';
 
 import Cake_Cookies_Blog_Square from '../../assets/images/blog_posts/chocolate_cake_cookies_blog_square.jpg';
 import Cinammon_Buns_Blog_Square from '../../assets/images/blog_posts/cinammon_buns_blog_square.jpg';
+import Cardamom_Buns_Blog_Square from '../../assets/images/blog_posts/cardamom_buns_blog_square.jpg'
 import Cookie_Blog_Square from '../../assets/images/blog_posts/cookie_blog_square.jpg';
 import Eton_Mess_Blog_Square from '../../assets/images/blog_posts/eton_mess_blog_square.png';
 import Italian_Orange_Cake_Blog_Square from '../../assets/images/blog_posts/italian_orange_cake_blog_square.jpeg';
@@ -43,10 +44,10 @@ const BakingBlogGrid = (props:Props) => {
     <Grid container justifyContent='center' sx={{paddingTop: theme.spacing(15)}}>
 
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Cake_Cookies_Blog_Square} title={'BAKING'} subtitle={'Chocolate Fudgey Cake Cookies '} post={'/recipes/chocolate-cake-cookies'}/>
+      <Card image={Cardamom_Buns_Blog_Square} title={'BAKING'} subtitle={'Cardamom Buns'} post={'/recipes/cardamom-buns'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Cinammon_Buns_Blog_Square} title={'BAKING'} subtitle={'Ultimate Cinammon Buns'} post={'/recipes/cinnamon-rolls-dessert'}/>
+      <Card image={Cinammon_Buns_Blog_Square} title={'BAKING'} subtitle={'Ultimate Cinammon Rolls'} post={'/recipes/cinnamon-rolls'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
       <Card image={Eton_Mess_Blog_Square} title={'BAKING'} subtitle={'Eton Mess Summer Dessert'} post={'/recipes/eton-mess-dessert'}/>
@@ -88,6 +89,7 @@ const BakingBlogGrid = (props:Props) => {
         </Grid>
 
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+          <Card image={Cake_Cookies_Blog_Square} title={'BAKING'} subtitle={'Chocolate Fudgey Cake Cookies '} post={'/recipes/chocolate-cake-cookies'} />
         </Grid>
       </Grid>
     </ThemeProvider>

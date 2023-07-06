@@ -24,6 +24,7 @@ import Macaroon from '../assets/recipes/macaroon.json'
 import Cornbread from '../assets/recipes/cornbread.json'
 import PeachCobbler from '../assets/recipes/peach-cobbler.json'
 import ClassicPumpkinPie from '../assets/recipes/pumpkin-pie.json'
+import CardamomBuns from '../assets/recipes/cardamom-buns.json'
 
 
 // blog post images (squares)
@@ -74,6 +75,9 @@ import Peach_Cobbler_Uncook_Blog_Square from '../assets/images/blog_posts/peach_
 import Classic_Pumpkin_Pie_Blog_Square from '../assets/images/blog_posts/classic_pumpkin_pie_blog_square.jpg';
 import Classic_Pumpkin_Pie_Crust_Blog_Square from '../assets/images/blog_posts/classic_pumpkin_pie_crust_blog_square.jpg';
 import Classic_Pumpkin_Pie_Dough_Blog_Square from '../assets/images/blog_posts/classic_pumpkin_pie_dough_blog_square.jpg';
+import Cardamom_Buns_Blog_Square from '../assets/images/blog_posts/cardamom_buns_blog_square.jpg'
+import Cardamom_Buns_Rising_Blog_Square from '../assets/images/blog_posts/cardamom2_buns_blog_square.jpg'
+import Cardamom_Buns_Spreading_Blog_Square from '../assets/images/blog_posts/cardamom3_buns_blog_square.jpg'
 
 
 
@@ -241,7 +245,7 @@ export const recipes = [
     ...EtonMessJson
   },
   {
-    path: '/recipes/cinnamon-rolls-dessert',
+    path: '/recipes/cinnamon-rolls',
     images: [
       {
         src: Cinammon_Buns_Blog_Square,
@@ -452,5 +456,25 @@ export const recipes = [
     icon: Baking_Icon,
     icon_alt: "Baking",
     ...GrandmasFudge
+  },
+  {
+    path: '/recipes/cardamom-buns',
+    images: [
+      {
+        src: Cardamom_Buns_Rising_Blog_Square,
+        alt: "Rolled buns in a rectangle pan rising."
+      },
+      {
+        src: Cardamom_Buns_Blog_Square,
+        alt: "Gold brown cardamom swirled bun on a white plate."
+      },
+      {
+        src: Cardamom_Buns_Spreading_Blog_Square,
+        alt: "Spreading cardamom sugar on the brioche dough."
+      },
+    ],
+    icon: Baking_Icon,
+    icon_alt: "Baking",
+    ...CardamomBuns
   },
 ]

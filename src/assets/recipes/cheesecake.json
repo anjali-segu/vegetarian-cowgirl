@@ -1,8 +1,8 @@
 {
   "$schema": "../schemas/recipe.schema.json",
   "title": "Light and Fluffy Cheesecake with Pecan Crust",
-  "subtitle": "",
-  "subtitle2": "",
+  "subtitle": "Fluffiest cheesecake with a nutty pecan crust to satisfy your cheesecake cravings once and for all!",
+  "subtitle2": "My boyfriend absolutely loves cheesecake, but I always seem to ignore them on the menu as they typically are too dense and rich for me. This recipe is light and fluffy with a pecan crust to cut through the sweet creamy taste. As someone who normally doesn't choose cheesecake, I could eat this one every single day!",
   "categories": {
     "Crust": {
       "ingredients": {

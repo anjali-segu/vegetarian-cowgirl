@@ -7,7 +7,7 @@ import Header from '../../atom/Header'
 import Media from 'react-media';
 
 import Austin_Tea_Guide_Blog_Square from '../../assets/images/blog_posts/tea_jar_blog_square.jpg';
-import Cheesecake_Blog_Square from '../../assets/images/blog_posts/cheesecake_blog_square.jpg';
+import Cardamom_Buns_Blog_Square from '../../assets/images/blog_posts/cardamom_buns_blog_square.jpg';
 import Uchiko_Blog_Square from '../../assets/images/blog_posts/uchiko_blog_square.jpg';
 
 import Logo3 from '../../assets/images/icons/logos/Logo3.png';
@@ -41,7 +41,7 @@ const FeaturedPosts = (props:Props) => {
       </Grid>
 
       <Grid item sm={12} md={12} lg={4} sx={{display:'flex',justifyContent:'center'}}>
-        <Card image={Cheesecake_Blog_Square} title={'BAKING'} subtitle={'Light and Fluffy Cheesecake'} post={'/recipes/cheesecake'} />
+        <Card image={Cardamom_Buns_Blog_Square} title={'BAKING'} subtitle={'Cardamom Buns'} post={'/recipes/cardamom-buns'} />
       </Grid>
 
     </Grid>
