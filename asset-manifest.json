@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5db471c9.css",
-    "main.js": "/static/js/main.072bfa78.js",
+    "main.css": "/static/css/main.8c7fc464.css",
+    "main.js": "/static/js/main.e86bba90.js",
     "static/js/787.b6f84853.chunk.js": "/static/js/787.b6f84853.chunk.js",
     "static/media/oseyo4_blog_square.jpg": "/static/media/oseyo4_blog_square.8b58701c27ae953af69c.jpg",
     "static/media/oseyo2_blog_square.jpg": "/static/media/oseyo2_blog_square.597d06c31eb02684cb69.jpg",
@@ -62,6 +62,7 @@
     "static/media/indianapolis_airbnb_blog_square.jpg": "/static/media/indianapolis_airbnb_blog_square.ba8eb0bb3680fb6bc741.jpg",
     "static/media/latte2_blog_square.jpg": "/static/media/latte2_blog_square.e8bd0687e7a7fd8005b0.jpg",
     "static/media/chocolate_cake_cookies_blog_square.jpg": "/static/media/chocolate_cake_cookies_blog_square.105f0583ce4c2489b5c8.jpg",
+    "static/media/classic_pumpkin_pie_blog_square.jpg": "/static/media/classic_pumpkin_pie_blog_square.214549891204edaf5e1d.jpg",
     "static/media/mount_bonnet_blog_square.jpg": "/static/media/mount_bonnet_blog_square.d954de54ac4df81fe980.jpg",
     "static/media/gingerbread_plain_blog_square.jpg": "/static/media/gingerbread_plain_blog_square.a2ed404e8e01d6da306d.jpg",
     "static/media/cornbread_slice_blog_square.jpg": "/static/media/cornbread_slice_blog_square.4eca5fb1a18cc9e649ec.jpg",
@@ -70,7 +71,9 @@
     "static/media/jamun_fry_blog_square.jpg": "/static/media/jamun_fry_blog_square.87fb832d6e0a475c2fc0.jpg",
     "static/media/july_4th.jpg": "/static/media/july_4th.25a5982db08d5b955a77.jpg",
     "static/media/peach_cobbler_uncook_blog_square.jpg": "/static/media/peach_cobbler_uncook_blog_square.7b5b5c441cf5ee784716.jpg",
+    "static/media/classic_pumpkin_pie_crust_blog_square.jpg": "/static/media/classic_pumpkin_pie_crust_blog_square.ae37eda69bfde0a0c5a8.jpg",
     "static/media/gingerbread_cutout_blog_square.jpg": "/static/media/gingerbread_cutout_blog_square.6c3a1ed319ef63f3e252.jpg",
+    "static/media/classic_pumpkin_pie_dough_blog_square.jpg": "/static/media/classic_pumpkin_pie_dough_blog_square.18cd3074978d6e13af16.jpg",
     "static/media/macaroon_blog_square.jpg": "/static/media/macaroon_blog_square.bea097674c8dc9471497.jpg",
     "static/media/cornbread_uncook_blog_square.jpg": "/static/media/cornbread_uncook_blog_square.c86be4c9c3d46b1799b9.jpg",
     "static/media/il_brutto_blog_square.jpg": "/static/media/il_brutto_blog_square.b98a56586a4bdfc68a82.jpg",
@@ -93,10 +96,13 @@
     "static/media/olive.png": "/static/media/olive.21f9b4b8164ef2963e25.png",
     "static/media/austin_plant_store.jpg": "/static/media/austin_plant_store.e17b287fc4e53590ac33.jpg",
     "static/media/sunflower.png": "/static/media/sunflower.a610f88ed77dad29ffc4.png",
+    "static/media/cardamom_buns_blog_square.jpg": "/static/media/cardamom_buns_blog_square.61bbc97053ff6864be6f.jpg",
     "static/media/latte_blog_square.jpg": "/static/media/latte_blog_square.ed60ca24172c41758504.jpg",
     "static/media/eton_mess_blog_square.png": "/static/media/eton_mess_blog_square.b07b7fde6ec2a4e4e1d0.png",
     "static/media/miso_soup_blog_square.jpg": "/static/media/miso_soup_blog_square.13cfe4d5777eea25eca1.jpg",
+    "static/media/cardamom2_buns_blog_square.jpg": "/static/media/cardamom2_buns_blog_square.fd6d16067ed2c71b004d.jpg",
     "static/media/bakery_lorraine_blog_square.jpg": "/static/media/bakery_lorraine_blog_square.25cb76ca167197a52779.jpg",
+    "static/media/cardamom3_buns_blog_square.jpg": "/static/media/cardamom3_buns_blog_square.db63f1b49e78d0fee0b0.jpg",
     "static/media/paintbrush_blog_square.jpg": "/static/media/paintbrush_blog_square.91ec1ac4da566ff773b2.jpg",
     "static/media/maui_haleakala_blog_square.jpg": "/static/media/maui_haleakala_blog_square.fc9407742bf3e9f9bc2d.jpg",
     "static/media/costa_rica_vegetarian_blog_square.png": "/static/media/costa_rica_vegetarian_blog_square.c5071b8e5d84aed9df08.png",
@@ -175,12 +181,12 @@
     "static/media/email.png": "/static/media/email.2d825aefa1c7af29bf85.png",
     "static/media/etsy.png": "/static/media/etsy.d75ef78cbf24d7072ecd.png",
     "index.html": "/index.html",
-    "main.5db471c9.css.map": "/static/css/main.5db471c9.css.map",
-    "main.072bfa78.js.map": "/static/js/main.072bfa78.js.map",
+    "main.8c7fc464.css.map": "/static/css/main.8c7fc464.css.map",
+    "main.e86bba90.js.map": "/static/js/main.e86bba90.js.map",
     "787.b6f84853.chunk.js.map": "/static/js/787.b6f84853.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5db471c9.css",
-    "static/js/main.072bfa78.js"
+    "static/css/main.8c7fc464.css",
+    "static/js/main.e86bba90.js"
   ]
 }
