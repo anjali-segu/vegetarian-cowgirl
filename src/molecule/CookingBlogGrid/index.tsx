@@ -15,6 +15,7 @@ import Grandmas_Pasta_Blog_Square from '../../assets/images/blog_posts/pasta_sau
 import Eggs_Benny_Blog_Square from '../../assets/images/blog_posts/eggs_benny_blog_square.jpg';
 import Orange_Pancake_Blog_Square from '../../assets/images/blog_posts/orange_pancake_drizzle_blog_square.jpg';
 import Cornbread_Blog_Square from '../../assets/images/blog_posts/cornbread_blog_square.jpg';
+import Cauliflower_Soup_Blog_Square from '../../assets/images/blog_posts/cauliflower_soup_blog_square.jpg';
 
 interface Props {
 }
@@ -49,7 +50,7 @@ const CookingBlogGrid = (props: Props) => {
         </Grid>
 
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
-          <Card image={Jalapeno_Poppers_Blog_Square} title={'COOKING'} subtitle={'Puff Pastry Jalepeno Poppers'} post={'/recipes/puff-pastry-jalepeno-poppers'} />
+          <Card image={Cauliflower_Soup_Blog_Square} title={'COOKING'} subtitle={'Blender Cauliflower Soup'} post={'/recipes/cauliflower-soup'} />
         </Grid>
       </Grid>
 
@@ -64,7 +65,7 @@ const CookingBlogGrid = (props: Props) => {
         </Grid>
 
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
-          <Card image={Eggs_En_Cocotte_Blog_Square} title={'COOKING'} subtitle={'Eggs en Cocotte w/ Carmelized Onions and Roasted Tomatoes'} post={'/recipes/eggs-en-cocotte/'} />
+          <Card image={Eggs_En_Cocotte_Blog_Square} title={'COOKING'} subtitle={'Eggs en Cocotte w/ Caramelized Onions and Roasted Tomatoes'} post={'/recipes/eggs-en-cocotte/'} />
         </Grid>
       </Grid>
 
@@ -76,6 +77,7 @@ const CookingBlogGrid = (props: Props) => {
           <Card image={Miso_Soup_Blog_Square} title={'COOKING'} subtitle={'Mushroom Miso Soup'} post={'/recipes/mushroom-miso-soup'} />
         </Grid>
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+          <Card image={Jalapeno_Poppers_Blog_Square} title={'COOKING'} subtitle={'Puff Pastry Jalapeno Poppers'} post={'/recipes/puff-pastry-jalapeno-poppers'} />
         </Grid>
       </Grid>
 

@@ -1,8 +1,8 @@
 {
     "$schema": "../schemas/recipe.schema.json",
     "title": "Avocado Hollandaise Eggs Benedict",
-    "subtitle": "",
-    "subtitle2": "",
+    "subtitle": "This classic brunch favorite is given a little spin to make it a bit healthier and lighter.",
+    "subtitle2": "Every single time I go to brunch, I always get the eggs benedict. I love the creamy hollandaise enveloping the poached eggs on 2 pieces of warm english muffins. This recipe takes all of those components and makes it a bit healthier. The avocado hollandaise is vegan and much lighter than the traditional yolk based hollandaise.",
     "categories": {
         "Avocado Hollandaise":{
             "ingredients": {
@@ -95,7 +95,7 @@
         "<b>For the Hollandaise</b>, add lemon juice, avocado, water, salt, pepper, chili powder, and garlic powder to a high powered blender (Vitamix).",
         "Start the machine and increase to highest speed. <b>Blend for 30 seconds.</b>",
         "Reduce the speed. Remove the lid plug and <b>slowly drizzle oil</b> through the lid plug opening.",
-        "Close the lid plug, and increase to highest speed. Blend for 15 seconds or until descired consistency is reached. Taste and adjust seasonings as needed",
+        "Close the lid plug, and increase to highest speed. Blend for 15 seconds or until desired consistency is reached. Taste and adjust seasonings as needed",
         "<b>For the veggies</b>, cut the cherry tomatoes into halves and toss with !oil-tomato. Place on baking tray with parchment paper. <b>Bake for 15-20 minutes or until tomatoes are crispy and bursting</b>. ",
         "Saute the spinach with the remaining !oil-spinach in a pan. Cook until spinach is completely wilted and most of the water has evaporated. ",
         "For the eggs, in a large pan (at least 4 inch walls) fill it ¾ full of water. Place on heat and bring to a simmer",

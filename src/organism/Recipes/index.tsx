@@ -8,7 +8,7 @@ import {theme} from '../../utils/theme'
 import HeaderImage from '../../atom/HeaderImage'
 import { Grid } from '@mui/material';
 
-import SugarCookie2 from '../../assets/images/blog_posts/sugar_cookie2_blog_square.jpg';
+import SugarCookie2 from '../../assets/images/blog_posts/cardamom_buns_blog_square.jpg';
 
 import Baking_Icon from '../../assets/images/icons/baking_icon.png';
 import Cooking_Icon from '../../assets/images/icons/cooking_icon.png';
@@ -24,10 +24,10 @@ const Recipes = (props:Props) => {
     <ThemeProvider theme={theme}>
       <RecipeNav/>
       <HeaderImage image={SugarCookie2}
-                   title="Sugar Cookie Cutouts w/ Icing Tips"
-                   description= "Learn how to make delicious vanilla almond sugar cookies. I also walk through basic flooding and icing tips. This i a great gift for the holidays and the cookies come out absolutely scrummy"
-                   link="/recipes/sugar-cookies"
-                   alt="Sugar cookies on black marble iced with pink, purple, and blue icing."
+                   title="Cardamom Buns with Vanilla Cream Cheese Frosting"
+                   description= "Learn how to make these cardamom buns which are swirled with cardamom brown sugar filling. These brioche buns are easy to make and is a good gateway to bread making. Inspired by my mom's love for cardamom these buns are a twist on classic cinnamon rolls."
+                   link="/recipes/cardamom-buns"
+                   alt="Golden brown cardamom bun on a white plate."
                    />
        <Grid container justifyContent='center'>
          <Grid item xs={1} sx={{display:'flex',justifyContent:'center'}}>

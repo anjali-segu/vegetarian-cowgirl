@@ -1,8 +1,8 @@
 {
     "$schema": "../schemas/recipe.schema.json",
     "title": "Cinnamon Rolls",
-    "subtitle": "This indulgent dessert is the perfect warm treat! These are the gooeiest cinnamon buns covered in a warm cream cheese glaze.",
-    "subtitle2": "This is a classic dessert in my house! The cinnamon flavor comes through beautifully without being too strong. The sweet yeasty brioche flavor balances the cinnamon flavor combined with the creamy sweet frosting. These cinnamon buns are not too sweet and warms up beautifully. The recipe itself is not too hard but will require a stand mixer and some basic dough knowledge.",
+    "subtitle": "This indulgent dessert is the perfect warm treat! These cinnamon rolls have a delicious gooey filling and are covered in a warm cream cheese glaze.",
+    "subtitle2": "This is a classic dessert in my house! The cinnamon flavor comes through beautifully without being too strong. The sweet yeasty brioche flavor balances the cinnamon flavor combined with the creamy sweet frosting. These cinnamon rolls are not too sweet and warms up beautifully. The recipe itself is not too hard but will require a stand mixer and some basic dough knowledge.",
     "categories": {
         "Dough": {
             "ingredients": {
@@ -23,7 +23,10 @@
                 "dough-butter": {
                     "quantity": 0.33,
                     "unitTag": "cup",
-                    "ingredient": "salted butter, melted and cooled"
+                    "ingredient": "salted butter, melted and cooled",
+                    "override": {
+                        "half": "2.5 tbsp salted butter, melted and cooled"
+                    }
                 },
                 "dough-sugar": {
                     "quantity": 0.5,
@@ -76,7 +79,10 @@
                 "frosting-butter": {
                     "quantity": 0.33,
                     "unitTag": "cup",
-                    "ingredient": "salted butter"
+                    "ingredient": "salted butter",
+                    "override": {
+                        "half": "2.5 tbsp salted butter"
+                    }
                 },
                 "frosting-cream-cheese":{
                     "quantity": 8,

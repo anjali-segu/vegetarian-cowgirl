@@ -83,6 +83,11 @@ export const units: { [tag: string]: Unit } = {
         singular: 'green onion',
         plural: 'green onions'
     },
+    head: {
+        fractional: 'a head',
+        singular: 'head',
+        plural: 'heads'
+    },
     'jalapeno pepper': {
         fractional: 'a jalapeño pepper',
         singular: 'jalapeño pepper',
@@ -128,6 +133,11 @@ export const units: { [tag: string]: Unit } = {
     },
     pinch: {
         singular: 'pinch',
+    },
+    pod: {
+        fractional: 'a pod',
+        singular: 'pod',
+        plural: 'pods'
     },
     ramekin: {
         fractional: 'a ramekin',

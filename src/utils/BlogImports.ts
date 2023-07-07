@@ -25,6 +25,9 @@ import Cornbread from '../assets/recipes/cornbread.json'
 import PeachCobbler from '../assets/recipes/peach-cobbler.json'
 import ClassicPumpkinPie from '../assets/recipes/pumpkin-pie.json'
 import CardamomBuns from '../assets/recipes/cardamom-buns.json'
+import CauliflowerSoup from '../assets/recipes/cauliflower-soup.json'
+import CoffeeSyrup from '../assets/recipes/coffee-syrups.json'
+import PecanLatte from '../assets/recipes/pecan-latte.json'
 
 
 // blog post images (squares)
@@ -78,6 +81,15 @@ import Classic_Pumpkin_Pie_Dough_Blog_Square from '../assets/images/blog_posts/c
 import Cardamom_Buns_Blog_Square from '../assets/images/blog_posts/cardamom_buns_blog_square.jpg'
 import Cardamom_Buns_Rising_Blog_Square from '../assets/images/blog_posts/cardamom2_buns_blog_square.jpg'
 import Cardamom_Buns_Spreading_Blog_Square from '../assets/images/blog_posts/cardamom3_buns_blog_square.jpg'
+import Cauliflower_Soup_Blog_Square from '../assets/images/blog_posts/cauliflower_soup_blog_square.jpg'
+import Cauliflower_Soup_Blender_Blog_Square from '../assets/images/blog_posts/cauliflower_soup2_blog_square.jpg'
+import Cauliflower_Soup_Blender2_Blog_Square from '../assets/images/blog_posts/cauliflower_soup3_blog_square.jpg'
+import Coffee_Syrup_Blog_Square from '../assets/images/blog_posts/coffee_syrup_blog_square.jpg'
+import Coffee_Syrup_Ingredients_Blog_Square from '../assets/images/blog_posts/coffee_syrup2_blog_square.jpg'
+import Coffee_Syrup_Pot_Blog_Square from '../assets/images/blog_posts/coffee_syrup3_blog_square.jpg'
+import Pecan_Latte_Blog_Square from '../assets/images/blog_posts/pecan_latte_blog_square.jpg'
+import Pecan_Latte_Bottle_Blog_Square from '../assets/images/blog_posts/pecan_latte2_blog_square.jpg'
+import Pecan_Latte_Bottle2_Blog_Square from '../assets/images/blog_posts/pecan_latte3_blog_square.jpg'
 
 
 
@@ -321,7 +333,7 @@ export const recipes = [
     ...DeconstructedEloteJson
   },
   {
-    path: '/recipes/puff-pastry-jalepeno-poppers',
+    path: '/recipes/puff-pastry-jalapeno-poppers',
     images: [
       {
         src: Jalapeno_Poppers_Blog_Square,
@@ -429,7 +441,7 @@ export const recipes = [
       },
       {
         src: Cheesecake_Crust_Blog_Square,
-        alt: "Crust in food processer.",
+        alt: "Crust in food processor.",
       },
       {
         src: Cheesecake_Crust2_Blog_Square,
@@ -476,5 +488,65 @@ export const recipes = [
     icon: Baking_Icon,
     icon_alt: "Baking",
     ...CardamomBuns
+  },
+  {
+    path: '/recipes/cauliflower-soup',
+    images: [
+      {
+        src: Cauliflower_Soup_Blender2_Blog_Square,
+        alt: "Rolled buns in a rectangle pan rising."
+      },
+      {
+        src: Cauliflower_Soup_Blog_Square,
+        alt: "Gold brown cardamom swirled bun on a white plate."
+      },
+      {
+        src: Cauliflower_Soup_Blender_Blog_Square,
+        alt: "Spreading cardamom sugar on the brioche dough."
+      },
+    ],
+    icon: Cooking_Icon,
+    icon_alt: "Cooking",
+    ...CauliflowerSoup
+  },
+  {
+    path: '/recipes/coffee-syrup',
+    images: [
+      {
+        src: Coffee_Syrup_Ingredients_Blog_Square,
+        alt: "Various ingredients needed to make the coffee simple syrups.",
+      },
+      {
+        src: Coffee_Syrup_Blog_Square,
+        alt: "4 glass bottles of different coffee simple syrups.",
+      },
+      {
+        src: Coffee_Syrup_Pot_Blog_Square,
+        alt: "Lavender buds in a saucepan with water and sugar.",
+      },
+    ],
+    icon: Drink_Icon,
+    icon_alt: "Drink",
+    ...CoffeeSyrup
+  },
+  {
+    path: '/recipes/pecan-latte',
+    images: [
+      {
+        src: Pecan_Latte_Bottle_Blog_Square,
+        alt: "Pecan syrup in a glass bottle.",
+      },
+      {
+        src: Pecan_Latte_Blog_Square,
+        alt: "Latte topped with whipped cream and chopped pecans, drizzled in syrup.",
+      },
+      {
+        src: Pecan_Latte_Bottle2_Blog_Square,
+        alt: "Pecan syrup in a glass bottle.",
+      },
+    ],
+    icon: Drink_Icon,
+    icon_alt: "Drink",
+    ...PecanLatte
   },
 ]

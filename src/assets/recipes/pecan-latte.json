@@ -1,0 +1,43 @@
+{
+    "$schema": "../schemas/recipe.schema.json",
+    "title": "Pecan Latte",
+    "subtitle": "",
+    "subtitle2": "",
+    "ingredients": {
+        "sugar": {
+            "quantity": 0.75,
+            "unitTag": "cup",
+            "ingredient": "sugar"
+        },
+        "water": {
+            "quantity": 0.5,
+            "unitTag": "cup",
+            "ingredient": "water"
+        },
+        "pecan": {
+            "quantity": 0.5,
+            "unitTag": "cup",
+            "ingredient": "toasted and chopped pecans"
+        },
+        "salt": {
+            "quantity": 1,
+            "unitTag": "pinch",
+            "ingredient": "salt"
+        },
+        "butter": {
+            "quantity": 1,
+            "unitTag": "tbsp",
+            "ingredient": "butter"
+        }
+    },
+    "steps": [
+        "Put the sugar and water in a ^saucepan$. Bring the mixture to boil, then add the pecans and salt.",
+        "Let the mixture simmer for 15 minutes. Remove from heat and let the mixture cool. ",
+        "Add the mixture to a blender along with the butter. Blend until smooth.",
+        "Add 2 tsp into espresso based drinks. Top the drink with some whipped cream, chopped pecans, and drizzle the syrup."
+    ],
+    "preptime": "5 min",
+    "cooktime": "15 min",
+    "totaltime": "20 min",
+    "serves": 6
+}

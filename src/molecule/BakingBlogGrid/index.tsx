@@ -47,7 +47,7 @@ const BakingBlogGrid = (props:Props) => {
       <Card image={Cardamom_Buns_Blog_Square} title={'BAKING'} subtitle={'Cardamom Buns'} post={'/recipes/cardamom-buns'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Cinammon_Buns_Blog_Square} title={'BAKING'} subtitle={'Ultimate Cinammon Rolls'} post={'/recipes/cinnamon-rolls'}/>
+      <Card image={Cinammon_Buns_Blog_Square} title={'BAKING'} subtitle={'Ultimate Cinnamon Rolls'} post={'/recipes/cinnamon-rolls'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
       <Card image={Eton_Mess_Blog_Square} title={'BAKING'} subtitle={'Eton Mess Summer Dessert'} post={'/recipes/eton-mess-dessert'}/>
@@ -59,7 +59,7 @@ const BakingBlogGrid = (props:Props) => {
       <Card image={Italian_Orange_Cake_Blog_Square} title={'BAKING'} subtitle={'Italian Orange Layered Cake'} post={'/recipes/italian-orange-cake'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Pumpkin_Pie_Blog_Square} title={'BAKING'} subtitle={'Easy Mascarpone Pumkin Pie'} post={'/recipes/pumpkin-mascarpone-pie'}/>
+      <Card image={Pumpkin_Pie_Blog_Square} title={'BAKING'} subtitle={'Easy Mascarpone Pumpkin Pie'} post={'/recipes/pumpkin-mascarpone-pie'}/>
       </Grid>
       <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
       <Card image={Cookie_Blog_Square} title={'BAKING'} subtitle={'Simple Sugar Cookie Cutouts'} post={'/recipes/sugar-cookies'}/>
@@ -82,6 +82,7 @@ const BakingBlogGrid = (props:Props) => {
 
       <Grid container justifyContent='center' sx={{ paddingTop: theme.spacing(15) }}>
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+          <Card image={Cake_Cookies_Blog_Square} title={'BAKING'} subtitle={'Quick Chocolate Fudgey Cake Cookies'} post={'/recipes/chocolate-cake-cookies'} />
         </Grid>
 
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
@@ -89,7 +90,7 @@ const BakingBlogGrid = (props:Props) => {
         </Grid>
 
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
-          <Card image={Cake_Cookies_Blog_Square} title={'BAKING'} subtitle={'Chocolate Fudgey Cake Cookies '} post={'/recipes/chocolate-cake-cookies'} />
+         
         </Grid>
       </Grid>
     </ThemeProvider>

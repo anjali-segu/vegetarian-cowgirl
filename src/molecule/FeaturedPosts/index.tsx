@@ -6,7 +6,7 @@ import { Grid } from '@mui/material';
 import Header from '../../atom/Header'
 import Media from 'react-media';
 
-import Austin_Tea_Guide_Blog_Square from '../../assets/images/blog_posts/tea_jar_blog_square.jpg';
+import Coffee_Syrup_Blog_Square from '../../assets/images/blog_posts/coffee_syrup_blog_square.jpg';
 import Cardamom_Buns_Blog_Square from '../../assets/images/blog_posts/cardamom_buns_blog_square.jpg';
 import Uchiko_Blog_Square from '../../assets/images/blog_posts/uchiko_blog_square.jpg';
 
@@ -33,7 +33,7 @@ const FeaturedPosts = (props:Props) => {
     <Grid container justifyContent='center' sx={{paddingTop: theme.spacing(15),}}>
 
       <Grid item sm={12} md={12} lg={4} sx={{display:'flex',justifyContent:'center'}}>
-        <Card image={Austin_Tea_Guide_Blog_Square} title={'AUSTIN'} subtitle={'Austin Ultimate Tea Guide'} post={'/austin-living/austin-tea-guide'}/>
+          <Card image={Coffee_Syrup_Blog_Square} title={'DRINKS'} subtitle={'Lavender, Turmeric, Cardamom, Turmeric Simple Syrup'} post={'/recipes/coffee-syrup'}/>
       </Grid>
 
       <Grid item sm={12} md={12} lg={4} sx={{display:'flex',justifyContent:'center'}}>

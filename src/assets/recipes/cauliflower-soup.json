@@ -1,0 +1,83 @@
+{
+    "$schema": "../schemas/recipe.schema.json",
+    "title": "Blender Cauliflower Soup",
+    "subtitle": "This healthy dish comes together in 15 minutes making it the perfect dinner recipe. Using the Vitamix the ingredients are blended together.",
+    "subtitle2": "This soup has a delicious complex flavor balanced with the sweet taste of cauliflower. It is creamy from the almonds and cashews. The miso paste gives the soup a naturally cheesy flavor. This recipe comes together in minutes making it great to make right after work. ",
+    "ingredients": {
+        "water": {
+            "quantity": 3,
+            "unitTag": "cup",
+            "ingredient": "water"
+        },
+        "olive-oil": {
+            "quantity": 1,
+            "unitTag": "tbsp",
+            "ingredient": "olive oil"
+        },
+        "white-miso-paste": {
+            "quantity": 2,
+            "unitTag": "tbsp",
+            "ingredient": "white miso paste"
+        },
+        "salt": {
+            "quantity": 0.5,
+            "unitTag": "tsp",
+            "ingredient": "salt"
+        },
+        "leeks": {
+            "quantity": 0.5,
+            "unitTag": "cup",
+            "ingredient": "leeks, white parts only, cleaned and cut"
+        },
+        "garlic": {
+            "quantity": 3,
+            "unitTag": "clove",
+            "ingredient": "oven roasted garlic"
+        },
+        "cashew": {
+            "quantity": 0.5,
+            "unitTag": "cup",
+            "ingredient": "cashew"
+        },
+        "almond": {
+            "quantity": 0.5,
+            "unitTag": "cup",
+            "ingredient": "soaked almonds"
+        },
+        "cauliflower": {
+            "quantity": 0.5,
+            "unitTag": "head",
+            "ingredient": "steamed and cooled to room temp cauliflower florets"
+        },
+        "pepper": {
+            "quantity": 0.5,
+            "unitTag": "tsp",
+            "ingredient": "black pepper"
+        },
+        "thyme": {
+            "quantity": 0.5,
+            "unitTag": "tsp",
+            "ingredient": "dried thyme"
+        },
+        "dijon-mustard": {
+            "quantity": 1,
+            "unitTag": "tsp",
+            "ingredient": "dijon mustard"
+        },
+        "smoked-paprika":{
+            "quantity": 1,
+            "unitTag": "tsp",
+            "ingredient": "smoked paprika (for garnish)"
+        }
+    },
+    "steps": [
+        "Add water, olive oil, white miso paste, salt, leeks, garlic, cashews, almonds, cauliflower, black pepper, thyme, and dijon mustard to the ^blender$.",
+        "Start the machine, slowly increase to its highest speed, and blend for 6 minutes and 30 seconds.",
+        "If using the ^Vitamix$, select the hot soups program and allow the program to complete.",
+        "Divide soup among serving bowls and garnish with smoked paprika."
+    ],
+    "preptime": "5 min",
+    "cooktime": "10 min",
+    "totaltime": "15 min",
+    "serves": 8
+}

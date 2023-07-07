@@ -1,7 +1,7 @@
 {
     "$schema": "../schemas/recipe.schema.json",
     "title": "Classic Pumpkin Pie",
-    "subtitle": "This pumpkin pie has a perfectly spice creamy filling, a flakey crust that is also tender. Topped with maple whipped cream, this pie is a guarenteed success at Thanksgiving.",
+    "subtitle": "This pumpkin pie has a perfectly spice creamy filling, a flakey crust that is also tender. Topped with maple whipped cream, this pie is a guaranteed success at Thanksgiving.",
     "subtitle2": "A few things that set this pie apart is the condensed milk and measuring out the spices. Sweetened condensed milk adds a decadent richness to the custard, while measuring the spices instead of using a premixed “pumpkin spice” blend, lets you hit just the right ratio to really highlight the flavors of the canned pumpkin purée.",
     "categories": {
         "Crust":{
@@ -29,7 +29,7 @@
                 "vegetable-shortening": {
                     "quantity": 3,
                     "unitTag": "tbsp",
-                    "ingredient": "chilled vegetable shortening "
+                    "ingredient": "chilled vegetable shortening"
                 },
                 "vinegar": {
                     "quantity": 1,

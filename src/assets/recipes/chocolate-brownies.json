@@ -2,7 +2,7 @@
     "$schema": "../schemas/recipe.schema.json",
     "title": "Fudgiest Brownies",
     "subtitle": "Craving a deeply fudgey and chocolate treat? This is the recipe for you! These brownies are my absolute favorite to make for any party, gift, or just a treat for the family. The center is perfectly moist, and the top is crispy and crackly. ",
-    "subtitle2": "After experimenting with a million different recipes I figured out the trick to making moist delectible brownies: a small amount of oil, and high quality dutch processed cocoa powder. ",
+    "subtitle2": "After experimenting with a million different recipes I figured out the trick to making moist delectable brownies: a small amount of oil, and high quality dutch processed cocoa powder. ",
     "ingredients": {
         "unsalted-butter":{
             "quantity": 0.5,

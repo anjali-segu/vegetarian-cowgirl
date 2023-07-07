@@ -23,7 +23,10 @@
                 "dough-butter": {
                     "quantity": 0.33,
                     "unitTag": "cup",
-                    "ingredient": "salted butter, melted and cooled"
+                    "ingredient": "salted butter, melted and cooled",
+                    "override": {
+                        "half": "2.5 tbsp salted butter, melted and cooled"
+                    }
                 },
                 "dough-sugar": {
                     "quantity": 0.5,
@@ -76,7 +79,10 @@
                 "frosting-butter": {
                     "quantity": 0.33,
                     "unitTag": "cup",
-                    "ingredient": "salted butter"
+                    "ingredient": "salted butter",
+                    "override": {
+                        "half": "2.5 tbsp salted butter"
+                    }
                 },
                 "frosting-cream-cheese":{
                     "quantity": 8,
