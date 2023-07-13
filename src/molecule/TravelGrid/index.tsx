@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { ThemeProvider } from '@mui/material/styles';
-import {theme} from '../../utils/theme'
+import { theme } from '../../utils/theme'
 import { Grid } from '@mui/material';
 import CityCard from '../../atom/CityCard'
 
@@ -17,48 +17,48 @@ interface Props {
 }
 
 
-const TravelGrid = (props:Props) => {
+const TravelGrid = (props: Props) => {
 
   return (
     <ThemeProvider theme={theme}>
 
-    <Grid container sx={{paddingTop: theme.spacing(15),paddingBottom: theme.spacing(15), paddingLeft:theme.spacing(30),paddingRight:theme.spacing(30),}}>
+      <Grid container sx={{ paddingTop: theme.spacing(15), paddingBottom: theme.spacing(15), paddingLeft: theme.spacing(30), paddingRight: theme.spacing(30), }}>
 
-      <Grid item xs={12} sm={6} md={3} sx={{display: 'inline',justifyContent:'center', }}>
-        <CityCard link={"/costa-rica"} image={Costa_Rica} city={"COSTA RICA"}/>
+        <Grid item xs={12} sm={6} md={3} sx={{ display: 'inline', justifyContent: 'center', }}>
+          <CityCard link={"/costa-rica"} image={Costa_Rica} city={"COSTA RICA"} />
+        </Grid>
+
+        <Grid item xs={12} sm={6} md={3} sx={{ display: 'inline', justifyContent: 'center', }}>
+          <CityCard link={"/austin"} image={Austin} city={"AUSTIN"} />
+        </Grid>
+
+        <Grid item xs={12} sm={6} md={3} sx={{ display: 'inline', justifyContent: 'center', }}>
+          <CityCard link={"/hawaii"} image={Hawaii} city={"HAWAII"} />
+        </Grid>
+
+        <Grid item xs={12} sm={6} md={3} sx={{ display: 'inline', justifyContent: 'center', }}>
+          <CityCard link={"/indianapolis"} image={Indianapolis} city={"INDIANAPOLIS"} />
+        </Grid>
+
+        <Grid item xs={12} sm={6} md={3} sx={{ display: 'inline', justifyContent: 'center', }}>
+          <CityCard link={"/rome"} image={Rome} city={"ITALY"} />
+        </Grid>
+
+        <Grid item xs={12} sm={6} md={3} sx={{ display: 'inline', justifyContent: 'center', }}>
+          <CityCard link={"/paris"} image={Paris} city={"PARIS"} />
+        </Grid>
+
+        <Grid item xs={12} sm={6} md={3} sx={{ display: 'inline', justifyContent: 'center', }}>
+          <CityCard link={"/new-york"} image={New_York} city={"NEW YORK"} />
+        </Grid>
+
+        <Grid item xs={12} sm={6} md={3} sx={{ display: 'inline', justifyContent: 'center', }}>
+          <CityCard link={"/london"} image={London} city={"LONDON"} />
+        </Grid>
+
+
+
       </Grid>
-
-      <Grid item xs={12} sm={6} md={3} sx={{display: 'inline',justifyContent:'center', }}>
-        <CityCard link={"/austin"} image={Austin} city={"AUSTIN"}/>
-      </Grid>
-
-      <Grid item xs={12} sm={6} md={3} sx={{display: 'inline',justifyContent:'center', }}>
-        <CityCard link={"/hawaii"} image={Hawaii} city={"HAWAII"}/>
-      </Grid>
-
-      <Grid item xs={12} sm={6} md={3} sx={{display: 'inline',justifyContent:'center', }}>
-        <CityCard link={"/indianapolis"} image={Indianapolis} city={"INDIANAPOLIS"}/>
-      </Grid>
-
-      <Grid item xs={12} sm={6} md={3} sx={{display: 'inline',justifyContent:'center', }}>
-        <CityCard link={"/rome"} image={Rome} city={"ROME"}/>
-      </Grid>
-
-      <Grid item xs={12} sm={6} md={3} sx={{display: 'inline',justifyContent:'center', }}>
-        <CityCard link={"/paris"} image={Paris} city={"PARIS"}/>
-      </Grid>
-
-      <Grid item xs={12} sm={6} md={3} sx={{display: 'inline',justifyContent:'center', }}>
-        <CityCard link={"/new-york"} image={New_York} city={"NEW YORK"}/>
-      </Grid>
-
-      <Grid item xs={12} sm={6} md={3} sx={{display: 'inline',justifyContent:'center', }}>
-        <CityCard link={"/london"} image={London} city={"LONDON"}/>
-      </Grid>
-
-
-
-    </Grid>
 
     </ThemeProvider>
   )

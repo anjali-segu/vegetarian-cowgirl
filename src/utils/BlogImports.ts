@@ -433,7 +433,7 @@ export const recipes = [
     ...GrandmasPastaSauce
   },
   {
-   path: '/recipes/cheesecake',
+    path: '/recipes/cheesecake',
     images: [
       {
         src: Cheesecake_Blog_Square,
@@ -447,12 +447,12 @@ export const recipes = [
         src: Cheesecake_Crust2_Blog_Square,
         alt: "Pecan Graham cracker crust pressed into baking tin.",
       },
-     ], 
+    ],
     icon: Baking_Icon,
     icon_alt: "Baking",
     ...Cheesecake
-   },
-  
+  },
+
   {
     path: '/recipes/grandmas-fudge',
     images: [

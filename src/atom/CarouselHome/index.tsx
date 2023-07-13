@@ -150,14 +150,14 @@ const items: Item[] = [
     },
     {
         name: "Vegetarian Thanksgiving",
-        description: "10 vegetarian thanksgiving ideas. Pictured is jalepeno cheddar cornbread and stuffed garlic mushrooms. ",
+        description: "10 vegetarian Thanksgiving recipes! Pictured is jalapeno cheddar cornbread and stuffed garlic mushrooms. ",
         href: '/recipes/vegetarian-thanksgiving',
         src: Thanksgiving,
         alt: "Stuffed mushrooms and cornbread on a wooden serving board."
     },
     {
         name: "An Austin Afternoon",
-        description: "An exciting austin afternoon idea. Swing by Manoli's Ice Cream and Cafe Monet for a fun Austin afternoon.",
+        description: "An exciting Austin afternoon idea. Swing by Manoli's Ice Cream and Cafe Monet for a fun Austin afternoon.",
         href: '/austin/afternoon',
         src: Austin_Afternoon,
         alt: "Holding two cups of ice cream in front a food truck."

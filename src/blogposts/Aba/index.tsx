@@ -28,13 +28,13 @@ const Aba = (props: Props) => {
         image4={Aba4_BlogSquare}
         alt4="Coffee mug"
         title="Aba - Aesthetic Mediterranean Cuisine"
-        subtitle={`A magical garden aesthetic, best describe Aba. A secret spot located on Congress, Aba gives mediteranean food a new take.  `}
+        subtitle={`A magical garden aesthetic, best describe Aba. A secret spot located on Congress, Aba gives Mediterranean food a new take.  `}
         paras={[
-          `Aba is a Mediterranean restaurant originating from Chicago's historic Fulton Market District. Aba, meaning father in Hebrew, incorporates Chef CJ Jacobson's lighter style of cooking with influences from the Mediterranean, including Israel, Lebanon, Turkey, and Greece.`,
-          `Aba has such a unique atmosphere, which first drew me to it. They have a boho fairytale aesthetic that makes dining their a treat! Everything from the decor to the dishes that are plated on, the whimsical feel continues. Outside they have beautiful garden seating. We sat inside since it was a hot day and I was still taken back by the gorgeous design inside.`,
-          `Aba has light and refreshing dishes. My personal favorites were the green falafel, whipped feta spread, and charred eggplant spread. The spreads come with pita bread to dip in. Aba does acidity in their dishes correctly! All of the dips had a bright refreshing tast making their dishes addicting. Their coffee was also delicious and came in a Morroccan inspired mug.`
-          
-          ]}
+          `Aba is a Mediterranean restaurant originating from Chicago's historic Fulton Market District. Aba, meaning father in Hebrew, incorporates Chef CJ Jacobson's lighter cooking style with influences from the Mediterranean, including Israel, Lebanon, Turkey, and Greece.`,
+          `Aba has such a unique atmosphere, which first drew me to it. They have a Bohemian Fairytale aesthetic that makes dining there a treat! Everything from the decor to the plating dishes, the whimsical feel continues. Outside they have beautiful garden seating. Since it was a hot day, we sat inside, and I was surprised by the gorgeous design inside.`,
+          `Aba has light and refreshing dishes. My personal favorites were the green falafel, whipped feta spread, and charred eggplant spread. Each dip comes with a side of pita bread to dip in. Aba does acidity in their dishes correctly! Every item had a bright, refreshing taste making them addicting. Their coffee was also delicious and came in a Moroccan-inspired mug.`
+
+        ]}
         orders={[
           `Green Falafel`,
           `Whipped Feta Spread`,

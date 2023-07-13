@@ -30,11 +30,11 @@ const BakeryLorraine = (props: Props) => {
         title="Bakery Lorraine - French Patisserie"
         subtitle={`A cute French bakery in the heart of the Domain, Bakery Lorraine is must visit! Bakery Lorraine has some of the best macaroons and coffee in Austin. `}
         paras={[
-          `Bakery Lorraine is one of my pastry and coffee shops in Northwest Austin. This small quiet bakery is located in the heart of the Domain, in what I call restaurant central, a.k.a Rock Rose Ave. Bakery Lorraine has some of the best pastries in town.`,
-          `My absolute favorites to order here is their hazelnut tart, macaroons, and Kouign Amann. The hazelnut tart has a crispy shell, hazelnut cremeaux, and whipped cream. It is and flavorful. If I'm not making my own macaroons, this is the place I go. Their earl grey macaroon and raspberry macaroons are my go to! The last thing I love by them is the Kouign Amann. If you haven't had one of these before I would highly reccommend. It is a buttery flakey croissant in the shape of a muffin that has a lemon custard center. `,
-          `Bakery Lorraine also has some of the smoothest coffee in town. They texturize the milk beautifully and their beans are fresh and high quality. I always get their latte to pair with the scrumptious desserts they have to offer.`
-          
-          ]}
+          `Bakery Lorraine is one of my favorite pastry and coffee shops in Northwest Austin. This small, quiet bakery is located in the heart of the Domain, which I call restaurant central (Rock Rose Ave). Bakery Lorraine serves some of the best pastries in town.`,
+          `My favorites to order here are their hazelnut tart, macarons, and Kouign Amann. The hazelnut tart has a crispy shell, hazelnut cremeaux, and whipped cream. If I'm not making macarons, this is the place I go. The Earl Grey macaron and raspberry macarons are my go-to! The last thing I love from them is the Kouign Amann. If you haven't had one of these before, I highly recommend trying it. It is a buttery, flaky croissant in the shape of a muffin with a lemon custard center.`,
+          `Bakery Lorraine also serves some of the smoothest coffee in town. They texture the milk beautifully, and their beans are fresh and high quality. I always order their latte to pair with the scrumptious desserts they have to offer.`
+
+        ]}
         orders={[
           `Latte`,
           `Hazelnut Tart`,
