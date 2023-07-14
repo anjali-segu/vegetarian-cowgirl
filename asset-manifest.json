@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.8c7fc464.css",
-    "main.js": "/static/js/main.bc9e2357.js",
+    "main.js": "/static/js/main.1b05e0dd.js",
     "static/js/787.b6f84853.chunk.js": "/static/js/787.b6f84853.chunk.js",
     "static/media/oseyo4_blog_square.jpg": "/static/media/oseyo4_blog_square.8b58701c27ae953af69c.jpg",
     "static/media/oseyo2_blog_square.jpg": "/static/media/oseyo2_blog_square.597d06c31eb02684cb69.jpg",
     "static/media/frond_plant_blog_square.jpg": "/static/media/frond_plant_blog_square.823a172b06444f304255.jpg",
+    "static/media/ice_cream_sandwich_blog_square.jpg": "/static/media/ice_cream_sandwich_blog_square.3660eb7eba6b85b58a88.jpg",
     "static/media/cinammon_buns_blog_square.jpg": "/static/media/cinammon_buns_blog_square.55afe8bac19e751671c6.jpg",
     "static/media/brownie_uncut_blog_square.jpg": "/static/media/brownie_uncut_blog_square.9ea1b08126015c0ebd87.jpg",
     "static/media/uchiko4_blog_square.jpg": "/static/media/uchiko4_blog_square.358bfe3a4587f146e9f3.jpg",
@@ -19,12 +20,15 @@
     "static/media/pecan_latte2_blog_square.jpg": "/static/media/pecan_latte2_blog_square.a9c2c61aa7b086cc813d.jpg",
     "static/media/il_brutto3_blog_square.jpg": "/static/media/il_brutto3_blog_square.d23e6882ddbf98c524a0.jpg",
     "static/media/bakery_lorraine4_blog_square.jpg": "/static/media/bakery_lorraine4_blog_square.b5fa002ce062a28ac8fb.jpg",
+    "static/media/ice_cream_sandwich3_blog_square.jpg": "/static/media/ice_cream_sandwich3_blog_square.56691cf02e0bb2dab645.jpg",
     "static/media/il_brutto2_blog_square.jpg": "/static/media/il_brutto2_blog_square.e0f6900fc18863ba745e.jpg",
     "static/media/coffee_syrup_blog_square.jpg": "/static/media/coffee_syrup_blog_square.415c580dcfac3f87f940.jpg",
     "static/media/oseyo3_blog_square.jpg": "/static/media/oseyo3_blog_square.64da5a90bde144bd3739.jpg",
     "static/media/brownie_blog_square.jpg": "/static/media/brownie_blog_square.eaa293f8e557aafef1b5.jpg",
     "static/media/bakery_lorraine2_blog_square.jpg": "/static/media/bakery_lorraine2_blog_square.d592ed2ad6da48db9bfd.jpg",
+    "static/media/chocolate_cream_pie_blog_square.jpg": "/static/media/chocolate_cream_pie_blog_square.d27506027ee6bfe17ad1.jpg",
     "static/media/pasta_sauce_blog_square.jpg": "/static/media/pasta_sauce_blog_square.6f0a970e91fdae48f9f1.jpg",
+    "static/media/ice_cream_sandwich2_blog_square.jpg": "/static/media/ice_cream_sandwich2_blog_square.f16d43d65129567f3d67.jpg",
     "static/media/zilker_botanical_blog_square.jpg": "/static/media/zilker_botanical_blog_square.ffc89805de955e6368f9.jpg",
     "static/media/il_brutto4_blog_square.jpg": "/static/media/il_brutto4_blog_square.1b7840d3586ba12f0fe0.jpg",
     "static/media/chocolate_fudge_top_down_blog_square.jpg": "/static/media/chocolate_fudge_top_down_blog_square.65acc1c0f468c8496991.jpg",
@@ -94,6 +98,7 @@
     "static/media/elote_blog_square.jpg": "/static/media/elote_blog_square.8c740f0305b2522edf14.jpg",
     "static/media/sugar_cookie_blog_square.jpg": "/static/media/sugar_cookie_blog_square.93a3863a82f93e94291e.jpg",
     "static/media/jamun_raw_blog_square.jpg": "/static/media/jamun_raw_blog_square.250729c5b8665118d3ca.jpg",
+    "static/media/chocolate_cream_pie3_blog_square.jpg": "/static/media/chocolate_cream_pie3_blog_square.140caedff14e22efdea0.jpg",
     "static/media/art_supplies_blog_square.jpg": "/static/media/art_supplies_blog_square.579d14f6ea3342b170e1.jpg",
     "static/media/olive.png": "/static/media/olive.21f9b4b8164ef2963e25.png",
     "static/media/austin_plant_store.jpg": "/static/media/austin_plant_store.e17b287fc4e53590ac33.jpg",
@@ -134,6 +139,7 @@
     "static/media/beige_blog_square.png": "/static/media/beige_blog_square.6629455e14f9a41742d4.png",
     "static/media/big_island_beaches_blog_square.jpg": "/static/media/big_island_beaches_blog_square.73a29e7e5ba57a072f7a.jpg",
     "static/media/spring_rolls_blog_square.jpg": "/static/media/spring_rolls_blog_square.b31a343700bc0661729f.jpg",
+    "static/media/chocolate_cream_pie2_blog_square.jpg": "/static/media/chocolate_cream_pie2_blog_square.76bc64c85449c5556038.jpg",
     "static/media/blue_gallery_blog_square.png": "/static/media/blue_gallery_blog_square.9801c2765efbfa015688.png",
     "static/media/Patriarchy.png": "/static/media/Patriarchy.f7724997a45efaaf5318.png",
     "static/media/minimalist_blog_square.png": "/static/media/minimalist_blog_square.937b4c3e2c9c0983eba8.png",
@@ -193,11 +199,11 @@
     "static/media/etsy.png": "/static/media/etsy.d75ef78cbf24d7072ecd.png",
     "index.html": "/index.html",
     "main.8c7fc464.css.map": "/static/css/main.8c7fc464.css.map",
-    "main.bc9e2357.js.map": "/static/js/main.bc9e2357.js.map",
+    "main.1b05e0dd.js.map": "/static/js/main.1b05e0dd.js.map",
     "787.b6f84853.chunk.js.map": "/static/js/787.b6f84853.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8c7fc464.css",
-    "static/js/main.bc9e2357.js"
+    "static/js/main.1b05e0dd.js"
   ]
 }
