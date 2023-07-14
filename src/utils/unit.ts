@@ -108,6 +108,11 @@ export const units: { [tag: string]: Unit } = {
         singular: 'large egg white',
         plural: 'large egg whites'
     },
+    leaf: {
+        fractional: 'a leaf',
+        singular: 'leaf',
+        plural: 'leaves'
+    },
     lime: {
         fractional: 'a lime',
         singular: 'lime',
@@ -131,6 +136,11 @@ export const units: { [tag: string]: Unit } = {
         singular: 'peach',
         plural: 'peaches'
     },
+    piece: {
+        fractional: 'a piece',
+        singular: 'piece',
+        plural: 'pieces,'
+    },
     pinch: {
         singular: 'pinch',
     },
@@ -144,10 +154,20 @@ export const units: { [tag: string]: Unit } = {
         singular: 'ramekin',
         plural: 'ramekins'
     },
+    sheet: {
+        fractional: 'a sheet',
+        singular: 'sheet',
+        plural: 'sheets'
+    },
     'single 9 inch pie crust': {
         fractional: 'a single 9 inch pie crust',
         singular: 'single 9 inch pie crust',
         plural: 'single 9 inch pie crusts'
+    },
+    slice: {
+        fractional: 'a slice',
+        singular: 'slice',
+        plural: 'slices'
     },
     'small box': {
         fractional: 'a small box',

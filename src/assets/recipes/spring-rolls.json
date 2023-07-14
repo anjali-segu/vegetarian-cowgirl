@@ -1,0 +1,148 @@
+{
+    "$schema": "../schemas/recipe.schema.json",
+    "title": "Tofu Spring Rolls with Peanut Dipping Sauce",
+    "subtitle": "These healthy spring rolls come together in minutes and are great for food prep. The dipping sauce is incredibly addicting with the tartness, sweetness, saltiness, creaminess, and spice.",
+    "subtitle2": "The tofu inside these rolls are baked in the oven and are mess free! The rolls itself are loaded with veggies with different textures and flavors. The addition of peanut sauce makes this dish worth coming back for over and over again.",
+    "categories": {
+        "Oven Baked Tofu": {
+            "ingredients": {
+                "tofu": {
+                    "quantity": 10,
+                    "unitTag": "oz",
+                    "ingredient": "firm tofu"
+                },
+                "sriracha": {
+                    "quantity": 2,
+                    "unitTag": "tbsp",
+                    "ingredient":"sriracha"
+                },
+                "soy-sauce": {
+                    "quantity": 2,
+                    "unitTag": "tbsp",
+                    "ingredient": "soy sauce"
+                },
+                "rice-vinegar": {
+                    "quantity": 1,
+                    "unitTag": "tbsp",
+                    "ingredient": "rice vinegar"
+                },
+                "honey": {
+                    "quantity": 2,
+                    "unitTag": "tsp",
+                    "ingredient": "honey"
+                },
+                "pepper": {
+                    "quantity": 0.5,
+                    "unitTag": "tsp",
+                    "ingredient": "black pepper"
+                },
+                "garlic-powder": {
+                    "quantity": 1.5,
+                    "unitTag": "tbsp",
+                    "ingredient": "garlic powder"
+                },
+                "olive-oil": {
+                    "quantity": 2,
+                    "unitTag": "tbsp",
+                    "ingredient": "olive oil"
+                }
+            }
+        },
+        "Spring Rolls": {
+            "ingredients": {
+                "spring-roll-rice-paper": {
+                    "quantity": 8,
+                    "unitTag": "sheet",
+                    "ingredient": "spring roll rice paper"
+                },
+                "arugula": {
+                    "quantity": 24,
+                    "unitTag": "leaf",
+                    "ingredient": "large arugula"
+                },
+                "carrot": {
+                    "quantity": 1,
+                    "unitTag": "cup",
+                    "ingredient": "julienne sliced carrots"
+                },
+                "banana-pepper": {
+                    "quantity": 24,
+                    "unitTag": "slice",
+                    "ingredient": "pickled banana peppers"
+                },
+                "avocado": {
+                    "quantity": 2,
+                    "unitTag": "avocado",
+                    "ingredient": "(pitted and sliced)"
+                },
+                "water": {
+                    "quantity": 1.5,
+                    "unitTag": "cup",
+                    "ingredient": "lukewarm water (for assembly)"
+                }
+            }
+        },
+        "Peanut Dipping Sauce": {
+            "ingredients": {
+                "peanut-butter": {
+                    "quantity": 0.75,
+                    "unitTag": "cup",
+                    "ingredient": "creamy peanut butter"
+                },
+                "soy-sauce": {
+                    "quantity": 0.25,
+                    "unitTag": "cup",
+                    "ingredient": "soy sauce"
+                },
+                "rice-vinegar": {
+                    "quantity": 0.25,
+                    "unitTag": "cup",
+                    "ingredient": "rice vinegar"
+                },
+                "honey": {
+                    "quantity": 0.25,
+                    "unitTag": "cup",
+                    "ingredient": "honey"
+                },
+                "ginger": {
+                    "quantity": 2,
+                    "unitTag": "tbsp",
+                    "ingredient": "grated ginger"
+                },
+                "sriracha": {
+                    "quantity": 2,
+                    "unitTag": "tbsp",
+                    "ingredient": "sriracha"
+                },
+                "red-pepper-flake": {
+                    "quantity": 0.25,
+                    "unitTag": "tsp",
+                    "ingredient": "red pepper flake"
+                },
+                "lime": {
+                    "quantity": 1,
+                    "unitTag": "lime",
+                    "ingredient": "(juiced)"
+                },
+                "water": {
+                    "quantity": 1,
+                    "unitTag": "tbsp",
+                    "ingredient": "warm water (add additional until desired consistency)"
+                }
+            }
+        }
+    },
+    "steps": [
+        "Preheat the ^oven$ to 400°F",
+        "For the tofu, chop the tofu into 4 layers. Then cut each layer into 6 matchsticks. Set aside.",
+        "Mix the sriracha, soy sauce, rice vinegar, honey, pepper, garlic powder, and oil in a ^medium sized bowl$. Toss the tofu matchsticks in the sauce to evenly coat. Be delicate to ensure the tofu stays in tact. Place on ^sheet pan$ lined with ^foil$. Put the sheet in the oven and bake for 10-15 minutes, or until it starts to brown. <i>To get the tofu crisp, set the oven to broil and broil for 1-3 minutes.</i>",
+        "For the peanut sauce, mix the peanut butter, soy sauce, rice vinegar, honey, ginger, sriracha, red pepper flake, and lime juice together using a ^whisk$. If the sauce is to thick add the !water. Add additional water until desired consistency is reached. Taste and adjust to your liking.",
+        "For the spring rolls, add the water to a ^9 inch cake pan$. Dip 1 sheet of the rice paper into the water and soak for 30 seconds. Lift and let the excess water drip off. Place on a plate. Add 3 leaves of arugula, 3 slices of banana pepper, carrot, avocado, and 3 pieces of tofu to the sheet. Roll the spring roll like a burrito. Set aside and repeat.",
+        "<b>Serve immediately</b>. <i>Change up the veggies based on what you have in the fridge</i>. <i>To prep ahead of time cut up all the veggies and prepare the tofu and peanut sauce ahead of time. Assemble when serving.</i>"
+     
+    ],
+    "preptime": "20 minutes",
+    "cooktime": "15 minutes",
+    "totaltime": "35 minutes",
+    "serves": 4
+}

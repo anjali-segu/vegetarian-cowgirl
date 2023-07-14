@@ -16,6 +16,7 @@ import Eggs_Benny_Blog_Square from '../../assets/images/blog_posts/eggs_benny_bl
 import Orange_Pancake_Blog_Square from '../../assets/images/blog_posts/orange_pancake_drizzle_blog_square.jpg';
 import Cornbread_Blog_Square from '../../assets/images/blog_posts/cornbread_blog_square.jpg';
 import Cauliflower_Soup_Blog_Square from '../../assets/images/blog_posts/cauliflower_soup_blog_square.jpg';
+import Spring_Rolls_Blog_Square from '../../assets/images/blog_posts/spring_rolls_blog_square.jpg'
 
 interface Props {
 }
@@ -31,7 +32,7 @@ const CookingBlogGrid = (props: Props) => {
         </Grid>
 
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
-          <Card image={Orange_Pancake_Blog_Square} title={'COOKING'} subtitle={'Chocolate Orange Pancakes'} post={'/recipes/chocolate-orange-pancakes'} />
+          <Card image={Spring_Rolls_Blog_Square} title={'COOKING'} subtitle={'Tofu Spring Rolls with Peanut Sauce'} post={'/recipes/spring-rolls'} />
         </Grid>
 
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
@@ -78,6 +79,18 @@ const CookingBlogGrid = (props: Props) => {
         </Grid>
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
           <Card image={Jalapeno_Poppers_Blog_Square} title={'COOKING'} subtitle={'Puff Pastry Jalapeno Poppers'} post={'/recipes/puff-pastry-jalapeno-poppers'} />
+        </Grid>
+      </Grid>
+
+      <Grid container justifyContent='center' sx={{ paddingTop: theme.spacing(15) }}>
+        <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+          <Card image={Orange_Pancake_Blog_Square} title={'COOKING'} subtitle={'Chocolate Orange Pancakes'} post={'/recipes/chocolate-orange-pancakes'} />
+        </Grid>
+
+        <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+        </Grid>
+
+        <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
         </Grid>
       </Grid>
 

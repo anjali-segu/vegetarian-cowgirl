@@ -28,6 +28,7 @@ import CardamomBuns from '../assets/recipes/cardamom-buns.json'
 import CauliflowerSoup from '../assets/recipes/cauliflower-soup.json'
 import CoffeeSyrup from '../assets/recipes/coffee-syrups.json'
 import PecanLatte from '../assets/recipes/pecan-latte.json'
+import SpringRolls from '../assets/recipes/spring-rolls.json'
 
 
 // blog post images (squares)
@@ -90,6 +91,9 @@ import Coffee_Syrup_Pot_Blog_Square from '../assets/images/blog_posts/coffee_syr
 import Pecan_Latte_Blog_Square from '../assets/images/blog_posts/pecan_latte_blog_square.jpg'
 import Pecan_Latte_Bottle_Blog_Square from '../assets/images/blog_posts/pecan_latte2_blog_square.jpg'
 import Pecan_Latte_Bottle2_Blog_Square from '../assets/images/blog_posts/pecan_latte3_blog_square.jpg'
+import Spring_Rolls_Blog_Square from '../assets/images/blog_posts/spring_rolls_blog_square.jpg'
+import Spring_Rolls_Assembly_Blog_Square from '../assets/images/blog_posts/spring_rolls2_blog_square.jpg'
+import Spring_Rolls_Assembly2_Blog_Square from '../assets/images/blog_posts/spring_rolls3_blog_square.jpg'
 
 
 
@@ -548,5 +552,25 @@ export const recipes = [
     icon: Drink_Icon,
     icon_alt: "Drink",
     ...PecanLatte
+  },
+  {
+    path: '/recipes/spring-rolls',
+    images: [
+      {
+        src: Spring_Rolls_Assembly_Blog_Square,
+        alt: "Spring rolls being folded into the roll."
+      },
+      {
+        src: Spring_Rolls_Blog_Square,
+        alt: "Spring rolls plated on a square plate."
+      },
+      {
+        src: Spring_Rolls_Assembly2_Blog_Square,
+        alt: "Spring rolls loaded with veggies before being rolled."
+      },
+    ],
+    icon: Cooking_Icon,
+    icon_alt: "Cooking",
+    ...SpringRolls
   },
 ]

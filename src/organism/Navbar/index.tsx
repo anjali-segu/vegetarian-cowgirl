@@ -3,7 +3,7 @@ import Toolbar from '@mui/material/Toolbar';
 import NavbarLink from '../../atom/NavbarLink'
 import SocialLink from '../../atom/SocialLink'
 import LogoLink from '../../atom/LogoLink'
-import {theme} from '../../utils/theme'
+import { theme } from '../../utils/theme'
 import Media from 'react-media';
 
 import Logo3 from '../../assets/images/icons/logos/Logo3.png';
@@ -12,26 +12,27 @@ import Email from '../../assets/images/icons/email.png';
 import Etsy from '../../assets/images/icons/etsy.png';
 import Instagram from '../../assets/images/icons/instagram.png';
 import Pinterest from '../../assets/images/icons/pinterest.png';
+import YouTube from '../../assets/images/icons/youtube.png'
 
 interface Props {
   position?: 'fixed' | 'absolute' | 'sticky' | 'relative' | undefined,
 }
 
 
-const Navbar = (props:Props) => {
-  const {position} = props
+const Navbar = (props: Props) => {
+  const { position } = props
 
 
   return (
-    <AppBar position={position} sx={{paddingBottom: theme.spacing(2), backgroundColor:'white'}}>
+    <AppBar position={position} sx={{ paddingBottom: theme.spacing(2), backgroundColor: 'white' }}>
       <Toolbar>
-      <Media query="(min-width: 600px)" render={() =>
+        <Media query="(min-width: 600px)" render={() =>
         (
           <div>
-          <LogoLink
+            <LogoLink
               content={
                 <img
-                  style={{height:32}}
+                  style={{ height: 32 }}
                   src={Logo3}
                   alt='The Vegetarian Cowgirl'
                 />
@@ -41,7 +42,7 @@ const Navbar = (props:Props) => {
 
           </div>
         )}
-      />
+        />
 
         <NavbarLink
           content={'home'}
@@ -65,89 +66,105 @@ const Navbar = (props:Props) => {
         />
 
         <Media query="(max-width: 869px) and (min-width: 600px)" render={() =>
-          (
-            <div>
-            <SocialLink
-                content={
-                  <img
-                    style={{width:15, paddingLeft:1}}
-                    src={Instagram}
-                    alt='Instagram'
-                  />
-                }
-                url={'https://www.instagram.com/thevegetariancowgirl/'}
-              />
-
-            </div>
-          )}
-        />
-        <Media query="(min-width: 870px)" render={() =>
-          (
-            <div>
-            <SocialLink
-                content={
-                  <img
-                    style={{width:15, paddingLeft:80}}
-                    src={Instagram}
-                    alt='Instagram'
-                  />
-                }
-                url={'https://www.instagram.com/thevegetariancowgirl/'}
-              />
-
-            </div>
-          )}
-        />
-        <Media query="(min-width: 600px)" render={() =>
-          (
+        (
           <div>
             <SocialLink
-                content={
-                  <img
-                    style={{width:14}}
-                    src={Etsy}
-                    alt='Etsy'
-                  />
-                }
-                url={'https://www.etsy.com/shop/PrintsbyMinimalist'}
-              />
+              content={
+                <img
+                  style={{ width: 15, paddingLeft: 1 }}
+                  src={Instagram}
+                  alt='Instagram'
+                />
+              }
+              url={'https://www.instagram.com/thevegetariancowgirl/'}
+            />
+
           </div>
-          )}
-          />
-
-          <Media query="(min-width: 600px)" render={() =>
-            (
-            <div>
-              <SocialLink
-                  content={
-                    <img
-                      style={{width:14}}
-                      src={Pinterest}
-                      alt='Pinterest'
-                    />
-                  }
-                  url={'https://www.pinterest.com/PrintsbyMinimalist/'}
+        )}
+        />
+        <Media query="(min-width: 870px)" render={() =>
+        (
+          <div>
+            <SocialLink
+              content={
+                <img
+                  style={{ width: 15, paddingLeft: 80 }}
+                  src={Instagram}
+                  alt='Instagram'
                 />
-              </div>
-            )}
+              }
+              url={'https://www.instagram.com/thevegetariancowgirl/'}
             />
 
-            <Media query="(min-width: 600px)" render={() =>
-              (
-              <div>
-              <SocialLink
-                  content={
-                    <img
-                      style={{width:18}}
-                      src={Email}
-                      alt='Email'
-                    />
-                  }
-                  url={'mailto:TODO'}
+          </div>
+        )}
+        />
+        <Media query="(min-width: 600px)" render={() =>
+        (
+          <div>
+            <SocialLink
+              content={
+                <img
+                  style={{ width: 14 }}
+                  src={YouTube}
+                  alt='YouTube'
                 />
-              </div>
-              )}
+              }
+              url={'https://www.youtube.com/@thevegetariancowgirl'}
             />
+          </div>
+        )}
+        />
+        <Media query="(min-width: 600px)" render={() =>
+        (
+          <div>
+            <SocialLink
+              content={
+                <img
+                  style={{ width: 14 }}
+                  src={Etsy}
+                  alt='Etsy'
+                />
+              }
+              url={'https://www.etsy.com/shop/PrintsbyMinimalist'}
+            />
+          </div>
+        )}
+        />
+
+        <Media query="(min-width: 600px)" render={() =>
+        (
+          <div>
+            <SocialLink
+              content={
+                <img
+                  style={{ width: 14 }}
+                  src={Pinterest}
+                  alt='Pinterest'
+                />
+              }
+              url={'https://www.pinterest.com/PrintsbyMinimalist/'}
+            />
+          </div>
+        )}
+        />
+
+        <Media query="(min-width: 600px)" render={() =>
+        (
+          <div>
+            <SocialLink
+              content={
+                <img
+                  style={{ width: 18 }}
+                  src={Email}
+                  alt='Email'
+                />
+              }
+              url={'mailto:TODO'}
+            />
+          </div>
+        )}
+        />
 
       </Toolbar>
 
