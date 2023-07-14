@@ -1,0 +1,48 @@
+{
+    "$schema": "../schemas/recipe.schema.json",
+    "title": "Chocolate Cream Pie",
+    "subtitle": "Using my secret ingredient this recipe comes together in minutes for a quick dessert that satisfies any chocolate lover.",
+    "subtitle2": "This silky chocolate cream pie comes together in the blender using silky tofu. Trust me no one will ever know. Every single person who has tried this never knows the secret ingredient. The cream is luscious and has a lovely Kahlua kick. This dessert is so simple to make and always satisfies my chocolate cravings.",
+    "ingredients": {
+        "chocolate-chips":{
+            "quantity": 2,
+            "unitTag": "cup",
+            "ingredient": "chocolate chips"
+        },
+        "kahlua":{
+            "quantity": 0.33,
+            "unitTag": "cup",
+            "ingredient": "Kahlua (or any liqueur)"
+        },
+        "silken-tofu":{
+            "quantity": 1,
+            "unitTag": "block",
+            "ingredient": "silken tofu"
+        },
+        "vanilla-extract":{
+            "quantity": 1,
+            "unitTag": "tsp",
+            "ingredient": "vanilla extract"
+        },
+        "honey":{
+            "quantity": 1.5,
+            "unitTag": "tbsp",
+            "ingredient": "honey"
+        },
+        "crust":{
+            "quantity": 1,
+            "unitTag": "crust",
+            "ingredient": "packaged store-bought chocolate cookie"
+        }
+    },
+    "steps": [
+        "Place a ^small metal bowl$ over a ^saucepan$ with simmering water. Melt the chocolate and Kahlua in the bowl. Stir in the vanilla. Remove from heat once completely melt and smooth.",
+        "Add the tofu, chocolate mixture, and honey into the ^blender$. Blend until smooth.",
+        "Pour the filling into the crust and refrigerate for at least 2 hours, or until the filling is set.",
+        "Slice and serve with whipped cream."
+    ],
+    "preptime": "2 hr 10 min",
+    "cooktime": "",
+    "totaltime": "2 hr 10 min",
+    "serves": 10
+}

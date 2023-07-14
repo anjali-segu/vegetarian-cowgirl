@@ -17,7 +17,7 @@ import Orange_Pancake_Blog_Square from '../../assets/images/blog_posts/orange_pa
 import Cornbread_Blog_Square from '../../assets/images/blog_posts/cornbread_blog_square.jpg';
 import Cauliflower_Soup_Blog_Square from '../../assets/images/blog_posts/cauliflower_soup_blog_square.jpg';
 import Spring_Rolls_Blog_Square from '../../assets/images/blog_posts/spring_rolls_blog_square.jpg'
-
+import Chocolate_Cream_Pie_Blog_Square from '../../assets/images/blog_posts/chocolate_cream_pie_blog_square.jpg'
 interface Props {
 }
 
@@ -36,7 +36,7 @@ const CookingBlogGrid = (props: Props) => {
         </Grid>
 
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
-          <Card image={Eggs_Benny_Blog_Square} title={'COOKING'} subtitle={`Avocado Hollandaise Eggs Benny`} post={'/recipes/avocado-eggs-benedict'} />
+          <Card image={Chocolate_Cream_Pie_Blog_Square} title={'COOKING'} subtitle={'Chocolate Cream Pie'} post={'/recipes/chocolate-cream-pie'} />
         </Grid>
       </Grid>
 
@@ -62,7 +62,7 @@ const CookingBlogGrid = (props: Props) => {
         </Grid>
 
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
-          <Card image={Grandmas_Pasta_Blog_Square} title={'COOKING'} subtitle={`Grandma Barbieri's Pasta Sauce`} post={'/recipes/grandmas-pasta-sauce'} />
+          <Card image={Eggs_Benny_Blog_Square} title={'COOKING'} subtitle={`Avocado Hollandaise Eggs Benny`} post={'/recipes/avocado-eggs-benedict'} />
         </Grid>
 
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
@@ -72,7 +72,7 @@ const CookingBlogGrid = (props: Props) => {
 
       <Grid container justifyContent='center' sx={{ paddingTop: theme.spacing(15) }}>
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
-          <Card image={Dumplings_Blog_Square} title={'COOKING'} subtitle={'Veggie Packed Dumplings'} post={'/recipes/veggie-packed-dumplings'} />
+          <Card image={Grandmas_Pasta_Blog_Square} title={'COOKING'} subtitle={`Grandma Barbieri's Pasta Sauce`} post={'/recipes/grandmas-pasta-sauce'} />
         </Grid>
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
           <Card image={Miso_Soup_Blog_Square} title={'COOKING'} subtitle={'Mushroom Miso Soup'} post={'/recipes/mushroom-miso-soup'} />
@@ -88,6 +88,7 @@ const CookingBlogGrid = (props: Props) => {
         </Grid>
 
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+          <Card image={Dumplings_Blog_Square} title={'COOKING'} subtitle={'Veggie Packed Dumplings'} post={'/recipes/veggie-packed-dumplings'} />
         </Grid>
 
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>

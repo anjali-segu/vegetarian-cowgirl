@@ -29,6 +29,7 @@ import CauliflowerSoup from '../assets/recipes/cauliflower-soup.json'
 import CoffeeSyrup from '../assets/recipes/coffee-syrups.json'
 import PecanLatte from '../assets/recipes/pecan-latte.json'
 import SpringRolls from '../assets/recipes/spring-rolls.json'
+import ChocolateCreamPie from '../assets/recipes/chocolate-cream-pie.json'
 
 
 // blog post images (squares)
@@ -94,6 +95,9 @@ import Pecan_Latte_Bottle2_Blog_Square from '../assets/images/blog_posts/pecan_l
 import Spring_Rolls_Blog_Square from '../assets/images/blog_posts/spring_rolls_blog_square.jpg'
 import Spring_Rolls_Assembly_Blog_Square from '../assets/images/blog_posts/spring_rolls2_blog_square.jpg'
 import Spring_Rolls_Assembly2_Blog_Square from '../assets/images/blog_posts/spring_rolls3_blog_square.jpg'
+import Chocolate_Cream_Pie_Blog_Square from '../assets/images/blog_posts/chocolate_cream_pie_blog_square.jpg'
+import Chocolate_Cream_Pie_Whole_Blog_Square from '../assets/images/blog_posts/chocolate_cream_pie2_blog_square.jpg'
+import Chocolate_Cream_Pie_Slice_Blog_Square from '../assets/images/blog_posts/chocolate_cream_pie3_blog_square.jpg'
 
 
 
@@ -572,5 +576,25 @@ export const recipes = [
     icon: Cooking_Icon,
     icon_alt: "Cooking",
     ...SpringRolls
+  },
+  {
+    path: '/recipes/chocolate-cream-pie',
+    images: [
+      {
+        src: Chocolate_Cream_Pie_Whole_Blog_Square,
+        alt: "Whole chocolate cream pie in tin pan."
+      },
+      {
+        src: Chocolate_Cream_Pie_Blog_Square,
+        alt: "1 slice of chocolate cream pie on a plate topped with a dollop of whipped cream."
+      },
+      {
+        src: Chocolate_Cream_Pie_Slice_Blog_Square,
+        alt: "Top down view of 1 slice of the chocolate cream pie."
+      },
+    ],
+    icon: Cooking_Icon,
+    icon_alt: "Cooking",
+    ...ChocolateCreamPie
   },
 ]

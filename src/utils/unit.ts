@@ -15,6 +15,11 @@ export const units: { [tag: string]: Unit } = {
         singular: 'bay leaf',
         plural: 'bay leaves'
     },
+    block : {
+        fractional: 'a block',
+        singular: 'block',
+        plural: 'blocks'
+    },
     box: {
         fractional: 'a box',
         singular: 'box',
@@ -54,6 +59,11 @@ export const units: { [tag: string]: Unit } = {
         fractional: 'a clove',
         singular: 'clove',
         plural: 'cloves'
+    },
+    crust: {
+        fractional: 'a crust',
+        singular: 'crust',
+        plural: 'crusts'
     },
     egg: {
         fractional: 'an egg',
