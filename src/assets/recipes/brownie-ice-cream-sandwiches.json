@@ -22,12 +22,16 @@
         "sugar": {
             "quantity": 0.375,
             "unitTag": "cup",
-            "ingredient": "sugar"
+            "ingredient": "sugar",
+            "override": {
+                "whole": "¼ cup + 2 tbsp sugar",
+                "half": "3 tbsp sugar",
+                "triple": "1 cup + 2 tbsp sugar"
+            }
         },
         "egg": {
             "quantity": 3,
-            "unitTag": "egg",
-            "ingredient": ""
+            "unitTag": "egg"
         },
         "vanilla-extract": {
             "quantity": 1.5,
@@ -37,7 +41,10 @@
         "flour": {
             "quantity": 0.75,
             "unitTag": "cup",
-            "ingredient": "all purpose flour"
+            "ingredient": "all purpose flour",
+            "override": {
+                "half": "¼ cup + 2 tbsp all purpose flour"
+            }
         },
         "salt": {
             "quantity": 0.75,
@@ -47,7 +54,10 @@
         "pecan": {
             "quantity": 0.33,
             "unitTag": "cup",
-            "ingredient": "chopped pecans"
+            "ingredient": "chopped pecans",
+            "override": {
+                "half": "3 tbsp chopped pecans"
+            }
         },
         "maldon-sea-salt": {
             "quantity": 1,
@@ -66,8 +76,8 @@
         }
     },
     "steps": [
-        "Preheat the oven to 325°F. Line a ^9 x 13 inch pan$ with foil. Grease thoroughly with baking spray. Set aside.",
-        "Place a ^small metal bowl$ on top of ^saucepan$ with simmering water. In the small metal bowl, add the semisweet chocolate, butter, and oil. Melt until completely smooth. Then remove the bowl from the heat and saucepan.",
+        "<b>Preheat the oven to 325°F</b>. Line a ^9 x 13 inch pan$ with foil. Grease thoroughly with baking spray. Set aside.",
+        "Place a ^small metal bowl$ on top of ^saucepan$ with simmering water. In the small metal bowl, add the bittersweet chocolate, butter, and oil. Melt until completely smooth. Then remove the bowl from the heat and saucepan.",
         "Beat the eggs and sugar for 1 minute until lighter and frothy with a ^hand mixer$ in a ^large bowl$. Add the vanilla extract and beat for another 30 seconds.",
         "Slowly add the chocolate mixture into the egg mixture while beating. The mixture should thicken up. Then add the flour and kosher salt and combine just until mixed.",
         "Spread half the batter into the pan using an ^offset spatula$. Make sure to level the mixture, as it will bake in this shape. Focus on getting the mix all the way into the corners. Top with maldon sea salt and chopped pecans.",

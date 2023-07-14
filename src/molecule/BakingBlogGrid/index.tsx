@@ -1,5 +1,5 @@
 import { ThemeProvider } from '@mui/material/styles';
-import {theme} from '../../utils/theme'
+import { theme } from '../../utils/theme'
 import Card from '../../atom/Card';
 import { Grid } from '@mui/material';
 
@@ -23,49 +23,49 @@ interface Props {
 }
 
 
-const BakingBlogGrid = (props:Props) => {
+const BakingBlogGrid = (props: Props) => {
 
   return (
     <ThemeProvider theme={theme}>
-    
-    <Grid container justifyContent='center' sx={{ paddingTop: theme.spacing(15) }}>
-      <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
-        <Card image={Cheesecake_Blog_Square} title={'BAKING'} subtitle={'Light and Fluffy Cheesecake'} post={'/recipes/cheesecake'} />
+
+      <Grid container justifyContent='center' sx={{ paddingTop: theme.spacing(15) }}>
+        <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+          <Card image={Cheesecake_Blog_Square} title={'BAKING'} subtitle={'Light and Fluffy Cheesecake'} post={'/recipes/cheesecake'} />
+        </Grid>
+
+        <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+          <Card image={Gingerbread_Blog_Square} title={'BAKING'} subtitle={'Soft Gingerbread w/ Royal Icing'} post={'/recipes/soft-gingerbread'} />
+        </Grid>
+
+        <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+          <Card image={Ice_Cream_Sandwich_Blog_Square} title={'BAKING'} subtitle={'Brownie Coffee Ice Cream Sandwiches'} post={'/recipes/brownie-ice-cream-sandwich'} />
+        </Grid>
       </Grid>
 
-      <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
-        <Card image={Gingerbread_Blog_Square} title={'BAKING'} subtitle={'Soft Gingerbread w/ Royal Icing'} post={'/recipes/soft-gingerbread'} />
+      <Grid container justifyContent='center' sx={{ paddingTop: theme.spacing(15) }}>
+
+        <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+          <Card image={Cardamom_Buns_Blog_Square} title={'BAKING'} subtitle={'Cardamom Buns'} post={'/recipes/cardamom-buns'} />
+        </Grid>
+        <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+          <Card image={Cinammon_Buns_Blog_Square} title={'BAKING'} subtitle={'Ultimate Cinnamon Rolls'} post={'/recipes/cinnamon-rolls'} />
+        </Grid>
+        <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+          <Card image={Brownie_Blog_Square} title={'BAKING'} subtitle={'Fudgiest Brownies'} post={'/recipes/fudgey-brownies'} />
+        </Grid>
       </Grid>
 
-      <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
-        <Card image={Ice_Cream_Sandwich_Blog_Square} title={'BAKING'} subtitle={'Brownie Coffee Ice Cream Sandwiches'} post={'/recipes/brownie-ice-cream-sandwich'} />
+      <Grid container justifyContent='center' sx={{ paddingTop: theme.spacing(15) }}>
+        <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+          <Card image={Eton_Mess_Blog_Square} title={'BAKING'} subtitle={'Eton Mess Summer Dessert'} post={'/recipes/eton-mess-dessert'} />
+        </Grid>
+        <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+          <Card image={Pumpkin_Pie_Blog_Square} title={'BAKING'} subtitle={'Easy Mascarpone Pumpkin Pie'} post={'/recipes/pumpkin-mascarpone-pie'} />
+        </Grid>
+        <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+          <Card image={Cookie_Blog_Square} title={'BAKING'} subtitle={'Simple Sugar Cookie Cutouts'} post={'/recipes/sugar-cookies'} />
+        </Grid>
       </Grid>
-    </Grid>
-
-    <Grid container justifyContent='center' sx={{paddingTop: theme.spacing(15)}}>
-
-      <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Cardamom_Buns_Blog_Square} title={'BAKING'} subtitle={'Cardamom Buns'} post={'/recipes/cardamom-buns'}/>
-      </Grid>
-      <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Cinammon_Buns_Blog_Square} title={'BAKING'} subtitle={'Ultimate Cinnamon Rolls'} post={'/recipes/cinnamon-rolls'}/>
-      </Grid>
-      <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Brownie_Blog_Square} title={'BAKING'} subtitle={'Fudgiest Brownies'} post={'/recipes/fudgey-brownies'} />
-      </Grid>
-    </Grid>
-
-    <Grid container justifyContent='center' sx={{paddingTop: theme.spacing(15)}}>
-      <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-        <Card image={Eton_Mess_Blog_Square} title={'BAKING'} subtitle={'Eton Mess Summer Dessert'} post={'/recipes/eton-mess-dessert'} />
-      </Grid>
-      <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Pumpkin_Pie_Blog_Square} title={'BAKING'} subtitle={'Easy Mascarpone Pumpkin Pie'} post={'/recipes/pumpkin-mascarpone-pie'}/>
-      </Grid>
-      <Grid item sm={12} md={4} sx={{display:'flex',justifyContent:'center'}}>
-      <Card image={Cookie_Blog_Square} title={'BAKING'} subtitle={'Simple Sugar Cookie Cutouts'} post={'/recipes/sugar-cookies'}/>
-      </Grid>
-    </Grid>
 
       <Grid container justifyContent='center' sx={{ paddingTop: theme.spacing(15) }}>
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
