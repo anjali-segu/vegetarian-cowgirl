@@ -1,0 +1,87 @@
+{
+    "$schema": "../schemas/recipe.schema.json",
+    "title": "Salted Pecan Brownie Coffee Ice Cream Sandwiches",
+    "subtitle": "Love this nostalgic treat? Well, this recipe one-ups that! These ice cream sandwiches are worth every ounce of extra effort. The coffee and chocolate taste work so well together!",
+    "subtitle2": "The top and bottom layer of this ice cream dessert is a salted brownie topped with toasted pecans. In the center is a coffee and vanilla swirled ice cream. The brownie stays soft and fudgey even in the freezer. These are an absolute summer hit for your next summer party! Beat the Austin heat with these sweet treats.",
+    "ingredients": {
+        "chocolate-chips": {
+            "quantity": 6,
+            "unitTag": "oz",
+            "ingredient": "bittersweet chocolate chips (60%)"
+        },
+        "butter": {
+            "quantity": 7.5,
+            "unitTag": "tbsp",
+            "ingredient": "unsalted butter"
+        },
+        "canola-oil": {
+            "quantity": 3,
+            "unitTag": "tbsp",
+            "ingredient": "canola oil"
+        },
+        "sugar": {
+            "quantity": 0.375,
+            "unitTag": "cup",
+            "ingredient": "sugar"
+        },
+        "egg": {
+            "quantity": 3,
+            "unitTag": "egg",
+            "ingredient": ""
+        },
+        "vanilla-extract": {
+            "quantity": 1.5,
+            "unitTag": "tsp",
+            "ingredient": "vanilla extract"
+        },
+        "flour": {
+            "quantity": 0.75,
+            "unitTag": "cup",
+            "ingredient": "all purpose flour"
+        },
+        "salt": {
+            "quantity": 0.75,
+            "unitTag": "tsp",
+            "ingredient": "morton kosher salt"
+        },
+        "pecan": {
+            "quantity": 0.33,
+            "unitTag": "cup",
+            "ingredient": "chopped pecans"
+        },
+        "maldon-sea-salt": {
+            "quantity": 1,
+            "unitTag": "pinch",
+            "ingredient": "maldon sea salt"
+        },
+        "vanilla-ice-cream": {
+            "quantity": 1,
+            "unitTag": "pint",
+            "ingredient": "vanilla ice cream"
+        },
+        "coffee-ice-cream": {
+            "quantity": 2,
+            "unitTag": "pint",
+            "ingredient": "coffee ice cream"
+        }
+    },
+    "steps": [
+        "Preheat the oven to 325°F. Line a ^9 x 13 inch pan$ with foil. Grease thoroughly with baking spray. Set aside.",
+        "Place a ^small metal bowl$ on top of ^saucepan$ with simmering water. In the small metal bowl, add the semisweet chocolate, butter, and oil. Melt until completely smooth. Then remove the bowl from the heat and saucepan.",
+        "Beat the eggs and sugar for 1 minute until lighter and frothy with a ^hand mixer$ in a ^large bowl$. Add the vanilla extract and beat for another 30 seconds.",
+        "Slowly add the chocolate mixture into the egg mixture while beating. The mixture should thicken up. Then add the flour and kosher salt and combine just until mixed.",
+        "Spread half the batter into the pan using an ^offset spatula$. Make sure to level the mixture, as it will bake in this shape. Focus on getting the mix all the way into the corners. Top with maldon sea salt and chopped pecans.",
+        "Bake for 9 minutes, or until the top is matte and is not sticky.",
+        "Let the first layer cool in pan for 5-10 minutes. Remove the foil with the brownie layer from the pan. Set aside. Put another layer of foil and grease the pan. Spread the other half of the batter evenly in the pan. Bake for 9 minutes.",
+        "Remove the layer with the foil from the pan. Let both halves completely cool. Reuse one layer of foil and line the pan. Flip the bottom layer (without toppings) onto the pan so that the top side (matte side) is now facing down. Cover and set in freezer.",
+        "Mix your pints of ice cream in a ^large metal bowl$. Mix until a thick sticky batter texture is formed. Remove the pan from the freezer and add the ice cream on top of the bottom brownie layer. Using the offset spatula, smoothen.",
+        "Place the top layer on the ice cream, such that the pecans are facing up. Cover and put back in the freezer. Freeze until completely solid (around 4-6 hours).",
+        "Remove the pan from the freezer. Using the foil remove the ice cream sandwich brick. Peel off the foil completely. Set the brick on a ^large cutting board$. Using a ^sharp chef's knife$, trim all 4 edges. Keep the edges as a chef's snack.",
+        "Cut the rectangle into 3 pieces. Then cut each piece into 4 pieces, creating 12 pieces in total.",
+        "Wrap each ice cream sandwich in saran wrap and place into an airtight container. Put the container back into the freezer for 1 hour before serving."
+    ],
+    "preptime": "20 min",
+    "cooktime": "20 min",
+    "totaltime": "7 hr 40 min",
+    "serves": 12
+}

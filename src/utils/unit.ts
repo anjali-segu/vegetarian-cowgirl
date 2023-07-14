@@ -154,6 +154,11 @@ export const units: { [tag: string]: Unit } = {
     pinch: {
         singular: 'pinch',
     },
+    pint : {
+        fractional: 'a pint',
+        singular: 'pint',
+        plural: 'pints'
+    },  
     pod: {
         fractional: 'a pod',
         singular: 'pod',

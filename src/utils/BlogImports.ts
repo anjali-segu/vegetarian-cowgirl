@@ -30,6 +30,7 @@ import CoffeeSyrup from '../assets/recipes/coffee-syrups.json'
 import PecanLatte from '../assets/recipes/pecan-latte.json'
 import SpringRolls from '../assets/recipes/spring-rolls.json'
 import ChocolateCreamPie from '../assets/recipes/chocolate-cream-pie.json'
+import IceCreamSandwich from '../assets/recipes/brownie-ice-cream-sandwiches.json'
 
 
 // blog post images (squares)
@@ -98,6 +99,9 @@ import Spring_Rolls_Assembly2_Blog_Square from '../assets/images/blog_posts/spri
 import Chocolate_Cream_Pie_Blog_Square from '../assets/images/blog_posts/chocolate_cream_pie_blog_square.jpg'
 import Chocolate_Cream_Pie_Whole_Blog_Square from '../assets/images/blog_posts/chocolate_cream_pie2_blog_square.jpg'
 import Chocolate_Cream_Pie_Slice_Blog_Square from '../assets/images/blog_posts/chocolate_cream_pie3_blog_square.jpg'
+import Ice_Cream_Sandwich_Blog_Square from '../assets/images/blog_posts/ice_cream_sandwich_blog_square.jpg'
+import Ice_Cream_Sandwich_Top_Blog_Square from '../assets/images/blog_posts/ice_cream_sandwich2_blog_square.jpg'
+import Ice_Cream_Sandwich_Layer_Square from '../assets/images/blog_posts/ice_cream_sandwich3_blog_square.jpg'
 
 
 
@@ -596,5 +600,25 @@ export const recipes = [
     icon: Cooking_Icon,
     icon_alt: "Cooking",
     ...ChocolateCreamPie
+  },
+  {
+    path: '/recipes/brownie-ice-cream-sandwich',
+    images: [
+      {
+        src: Ice_Cream_Sandwich_Top_Blog_Square,
+        alt: "Top view of ice cream sandwiches covered in toasted pecans."
+      },
+      {
+        src: Ice_Cream_Sandwich_Blog_Square,
+        alt: "Ice cream sandwiches stack on top of each other on black marble."
+      },
+      {
+        src: Ice_Cream_Sandwich_Layer_Square,
+        alt: "The top layer of the ice cream sandwich brownie covered in pecans."
+      },
+    ],
+    icon: Baking_Icon,
+    icon_alt: "Baking",
+    ...IceCreamSandwich
   },
 ]
