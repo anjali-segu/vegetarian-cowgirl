@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8c7fc464.css",
-    "main.js": "/static/js/main.1b05e0dd.js",
+    "main.js": "/static/js/main.438ff9e5.js",
     "static/js/787.b6f84853.chunk.js": "/static/js/787.b6f84853.chunk.js",
     "static/media/oseyo4_blog_square.jpg": "/static/media/oseyo4_blog_square.8b58701c27ae953af69c.jpg",
     "static/media/oseyo2_blog_square.jpg": "/static/media/oseyo2_blog_square.597d06c31eb02684cb69.jpg",
@@ -159,12 +159,14 @@
     "static/media/indianapolis_art_blog_square.jpg": "/static/media/indianapolis_art_blog_square.3d0ff7cdbabee2349212.jpg",
     "static/media/psl_blog_square.jpg": "/static/media/psl_blog_square.3ad32d8976c19f3aa855.jpg",
     "static/media/activities_icon.png": "/static/media/activities_icon.7a813b2b51d42f74d5ec.png",
+    "static/media/lava_cake3_blog_square.jpg": "/static/media/lava_cake3_blog_square.190972816cb50e08ff89.jpg",
     "static/media/pumpkin_pie_blog_square.jpeg": "/static/media/pumpkin_pie_blog_square.15d97dc520dca65f45b9.jpeg",
     "static/media/LogoBlack.png": "/static/media/LogoBlack.6d5abcc87d53a4d9c6f8.png",
     "static/media/gears_icon.png": "/static/media/gears_icon.5f6eec30b96b219cd8c2.png",
     "static/media/big_island_travel_blog_square.jpg": "/static/media/big_island_travel_blog_square.a7ca792b02c478b59bf6.jpg",
     "static/media/travel_icon.png": "/static/media/travel_icon.d592fa87d4415aceffd0.png",
     "static/media/cheesecake_blog_square.jpg": "/static/media/cheesecake_blog_square.017a6497321da9d6b91c.jpg",
+    "static/media/lava_cake2_blog_square.jpg": "/static/media/lava_cake2_blog_square.6983c2ac31c4ccb5269a.jpg",
     "static/media/TequilaRoses.png": "/static/media/TequilaRoses.eb038428fe7910bfff64.png",
     "static/media/BioProfile.jpg": "/static/media/BioProfile.3531f4fc84606044f4fd.jpg",
     "static/media/WhiskeyMonstera.png": "/static/media/WhiskeyMonstera.84f28964f7c7d1c88d48.png",
@@ -175,6 +177,7 @@
     "static/media/brushes_blog_square.jpg": "/static/media/brushes_blog_square.b20e948167a24d498e72.jpg",
     "static/media/baking_icon.png": "/static/media/baking_icon.5d63cb9f1407f3c4b2ad.png",
     "static/media/leaves.png": "/static/media/leaves.8e08e931444de6ff7ddc.png",
+    "static/media/lava_cake_blog_square.jpg": "/static/media/lava_cake_blog_square.72706c0031beea4bcc27.jpg",
     "static/media/art_icon.png": "/static/media/art_icon.dfcd85148310be2c49f9.png",
     "static/media/paris.jpeg": "/static/media/paris.052bfc9f3962095ac46a.jpeg",
     "static/media/rome.jpeg": "/static/media/rome.3f40bb8824460814f4f1.jpeg",
@@ -199,11 +202,11 @@
     "static/media/etsy.png": "/static/media/etsy.d75ef78cbf24d7072ecd.png",
     "index.html": "/index.html",
     "main.8c7fc464.css.map": "/static/css/main.8c7fc464.css.map",
-    "main.1b05e0dd.js.map": "/static/js/main.1b05e0dd.js.map",
+    "main.438ff9e5.js.map": "/static/js/main.438ff9e5.js.map",
     "787.b6f84853.chunk.js.map": "/static/js/787.b6f84853.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8c7fc464.css",
-    "static/js/main.1b05e0dd.js"
+    "static/js/main.438ff9e5.js"
   ]
 }
