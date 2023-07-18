@@ -1,0 +1,75 @@
+{
+    "$schema": "../schemas/recipe.schema.json",
+    "title": "Chocolate Lava Cake",
+    "subtitle": "This lava cake is the first lava cake to have the perfect gooey center that I am always craving. It is not too sweet and has a decadent chocolate taste.",
+    "subtitle2": "This recipe comes together fairly quickly and is always a show stopper when serving to guests. The center is perfectly molten and the cake has a nice strong chocolate flavor. The olive oil has a subtle flavor that works well with the chocolate making this recipe unique.",
+    "ingredients": {
+        "olive-oil": {
+            "quantity": 0.75,
+            "unitTag": "cup",
+            "ingredient": "olive oil",
+            "override": {
+                "half": "¼ cup + 2 tbsp olive oil"
+            }
+        },
+        "chocolate": {
+            "quantity": 9,
+            "unitTag": "oz",
+            "ingredient": "bittersweet chocolate chips (60%)"
+        },
+        "egg-yolks": {
+            "quantity": 6,
+            "unitTag": "egg",
+            "ingredient": "yolks"
+        },
+        "egg": {
+            "quantity": 3,
+            "unitTag": "egg"
+        },
+        "sugar": {
+            "quantity": 0.5,
+            "unitTag": "cup",
+            "ingredient": "sugar"
+        },
+        "salt": {
+            "quantity": 0.5,
+            "unitTag": "tsp",
+            "ingredient": "Morton kosher salt"
+        },
+        "vanilla": {
+            "quantity": 2,
+            "unitTag": "tsp",
+            "ingredient": "vanilla extract"
+        },
+        "flour": {
+            "quantity": 2,
+            "unitTag": "tbsp",
+            "ingredient": "all purpose flour"
+        }, 
+        "butter": {
+            "quantity": 2,
+            "unitTag": "tbsp",
+            "ingredient": "unsalted butter"
+        },
+        "mold": {
+            "quantity": 8,
+            "unitTag": "tin",
+            "ingredient": "(6 oz)"
+        }
+    },
+    "steps": [
+        "Preheat the oven to 450°F.",
+        "<b>Prepare !mold by spreading a thick layer of butter.</b> Make sure to get in all the crevices. My tins were ceramic mini bundt cake molds. Then dust all of the tins with flour and tap out excess flour.",
+        "Place a ^steel bowl$ on top of a ^saucepan$ with simmer watering to create a double boiler. Place the chocolate and oil in the bowl. Melt until completely smooth. Then remove from heat and set aside.",
+        "Add the whole eggs, egg yolks, sugar, and salt into a ^medium bowl$. Beat using a ^hand mixer$ until the mixture is very pale, thick, and has doubled in volume. This should take around 2 minutes.",
+        "Add in the vanilla extract, and flour while beating. Beat until just combined.",
+        "Drizzle the egg mixture into the chocolate mixture while beating on low. The mixture should thicken. Beat until just combined.",
+        "Pour the mixture equally into all of the molds. Place the molds onto a ^sheet tray$ for easy transportation.",
+        "Bake the molds for 15 minutes or until the cakes have puffed, have a matte top, and still have a slightly molten center.",
+        "Invert the molds onto a plate, and serve immediately. Top with whipped cream or ice cream."
+    ],
+    "preptime": "20 min",
+    "cooktime": "15 min",
+    "totaltime": "35 min",
+    "serves": 8
+}

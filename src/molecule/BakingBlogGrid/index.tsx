@@ -18,6 +18,7 @@ import Macaroon_Blog_Square from '../../assets/images/blog_posts/macaroon_blog_s
 import Peach_Cobbler_Blog_Square from '../../assets/images/blog_posts/peach_cobbler_blog_square.png';
 import Classic_Pumpkin_Pie_Blog_Square from '../../assets/images/blog_posts/classic_pumpkin_pie_blog_square.jpg';
 import Ice_Cream_Sandwich_Blog_Square from '../../assets/images/blog_posts/ice_cream_sandwich_blog_square.jpg'
+import Chocolate_Lava_Cake_Blog_Square from '../../assets/images/blog_posts/lava_cake_blog_square.jpg'
 
 interface Props {
 }
@@ -34,7 +35,7 @@ const BakingBlogGrid = (props: Props) => {
         </Grid>
 
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
-          <Card image={Gingerbread_Blog_Square} title={'BAKING'} subtitle={'Soft Gingerbread w/ Royal Icing'} post={'/recipes/soft-gingerbread'} />
+          <Card image={Chocolate_Lava_Cake_Blog_Square} title={'BAKING'} subtitle={'Chocolate Lava Cake'} post={'/recipes/chocolate-lava-cake'} />
         </Grid>
 
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
@@ -83,7 +84,7 @@ const BakingBlogGrid = (props: Props) => {
 
       <Grid container justifyContent='center' sx={{ paddingTop: theme.spacing(15) }}>
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
-          <Card image={Cake_Cookies_Blog_Square} title={'BAKING'} subtitle={'Quick Chocolate Fudgey Cake Cookies'} post={'/recipes/chocolate-cake-cookies'} />
+          <Card image={Gingerbread_Blog_Square} title={'BAKING'} subtitle={'Soft Gingerbread w/ Royal Icing'} post={'/recipes/soft-gingerbread'} />
         </Grid>
 
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
@@ -92,6 +93,18 @@ const BakingBlogGrid = (props: Props) => {
 
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
           <Card image={Italian_Orange_Cake_Blog_Square} title={'BAKING'} subtitle={'Italian Orange Layered Cake'} post={'/recipes/italian-orange-cake'} />
+        </Grid>
+      </Grid>
+
+      <Grid container justifyContent='center' sx={{ paddingTop: theme.spacing(15) }}>
+        <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+        </Grid>
+
+        <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+          <Card image={Cake_Cookies_Blog_Square} title={'BAKING'} subtitle={'Quick Chocolate Fudgey Cake Cookies'} post={'/recipes/chocolate-cake-cookies'} />
+        </Grid>
+
+        <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
         </Grid>
       </Grid>
     </ThemeProvider>

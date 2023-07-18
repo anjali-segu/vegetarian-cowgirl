@@ -199,6 +199,10 @@ export const units: { [tag: string]: Unit } = {
         singular: 'stick',
         plural: 'sticks'
     },
+    tin : {
+        singular: 'tin',
+        plural: 'tins'
+    },
     tbsp: {
         singular: 'tbsp'
     },
