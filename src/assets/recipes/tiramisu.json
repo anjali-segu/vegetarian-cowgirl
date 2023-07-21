@@ -1,0 +1,69 @@
+{
+    "$schema": "../schemas/recipe.schema.json",
+    "title": "Italian Tiramisu",
+    "subtitle": "",
+    "subtitle2": "",
+    "ingredients": {
+        "lady-fingers": {
+            "quantity": 10,
+            "unitTag": "oz",
+            "ingredient": "ladyfingers"
+        },
+        "mascarpone": {
+            "quantity": 18,
+            "unitTag": "oz",
+            "ingredient": "mascarpone cheese"
+        },
+        "egg": {
+            "quantity": 4,
+            "unitTag": "egg"
+        },
+        "sugar": {
+            "quantity": 0.67,
+            "unitTag": "cup",
+            "ingredient": "sugar",
+            "override": {
+                "triple": "2 cups sugar"
+            }
+        },
+        "water": {
+            "quantity": 0.25,
+            "unitTag": "cup",
+            "ingredient": "water",
+            "override": {
+                "half": "2 tbsp water"
+            }
+        },
+        "coffee": {
+            "quantity": 1,
+            "unitTag": "cup",
+            "ingredient": "espresso"
+        },
+        "cocoa-powder": {
+            "quantity": 0.25,
+            "unitTag": "cup",
+            "ingredient": "cocoa powder (Rodelle is my favorite)",
+            "override": {
+                "half": "2 tbsp cocoa powder (Rodelle is my favorite)"
+            }
+        }
+    },
+    "steps": [
+        "Brew the espresso and let it cool. For the best tasting tiramisu, choose high quality fresh coffee beans.",
+        "Separate the egg yolks and egg whites. Place the egg yolks in a ^large bowl$, and the egg whites in a ^medium steel bowl$.",
+        "Place a ^medium saucepan$ on the stove, and add water and sugar. Cook the mixture over medium heat until the sugar is fully dissolved and it comes to a boil. Remove from heat.",
+        "Beat the egg yolks just until the yolks are broken up using a ^hand mixer$. While mixing, <b>slowly drizzle</b> in <b>half</b> of the sugar syrup into the mixture. Beat the mixture until it turns pale yellow and doubles in volume.",
+        "Add the mascarpone cheese a few tablespoons at a time. Continue beating until a smooth consistency is achieved.",
+        "In the medium bowl with the egg whites, begin beating the egg whites using a cleaned hand mixer. Beat until it begins to get slightly frothy. Slowly drizzle in the remaining sugar syrup while beating. Beat until <b>stiff peaks</b> are formed.",
+        "Fold in about ⅔ of the egg white mixture into the egg yolk mixture. Add in small portions until desired consistency. <b>Do not use all as it can become too liquid.</b> <i>Try to be as gentle as possible to not crush the light texture of the egg whites.</i>", 
+        "Put the cream mixture in the fridge for at least half an hour.",
+        "Add the espresso into a ^shallow dish$. Quickly dip a ladyfinger into the espresso and place in a ^8x8 inch square pan$. Create one layer of ladyfingers.",
+        "Spread <b>half</b> the cream mixture on top using an ^offset spatula$. Repeat a layer of ladyfingers then cream.",
+        "Dust the top of the tiramisu with the cocoa powder using a ^sieve$.",
+        "<b>Refrigerate overnight before serving.</b> <i>This will help the flavors all come together and soak in.</i> If you would like to get the striped design cut some parchment paper into small strips, place on top of the cream and then dust with cocoa."
+    ],
+    "preptime": "40 min",
+    "cooktime": "",
+    "totaltime": "40 min",
+    "serves": 8
+}

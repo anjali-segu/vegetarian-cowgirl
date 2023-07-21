@@ -18,6 +18,7 @@ import Cornbread_Blog_Square from '../../assets/images/blog_posts/cornbread_blog
 import Cauliflower_Soup_Blog_Square from '../../assets/images/blog_posts/cauliflower_soup_blog_square.jpg';
 import Spring_Rolls_Blog_Square from '../../assets/images/blog_posts/spring_rolls_blog_square.jpg'
 import Chocolate_Cream_Pie_Blog_Square from '../../assets/images/blog_posts/chocolate_cream_pie_blog_square.jpg'
+import Tiramisu_Blog_Square from '../../assets/images/blog_posts/tiramisu_blog_square.jpg'
 interface Props {
 }
 
@@ -36,14 +37,14 @@ const CookingBlogGrid = (props: Props) => {
         </Grid>
 
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
-          <Card image={Chocolate_Cream_Pie_Blog_Square} title={'COOKING'} subtitle={'Chocolate Cream Pie'} post={'/recipes/chocolate-cream-pie'} />
+          <Card image={Tiramisu_Blog_Square} title={'COOKING'} subtitle={'Italian Tiramisu'} post={'/recipes/tiramisu'} />
         </Grid>
       </Grid>
 
       <Grid container justifyContent='center' sx={{ paddingTop: theme.spacing(15) }}>
 
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
-          <Card image={Elote_Blog_Square} title={'COOKING'} subtitle={'Deconstructed Elote'} post={'/recipes/deconstructed-elote'} />
+          <Card image={Chocolate_Cream_Pie_Blog_Square} title={'COOKING'} subtitle={'Chocolate Cream Pie'} post={'/recipes/chocolate-cream-pie'} />
         </Grid>
 
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
@@ -92,6 +93,7 @@ const CookingBlogGrid = (props: Props) => {
         </Grid>
 
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+          <Card image={Elote_Blog_Square} title={'COOKING'} subtitle={'Deconstructed Elote'} post={'/recipes/deconstructed-elote'} />
         </Grid>
       </Grid>
 
