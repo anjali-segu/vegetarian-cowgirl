@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8c7fc464.css",
-    "main.js": "/static/js/main.438ff9e5.js",
+    "main.js": "/static/js/main.2bf31fac.js",
     "static/js/787.b6f84853.chunk.js": "/static/js/787.b6f84853.chunk.js",
     "static/media/oseyo4_blog_square.jpg": "/static/media/oseyo4_blog_square.8b58701c27ae953af69c.jpg",
     "static/media/oseyo2_blog_square.jpg": "/static/media/oseyo2_blog_square.597d06c31eb02684cb69.jpg",
@@ -76,6 +76,7 @@
     "static/media/mozarts_blog_square.jpg": "/static/media/mozarts_blog_square.02ea2926309822fa8105.jpg",
     "static/media/jamun_fry_blog_square.jpg": "/static/media/jamun_fry_blog_square.87fb832d6e0a475c2fc0.jpg",
     "static/media/july_4th.jpg": "/static/media/july_4th.25a5982db08d5b955a77.jpg",
+    "static/media/tiramisu_blog_square.jpg": "/static/media/tiramisu_blog_square.22283240489af0c6c407.jpg",
     "static/media/peach_cobbler_uncook_blog_square.jpg": "/static/media/peach_cobbler_uncook_blog_square.7b5b5c441cf5ee784716.jpg",
     "static/media/classic_pumpkin_pie_crust_blog_square.jpg": "/static/media/classic_pumpkin_pie_crust_blog_square.ae37eda69bfde0a0c5a8.jpg",
     "static/media/gingerbread_cutout_blog_square.jpg": "/static/media/gingerbread_cutout_blog_square.6c3a1ed319ef63f3e252.jpg",
@@ -97,11 +98,13 @@
     "static/media/indianapolis_travel_guid_blog_square.jpg": "/static/media/indianapolis_travel_guid_blog_square.c5087273bae33aba417a.jpg",
     "static/media/elote_blog_square.jpg": "/static/media/elote_blog_square.8c740f0305b2522edf14.jpg",
     "static/media/sugar_cookie_blog_square.jpg": "/static/media/sugar_cookie_blog_square.93a3863a82f93e94291e.jpg",
+    "static/media/tiramisu2_blog_square.jpg": "/static/media/tiramisu2_blog_square.5d83b7baad3c126412df.jpg",
     "static/media/jamun_raw_blog_square.jpg": "/static/media/jamun_raw_blog_square.250729c5b8665118d3ca.jpg",
     "static/media/chocolate_cream_pie3_blog_square.jpg": "/static/media/chocolate_cream_pie3_blog_square.140caedff14e22efdea0.jpg",
     "static/media/art_supplies_blog_square.jpg": "/static/media/art_supplies_blog_square.579d14f6ea3342b170e1.jpg",
     "static/media/olive.png": "/static/media/olive.21f9b4b8164ef2963e25.png",
     "static/media/austin_plant_store.jpg": "/static/media/austin_plant_store.e17b287fc4e53590ac33.jpg",
+    "static/media/tiramisu3_blog_square.jpg": "/static/media/tiramisu3_blog_square.0dd97bd67601653b12d3.jpg",
     "static/media/sunflower.png": "/static/media/sunflower.a610f88ed77dad29ffc4.png",
     "static/media/cardamom_buns_blog_square.jpg": "/static/media/cardamom_buns_blog_square.61bbc97053ff6864be6f.jpg",
     "static/media/latte_blog_square.jpg": "/static/media/latte_blog_square.ed60ca24172c41758504.jpg",
@@ -202,11 +205,11 @@
     "static/media/etsy.png": "/static/media/etsy.d75ef78cbf24d7072ecd.png",
     "index.html": "/index.html",
     "main.8c7fc464.css.map": "/static/css/main.8c7fc464.css.map",
-    "main.438ff9e5.js.map": "/static/js/main.438ff9e5.js.map",
+    "main.2bf31fac.js.map": "/static/js/main.2bf31fac.js.map",
     "787.b6f84853.chunk.js.map": "/static/js/787.b6f84853.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8c7fc464.css",
-    "static/js/main.438ff9e5.js"
+    "static/js/main.2bf31fac.js"
   ]
 }
