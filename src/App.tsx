@@ -26,8 +26,7 @@ import ArtMovement from './blogposts/ArtMovement'
 
 import {
   Routes,
-  Route,
-  Link as RRDOMLink,
+  Route
 } from "react-router-dom";
 
 // recipe type && recipe component
@@ -39,58 +38,19 @@ import IntroToBreville from './blogposts/IntroToBreville';
 import UnderConstruction from './organism/UnderConstruction';
 import { Box, Input, List, ListItem, ListItemButton, ListItemText } from '@mui/material';
 
-import { searchRecipes } from './utils/search';
-
-
 
 const createRecipeBlogPosts = (recipes: Recipe[]) => recipes.map(recipe => <Route key={recipe.path} path={recipe.path} element={<DynamicRecipeBlogPost {...recipe} />} />)
 
 const App: React.FC = () => {
-
-  const inputRef = React.useRef<HTMLInputElement>(null);
-
-  const [list, setList] = React.useState<{ title: string, path: string, score: number }[]>([]);
-
   return (
     <ThemeProvider theme={theme}>
       <Navbar />
       <div id='content-wrap'>
-        <Box display='flex' flexDirection='column' justifyContent='center' alignItems='center'>
-          <Input placeholder='Search' inputRef={inputRef} onChange={() => {
-            if (inputRef.current?.value !== undefined) {
-              const results = searchRecipes(inputRef.current?.value, recipes);
-              let searchResults = Object.values(results).sort((a, b) => b.searchScore - a.searchScore).map(x => { return { title: x.recipe.title, path: x.recipe.path, score: x.searchScore } });
-              let top = [searchResults[0]]
-              for (let i = 0; i < searchResults.length - 1; ++i) {
-                if (searchResults[i].score - searchResults[i + 1].score > searchResults[i].score * .667) {
-                  break;
-                }
-                top.push(searchResults[i + 1])
-              }
-              setList(top.slice(0, 5));
-            }
-          }} />
-          {list.length > 0 &&
-            <Box width='50%' display='flex' justifyContent='left'>
-              <List>
-                {list.map(e => <ListItem key={e.path}>
-                  <ListItemButton onClick={() => {
-                    if (inputRef.current?.value !== undefined) {
-                      inputRef.current.value = ''
-                      setList([])
-                    }
-                  }}>
-                    <RRDOMLink to={e.path}><ListItemText primary={e.title} secondary={e.score} /></RRDOMLink>
-                  </ListItemButton>
-                </ListItem>)}
-              </List>
-            </Box>}
 
-        </Box>
 
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/recipes" element={<Recipes />} />
+          <Route path="/recipes" element={<Recipes recipes={recipes} />} />
           <Route path="/austin-living" element={<AustinLiving />} />
           <Route path="/costa-rica" element={<CostaRica />} />
           <Route path="/austin" element={<Austin />} />
