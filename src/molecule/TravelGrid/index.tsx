@@ -9,7 +9,7 @@ import Costa_Rica from '../../assets/images/icons/travel/costa_rica.png';
 import Hawaii from '../../assets/images/icons/travel/hawaii.jpeg';
 import Indianapolis from '../../assets/images/icons/travel/indianapolis.jpg';
 import London from '../../assets/images/icons/travel/london.jpeg';
-import New_York from '../../assets/images/icons/travel/new_york.jpeg';
+import Switzerland from '../../assets/images/icons/travel/switzerland.png';
 import Paris from '../../assets/images/icons/travel/paris.jpeg';
 import Rome from '../../assets/images/icons/travel/rome.jpeg';
 
@@ -49,7 +49,7 @@ const TravelGrid = (props: Props) => {
         </Grid>
 
         <Grid item xs={12} sm={6} md={3} sx={{ display: 'inline', justifyContent: 'center', }}>
-          <CityCard link={"/new-york"} image={New_York} city={"NEW YORK"} />
+          <CityCard link={"/switzerland"} image={Switzerland} city={"SWITZERLAND"} />
         </Grid>
 
         <Grid item xs={12} sm={6} md={3} sx={{ display: 'inline', justifyContent: 'center', }}>

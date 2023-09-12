@@ -10,6 +10,7 @@ import About from './organism/About'
 import CostaRica from './organism/CostaRica'
 import Austin from './organism/Austin'
 import Hawaii from './organism/Hawaii'
+import Switzerland from './organism/Switzerland'
 import Indianapolis from './organism/Indianapolis'
 import Navbar from './organism/Navbar'
 import Footer from './molecule/Footer'
@@ -54,6 +55,7 @@ const App: React.FC = () => {
             <Route path="/costa-rica" element={<CostaRica />} />
             <Route path="/austin" element={<Austin />} />
             <Route path="/hawaii" element={<Hawaii />} />
+            <Route path="/switzerland" element={<Switzerland />} />
             <Route path="/indianapolis" element={<Indianapolis />} />
             <Route path="/art" element={<Art />} />
             <Route path="/about" element={<About />} />
