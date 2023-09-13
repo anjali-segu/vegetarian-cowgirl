@@ -14,9 +14,11 @@ import Switzerland from './organism/Switzerland'
 import Indianapolis from './organism/Indianapolis'
 import Navbar from './organism/Navbar'
 import Footer from './molecule/Footer'
+
 import AustinPlantStores from './blogposts/AustinPlantStores'
 import AustinCafeMonet from './blogposts/AustinCafeMonet'
 import AustinTeaGuide from './blogposts/AustinTeaGuide';
+
 import Forthright from './blogposts/Forthright'
 import Oseyo from './blogposts/Oseyo'
 import Uchiko from './blogposts/Uchiko'
@@ -24,6 +26,9 @@ import IlBrutto from './blogposts/IlBrutto'
 import Aba from './blogposts/Aba'
 import BakeryLorraine from './blogposts/BakeryLorraine';
 import ArtMovement from './blogposts/ArtMovement'
+
+import SwitzerlandOverview from './blogposts/SwitzerlandOverview'
+import SwitzerlandFood from './blogposts/SwitzerlandFood'
 
 import {
   BrowserRouter,
@@ -76,6 +81,9 @@ const App: React.FC = () => {
 
 
             <Route path='/art/gallery/movement' element={<ArtMovement />} />
+
+            <Route path='/switzerland/swiss-overview' element={<SwitzerlandOverview />} />
+            <Route path='/switzerland/food' element={<SwitzerlandFood />} />
 
             <Route path='*' element={<UnderConstruction />} />
           </Routes>
