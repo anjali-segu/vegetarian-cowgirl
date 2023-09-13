@@ -18,13 +18,13 @@ const SwitzerlandFood = (props: Props) => {
     <ThemeProvider theme={theme}>
       <StandardBlogPost
         image={Switzerland_Food}
-        alt=""
+        alt="Anjali with a pizza in front of her. She is excited to dig in."
         image2={Switzerland_Food2}
-        alt2=""
+        alt2="A truffle ravioli coated in white sauce on a patterned plated."
         icon={Travel_Icon}
         alticon="A plane icon"
         title="Switzerland Food"
-        subtitle={``}
+        subtitle={`I am a huge foodie, so I wanted to explore a variety of food that Switzerland has to offer. I found some major hits and wanted to share them with you.`}
         paras={[`As a devoted food enthusiast, exploring culinary delights is just as essential to me while traveling as visiting the local attractions. When planning my trip to Switzerland, I meticulously researched food destinations by perusing local food blogs. I've found that veering past the first page of Google and steering clear of corporate food review websites often leads me to discover authentic local favorites. While there are instances when Google and mainstream review sites serve their purpose, my primary objective when traveling is to savor the flavors of the region, immersing myself in the city's culinary culture.`,
           `<b><u>Fondue | Gstaad</u></b>`,
           `With this mindset, I must confess that I occasionally indulged in touristy pleasures at these cherished local eateries. During our summer visit to Switzerland, a season less ideal for indulging in hearty fondue, I decided not to let the fear of appearing touristy deter me from trying this national dish. My fondest fondue memory from the trip was at Gstaad, where my boyfriend and I embarked on a unique fondue experience amidst the Swiss countryside. We opted for the truffle fondue at <b>Molkerei Gstaad</b>, and it was an absolute delight. Accompanied by crusty bread and a tantalizing spice blend, this fondue was a harmonious blend of creaminess, saltiness, and perfectly balanced truffle flavor. The bread, simultaneously fluffy and crusty, provided a superb vehicle for the fondue. However, the real star of the show was the seasoning mixture, which combined garlic powder, curry powder, thyme, basil, and more, elevating the fondue. We savored every last drop. A special mention goes to <b>Le Gruyerien</b> in Geneva, where we indulged in the half and half fondue, a delectable blend of Gruyère AOP and Vacherin Fribourgeois AOP. What stood out was the accompaniment of potatoes alongside the bread. These potatoes, fluffy and slightly sweet, complemented the salty richness of the fondue exquisitely.`,

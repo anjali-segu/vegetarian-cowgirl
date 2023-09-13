@@ -29,6 +29,9 @@ import ArtMovement from './blogposts/ArtMovement'
 
 import SwitzerlandOverview from './blogposts/SwitzerlandOverview'
 import SwitzerlandFood from './blogposts/SwitzerlandFood'
+import SwitzerlandGeneva from './blogposts/SwitzerlandGeneva'
+import SwitzerlandGstaad from './blogposts/SwitzerlandGstaad'
+import SwitzerlandInterlaken from './blogposts/SwitzerlandInterlaken'
 
 import {
   BrowserRouter,
@@ -84,6 +87,9 @@ const App: React.FC = () => {
 
             <Route path='/switzerland/swiss-overview' element={<SwitzerlandOverview />} />
             <Route path='/switzerland/food' element={<SwitzerlandFood />} />
+            <Route path='/switzerland/geneva' element={<SwitzerlandGeneva />} />
+            <Route path='/switzerland/gstaad' element={<SwitzerlandGstaad />} />
+            <Route path='/switzerland/interlaken' element={<SwitzerlandInterlaken />} />
 
             <Route path='*' element={<UnderConstruction />} />
           </Routes>
