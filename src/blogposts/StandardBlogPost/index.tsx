@@ -67,7 +67,7 @@ const {image, image2, icon, title, subtitle, paras, steps, alt, alt2, alticon} =
     (
       <Grid container justifyContent='center' sx={{marginTop:theme.spacing(10)}}>
         <Grid item xs={8} sx={{display:'flex',justifyContent:'center'}}>
-          <img style={{maxHeight: theme.spacing(80)}} src={image} alt={alt}/>
+          <img style={{maxHeight: theme.spacing(70)}} src={image} alt={alt}/>
         </Grid>
       </Grid>
 
