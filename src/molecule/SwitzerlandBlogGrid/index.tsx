@@ -53,7 +53,7 @@ const SwitzerlandBlogGrid = (props: Props) => {
           <Card image={Grindelwald_Blog_Square} title={'SWITZERLAND'} subtitle={'Grindelwald'} post={'/switzerland/grindelwald'} />
         </Grid>
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
-          <Card image={Zurich_Blog_Square} title={'SWITZERLAND'} subtitle={'Interlaken'} post={'/switzerland/zurich'} />
+          <Card image={Zurich_Blog_Square} title={'SWITZERLAND'} subtitle={'Zurich'} post={'/switzerland/zurich'} />
         </Grid>
       </Grid>
     </ThemeProvider>
