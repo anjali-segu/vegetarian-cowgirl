@@ -9,7 +9,7 @@ import FormGroup from '@mui/material/FormGroup';
 import Grid from '@mui/material/Grid';
 import Snackbar from '@mui/material/Snackbar';
 import Switch from '@mui/material/Switch';
-import ThemeProvider from '@mui/styles/ThemeProvider'
+import { ThemeProvider } from '@mui/material/styles'
 import ToggleButton from '@mui/material/ToggleButton';
 import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 import Tooltip from '@mui/material/Tooltip';
@@ -90,8 +90,7 @@ const RecipeCard = (props: Props) => {
         () => {
             var equipments = document.querySelectorAll(".equipment");
             for (let equipment of equipments) {
-                if (equipment instanceof HTMLElement)
-                {
+                if (equipment instanceof HTMLElement) {
                     equipment.dataset["highlighted"] = `${!highlightEquipment}`
                 }
             }

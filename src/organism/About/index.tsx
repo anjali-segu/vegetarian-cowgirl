@@ -1,9 +1,8 @@
 import { ThemeProvider } from '@mui/material/styles';
 import { theme } from '../../utils/theme'
-import { Grid } from '@mui/material';
+import { Grid, useMediaQuery } from '@mui/material';
 import Header from '../../atom/Header'
 import Typography from '@mui/material/Typography';
-import Media from 'react-media';
 import Link from '@mui/material/Link';
 
 
@@ -14,32 +13,31 @@ interface Props {
 
 
 const About = (props: Props) => {
-
+  const matchNarrow = useMediaQuery('(max-width: 400px)');
+  const matchMedium = useMediaQuery('(max-width: 800px)');
   return (
     <ThemeProvider theme={theme}>
       <Grid container>
-        <Media query="(max-width: 400px)" render={() =>
-        (
-          <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center' }}>
-            <img style={{ maxHeight: theme.spacing(45), marginTop: theme.spacing(2) }} src={About_Image} alt="Anjali under a rainbow in Hawaii." />
-          </Grid>
+        {matchNarrow
+          ? (
+            <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center' }}>
+              <img style={{ maxHeight: theme.spacing(45), marginTop: theme.spacing(2) }} src={About_Image} alt="Anjali under a rainbow in Hawaii." />
+            </Grid>
 
-        )}
-        />
-        <Media query="(min-width:401px) and (max-width: 800px)" render={() =>
-        (
-          <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center' }}>
-            <img style={{ maxHeight: theme.spacing(70), marginTop: theme.spacing(2) }} src={About_Image} alt="Anjali under a rainbow in Hawaii." />
-          </Grid>
-        )}
-        />
-        <Media query="(min-width: 801px)" render={() =>
-        (
-          <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center' }}>
-            <img style={{ maxHeight: theme.spacing(120), marginTop: theme.spacing(2) }} src={About_Image} alt="Anjali under a rainbow in Hawaii." />
-          </Grid>
-        )}
-        />
+          )
+          : matchMedium
+            ? (
+              <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center' }}>
+                <img style={{ maxHeight: theme.spacing(70), marginTop: theme.spacing(2) }} src={About_Image} alt="Anjali under a rainbow in Hawaii." />
+              </Grid>
+            )
+            : (
+              <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center' }}>
+                <img style={{ maxHeight: theme.spacing(120), marginTop: theme.spacing(2) }} src={About_Image} alt="Anjali under a rainbow in Hawaii." />
+              </Grid>
+            )
+        }
+
 
       </Grid>
       <Header text={"Meet Anjali"} />

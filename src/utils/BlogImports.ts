@@ -122,7 +122,7 @@ import Drink_Icon from '../assets/images/icons/drinks_icon.png';
 
 export const recipes = [
   {
-    path: '/recipes/classic-pumpkin-pie',
+    path: 'classic-pumpkin-pie',
     images: [
       {
         src: Classic_Pumpkin_Pie_Crust_Blog_Square,
@@ -141,7 +141,7 @@ export const recipes = [
     ...ClassicPumpkinPie
   },
   {
-    path: '/recipes/peach-cobbler',
+    path: 'peach-cobbler',
     images: [
       {
         src: Peach_Cobbler_Uncook_Blog_Square,
@@ -160,7 +160,7 @@ export const recipes = [
     ...PeachCobbler
   },
   {
-    path: '/recipes/jalapeno-cornbread',
+    path: 'jalapeno-cornbread',
     images: [
       {
         src: Cornbread_Slice_Blog_Square,
@@ -179,7 +179,7 @@ export const recipes = [
     ...Cornbread
   },
   {
-    path: '/recipes/raspberry-rose-macaron',
+    path: 'raspberry-rose-macaron',
     images: [
       {
         src: Macaroon_Uncook_Blog_Square,
@@ -198,7 +198,7 @@ export const recipes = [
     ...Macaroon
   },
   {
-    path: '/recipes/chocolate-orange-pancakes',
+    path: 'chocolate-orange-pancakes',
     images: [
       {
         src: Orange_Pancake_Drizzle_Blog_Square,
@@ -213,7 +213,7 @@ export const recipes = [
     ...OrangePancake
   },
   {
-    path: '/recipes/avocado-eggs-benedict',
+    path: 'avocado-eggs-benedict',
     images: [
       {
         src: Eggs_Benny_Overhead_Blog_Square,
@@ -228,7 +228,7 @@ export const recipes = [
     ...EggsBenny
   },
   {
-    path: '/recipes/soft-gingerbread',
+    path: 'soft-gingerbread',
     images: [
       {
         src: Gingerbread_Plain_Blog_Square,
@@ -247,7 +247,7 @@ export const recipes = [
     ...Gingerbread
   },
   {
-    path: '/recipes/fudgey-brownies',
+    path: 'fudgey-brownies',
     images: [
       {
         src: Brownie_Cut_Blog_Square,
@@ -266,7 +266,7 @@ export const recipes = [
     ...Brownie
   },
   {
-    path: '/recipes/eton-mess-dessert',
+    path: 'eton-mess-dessert',
     images: [
       {
         src: Eton_Mess_Blog_Square,
@@ -276,7 +276,7 @@ export const recipes = [
     ...EtonMessJson
   },
   {
-    path: '/recipes/cinnamon-rolls',
+    path: 'cinnamon-rolls',
     images: [
       {
         src: Cinammon_Buns_Blog_Square,
@@ -286,7 +286,7 @@ export const recipes = [
     ...CinnamonBunsJson
   },
   {
-    path: '/recipes/chocolate-cake-cookies',
+    path: 'chocolate-cake-cookies',
     images: [
       {
         src: Chocolate_Cake_Cookies_Overhead_Blog_Square,
@@ -299,7 +299,7 @@ export const recipes = [
     ...ChocolateCakeCookiesJson
   },
   {
-    path: '/recipes/pumpkin-mascarpone-pie',
+    path: 'pumpkin-mascarpone-pie',
     images: [
       {
         src: Pumpkin_Pie_Blog_Square,
@@ -309,7 +309,7 @@ export const recipes = [
     ...PumpkinMascarponePieJson
   },
   {
-    path: '/recipes/sugar-cookies',
+    path: 'sugar-cookies',
     images: [
       {
         src: Sugar_Cookie_Blog_Square,
@@ -319,7 +319,7 @@ export const recipes = [
     ...SugarCookiesJson
   },
   {
-    path: '/recipes/italian-orange-cake',
+    path: 'italian-orange-cake',
     images: [
       {
         src: Orange_Cake_Blog_Square,
@@ -329,7 +329,7 @@ export const recipes = [
     ...OrangeCakeJson
   },
   {
-    path: '/recipes/eggs-en-cocotte',
+    path: 'eggs-en-cocotte',
     images: [
       {
         src: Eggs_En_Cocotte_Blog_Square,
@@ -340,7 +340,7 @@ export const recipes = [
     ...EggsEnCocotteJson
   },
   {
-    path: '/recipes/deconstructed-elote',
+    path: 'deconstructed-elote',
     images: [
       {
         src: Elote_Blog_Square,
@@ -352,7 +352,7 @@ export const recipes = [
     ...DeconstructedEloteJson
   },
   {
-    path: '/recipes/puff-pastry-jalapeno-poppers',
+    path: 'puff-pastry-jalapeno-poppers',
     images: [
       {
         src: Jalapeno_Poppers_Blog_Square,
@@ -364,7 +364,7 @@ export const recipes = [
     ...JalapenoPoppersJson
   },
   {
-    path: '/recipes/turkish-eggs',
+    path: 'turkish-eggs',
     images: [
       {
         src: Turkish_Eggs_Blog_Square,
@@ -376,7 +376,7 @@ export const recipes = [
     ...TurkishEggsJson
   },
   {
-    path: '/recipes/mushroom-miso-soup',
+    path: 'mushroom-miso-soup',
     images: [
       {
         src: Miso_Soup_Blog_Square,
@@ -388,7 +388,7 @@ export const recipes = [
     ...MushroomMisoSoupJson
   },
   {
-    path: '/recipes/veggie-packed-dumplings',
+    path: 'veggie-packed-dumplings',
     images: [
       {
         src: Dumplings_Blog_Square,
@@ -400,7 +400,7 @@ export const recipes = [
     ...VeggieDumplingsJson
   },
   {
-    path: '/recipes/pumpkin-spiced-latte',
+    path: 'pumpkin-spiced-latte',
     images: [
       {
         src: PSL_Blog_Square,
@@ -412,7 +412,7 @@ export const recipes = [
     ...PSLJson
   },
   {
-    path: '/recipes/moms-jamun',
+    path: 'moms-jamun',
     images: [
       {
         src: Jamun_Raw_Blog_Square,
@@ -432,7 +432,7 @@ export const recipes = [
     ...MomsJamun
   },
   {
-    path: '/recipes/grandmas-pasta-sauce',
+    path: 'grandmas-pasta-sauce',
     images: [
       {
         src: Pasta_Sauce_Pot_Blog_Square,
@@ -452,7 +452,7 @@ export const recipes = [
     ...GrandmasPastaSauce
   },
   {
-    path: '/recipes/cheesecake',
+    path: 'cheesecake',
     images: [
       {
         src: Cheesecake_Blog_Square,
@@ -473,7 +473,7 @@ export const recipes = [
   },
 
   {
-    path: '/recipes/grandmas-fudge',
+    path: 'grandmas-fudge',
     images: [
       {
         src: Grandma_Fudge_Blog_Square,
@@ -489,7 +489,7 @@ export const recipes = [
     ...GrandmasFudge
   },
   {
-    path: '/recipes/cardamom-buns',
+    path: 'cardamom-buns',
     images: [
       {
         src: Cardamom_Buns_Rising_Blog_Square,
@@ -509,7 +509,7 @@ export const recipes = [
     ...CardamomBuns
   },
   {
-    path: '/recipes/cauliflower-soup',
+    path: 'cauliflower-soup',
     images: [
       {
         src: Cauliflower_Soup_Blender2_Blog_Square,
@@ -529,7 +529,7 @@ export const recipes = [
     ...CauliflowerSoup
   },
   {
-    path: '/recipes/coffee-syrup',
+    path: 'coffee-syrup',
     images: [
       {
         src: Coffee_Syrup_Ingredients_Blog_Square,
@@ -549,7 +549,7 @@ export const recipes = [
     ...CoffeeSyrup
   },
   {
-    path: '/recipes/pecan-latte',
+    path: 'pecan-latte',
     images: [
       {
         src: Pecan_Latte_Bottle_Blog_Square,
@@ -569,7 +569,7 @@ export const recipes = [
     ...PecanLatte
   },
   {
-    path: '/recipes/spring-rolls',
+    path: 'spring-rolls',
     images: [
       {
         src: Spring_Rolls_Assembly_Blog_Square,
@@ -589,7 +589,7 @@ export const recipes = [
     ...SpringRolls
   },
   {
-    path: '/recipes/chocolate-cream-pie',
+    path: 'chocolate-cream-pie',
     images: [
       {
         src: Chocolate_Cream_Pie_Whole_Blog_Square,
@@ -609,7 +609,7 @@ export const recipes = [
     ...ChocolateCreamPie
   },
   {
-    path: '/recipes/brownie-ice-cream-sandwich',
+    path: 'brownie-ice-cream-sandwich',
     images: [
       {
         src: Ice_Cream_Sandwich_Top_Blog_Square,
@@ -629,7 +629,7 @@ export const recipes = [
     ...IceCreamSandwich
   },
   {
-    path: '/recipes/chocolate-lava-cake',
+    path: 'chocolate-lava-cake',
     images: [
       {
         src: Lava_Cake_Batter_Blog_Square,
@@ -649,7 +649,7 @@ export const recipes = [
     ...ChocolateLavaCake
   },
   {
-    path: '/recipes/tiramisu',
+    path: 'tiramisu',
     images: [
       {
         src: Tiramisu_Layer_Blog_Square,

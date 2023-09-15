@@ -1,10 +1,9 @@
 import * as React from 'react';
 import { ThemeProvider } from '@mui/material/styles';
 import { theme } from '../../utils/theme'
-import { Grid } from '@mui/material';
+import { Grid, useMediaQuery } from '@mui/material';
 import Card from '@mui/material/Card';
 import Typography from '@mui/material/Typography';
-import Media from 'react-media';
 import CardContent from '@mui/material/CardContent';
 
 import Restaurant_Icon from '../../assets/images/icons/restaurants_icon.png';
@@ -20,7 +19,7 @@ interface Props {
   orders: string[],
   alt: string,
   alt2: string,
-  alt3: string, 
+  alt3: string,
   alt4: string,
 
 }
@@ -28,6 +27,8 @@ interface Props {
 
 const RestaurantBlogPost = (props: Props) => {
   const { image, image2, image3, image4, title, subtitle, paras, orders, alt, alt2, alt3, alt4 } = props
+  const wideMatch = useMediaQuery('(min-width:1440px)');
+  const narrowMatch = useMediaQuery('(min-width:600px)')
   return (
     <ThemeProvider theme={theme}>
       <Grid container justifyContent='center'>
@@ -68,43 +69,41 @@ const RestaurantBlogPost = (props: Props) => {
         </Grid>
       </Grid>
 
-      <Media query="(max-width: 1439px)" render={() =>
-      (
-        <Grid container justifyContent='center' sx={{ marginTop: theme.spacing(10) }}>
-          <Grid item xs={8} sx={{ display: 'flex', justifyContent: 'center' }}>
-            <img style={{ maxHeight: theme.spacing(80), marginBottom: theme.spacing(5) }} src={image} alt={alt} />
+      {wideMatch
+        ? (
+          <Grid container justifyContent='center' sx={{ marginTop: theme.spacing(10), marginBottom: theme.spacing(5) }}>
+
+            <Grid item xs={3} sx={{ display: 'flex', justifyContent: 'center' }}>
+              <img style={{ maxHeight: theme.spacing(85) }} src={image} alt={alt} />
+            </Grid>
+
+            <Grid item xs={3} sx={{ display: 'flex', justifyContent: 'center' }}>
+              <img style={{ maxHeight: theme.spacing(85) }} src={image2} alt={alt2} />
+            </Grid>
+
+            <Grid item xs={3} sx={{ display: 'flex', justifyContent: 'center' }}>
+              <img style={{ maxHeight: theme.spacing(85) }} src={image3} alt={alt3} />
+            </Grid>
           </Grid>
 
-          <Grid item xs={8} sx={{ display: 'flex', justifyContent: 'center' }}>
-            <img style={{ maxHeight: theme.spacing(80), marginBottom: theme.spacing(5) }} src={image2} alt={alt2} />
+        )
+        : (
+          <Grid container justifyContent='center' sx={{ marginTop: theme.spacing(10) }}>
+            <Grid item xs={8} sx={{ display: 'flex', justifyContent: 'center' }}>
+              <img style={{ maxHeight: theme.spacing(80), marginBottom: theme.spacing(5) }} src={image} alt={alt} />
+            </Grid>
+
+            <Grid item xs={8} sx={{ display: 'flex', justifyContent: 'center' }}>
+              <img style={{ maxHeight: theme.spacing(80), marginBottom: theme.spacing(5) }} src={image2} alt={alt2} />
+            </Grid>
+
+            <Grid item xs={8} sx={{ display: 'flex', justifyContent: 'center' }}>
+              <img style={{ maxHeight: theme.spacing(80), marginBottom: theme.spacing(5) }} src={image3} alt={alt3} />
+            </Grid>
           </Grid>
 
-          <Grid item xs={8} sx={{ display: 'flex', justifyContent: 'center' }}>
-            <img style={{ maxHeight: theme.spacing(80), marginBottom: theme.spacing(5) }} src={image3} alt={alt3} />
-          </Grid>
-        </Grid>
+        )}
 
-      )}
-      />
-      <Media query="(min-width: 1440px)" render={() =>
-      (
-        <Grid container justifyContent='center' sx={{ marginTop: theme.spacing(10), marginBottom: theme.spacing(5) }}>
-
-          <Grid item xs={3} sx={{ display: 'flex', justifyContent: 'center' }}>
-            <img style={{ maxHeight: theme.spacing(85) }} src={image} alt={alt} />
-          </Grid>
-
-          <Grid item xs={3} sx={{ display: 'flex', justifyContent: 'center' }}>
-            <img style={{ maxHeight: theme.spacing(85) }} src={image2} alt={alt2} />
-          </Grid>
-
-          <Grid item xs={3} sx={{ display: 'flex', justifyContent: 'center' }}>
-            <img style={{ maxHeight: theme.spacing(85) }} src={image3} alt={alt3} />
-          </Grid>
-        </Grid>
-
-      )}
-      />
 
       <Grid container justifyContent='center'>
         <Grid item xs={8} md={6}>
@@ -123,26 +122,23 @@ const RestaurantBlogPost = (props: Props) => {
         </Grid>
       </Grid>
 
-      <Media query="(max-width: 599px)" render={() =>
-      (
-        <Grid container justifyContent='center' sx={{ marginTop: theme.spacing(10) }}>
-          <Grid item xs={8} sx={{ display: 'flex', justifyContent: 'center' }}>
-            <img style={{ maxHeight: theme.spacing(55) }} src={image2} alt={alt2} />
+      {narrowMatch
+        ? (
+          <Grid container justifyContent='center' sx={{ marginTop: theme.spacing(10) }}>
+            <Grid item xs={8} sx={{ display: 'flex', justifyContent: 'center' }}>
+              <img style={{ maxHeight: theme.spacing(80) }} src={image4} alt={alt4} />
+            </Grid>
           </Grid>
-        </Grid>
 
-      )}
-      />
-      <Media query="(min-width: 600px)" render={() =>
-      (
-        <Grid container justifyContent='center' sx={{ marginTop: theme.spacing(10) }}>
-          <Grid item xs={8} sx={{ display: 'flex', justifyContent: 'center' }}>
-            <img style={{ maxHeight: theme.spacing(80) }} src={image4} alt={alt4} />
+        )
+        : (
+          <Grid container justifyContent='center' sx={{ marginTop: theme.spacing(10) }}>
+            <Grid item xs={8} sx={{ display: 'flex', justifyContent: 'center' }}>
+              <img style={{ maxHeight: theme.spacing(55) }} src={image2} alt={alt2} />
+            </Grid>
           </Grid>
-        </Grid>
 
-      )}
-      />
+        )}
 
 
 
@@ -217,7 +213,7 @@ const RestaurantBlogPost = (props: Props) => {
                 </ol>
               </Grid>
 
-              
+
 
 
 

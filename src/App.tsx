@@ -38,9 +38,11 @@ import SwitzerlandGrindelwald from './blogposts/SwitzerlandGrindelwald';
 import SwitzerlandZurich from './blogposts/SwitzerlandZurich';
 
 import {
-  BrowserRouter,
-  Routes,
+  Outlet,
   Route,
+  RouterProvider,
+  createBrowserRouter,
+  createRoutesFromElements,
 } from "react-router-dom";
 
 // recipe type && recipe component
@@ -52,62 +54,59 @@ import IntroToBreville from './blogposts/IntroToBreville';
 import UnderConstruction from './organism/UnderConstruction';
 
 
-const createRecipeBlogPosts = (recipes: Recipe[]) => recipes.map(recipe => <Route key={recipe.path} path={recipe.path} element={<DynamicRecipeBlogPost {...recipe} />} />)
+const createRecipeBlogPosts = (recipes: Recipe[]) => recipes.map(recipe => <Route key={recipe.path} path={`recipes/${recipe.path}`} element={<DynamicRecipeBlogPost {...recipe} />} />)
+
+const Layout = () => (
+  <>
+    <Navbar />
+    <Outlet />
+    <Footer />
+  </>
+)
 
 const App: React.FC = () => {
+  const router = createBrowserRouter(
+    createRoutesFromElements(
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="recipes" element={<Recipes />} />
+        {createRecipeBlogPosts(recipes)}
+        <Route path="recipes/intro-to-breville-espresso-machine" element={<IntroToBreville />} />
+        <Route path="austin-living" element={<AustinLiving />} />
+        <Route path="austin-living/cafe-monet" element={<AustinCafeMonet />} />
+        <Route path="austin-living/plant-stores" element={<AustinPlantStores />} />
+        <Route path="austin-living/austin-tea-guide" element={<AustinTeaGuide />} />
+        <Route path='austin-living/forthright' element={<Forthright />} />
+        <Route path='austin-living/oseyo' element={<Oseyo />} />
+        <Route path='austin-living/uchiko' element={<Uchiko />} />
+        <Route path='austin-living/il-brutto' element={<IlBrutto />} />
+        <Route path='austin-living/aba' element={<Aba />} />
+        <Route path='austin-living/bakery-lorraine' element={<BakeryLorraine />} />
+        <Route path="costa-rica" element={<CostaRica />} />
+        <Route path="austin" element={<Austin />} />
+        <Route path="hawaii" element={<Hawaii />} />
+        <Route path="switzerland" element={<Switzerland />} />
+        <Route path='switzerland/swiss-overview' element={<SwitzerlandOverview />} />
+        <Route path='switzerland/food' element={<SwitzerlandFood />} />
+        <Route path='switzerland/geneva' element={<SwitzerlandGeneva />} />
+        <Route path='switzerland/gstaad' element={<SwitzerlandGstaad />} />
+        <Route path='switzerland/interlaken' element={<SwitzerlandInterlaken />} />
+        <Route path='switzerland/jungfraujoch' element={<SwitzerlandJungfrau />} />
+        <Route path='switzerland/bern' element={<SwitzerlandBern />} />
+        <Route path='switzerland/grindelwald' element={<SwitzerlandGrindelwald />} />
+        <Route path='switzerland/zurich' element={<SwitzerlandZurich />} />
+        <Route path="indianapolis" element={<Indianapolis />} />
+        <Route path="art" element={<Art />} />
+        <Route path='art/gallery/movement' element={<ArtMovement />} />
+        <Route path="about" element={<About />} />
+      </Route>
+    )
+  )
+
   return (
     <ThemeProvider theme={theme}>
-      <BrowserRouter basename={`/${process.env.PUBLIC_URL}`}>
-        <Navbar />
-        <div id='content-wrap'>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/recipes" element={<Recipes />} />
-            <Route path="/austin-living" element={<AustinLiving />} />
-            <Route path="/costa-rica" element={<CostaRica />} />
-            <Route path="/austin" element={<Austin />} />
-            <Route path="/hawaii" element={<Hawaii />} />
-            <Route path="/switzerland" element={<Switzerland />} />
-            <Route path="/indianapolis" element={<Indianapolis />} />
-            <Route path="/art" element={<Art />} />
-            <Route path="/about" element={<About />} />
-
-            {createRecipeBlogPosts(recipes)}
-
-            <Route path="/recipes/intro-to-breville-espresso-machine" element={<IntroToBreville />} />
-
-            <Route path="/austin-living/cafe-monet" element={<AustinCafeMonet />} />
-            <Route path="/austin-living/plant-stores" element={<AustinPlantStores />} />
-            <Route path="/austin-living/austin-tea-guide" element={<AustinTeaGuide />} />
-            <Route path='/austin-living/forthright' element={<Forthright />} />
-            <Route path='/austin-living/oseyo' element={<Oseyo />} />
-            <Route path='/austin-living/uchiko' element={<Uchiko />} />
-            <Route path='/austin-living/il-brutto' element={<IlBrutto />} />
-            <Route path='/austin-living/aba' element={<Aba />} />
-            <Route path='/austin-living/bakery-lorraine' element={<BakeryLorraine />} />
-
-
-            <Route path='/art/gallery/movement' element={<ArtMovement />} />
-
-            <Route path='/switzerland/swiss-overview' element={<SwitzerlandOverview />} />
-            <Route path='/switzerland/food' element={<SwitzerlandFood />} />
-            <Route path='/switzerland/geneva' element={<SwitzerlandGeneva />} />
-            <Route path='/switzerland/gstaad' element={<SwitzerlandGstaad />} />
-            <Route path='/switzerland/interlaken' element={<SwitzerlandInterlaken />} />
-            <Route path='/switzerland/jungfraujoch' element={<SwitzerlandJungfrau />} />
-            <Route path='/switzerland/bern' element={<SwitzerlandBern />} />
-            <Route path='/switzerland/grindelwald' element={<SwitzerlandGrindelwald />} />
-            <Route path='/switzerland/zurich' element={<SwitzerlandZurich />} />
-
-            <Route path='*' element={<UnderConstruction />} />
-          </Routes>
-        </div>
-        <Footer />
-      </BrowserRouter>
-
+      <RouterProvider router={router} />
     </ThemeProvider>
-
-
   );
 }
 
