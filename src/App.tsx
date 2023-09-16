@@ -67,39 +67,42 @@ const Layout = () => (
 const App: React.FC = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/" element={<Layout />}>
-        <Route index element={<Home />} />
-        <Route path="recipes" element={<Recipes />} />
-        {createRecipeBlogPosts(recipes)}
-        <Route path="recipes/intro-to-breville-espresso-machine" element={<IntroToBreville />} />
-        <Route path="austin-living" element={<AustinLiving />} />
-        <Route path="austin-living/cafe-monet" element={<AustinCafeMonet />} />
-        <Route path="austin-living/plant-stores" element={<AustinPlantStores />} />
-        <Route path="austin-living/austin-tea-guide" element={<AustinTeaGuide />} />
-        <Route path='austin-living/forthright' element={<Forthright />} />
-        <Route path='austin-living/oseyo' element={<Oseyo />} />
-        <Route path='austin-living/uchiko' element={<Uchiko />} />
-        <Route path='austin-living/il-brutto' element={<IlBrutto />} />
-        <Route path='austin-living/aba' element={<Aba />} />
-        <Route path='austin-living/bakery-lorraine' element={<BakeryLorraine />} />
-        <Route path="costa-rica" element={<CostaRica />} />
-        <Route path="austin" element={<Austin />} />
-        <Route path="hawaii" element={<Hawaii />} />
-        <Route path="switzerland" element={<Switzerland />} />
-        <Route path='switzerland/swiss-overview' element={<SwitzerlandOverview />} />
-        <Route path='switzerland/food' element={<SwitzerlandFood />} />
-        <Route path='switzerland/geneva' element={<SwitzerlandGeneva />} />
-        <Route path='switzerland/gstaad' element={<SwitzerlandGstaad />} />
-        <Route path='switzerland/interlaken' element={<SwitzerlandInterlaken />} />
-        <Route path='switzerland/jungfraujoch' element={<SwitzerlandJungfrau />} />
-        <Route path='switzerland/bern' element={<SwitzerlandBern />} />
-        <Route path='switzerland/grindelwald' element={<SwitzerlandGrindelwald />} />
-        <Route path='switzerland/zurich' element={<SwitzerlandZurich />} />
-        <Route path="indianapolis" element={<Indianapolis />} />
-        <Route path="art" element={<Art />} />
-        <Route path='art/gallery/movement' element={<ArtMovement />} />
-        <Route path="about" element={<About />} />
-      </Route>
+      <>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="recipes" element={<Recipes />} />
+          {createRecipeBlogPosts(recipes)}
+          <Route path="recipes/intro-to-breville-espresso-machine" element={<IntroToBreville />} />
+          <Route path="austin-living" element={<AustinLiving />} />
+          <Route path="austin-living/cafe-monet" element={<AustinCafeMonet />} />
+          <Route path="austin-living/plant-stores" element={<AustinPlantStores />} />
+          <Route path="austin-living/austin-tea-guide" element={<AustinTeaGuide />} />
+          <Route path='austin-living/forthright' element={<Forthright />} />
+          <Route path='austin-living/oseyo' element={<Oseyo />} />
+          <Route path='austin-living/uchiko' element={<Uchiko />} />
+          <Route path='austin-living/il-brutto' element={<IlBrutto />} />
+          <Route path='austin-living/aba' element={<Aba />} />
+          <Route path='austin-living/bakery-lorraine' element={<BakeryLorraine />} />
+          <Route path="costa-rica" element={<CostaRica />} />
+          <Route path="austin" element={<Austin />} />
+          <Route path="hawaii" element={<Hawaii />} />
+          <Route path="switzerland" element={<Switzerland />} />
+          <Route path='switzerland/swiss-overview' element={<SwitzerlandOverview />} />
+          <Route path='switzerland/food' element={<SwitzerlandFood />} />
+          <Route path='switzerland/geneva' element={<SwitzerlandGeneva />} />
+          <Route path='switzerland/gstaad' element={<SwitzerlandGstaad />} />
+          <Route path='switzerland/interlaken' element={<SwitzerlandInterlaken />} />
+          <Route path='switzerland/jungfraujoch' element={<SwitzerlandJungfrau />} />
+          <Route path='switzerland/bern' element={<SwitzerlandBern />} />
+          <Route path='switzerland/grindelwald' element={<SwitzerlandGrindelwald />} />
+          <Route path='switzerland/zurich' element={<SwitzerlandZurich />} />
+          <Route path="indianapolis" element={<Indianapolis />} />
+          <Route path="art" element={<Art />} />
+          <Route path='art/gallery/movement' element={<ArtMovement />} />
+          <Route path="about" element={<About />} />
+        </Route>
+        <Route path='*' element={<UnderConstruction />} />
+      </>
     )
   )
 
