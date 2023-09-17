@@ -21,12 +21,13 @@ import LogoBlack from '../../assets/images/icons/logos/LogoBlack.png';
 
 
 const CarouselHome = () => {
-  const matchesWide = useMediaQuery('(min-width:1389px)');
-  const matchesMedium = useMediaQuery('(min-width:599px) and (max-width: 1390px)');
+  const matchesWide = useMediaQuery('(min-width:1390px)');
+  const matchesMedium = useMediaQuery('(min-width:600px)');
   return (
     <div>
       {
-        matchesWide && (
+        matchesWide =
+        ? (
           <div style={{ minHeight: theme.spacing(100) }}>
 
             <br />
@@ -43,15 +44,13 @@ const CarouselHome = () => {
             <br />
           </div>
         )
-      }
-      {
-        matchesMedium && (
-          <Grid container justifyContent='center'>
-            <Grid item xs={1} sx={{ display: 'flex', justifyContent: 'center' }}>
-              <img style={{ maxHeight: theme.spacing(20) }} src={LogoBlack} alt="White outlined cowboy boot with monstera plant." />
+          : matchesMedium && (
+            <Grid container justifyContent='center'>
+              <Grid item xs={1} sx={{ display: 'flex', justifyContent: 'center' }}>
+                <img style={{ maxHeight: theme.spacing(20) }} src={LogoBlack} alt="White outlined cowboy boot with monstera plant." />
+              </Grid>
             </Grid>
-          </Grid>
-        )
+          )
       }
 
     </div>

@@ -25,7 +25,7 @@ interface Props {
 const ArtBlogPost = (props: Props) => {
 
   const { image, image2, image3, title, subtitle, paras, alt, alt2, alt3, } = props
-  const matches = useMediaQuery('(min-width:1439px)');
+  const matches = useMediaQuery('(min-width:1440px)');
   return (
 
     <ThemeProvider theme={theme}>
@@ -70,22 +70,6 @@ const ArtBlogPost = (props: Props) => {
       </Grid>
       {matches
         ? (
-          <Grid container justifyContent='center' sx={{ marginTop: theme.spacing(10) }}>
-            <Grid item xs={8} sx={{ display: 'flex', justifyContent: 'center' }}>
-              <img style={{ maxHeight: theme.spacing(80), marginBottom: theme.spacing(5) }} src={image} alt={alt} />
-            </Grid>
-
-            <Grid item xs={8} sx={{ display: 'flex', justifyContent: 'center' }}>
-              <img style={{ maxHeight: theme.spacing(80), marginBottom: theme.spacing(5) }} src={image2} alt={alt2} />
-            </Grid>
-
-            <Grid item xs={8} sx={{ display: 'flex', justifyContent: 'center' }}>
-              <img style={{ maxHeight: theme.spacing(80), marginBottom: theme.spacing(5) }} src={image3} alt={alt3} />
-            </Grid>
-          </Grid>
-
-        )
-        : (
           <Grid container justifyContent='center' sx={{ marginTop: theme.spacing(10), marginBottom: theme.spacing(5) }}>
 
             <Grid item xs={3} sx={{ display: 'flex', justifyContent: 'center' }}>
@@ -98,6 +82,22 @@ const ArtBlogPost = (props: Props) => {
 
             <Grid item xs={3} sx={{ display: 'flex', justifyContent: 'center' }}>
               <img style={{ maxHeight: theme.spacing(85) }} src={image3} alt={alt3} />
+            </Grid>
+          </Grid>
+
+        )
+        : (
+          <Grid container justifyContent='center' sx={{ marginTop: theme.spacing(10) }}>
+            <Grid item xs={8} sx={{ display: 'flex', justifyContent: 'center' }}>
+              <img style={{ maxHeight: theme.spacing(80), marginBottom: theme.spacing(5) }} src={image} alt={alt} />
+            </Grid>
+
+            <Grid item xs={8} sx={{ display: 'flex', justifyContent: 'center' }}>
+              <img style={{ maxHeight: theme.spacing(80), marginBottom: theme.spacing(5) }} src={image2} alt={alt2} />
+            </Grid>
+
+            <Grid item xs={8} sx={{ display: 'flex', justifyContent: 'center' }}>
+              <img style={{ maxHeight: theme.spacing(80), marginBottom: theme.spacing(5) }} src={image3} alt={alt3} />
             </Grid>
           </Grid>
 
