@@ -26,31 +26,33 @@ const CarouselHome = () => {
   return (
     <div>
       {
-        matchesWide =
-        ? (
-          <div style={{ minHeight: theme.spacing(100) }}>
+        matchesWide
+          ? (
+            <div style={{ minHeight: theme.spacing(100) }}>
 
-            <br />
-            <Carousel
-              interval={15000}
-              className="SecondExample"
-            >
-              {
-                items.map((item, index) => {
-                  return <Project item={item} key={index} />
-                })
-              }
-            </Carousel>
-            <br />
-          </div>
-        )
-          : matchesMedium && (
-            <Grid container justifyContent='center'>
-              <Grid item xs={1} sx={{ display: 'flex', justifyContent: 'center' }}>
-                <img style={{ maxHeight: theme.spacing(20) }} src={LogoBlack} alt="White outlined cowboy boot with monstera plant." />
-              </Grid>
-            </Grid>
+              <br />
+              <Carousel
+                interval={15000}
+                className="SecondExample"
+              >
+                {
+                  items.map((item, index) => {
+                    return <Project item={item} key={index} />
+                  })
+                }
+              </Carousel>
+              <br />
+            </div>
           )
+          : matchesMedium
+            ? (
+              <Grid container justifyContent='center'>
+                <Grid item xs={1} sx={{ display: 'flex', justifyContent: 'center' }}>
+                  <img style={{ maxHeight: theme.spacing(20) }} src={LogoBlack} alt="White outlined cowboy boot with monstera plant." />
+                </Grid>
+              </Grid>
+            )
+            : <></>
       }
 
     </div>
