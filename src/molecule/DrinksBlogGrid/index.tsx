@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { ThemeProvider } from '@mui/material/styles';
 import { theme } from '../../utils/theme'
 import Card from '../../atom/Card';
@@ -10,11 +9,7 @@ import Tea_Jar_Blog_Square from '../../assets/images/blog_posts/tea_jar_blog_squ
 import Coffee_Syrup_Blog_Square from '../../assets/images/blog_posts/coffee_syrup_blog_square.jpg';
 import Pecan_Latte_Blog_Square from '../../assets/images/blog_posts/pecan_latte_blog_square.jpg';
 
-interface Props {
-}
-
-
-const DrinksBlogGrid = (props: Props) => {
+const DrinksBlogGrid = () => {
 
   return (
     <ThemeProvider theme={theme}>

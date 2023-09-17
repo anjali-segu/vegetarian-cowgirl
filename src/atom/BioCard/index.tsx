@@ -8,13 +8,7 @@ import { Grid, useMediaQuery } from '@mui/material';
 
 import BioProfile from '../../assets/images/about/BioProfile.jpg';
 
-interface Props {
-
-}
-
-
-
-const BioCard = (props: Props) => {
+const BioCard = () => {
   const matches = useMediaQuery('(min-width:450px)');
   return (
     <ThemeProvider theme={theme}>
@@ -96,7 +90,7 @@ const BioCard = (props: Props) => {
                     gutterBottom
                     variant="h6"
                     component="div">
-                    Anjali is the blogger behind The Vegetarian Cowgirl, Austin's top vegetarian food guide. Anjali hopes to inspire your taste buds by guiding you through plant-based spots in cities. Check out her recipes, travel guides, and her art.
+                    Anjali is the blogger behind The Vegetarian Cowgirl, Austin&apos;s top vegetarian food guide. Anjali hopes to inspire your taste buds by guiding you through plant-based spots in cities. Check out her recipes, travel guides, and her art.
                   </Typography>
                   <Button href="/about" sx={{
                     marginTop: theme.spacing(2),

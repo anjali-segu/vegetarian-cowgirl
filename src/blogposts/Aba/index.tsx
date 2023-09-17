@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { ThemeProvider } from '@mui/material/styles';
 import { theme } from '../../utils/theme'
 import RestaurantBlogPost from '../RestaurantBlogPost'
@@ -8,13 +7,7 @@ import Aba2_BlogSquare from '../../assets/images/blog_posts/aba2_blog_square.jpg
 import Aba3_BlogSquare from '../../assets/images/blog_posts/aba3_blog_square.jpg';
 import Aba4_BlogSquare from '../../assets/images/blog_posts/aba4_blog_square.jpg';
 
-
-
-interface Props {
-}
-
-
-const Aba = (props: Props) => {
+const Aba = () => {
 
   return (
     <ThemeProvider theme={theme}>

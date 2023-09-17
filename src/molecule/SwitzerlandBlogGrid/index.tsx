@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { ThemeProvider } from '@mui/material/styles';
 import { theme } from '../../utils/theme'
 import Card from '../../atom/Card';
@@ -14,11 +13,7 @@ import Jungfrau_Blog_Square from '../../assets/images/blog_posts/switzerland/jun
 import Swiss_Overview_Blog_Square from '../../assets/images/blog_posts/switzerland/swiss-overview_blog_square.jpg';
 import Zurich_Blog_Square from '../../assets/images/blog_posts/switzerland/zurich_blog_square.jpg';
 
-interface Props {
-}
-
-
-const SwitzerlandBlogGrid = (props: Props) => {
+const SwitzerlandBlogGrid = () => {
 
   return (
     <ThemeProvider theme={theme}>

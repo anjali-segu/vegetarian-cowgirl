@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { ThemeProvider } from '@mui/material/styles';
 import { theme } from '../../utils/theme'
 import StandardBlogPost from '../../blogposts/StandardBlogPost'
@@ -8,11 +7,7 @@ import Bern2 from '../../assets/images/blog_posts/switzerland/bern2.jpg';
 
 import Travel_Icon from '../../assets/images/icons/travel_icon.png';
 
-interface Props {
-}
-
-
-const SwitzerlandBern = (props: Props) => {
+const SwitzerlandBern = () => {
 
   return (
     <ThemeProvider theme={theme}>

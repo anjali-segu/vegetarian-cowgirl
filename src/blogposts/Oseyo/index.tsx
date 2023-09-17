@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { ThemeProvider } from '@mui/material/styles';
 import { theme } from '../../utils/theme'
 import RestaurantBlogPost from '../RestaurantBlogPost'
@@ -8,13 +7,7 @@ import Oseyo2_BlogSquare from '../../assets/images/blog_posts/oseyo2_blog_square
 import Oseyo3_BlogSquare from '../../assets/images/blog_posts/oseyo3_blog_square.jpg';
 import Oseyo4_BlogSquare from '../../assets/images/blog_posts/oseyo4_blog_square.jpg';
 
-
-
-interface Props {
-}
-
-
-const Oseyo = (props: Props) => {
+const Oseyo = () => {
 
   return (
     <ThemeProvider theme={theme}>

@@ -1,36 +1,25 @@
 import * as React from 'react';
-import ReactDOM from 'react-dom';
 import Box from '@mui/material/Box';
-import {makeStyles} from '@mui/styles'
+import { theme } from '../../utils/theme';
 
 
 interface Props {
-  children: any,
+  children: React.ReactElement,
   backgroundColor?: string,
 }
 
-const useStyles = makeStyles(
-  (theme: any) => {
-    return {
-      panel: (props:Props) => {
-        return {
-          paddingBottom: theme.spacing(7),
-          paddingLeft: theme.spacing(5),
-          paddingRight: theme.spacing(5),
-          paddingTop: theme.spacing(10),
-          backgroundColor: props.backgroundColor,
-        }
-      }
-    }
-  }
-)
 
-const Panel = (props:Props) => {
-  const {children} = props
-  const classes = useStyles(props)
+const Panel = (props: Props) => {
+  const { children } = props
 
   return (
-    <Box className={classes.panel}>
+    <Box sx={{
+      paddingBottom: theme.spacing(7),
+      paddingLeft: theme.spacing(5),
+      paddingRight: theme.spacing(5),
+      paddingTop: theme.spacing(10),
+      backgroundColor: props.backgroundColor,
+    }}>
       {children}
     </Box>
   )

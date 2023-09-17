@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { ThemeProvider } from '@mui/material/styles';
 import { theme } from '../../utils/theme'
 import { Grid, useMediaQuery } from '@mui/material';
@@ -86,7 +85,7 @@ const StandardBlogPost = (props: Props) => {
         <Grid item xs={8} md={6}>
 
           {paras.map(para => (
-            <Typography dangerouslySetInnerHTML={{ __html: para }} sx={{
+            <Typography key={para} dangerouslySetInnerHTML={{ __html: para }} sx={{
               fontFamily: 'Karla',
               fontWeight: 300,
               color: 'black',
@@ -179,7 +178,7 @@ const StandardBlogPost = (props: Props) => {
               <Grid item xs={10}>
                 <ol>
                   {steps.map(step => (
-                    <li style={{
+                    <li key={step} style={{
                       fontFamily: 'Karla',
                       color: 'black',
                       fontWeight: 500,

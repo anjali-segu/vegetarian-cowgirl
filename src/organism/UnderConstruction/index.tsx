@@ -1,4 +1,3 @@
-import React from 'react'
 import Button from '@mui/material/Button'
 import Grid from '@mui/material/Grid'
 import { ThemeProvider } from '@mui/material/styles'
@@ -9,9 +8,7 @@ import Header from '../../atom/Header'
 import { theme } from '../../utils/theme'
 import Box from '@mui/material/Box'
 
-type Props = {}
-
-const UnderConstruction = (props: Props) => {
+const UnderConstruction = () => {
   return (
     <ThemeProvider theme={theme}>
       <Grid container justifyContent='center' sx={{ marginTop: theme.spacing(2) }}>

@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { ThemeProvider } from '@mui/material/styles';
 import { theme } from '../../utils/theme'
 import Card from '../../atom/Card';
@@ -11,11 +10,7 @@ import Uchiko_Blog_Square from '../../assets/images/blog_posts/uchiko_blog_squar
 
 import Logo3 from '../../assets/images/icons/logos/Logo3.png';
 
-interface Props {
-}
-
-
-const FeaturedPosts = (props: Props) => {
+const FeaturedPosts = () => {
   const match = useMediaQuery('(max-width:600px)');
   return (
     <ThemeProvider theme={theme}>

@@ -6,8 +6,8 @@ import { theme } from "./theme"
 
 export const generateCategories = (multiplier: number, ingredients?: { [key: string]: Ingredient }, categories?: { [key: string]: { ingredients: { [key: string]: Ingredient } } }) => {
     if (categories !== undefined) {
-        let retval: JSX.Element[] = []
-        for (let [categoryName, categoryObject] of Object.entries(categories)) {
+        const retval: JSX.Element[] = []
+        for (const [categoryName, categoryObject] of Object.entries(categories)) {
             retval.push((
                 <React.Fragment key={categoryName}>
                     <Grid item xs={1}>
@@ -76,9 +76,9 @@ const dynamicStep = (step: string, multiplier: number, flattenedIngredients: { [
     Object.entries(flattenedIngredients).forEach(([ingredientKey, ingredient]) => {
         step = step.replaceAll(`!${ingredientKey}`, () => ingredientToString(ingredientKey, ingredient, multiplier))
         const matches = [...step.matchAll(regex)];
-            for (let match of matches) {
-                step = step.replaceAll(match[0], `<span class="equipment" data-highlighted="false">${match[1]}</span>`)
-            }
+        for (const match of matches) {
+            step = step.replaceAll(match[0], `<span class="equipment" data-highlighted="false">${match[1]}</span>`)
+        }
     })
     return step
 }
@@ -95,8 +95,8 @@ export const generateSteps = (steps: string[], multiplier: number, categories: {
 
 const generateStepsFromCategories = (steps: string[], multiplier: number, categories: { [key: string]: { ingredients: { [key: string]: Ingredient } } }, serves: number) => {
     const flattenedIngredients: { [key: string]: Ingredient } = {};
-    for (let [, { ingredients }] of Object.entries(categories)) {
-        for (let [key, ingredient] of Object.entries(ingredients)) {
+    for (const [, { ingredients }] of Object.entries(categories)) {
+        for (const [key, ingredient] of Object.entries(ingredients)) {
             flattenedIngredients[key] = ingredient;
         }
     }

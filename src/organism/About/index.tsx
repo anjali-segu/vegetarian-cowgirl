@@ -8,11 +8,7 @@ import Link from '@mui/material/Link';
 
 import About_Image from '../../assets/images/about/rainbow.jpg';
 
-interface Props {
-}
-
-
-const About = (props: Props) => {
+const About = () => {
   const matchNarrow = useMediaQuery('(max-width: 400px)');
   const matchMedium = useMediaQuery('(max-width: 800px)');
   return (
@@ -52,7 +48,7 @@ const About = (props: Props) => {
             gutterBottom
             variant="h6"
             component="div">
-            Anjali Segu is an Austin Lifestyle blogger behind The Vegetarian Cowgirl, Austin's top vegetarian food and travel blog. The Vegetarian Cowgirl features the top vegetarian and vegan restaurants in Austin. Anjali travels the world on her hunt to find the top vegetarian food.         </Typography>
+            Anjali Segu is an Austin Lifestyle blogger behind The Vegetarian Cowgirl, Austin&apos;s top vegetarian food and travel blog. The Vegetarian Cowgirl features the top vegetarian and vegan restaurants in Austin. Anjali travels the world on her hunt to find the top vegetarian food.         </Typography>
         </Grid>
         <Grid item xs={2} md={3} sx={{ justifyContent: 'center' }}>
         </Grid>
@@ -69,7 +65,7 @@ const About = (props: Props) => {
             gutterBottom
             variant="h6"
             component="div">
-            Anjali graduated from Texas A&M in 2023 with a Bachelor's in Computer Science. She loves traveling, baking, and cooking in her free time. She is passionate about her plant-based lifestyle and wants to share her finds in Austin and around the globe through her travels. What started as a personal tool to share with her family and friends has become much more for all to explore.
+            Anjali graduated from Texas A&M in 2023 with a Bachelor&apos;s in Computer Science. She loves traveling, baking, and cooking in her free time. She is passionate about her plant-based lifestyle and wants to share her finds in Austin and around the globe through her travels. What started as a personal tool to share with her family and friends has become much more for all to explore.
           </Typography>
         </Grid>
         <Grid item xs={2} md={3} sx={{ justifyContent: 'center' }}>
@@ -88,7 +84,7 @@ const About = (props: Props) => {
             gutterBottom
             variant="h6"
             component="div">
-            Launched in 2021, the Vegetarian Cowgirl is a new up-and-coming lifestyle blog in Austin, TX. The blog features Anjali's favorite vegetarian recipes and her must-try bakes. Anjali has traveled across Europe, Asia, and North and South America. She shares her top food and activity finds in cities. Check out the travel itineraries that she has created. The goal of the blog is to celebrate plant-based eating internationally.
+            Launched in 2021, the Vegetarian Cowgirl is a new up-and-coming lifestyle blog in Austin, TX. The blog features Anjali&apos;s favorite vegetarian recipes and her must-try bakes. Anjali has traveled across Europe, Asia, and North and South America. She shares her top food and activity finds in cities. Check out the travel itineraries that she has created. The goal of the blog is to celebrate plant-based eating internationally.
           </Typography>
         </Grid>
         <Grid item xs={2} md={3} sx={{ justifyContent: 'center' }}>

@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { ThemeProvider } from '@mui/material/styles';
 import { theme } from '../../utils/theme'
 import RestaurantBlogPost from '../RestaurantBlogPost'
@@ -8,13 +7,7 @@ import BakeryLorraine2_BlogSquare from '../../assets/images/blog_posts/bakery_lo
 import BakeryLorraine3_BlogSquare from '../../assets/images/blog_posts/bakery_lorraine3_blog_square.jpg';
 import BakeryLorraine4_BlogSquare from '../../assets/images/blog_posts/bakery_lorraine4_blog_square.jpg';
 
-
-
-interface Props {
-}
-
-
-const BakeryLorraine = (props: Props) => {
+const BakeryLorraine = () => {
 
   return (
     <ThemeProvider theme={theme}>

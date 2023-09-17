@@ -1,4 +1,3 @@
-import React from 'react';
 import Carousel from 'react-material-ui-carousel';
 import { theme } from '../../utils/theme';
 import { ThemeProvider } from '@mui/material/styles';
