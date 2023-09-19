@@ -4,7 +4,6 @@ import NavbarLink from '../../atom/NavbarLink'
 import SocialLink from '../../atom/SocialLink'
 import LogoLink from '../../atom/LogoLink'
 import { theme } from '../../utils/theme'
-import Media from 'react-media';
 
 import Logo3 from '../../assets/images/icons/logos/Logo3.png';
 
@@ -13,6 +12,7 @@ import Etsy from '../../assets/images/icons/etsy.png';
 import Instagram from '../../assets/images/icons/instagram.png';
 import Pinterest from '../../assets/images/icons/pinterest.png';
 import YouTube from '../../assets/images/icons/youtube.png'
+import { useMediaQuery } from '@mui/material';
 
 interface Props {
   position?: 'fixed' | 'absolute' | 'sticky' | 'relative' | undefined,
@@ -21,13 +21,13 @@ interface Props {
 
 const Navbar = (props: Props) => {
   const { position } = props
-
+  const matchesMedium = useMediaQuery('(min-width:600px)');
+  const matchesWide = useMediaQuery('(min-width:870px)');
 
   return (
     <AppBar position={position} sx={{ paddingBottom: theme.spacing(2), backgroundColor: 'white' }}>
       <Toolbar>
-        <Media query="(min-width: 600px)" render={() =>
-        (
+        {matchesMedium && (
           <div>
             <LogoLink
               content={
@@ -42,7 +42,6 @@ const Navbar = (props: Props) => {
 
           </div>
         )}
-        />
 
         <NavbarLink
           content={'home'}
@@ -65,42 +64,38 @@ const Navbar = (props: Props) => {
           url={'/about'}
         />
 
-        <Media query="(max-width: 869px) and (min-width: 600px)" render={() =>
-        (
-          <div>
-            <SocialLink
-              content={
-                <img
-                  style={{ width: 15, paddingLeft: 1 }}
-                  src={Instagram}
-                  alt='Instagram'
-                />
-              }
-              url={'https://www.instagram.com/thevegetariancowgirl/'}
-            />
+        {matchesMedium && (!matchesWide
+          ? (
+            <div>
+              <SocialLink
+                content={
+                  <img
+                    style={{ width: 15, paddingLeft: 1 }}
+                    src={Instagram}
+                    alt='Instagram'
+                  />
+                }
+                url={'https://www.instagram.com/thevegetariancowgirl/'}
+              />
 
-          </div>
-        )}
-        />
-        <Media query="(min-width: 870px)" render={() =>
-        (
-          <div>
-            <SocialLink
-              content={
-                <img
-                  style={{ width: 15, paddingLeft: 80 }}
-                  src={Instagram}
-                  alt='Instagram'
-                />
-              }
-              url={'https://www.instagram.com/thevegetariancowgirl/'}
-            />
+            </div>
+          )
+          : (
+            <div>
+              <SocialLink
+                content={
+                  <img
+                    style={{ width: 15, paddingLeft: 80 }}
+                    src={Instagram}
+                    alt='Instagram'
+                  />
+                }
+                url={'https://www.instagram.com/thevegetariancowgirl/'}
+              />
 
-          </div>
-        )}
-        />
-        <Media query="(min-width: 600px)" render={() =>
-        (
+            </div>
+          ))}
+        {matchesMedium && (
           <div>
             <SocialLink
               content={
@@ -114,9 +109,7 @@ const Navbar = (props: Props) => {
             />
           </div>
         )}
-        />
-        <Media query="(min-width: 600px)" render={() =>
-        (
+        {matchesMedium && (
           <div>
             <SocialLink
               content={
@@ -130,10 +123,7 @@ const Navbar = (props: Props) => {
             />
           </div>
         )}
-        />
-
-        <Media query="(min-width: 600px)" render={() =>
-        (
+        {matchesMedium && (
           <div>
             <SocialLink
               content={
@@ -147,10 +137,7 @@ const Navbar = (props: Props) => {
             />
           </div>
         )}
-        />
-
-        <Media query="(min-width: 600px)" render={() =>
-        (
+        {matchesMedium && (
           <div>
             <SocialLink
               content={
@@ -164,7 +151,6 @@ const Navbar = (props: Props) => {
             />
           </div>
         )}
-        />
 
       </Toolbar>
 

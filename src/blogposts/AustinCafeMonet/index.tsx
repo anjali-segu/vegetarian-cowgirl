@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { ThemeProvider } from '@mui/material/styles';
 import { theme } from '../../utils/theme'
 import StandardBlogPost from '../../blogposts/StandardBlogPost'
@@ -8,11 +7,7 @@ import Cafe_Monet_Blog_Square from '../../assets/images/blog_posts/cafe_monet_bl
 
 import Activities_Icon from '../../assets/images/icons/activities_icon.png';
 
-interface Props {
-}
-
-
-const AustinCafeMonet = (props: Props) => {
+const AustinCafeMonet = () => {
 
   return (
     <ThemeProvider theme={theme}>

@@ -4,19 +4,12 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { ThemeProvider } from '@mui/material/styles';
 import { theme } from '../../utils/theme'
-import { Grid } from '@mui/material';
-import Media from 'react-media';
+import { Grid, useMediaQuery } from '@mui/material';
 
 import BioProfile from '../../assets/images/about/BioProfile.jpg';
 
-interface Props {
-
-}
-
-
-
-const BioCard = (props: Props) => {
-
+const BioCard = () => {
+  const matches = useMediaQuery('(min-width:450px)');
   return (
     <ThemeProvider theme={theme}>
       <Grid container sx={{ marginBottom: theme.spacing(10) }}>
@@ -51,14 +44,14 @@ const BioCard = (props: Props) => {
             <CardContent>
               <Grid container>
 
-                <Media query="(min-width: 450px)" render={() =>
-                (
-                  <Grid item sm={12} md={12} lg={6} sx={{ display: 'flex', justifyContent: 'center' }}>
-                    <img style={{ maxHeight: theme.spacing(100), marginTop: theme.spacing(2) }} src={BioProfile} alt="Anjali by the Trevi Fountain." />
-                  </Grid>
+                {
+                  matches && (
+                    <Grid item sm={12} md={12} lg={6} sx={{ display: 'flex', justifyContent: 'center' }}>
+                      <img style={{ maxHeight: theme.spacing(100), marginTop: theme.spacing(2) }} src={BioProfile} alt="Anjali by the Trevi Fountain." />
+                    </Grid>
 
-                )}
-                />
+                  )
+                }
 
 
 
@@ -97,7 +90,7 @@ const BioCard = (props: Props) => {
                     gutterBottom
                     variant="h6"
                     component="div">
-                    Anjali is the blogger behind The Vegetarian Cowgirl, Austin's top vegetarian food guide. Anjali hopes to inspire your taste buds by guiding you through plant-based spots in cities. Check out her recipes, travel guides, and her art.
+                    Anjali is the blogger behind The Vegetarian Cowgirl, Austin&apos;s top vegetarian food guide. Anjali hopes to inspire your taste buds by guiding you through plant-based spots in cities. Check out her recipes, travel guides, and her art.
                   </Typography>
                   <Button href="/about" sx={{
                     marginTop: theme.spacing(2),

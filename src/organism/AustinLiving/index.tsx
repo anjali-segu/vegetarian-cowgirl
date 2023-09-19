@@ -14,11 +14,7 @@ import Activities_Icon from '../../assets/images/icons/activities_icon.png';
 import Other_Icon from '../../assets/images/icons/other_icon.png';
 import Restaurants_Icon from '../../assets/images/icons/restaurants_icon.png';
 
-interface Props {
-}
-
-
-const AustinLiving = (props: Props) => {
+const AustinLiving = () => {
 
   return (
     <ThemeProvider theme={theme}>

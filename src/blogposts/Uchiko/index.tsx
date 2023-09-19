@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { ThemeProvider } from '@mui/material/styles';
 import { theme } from '../../utils/theme'
 import RestaurantBlogPost from '../RestaurantBlogPost'
@@ -8,13 +7,7 @@ import Uchiko2_BlogSquare from '../../assets/images/blog_posts/uchiko2_blog_squa
 import Uchiko3_BlogSquare from '../../assets/images/blog_posts/uchiko3_blog_square.jpg';
 import Uchiko4_BlogSquare from '../../assets/images/blog_posts/uchiko4_blog_square.jpg';
 
-
-
-interface Props {
-}
-
-
-const Oseyo = (props: Props) => {
+const Oseyo = () => {
 
   return (
     <ThemeProvider theme={theme}>
@@ -36,7 +29,7 @@ const Oseyo = (props: Props) => {
           `The tempura at Uchiko is on another level. It is light, crisp, and flakey. The crisp exterior is also well seasoned and each dish is paired with delectable sauces to dip in. My personal favorite Tempura dish was the Kabocha Squash tempura. It was unique in flavor and had a wonderful texture. I also enjoyed the giant onion rings!`,
           `The main dishes are mostly small sharing plates, so be sure to order a good few per person. The waiting staff will typically let you know if you have ordered the right amount. Don't forget to try their amazing desserts! The same level of detail is applied to them. My favorite dessert was milk and cereal. It has chocolate mousse, cereal-crusted balls with condensed milk centers, and a crunchy meringue on top. I also love the jasmine cream which is a texture and flavor heaven. At the bottom is a quinoa crisp, jasmine cream, and fresh green cilantro and pineapple topping.`,
           `Uchiko is a creative experimental Japanese restaurant that is taking an innovative approach to food. This is one of my absolute favorite restaurants in Austin. Uchiko gets busy quite fast, so make sure to make a reservation in advance..`
-          ]}
+        ]}
         orders={[
           `Hana - Cauliflower Dish`,
           `Kabocha Tempura`,

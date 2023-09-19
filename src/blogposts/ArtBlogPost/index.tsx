@@ -1,9 +1,7 @@
-import * as React from 'react';
 import { ThemeProvider } from '@mui/material/styles';
-import {theme} from '../../utils/theme'
-import { Grid } from '@mui/material';
+import { theme } from '../../utils/theme'
+import { Grid, useMediaQuery } from '@mui/material';
 import Typography from '@mui/material/Typography';
-import Media from 'react-media';
 import Link from '@mui/material/Link';
 
 import Art_Icon from '../../assets/images/icons/art_icon.png';
@@ -20,16 +18,16 @@ interface Props {
   alt2: string,
   alt3: string,
   etsy_link: string,
-  
+
 }
 
 
-const ArtBlogPost = (props:Props) => {
+const ArtBlogPost = (props: Props) => {
 
-  const { image, image2, image3, title, subtitle, paras, alt, alt2, alt3,} = props
-
+  const { image, image2, image3, title, subtitle, paras, alt, alt2, alt3, } = props
+  const matches = useMediaQuery('(min-width:1440px)');
   return (
-    
+
     <ThemeProvider theme={theme}>
 
       <Grid container justifyContent='center'>
@@ -37,10 +35,10 @@ const ArtBlogPost = (props:Props) => {
           <img style={{ maxHeight: theme.spacing(13) }} src={Art_Icon} alt="Paint brush with palette, black and white." />
         </Grid>
       </Grid>
-      
-    <Typography sx={{
+
+      <Typography sx={{
         fontFamily: 'Jost',
-        fontWeight: 500 ,
+        fontWeight: 500,
         textAlign: 'center',
         color: 'black',
         marginTop: theme.spacing(4),
@@ -50,82 +48,80 @@ const ArtBlogPost = (props:Props) => {
         gutterBottom
         variant="h4"
         component="div">
-      {title}
-    </Typography>
+        {title}
+      </Typography>
 
-    <Grid container justifyContent='center'>
-      <Grid item xs={8} md={6}>
-    <Typography sx={{
-        fontFamily: 'Karla',
-        fontWeight: 300 ,
-        textAlign: 'center',
-        color: 'black',
-        fontStyle: 'italic',
-        marginTop: theme.spacing(4)}}
-        gutterBottom
-        variant="body1"
-        component="div">
-      {subtitle}
-    </Typography>
-    </Grid>
-    </Grid>
-
-      <Media query="(max-width: 1439px)" render={() =>
-      (
-        <Grid container justifyContent='center' sx={{ marginTop: theme.spacing(10) }}>
-          <Grid item xs={8} sx={{ display: 'flex', justifyContent: 'center' }}>
-            <img style={{ maxHeight: theme.spacing(80), marginBottom: theme.spacing(5) }} src={image} alt={alt} />
-          </Grid>
-
-          <Grid item xs={8} sx={{ display: 'flex', justifyContent: 'center' }}>
-            <img style={{ maxHeight: theme.spacing(80), marginBottom: theme.spacing(5) }} src={image2} alt={alt2} />
-          </Grid>
-
-          <Grid item xs={8} sx={{ display: 'flex', justifyContent: 'center' }}>
-            <img style={{ maxHeight: theme.spacing(80), marginBottom: theme.spacing(5) }} src={image3} alt={alt3} />
-          </Grid>
+      <Grid container justifyContent='center'>
+        <Grid item xs={8} md={6}>
+          <Typography sx={{
+            fontFamily: 'Karla',
+            fontWeight: 300,
+            textAlign: 'center',
+            color: 'black',
+            fontStyle: 'italic',
+            marginTop: theme.spacing(4)
+          }}
+            gutterBottom
+            variant="body1"
+            component="div">
+            {subtitle}
+          </Typography>
         </Grid>
+      </Grid>
+      {matches
+        ? (
+          <Grid container justifyContent='center' sx={{ marginTop: theme.spacing(10), marginBottom: theme.spacing(5) }}>
 
-      )}
-      />
-      <Media query="(min-width: 1440px)" render={() =>
-      (
-        <Grid container justifyContent='center' sx={{ marginTop: theme.spacing(10), marginBottom: theme.spacing(5) }}>
+            <Grid item xs={3} sx={{ display: 'flex', justifyContent: 'center' }}>
+              <img style={{ maxHeight: theme.spacing(85) }} src={image} alt={alt} />
+            </Grid>
 
-          <Grid item xs={3} sx={{ display: 'flex', justifyContent: 'center' }}>
-            <img style={{ maxHeight: theme.spacing(85) }} src={image} alt={alt} />
+            <Grid item xs={3} sx={{ display: 'flex', justifyContent: 'center' }}>
+              <img style={{ maxHeight: theme.spacing(85) }} src={image2} alt={alt2} />
+            </Grid>
+
+            <Grid item xs={3} sx={{ display: 'flex', justifyContent: 'center' }}>
+              <img style={{ maxHeight: theme.spacing(85) }} src={image3} alt={alt3} />
+            </Grid>
           </Grid>
 
-          <Grid item xs={3} sx={{ display: 'flex', justifyContent: 'center' }}>
-            <img style={{ maxHeight: theme.spacing(85) }} src={image2} alt={alt2} />
+        )
+        : (
+          <Grid container justifyContent='center' sx={{ marginTop: theme.spacing(10) }}>
+            <Grid item xs={8} sx={{ display: 'flex', justifyContent: 'center' }}>
+              <img style={{ maxHeight: theme.spacing(80), marginBottom: theme.spacing(5) }} src={image} alt={alt} />
+            </Grid>
+
+            <Grid item xs={8} sx={{ display: 'flex', justifyContent: 'center' }}>
+              <img style={{ maxHeight: theme.spacing(80), marginBottom: theme.spacing(5) }} src={image2} alt={alt2} />
+            </Grid>
+
+            <Grid item xs={8} sx={{ display: 'flex', justifyContent: 'center' }}>
+              <img style={{ maxHeight: theme.spacing(80), marginBottom: theme.spacing(5) }} src={image3} alt={alt3} />
+            </Grid>
           </Grid>
 
-          <Grid item xs={3} sx={{ display: 'flex', justifyContent: 'center' }}>
-            <img style={{ maxHeight: theme.spacing(85) }} src={image3} alt={alt3} />
-          </Grid>
-        </Grid>
-
-      )}
-      />
+        )}
 
 
-  <Grid container justifyContent='center'>
-    <Grid item xs={8} md={6}>
+      <Grid container justifyContent='center'>
+        <Grid item xs={8} md={6}>
 
-        {paras.map(para => (
-          <Typography dangerouslySetInnerHTML={{__html: para}} sx={{
+          {paras.map(para => (
+            <Typography key={para} dangerouslySetInnerHTML={{ __html: para }} sx={{
               fontFamily: 'Karla',
-              fontWeight: 300 ,
+              fontWeight: 300,
               color: 'black',
-              marginTop: theme.spacing(8)}}
+              marginTop: theme.spacing(8)
+            }}
               gutterBottom
               variant="body1"
               component="div" />
-        ))}
-    </Grid>
-  </Grid>
+          ))}
+        </Grid>
+      </Grid>
 
-      
+
       <Grid container justifyContent="center" sx={{ marginTop: theme.spacing(15) }}>
         <Typography sx={{
           fontFamily: 'Jost',

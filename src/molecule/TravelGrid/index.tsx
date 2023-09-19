@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { ThemeProvider } from '@mui/material/styles';
 import { theme } from '../../utils/theme'
 import { Grid } from '@mui/material';
@@ -13,11 +12,7 @@ import Switzerland from '../../assets/images/icons/travel/switzerland.png';
 import Paris from '../../assets/images/icons/travel/paris.jpeg';
 import Rome from '../../assets/images/icons/travel/rome.jpeg';
 
-interface Props {
-}
-
-
-const TravelGrid = (props: Props) => {
+const TravelGrid = () => {
 
   return (
     <ThemeProvider theme={theme}>

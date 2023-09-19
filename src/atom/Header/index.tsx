@@ -1,5 +1,5 @@
 import Typography from '@mui/material/Typography';
-import { createTheme,ThemeProvider } from '@mui/material/styles';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { Grid } from '@mui/material';
 
 interface Props {
@@ -10,37 +10,37 @@ interface Props {
 
 const theme = createTheme({
   typography: {
-   fontFamily: [
-     'Jost',
-     'Karla',
-     'sans-serif',
-   ].join(','),
- },
+    fontFamily: [
+      'Jost',
+      'Karla',
+      'sans-serif',
+    ].join(','),
+  },
 });
 
 
-const Header = (props:Props) => {
-  const {text,id,margin} = props
+const Header = (props: Props) => {
+  const { text, id, margin } = props
   return (
-    <ThemeProvider theme = {theme}>
-    <Typography id={id} sx={{
-      [theme.breakpoints.only('xs')]:{
-        fontSize:theme.spacing(3),
-      },
+    <ThemeProvider theme={theme}>
+      <Typography id={id} sx={{
+        [theme.breakpoints.only('xs')]: {
+          fontSize: theme.spacing(3),
+        },
         fontFamily: 'Jost',
-        fontWeight: 400 ,
+        fontWeight: 400,
         marginTop: theme.spacing(margin),
         paddingBottom: theme.spacing(2),
         textAlign: 'center',
       }}
         variant="h4">
-      {text}
-    </Typography>
-    <Grid container>
-      <Grid item xs={4}>
-      </Grid>
-      <Grid item xs={4} sx={{display:'flex',justifyContent:'center'}}>
-        <Typography sx={{
+        {text}
+      </Typography>
+      <Grid container>
+        <Grid item xs={4}>
+        </Grid>
+        <Grid item xs={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+          <Typography sx={{
             fontFamily: 'Jost',
             fontWeight: 400,
             color: 'white',
@@ -48,17 +48,17 @@ const Header = (props:Props) => {
             marginBottom: theme.spacing(0),
             borderBottomWidth: theme.spacing(.45),
             borderBottomStyle: "solid",
-            width:theme.spacing(6),
-            fontSize:theme.spacing(.01),
+            width: theme.spacing(6),
+            fontSize: theme.spacing(.01),
           }}
             variant="body2">
-          {text}
-        </Typography>
+            {text}
+          </Typography>
         </Grid>
         <Grid item xs={4}>
         </Grid>
       </Grid>
-  </ThemeProvider>
+    </ThemeProvider>
   )
 }
 

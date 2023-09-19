@@ -9,7 +9,7 @@ import FormGroup from '@mui/material/FormGroup';
 import Grid from '@mui/material/Grid';
 import Snackbar from '@mui/material/Snackbar';
 import Switch from '@mui/material/Switch';
-import ThemeProvider from '@mui/styles/ThemeProvider'
+import { ThemeProvider } from '@mui/material/styles'
 import ToggleButton from '@mui/material/ToggleButton';
 import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 import Tooltip from '@mui/material/Tooltip';
@@ -33,12 +33,17 @@ type Props = {
     indivisible?: boolean
 }
 
+// Define the WakeLock type
+interface WakeLock {
+    request(type?: 'screen' | undefined): Promise<WakeLockSentinel>;
+}
+
 interface ChromiumNavigator extends Navigator {
-    wakeLock: any
+    wakeLock: WakeLock
 }
 
 const RecipeCard = (props: Props) => {
-    const [wakeLock, setWakeLock] = useState<any>(null)
+    const [wakeLock, setWakeLock] = useState<WakeLockSentinel | null>(null)
     const [cookMode, setCookMode] = useState(false)
     const [highlightEquipment, setHighlightEquipment] = useState(false)
     const [multiplier, setMultiplier] = useState(1)
@@ -49,7 +54,7 @@ const RecipeCard = (props: Props) => {
     const requestWakeLock = useCallback(
         // Function that attempts to request a wake lock.
         () =>
-            (navigator as ChromiumNavigator).wakeLock.request('screen').then((wakeLock: any) => setWakeLock(wakeLock)).catch((err: any) => console.error(`${err.name}, ${err.message}`)),
+            (navigator as ChromiumNavigator).wakeLock.request('screen').then((wakeLock) => setWakeLock(wakeLock)).catch((err) => console.error(`${err.name}, ${err.message}`)),
         [setWakeLock],
     )
 
@@ -57,7 +62,7 @@ const RecipeCard = (props: Props) => {
         // Function that attempts to release the wake lock.
         () => {
             if (wakeLock) {
-                wakeLock.release().then(() => setWakeLock(null)).catch((err: any) => console.error(`${err.name}, ${err.message}`))
+                wakeLock.release().then(() => setWakeLock(null)).catch((err) => console.error(`${err.name}, ${err.message}`))
             }
         },
         [setWakeLock, wakeLock],
@@ -88,10 +93,9 @@ const RecipeCard = (props: Props) => {
 
     const toggleHighlightEquipment = useCallback(
         () => {
-            var equipments = document.querySelectorAll(".equipment");
-            for (let equipment of equipments) {
-                if (equipment instanceof HTMLElement)
-                {
+            const equipments = document.querySelectorAll(".equipment");
+            for (const equipment of equipments) {
+                if (equipment instanceof HTMLElement) {
                     equipment.dataset["highlighted"] = `${!highlightEquipment}`
                 }
             }
@@ -110,7 +114,7 @@ const RecipeCard = (props: Props) => {
     };
 
     const handleMultiplier = (
-        event: React.MouseEvent<HTMLElement>,
+        _event: React.MouseEvent<HTMLElement>,
         newMultiplier: number | null,
     ) => {
         if (newMultiplier !== null) {

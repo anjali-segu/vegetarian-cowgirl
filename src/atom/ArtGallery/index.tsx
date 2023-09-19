@@ -1,7 +1,6 @@
 import { Grid } from '@mui/material';
 import { ThemeProvider } from '@mui/material/styles';
-import {theme} from '../../utils/theme'
-import * as React from 'react';
+import { theme } from '../../utils/theme'
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 
@@ -25,9 +24,8 @@ import WomanFlippingOff from '../../assets/images/art/WomanFlippingOff.png';
 function srcset(image: string, size: number, rows = 1, cols = 1) {
   return {
     src: `${image}?w=${size * cols}&h=${size * rows}&fit=crop&auto=format`,
-    srcSet: `${image}?w=${size * cols}&h=${
-      size * rows
-    }&fit=crop&auto=format&dpr=2 2x`,
+    srcSet: `${image}?w=${size * cols}&h=${size * rows
+      }&fit=crop&auto=format&dpr=2 2x`,
   };
 }
 
@@ -101,8 +99,8 @@ const itemData = [
   {
     img: Monstera,
     title: 'Monstera',
-    rows:3,
-    cols:3,
+    rows: 3,
+    cols: 3,
   },
 
 

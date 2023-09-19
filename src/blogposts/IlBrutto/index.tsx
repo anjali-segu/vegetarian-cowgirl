@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { ThemeProvider } from '@mui/material/styles';
 import { theme } from '../../utils/theme'
 import RestaurantBlogPost from '../RestaurantBlogPost'
@@ -8,13 +7,7 @@ import Il_Brutto2_BlogSquare from '../../assets/images/blog_posts/il_brutto2_blo
 import Il_Brutto3_BlogSquare from '../../assets/images/blog_posts/il_brutto3_blog_square.jpg';
 import Il_Brutto4_BlogSquare from '../../assets/images/blog_posts/il_brutto4_blog_square.jpg';
 
-
-
-interface Props {
-}
-
-
-const IlBrutto = (props: Props) => {
+const IlBrutto = () => {
 
   return (
     <ThemeProvider theme={theme}>

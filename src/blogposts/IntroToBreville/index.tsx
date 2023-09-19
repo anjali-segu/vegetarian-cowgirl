@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { ThemeProvider } from '@mui/material/styles';
 import { theme } from '../../utils/theme'
 import StandardBlogPost from '../StandardBlogPost'
@@ -8,11 +7,7 @@ import Latte_Blog_Square_2 from '../../assets/images/blog_posts/latte2_blog_squa
 
 import Drinks_Icon from '../../assets/images/icons/drinks_icon.png';
 
-interface Props {
-}
-
-
-const IntroToBreville = (props: Props) => {
+const IntroToBreville = () => {
 
   return (
     <ThemeProvider theme={theme}>
