@@ -25,7 +25,9 @@ import Uchiko from './blogposts/Uchiko'
 import IlBrutto from './blogposts/IlBrutto'
 import Aba from './blogposts/Aba'
 import BakeryLorraine from './blogposts/BakeryLorraine';
+
 import ArtMovement from './blogposts/ArtMovement'
+import ArtSupplies from './blogposts/ArtSupplies'
 
 import SwitzerlandOverview from './blogposts/SwitzerlandOverview'
 import SwitzerlandFood from './blogposts/SwitzerlandFood'
@@ -99,6 +101,7 @@ const App: React.FC = () => {
           <Route path="indianapolis" element={<Indianapolis />} />
           <Route path="art" element={<Art />} />
           <Route path='art/gallery/movement' element={<ArtMovement />} />
+          <Route path='art/supplies' element={<ArtSupplies/>} />
           <Route path="about" element={<About />} />
         </Route>
         <Route path='*' element={<UnderConstruction />} />

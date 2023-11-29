@@ -1,0 +1,38 @@
+import { ThemeProvider } from '@mui/material/styles';
+import { theme } from '../../utils/theme'
+import ArtBlogPost from '../../blogposts/ArtBlogPost'
+
+import Watercolor from '../../assets/images/blog_posts/art_supplies3.jpg' 
+import Totoro from '../../assets/images/blog_posts/art_supplies2.jpg';
+import Examples from '../../assets/images/blog_posts/art_supplies.jpg';
+
+const ArtSupplies = () => {
+
+  return (
+    <ThemeProvider theme={theme}>
+      <ArtBlogPost
+        image={Examples}
+        alt="Caran d'Ache containers on top of a fabric brush organizer"
+        image2={Totoro}
+        alt2="Totoro holding a birthday balloon featuring the Alpha Markers"
+        image3={Watercolor}
+        alt3="Watercolor sunset featuring markers and watercolors"
+        etsy_link="https://printsbyminimalist.etsy.com"
+        title="My Favorite Art Supplies"
+        subtitle={`Art supplies are always hard to decide on. Here is a list of some of my favorites. Please note, none of the links are affiliate links or sponsorships.`}
+        paras={[`Art supplies can be tricky. I get it. As an artist, I always struggle to sift through all the options online and in person. It can be so overwhelming. I try to look at other art blogs to figure out what options might be best, but it still feels like a gamble at times. Over the years, I have found many favorite supplies that I would like to share with you in hopes that I can help you find some hidden gems. `,
+        `The type of art I do typically falls into 3 categories. I do a lot of digital art on my iPad through Procreate using the Apple Pencil. I paint using watercolors. Finally, I draw and color using my Alpha Markers. Below is a full list of all the core tools I use to accomplish my pieces. None of these are affiliate links and I am not sponsored by the following brands.`,
+        `<a href="https://www.amazon.com/Alpha-EF-Grafikmarker-Design-Marker/dp/B001C61TTW" target="_blank"><b>Alpha Marker Design & Brush:</b></a><br> These markers are absolutely beautiful. They are alcohol based and blend beautifully. The colors are vivid and bright. One tricky aspect is when you first apply the color to the page it might be slightly different from what it dries down to when the alcohol dissipates. I personally swatched all the markers on a sheet of paper to get the most accurate expectation of color for each marker. However, I cannot find a vendor currently selling this. These are Korean markers and it seems like they might not manufacture them anymore.`,
+        `<a href="https://www.amazon.com/JTDEAL-Storage-Acrylic-Watercolor-Gouache/dp/B06X93CZ2F/ref=sr_1_7?crid=37289CGO6IGAS&keywords=paintbrush+organizer&qid=1701189202&sprefix=paintbrush+organizer%2Caps%2C6587&sr=8-7" target="_blank"><b>JTDeal Paint Brush Holder:</b></a><br> This changed my life. At the start of my art journey, I had a tote bag and tossed all my brushes and pens in it. It would drive me bonkers to have them just floating freely in my bag. I was gifted this organizer and have fallen in love with it. The brushes stay put and the bag ties up into a neat roll which is easy to tuck away into my tote bag of art supplies. I highly recommend it!`,
+        `<a href="https://www.amazon.com/LITENERGY-Ultra-Thin-Adjustable-Streaming-Stenciling/dp/B07H7FLJX1/ref=sr_1_3?keywords=lightbox&qid=1701189344&sr=8-3&th=1" target="_blank"><b>Tracing Box:</b></a><br> So tracing is always a controversial idea. Some say it is copying, others say it is base work. Personally, I enjoy tracing when it comes to font work. I personally struggle with calligraphy and this makes it so much easier. This one on Amazon is easy to use. It is USB powered so I can connect it to my laptop and trace away. The light is not super bright so ideally, a darker room would be better. When I'm in a pinch I use it under a blanket to create a dark setting.`,
+        `<a href="https://www.amazon.com/Caran-dAche-Classic-Neocolor-Water-Soluble/dp/B000YIMXMG/ref=sr_1_5?keywords=caran+d%27ache&qid=1701189413&sr=8-5"><b>Caran d'Ache Water Soluble Pastels:</b></a><br> When traveling to Switzerland this past year I came across these pastels in the airport. I was surprised by how well they blend. The tin is small and has all the basic colors you need. They are extremely travel-friendly. I have taken them on a few trips I've been on and have enjoyed doing some art without having to bring all my paints with me. It is harder to do detailed work but for laying colors it works perfectly.`,
+        `<a href="https://www.amazon.com/CREATIVE-MATERIALS-Caran-Supracolor-3888-318/dp/B000WMYXIG/ref=sr_1_2?crid=258M8OSUF5MEC&keywords=caran+d%27ache+supracolor+pencils&qid=1701189513&sprefix=caran+d%27ache+pencils+supraco%2Caps%2C753&sr=8-2" target="_blank"><b>Caran d'Ache Supracolor Metal Box Set Of 18:</b></a><br> These pencils were my first introduction to watercolors that aren’t in a pan or liquid form. The pencils help create defined forms and details. They still blend well but can leave an indent in the paper if you press too hard. The color payoff is astounding!`,
+        `<a href="https://www.amazon.com/Sakura-Pigma-30067-Micron-Blister/dp/B004QHI43S/ref=sr_1_48?crid=5FPKKDE42UCZ&keywords=thin%2Bart%2Bmarkers&qid=1701189572&sprefix=thin%2Bart%2Bmarker%2Caps%2C377&sr=8-48&th=1" target="_blank"><b>SAKURA Pigma Micron Fineliner Pens:</b></a><br> If you ever do font work or sketches these pens are a must. They are so finely tipped. The pens don't bleed when drawing. The set comes with every detailed pen I ever need. So far, they haven't dried up on me. I have enjoyed using them with my Alpha Markers to create detailed prints. They are also affordably priced making it one of my favorites.`,
+        `<b>Winsor & Newton Cotman Brushes:</b><br> These watercolor brushes are staples in my artwork. All my pieces are made with these 5 basic brushes (<a href="https://www.amazon.com/Winsor-Newton-Cotman-Colour-Synthetic/dp/B004O7CDB4/ref=sr_1_2?crid=3DDN47QAJ0OED&keywords=Winsor%2B%26%2BNewton%2BCotman%2B999%2BMop&qid=1701189814&sprefix=winsor%2B%26%2Bnewton%2Bcotman%2B999%2Bmop%2Caps%2C291&sr=8-2&th=1" target="_blank">Winsor & Newton Cotman 999 Mop</a>, <a href="https://www.amazon.com/Winsor-Newton-Cotman-Colour-Synthetic/dp/B0017O33H0/ref=sr_1_2?crid=3DDN47QAJ0OED&keywords=Winsor%2B%26%2BNewton%2BCotman%2B999%2BMop&qid=1701189814&sprefix=winsor%2B%26%2Bnewton%2Bcotman%2B999%2Bmop%2Caps%2C291&sr=8-2&th=1" target="_blank"> Winsor & Newton Cotman 111 Round (12)</a>, <a href="https://www.amazon.com/Winsor-Newton-Cotman-Colour-Synthetic/dp/B0017O33H0/ref=sr_1_2?crid=3DDN47QAJ0OED&keywords=Winsor%2B%26%2BNewton%2BCotman%2B999%2BMop&qid=1701189814&sprefix=winsor%2B%26%2Bnewton%2Bcotman%2B999%2Bmop%2Caps%2C291&sr=8-2&th=1" target="_blank">Winsor & Newton Cotman 222 Designers (6)</a>, <a href="https://www.amazon.com/Winsor-Newton-Cotman-Colour-Synthetic/dp/B0027INPB4/ref=sr_1_2?crid=3DDN47QAJ0OED&keywords=Winsor%2B%26%2BNewton%2BCotman%2B999%2BMop&qid=1701189814&sprefix=winsor%2B%26%2Bnewton%2Bcotman%2B999%2Bmop%2Caps%2C291&sr=8-2&th=1" target="_blank">Winsor & Newton Cotman 111 Round (2)</a>, <a href="https://www.amazon.com/Winsor-Newton-Cotman-Colour-Synthetic/dp/B0027INPB4/ref=sr_1_2?crid=3DDN47QAJ0OED&keywords=Winsor%2B%26%2BNewton%2BCotman%2B999%2BMop&qid=1701189814&sprefix=winsor%2B%26%2Bnewton%2Bcotman%2B999%2Bmop%2Caps%2C291&sr=8-2&th=1" target="_blank">Winsor & Newton Cotman 111 Round (00)</a>). The bristles can get a bit stained but in general, all the pigment does wash out. Each one has good control and feels like a quality brush without being too overly priced. For starting off, these make a good purchase.`]}
+      />
+
+    </ThemeProvider>
+  )
+}
+
+export default ArtSupplies

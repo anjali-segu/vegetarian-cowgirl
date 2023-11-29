@@ -3,7 +3,7 @@ import { theme } from '../../utils/theme'
 import Card from '../../atom/Card';
 import { Grid } from '@mui/material';
 
-import Art_Supplies_Blog_Square from '../../assets/images/blog_posts/art_supplies_blog_square.jpg'
+import Art_Supplies_Blog_Square from '../../assets/images/blog_posts/art_supplies.jpg'
 import Artist_Blog_Square from '../../assets/images/blog_posts/artist_blog_square.jpg'
 import Watercolor_Blog_Square from '../../assets/images/blog_posts/watercolor_blog_square.jpg'
 
