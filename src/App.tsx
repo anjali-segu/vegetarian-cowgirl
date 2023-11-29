@@ -29,6 +29,7 @@ import BakeryLorraine from './blogposts/BakeryLorraine';
 import ArtMovement from './blogposts/ArtMovement'
 import ArtSupplies from './blogposts/ArtSupplies'
 import ArtIntroToWatercolor from './blogposts/ArtIntroToWatercolor'
+import ArtTopArtists from './blogposts/ArtTopArtists';
 
 import SwitzerlandOverview from './blogposts/SwitzerlandOverview'
 import SwitzerlandFood from './blogposts/SwitzerlandFood'
@@ -104,6 +105,7 @@ const App: React.FC = () => {
           <Route path='art/gallery/movement' element={<ArtMovement />} />
           <Route path='art/supplies' element={<ArtSupplies/>} />
           <Route path='art/watercolor' element={<ArtIntroToWatercolor/>} />
+          <Route path='art/artists' element={<ArtTopArtists/>} />
           <Route path="about" element={<About />} />
         </Route>
         <Route path='*' element={<UnderConstruction />} />
