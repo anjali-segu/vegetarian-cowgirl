@@ -33,6 +33,7 @@ import ChocolateCreamPie from '../assets/recipes/chocolate-cream-pie.json'
 import IceCreamSandwich from '../assets/recipes/brownie-ice-cream-sandwiches.json'
 import ChocolateLavaCake from '../assets/recipes/lava-cake.json'
 import Tiramisu from '../assets/recipes/tiramisu.json'
+import HotChocolate from '../assets/recipes/hot-chocolate.json'
 
 // blog post images (squares)
 import Chocolate_Cake_Cookies_Blog_Square from '../assets/images/blog_posts/chocolate_cake_cookies_blog_square.jpg';
@@ -109,6 +110,7 @@ import Lava_Cake_Unmolded_Blog_Square from '../assets/images/blog_posts/lava_cak
 import Tiramisu_Blog_Square from '../assets/images/blog_posts/tiramisu_blog_square.jpg'
 import Tiramisu_Layer_Blog_Square from '../assets/images/blog_posts/tiramisu2_blog_square.jpg'
 import Tiramisu_Spreading_Blog_Square from '../assets/images/blog_posts/tiramisu3_blog_square.jpg'
+import Hot_Chocolate_Blog_Square from '../assets/images/blog_posts/hot_chocolate.jpg'
 
 
 
@@ -177,6 +179,18 @@ export const recipes = [
     ],
     icon: Baking_Icon,
     ...Cornbread
+  },
+  {
+    path: 'hot-chocolate',
+    images: [
+      {
+        src: Hot_Chocolate_Blog_Square,
+        alt: "Slices of cornbread on black marble",
+      },
+
+    ],
+    icon: Baking_Icon,
+    ...HotChocolate
   },
   {
     path: 'raspberry-rose-macaron',

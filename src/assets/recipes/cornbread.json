@@ -25,9 +25,9 @@
             "ingredient": "baking powder"
         },
         "salt":{
-            "quantity": 1.33,
+            "quantity": 2,
             "unitTag": "tsp",
-            "ingredient": "salt"
+            "ingredient": "kosher salt"
         },
         "milk":{
             "quantity": 2,
@@ -40,7 +40,7 @@
             "ingredient": "(large, lightly-beaten)"
         },
         "butter":{
-            "quantity": 0.5,
+            "quantity": 2,
             "unitTag": "stick",
             "ingredient": "unsalted butter"
         },

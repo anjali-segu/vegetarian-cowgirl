@@ -18,6 +18,7 @@ import Cauliflower_Soup_Blog_Square from '../../assets/images/blog_posts/caulifl
 import Spring_Rolls_Blog_Square from '../../assets/images/blog_posts/spring_rolls_blog_square.jpg'
 import Chocolate_Cream_Pie_Blog_Square from '../../assets/images/blog_posts/chocolate_cream_pie_blog_square.jpg'
 import Tiramisu_Blog_Square from '../../assets/images/blog_posts/tiramisu_blog_square.jpg'
+import Hot_Chocolate_Blog_Square from '../../assets/images/blog_posts/hot_chocolate.jpg'
 
 const CookingBlogGrid = () => {
 
@@ -29,7 +30,7 @@ const CookingBlogGrid = () => {
         </Grid>
 
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
-          <Card image={Spring_Rolls_Blog_Square} title={'COOKING'} subtitle={'Tofu Spring Rolls with Peanut Sauce'} post={'/recipes/spring-rolls'} />
+          <Card image={Hot_Chocolate_Blog_Square} title={'COOKING'} subtitle={'Hot Chocolate'} post={'/recipes/hot-chocolate'} />
         </Grid>
 
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
@@ -48,7 +49,7 @@ const CookingBlogGrid = () => {
         </Grid>
 
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
-          <Card image={Cauliflower_Soup_Blog_Square} title={'COOKING'} subtitle={'Blender Cauliflower Soup'} post={'/recipes/cauliflower-soup'} />
+          <Card image={Spring_Rolls_Blog_Square} title={'COOKING'} subtitle={'Tofu Spring Rolls with Peanut Sauce'} post={'/recipes/spring-rolls'} />
         </Grid>
       </Grid>
 
@@ -90,6 +91,19 @@ const CookingBlogGrid = () => {
 
         <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
           <Card image={Elote_Blog_Square} title={'COOKING'} subtitle={'Deconstructed Elote'} post={'/recipes/deconstructed-elote'} />
+        </Grid>
+      </Grid>
+
+      <Grid container justifyContent='center' sx={{ paddingTop: theme.spacing(15) }}>
+        <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+        
+        </Grid>
+
+        <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+          <Card image={Cauliflower_Soup_Blog_Square} title={'COOKING'} subtitle={'Blender Cauliflower Soup'} post={'/recipes/cauliflower-soup'} />
+        </Grid>
+
+        <Grid item sm={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
         </Grid>
       </Grid>
 

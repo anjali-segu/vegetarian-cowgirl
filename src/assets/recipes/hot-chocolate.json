@@ -1,0 +1,37 @@
+{
+    "$schema": "../schemas/recipe.schema.json",
+    "title": "Anjali's Signature Hot Chocolate",
+    "subtitle": "My obsession with hot chocolate is limitless. I make this recipe all year long! This hot chocolate is rich and has deep chocolate flavors unlike the powder stuff.",
+    "subtitle2": "My signature hot chocolate recipe actually has chocolate in it! The addition of vanilla and brown sugar make the chocolate flavor shine in this recipe. After trying this one, you won't be able to go back to any other hot chocolates.",
+    "ingredients": {
+        "milk":{
+            "quantity": 0.5,
+            "unitTag": "cup",
+            "ingredient": "milk"
+        },
+        "chocolate-chips":{
+            "quantity": 1,
+            "unitTag": "oz",
+            "ingredient": "bittersweet chocolate chips (60%)"
+        },
+        "brown-sugar":{
+            "quantity": 1,
+            "unitTag": "tsp",
+            "ingredient": "brown sugar"
+        },
+        "vanilla-extract":{
+            "quantity": 0.5,
+            "unitTag": "tsp",
+            "ingredient": "vanilla extract"
+        }
+    },
+    "steps": [
+        "Place a ^small pot$ over medium heat.",
+        "Add the milk, chocolate chips, vanilla, and brown sugar. Stir with whisk until the chocolate completely melts and no bits of chocolate remain.",
+        "Turn off from heat and whisk the mixture until it has cooled to desired temperature. Top with whipped cream."
+    ],
+    "preptime": "2 min",
+    "cooktime": "5 min",
+    "totaltime": "7 min",
+    "serves": 1
+}
